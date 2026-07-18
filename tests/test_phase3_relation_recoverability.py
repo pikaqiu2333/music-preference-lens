@@ -10,7 +10,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 
-from build_embedded_hf_job import embed_bundle  # noqa: E402
+from build_embedded_hf_job import extract_embedded_bundle  # noqa: E402
 from export_phase3_relation_recoverability import build_bundle, load_jsonl  # noqa: E402
 from run_phase3_relation_recoverability import (  # noqa: E402
     conflict_category,
@@ -142,14 +142,14 @@ class Phase3RelationRecoverabilityExportTests(unittest.TestCase):
             / "jobs"
             / "run_phase3_relation_recoverability_embedded.py"
         )
-        expected_embedded = embed_bundle(
-            runner_path.read_text(encoding="utf-8"),
-            bundle_path.read_bytes().strip(),
-            "__PHASE3_RELATION_RECOVERABILITY_BUNDLE_B64_ZLIB__",
-            "zlib",
-        )
         self.assertEqual(
-            embedded_path.read_text(encoding="utf-8"), expected_embedded
+            extract_embedded_bundle(
+                runner_path.read_text(encoding="utf-8"),
+                embedded_path.read_text(encoding="utf-8"),
+                "__PHASE3_RELATION_RECOVERABILITY_BUNDLE_B64_ZLIB__",
+                "zlib",
+            ),
+            bundle_path.read_bytes().strip(),
         )
 
     def test_runner_only_reads_top_level_keys_present_in_bundle(self) -> None:

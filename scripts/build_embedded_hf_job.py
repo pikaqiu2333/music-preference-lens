@@ -27,6 +27,28 @@ def embed_bundle(
     return output
 
 
+def extract_embedded_bundle(
+    runner: str,
+    embedded_runner: str,
+    placeholder: str,
+    compression: str,
+) -> bytes:
+    """Recover a bundle while verifying the surrounding runner is unchanged."""
+    if runner.count(placeholder) < 2:
+        raise ValueError("runner must contain assignment and sentinel placeholders")
+    prefix, suffix = runner.split(placeholder, 1)
+    if not embedded_runner.startswith(prefix) or not embedded_runner.endswith(suffix):
+        raise ValueError("embedded runner differs outside the payload placeholder")
+    payload_end = len(embedded_runner) - len(suffix) if suffix else None
+    encoded = embedded_runner[len(prefix) : payload_end]
+    payload = base64.b64decode(encoded, validate=True)
+    if compression == "zlib":
+        payload = zlib.decompress(payload)
+    elif compression != "none":
+        raise ValueError(f"unknown compression: {compression}")
+    return payload
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--runner", type=Path, required=True)

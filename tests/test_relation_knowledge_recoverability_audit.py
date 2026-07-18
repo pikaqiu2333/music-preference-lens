@@ -14,7 +14,7 @@ from export_relation_knowledge_recoverability_audit import (  # noqa: E402
     build_bundle,
     load_jsonl,
 )
-from build_embedded_hf_job import embed_bundle  # noqa: E402
+from build_embedded_hf_job import extract_embedded_bundle  # noqa: E402
 from extract_relation_knowledge_audit import extract_audit  # noqa: E402
 from run_relation_knowledge_recoverability_audit import (  # noqa: E402
     conflict_category,
@@ -92,13 +92,15 @@ class RelationKnowledgeAuditExportTests(unittest.TestCase):
         embedded_path = (
             PROJECT_ROOT / "runs" / "jobs" / "run_relation_knowledge_audit_embedded.py"
         )
-        expected_embedded = embed_bundle(
-            runner_path.read_text(encoding="utf-8"),
+        self.assertEqual(
+            extract_embedded_bundle(
+                runner_path.read_text(encoding="utf-8"),
+                embedded_path.read_text(encoding="utf-8"),
+                "__RELATION_KNOWLEDGE_AUDIT_BUNDLE_B64_ZLIB__",
+                "zlib",
+            ),
             bundle_path.read_bytes().strip(),
-            "__RELATION_KNOWLEDGE_AUDIT_BUNDLE_B64_ZLIB__",
-            "zlib",
         )
-        self.assertEqual(embedded_path.read_text(encoding="utf-8"), expected_embedded)
 
 
 class RelationKnowledgeAuditRunnerTests(unittest.TestCase):

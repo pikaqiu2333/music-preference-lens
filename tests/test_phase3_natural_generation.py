@@ -9,7 +9,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 
-from build_embedded_hf_job import embed_bundle  # noqa: E402
+from build_embedded_hf_job import extract_embedded_bundle  # noqa: E402
 from export_phase3_natural_generation import build_bundle  # noqa: E402
 from run_phase3_natural_generation import parse_playlist, summarize_rows  # noqa: E402
 
@@ -62,13 +62,15 @@ class Phase3NaturalGenerationExportTests(unittest.TestCase):
             / "jobs"
             / "run_phase3_natural_pilot_generation_embedded.py"
         )
-        expected = embed_bundle(
-            runner_path.read_text(encoding="utf-8"),
+        self.assertEqual(
+            extract_embedded_bundle(
+                runner_path.read_text(encoding="utf-8"),
+                embedded_path.read_text(encoding="utf-8"),
+                "__PHASE3_NATURAL_GENERATION_BUNDLE_B64_ZLIB__",
+                "zlib",
+            ),
             bundle_path.read_bytes().strip(),
-            "__PHASE3_NATURAL_GENERATION_BUNDLE_B64_ZLIB__",
-            "zlib",
         )
-        self.assertEqual(embedded_path.read_text(encoding="utf-8"), expected)
 
 
 class Phase3NaturalGenerationRunnerTests(unittest.TestCase):
