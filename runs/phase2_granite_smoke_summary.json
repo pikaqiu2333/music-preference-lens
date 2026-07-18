@@ -1,0 +1,37 @@
+{
+  "job_id": "6a54c9efeffc02a91cbdb4e4",
+  "job_url": "https://huggingface.co/jobs/REDACTED/6a54c9efeffc02a91cbdb4e4",
+  "status": "COMPLETED",
+  "durations_seconds": {
+    "scheduling": 11,
+    "running": 98,
+    "total": 109
+  },
+  "run_id": "20260713T112103Z_phase2_smoke_generation",
+  "protocol_id": "music_relation_mechanism_intervention_phase2_v1",
+  "protocol_hashes": {
+    "json_sha256": "99e9638d67d5d52d190705a91a11aad8ed82be2f2e9bac0f2931bb1844fc757f",
+    "markdown_sha256": "ee79d66418316f47bda1e49b5c9c7b89d5a0bed7dea7777ce90fd014718158b7"
+  },
+  "submitted_script_sha256": "be6484ef992ecf8de93f3b9301db952640a34aea3d54989c111e55c180d33a11",
+  "model_id": "ibm-granite/granite-4.1-3b-base",
+  "model_revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+  "expected_num_layers": 40,
+  "observed_num_layers": 40,
+  "generation_count": 1,
+  "nonempty_completion_count": 1,
+  "parsed_track_count": 5,
+  "minimum_parsed_tracks": 4,
+  "endpoint_max_logit_error": 0.0,
+  "endpoint_tolerance": 0.02,
+  "architecture_gate": true,
+  "endpoint_gate": true,
+  "technical_gate": true,
+  "maximum_gpu_memory_bytes": 6857860096,
+  "completion_length": 1638,
+  "started_at_utc": "2026-07-13T11:21:03.258993+00:00",
+  "finished_at_utc": "2026-07-13T11:22:02.659244+00:00",
+  "raw_completion_archived": false,
+  "scientific_inspection_performed": false,
+  "decision": "RELEASE_PRIMARY_GENERATION"
+}

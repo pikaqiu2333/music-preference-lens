@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "protocol_id": "music_relation_mechanism_intervention_phase2_v1",
+  "status": "PUBLICLY_TIMESTAMPED_BEFORE_GRANITE_SMOKE",
+  "public_record": {
+    "provider": "GitHub Gist",
+    "owner": "REDACTED",
+    "gist_id": "a56668283b095f59f0eacf0527395b58",
+    "url": "https://gist.github.com/a56668283b095f59f0eacf0527395b58",
+    "created_at_utc": "2026-07-13T11:17:59Z",
+    "commit": "5f0b778ddd6fbfdfbc07c1aa1b4b98c5d04fd195",
+    "public": true
+  },
+  "local_git": {
+    "branch": "codex/phase2-preregister",
+    "commit_at_publication": "2158739b282cea004f86d1beb22fe7e1f2c570ad"
+  },
+  "published_artifact_sha256": {
+    "phase2_mechanism_intervention_protocol.md": "ee79d66418316f47bda1e49b5c9c7b89d5a0bed7dea7777ce90fd014718158b7",
+    "phase2_mechanism_intervention_protocol.json": "99e9638d67d5d52d190705a91a11aad8ed82be2f2e9bac0f2931bb1844fc757f",
+    "phase2_granite_smoke_generation_bundle.json": "b1a54dcc4a4cb474b5c6cb4675e3a785f34ababfb0891e5dfcbda1b6ce2034b6",
+    "run_phase2_granite_smoke_generation_embedded.py": "be6484ef992ecf8de93f3b9301db952640a34aea3d54989c111e55c180d33a11"
+  },
+  "pre_smoke_failed_publication_attempts": [
+    {
+      "job_id": "6a54c867effc02a91cbdb46e",
+      "status": "FAILED",
+      "reason": "Tool-output truncation corrupted a Base64 payload before any Hub commit."
+    },
+    {
+      "job_id": "6a54c91ee4a4e82c0b5912e4",
+      "status": "FAILED",
+      "reason": "The connected HF_TOKEN may run Jobs but lacks permission to create a dataset repository."
+    }
+  ],
+  "scientific_results_observed_before_public_timestamp": false,
+  "granite_gpu_job_submitted_before_public_timestamp": false
+}

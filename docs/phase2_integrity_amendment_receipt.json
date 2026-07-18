@@ -1,0 +1,41 @@
+{
+  "receipt_version": "phase2_integrity_amendment_receipt_v1",
+  "recorded_at_utc": "2026-07-13T13:01:11.7411583Z",
+  "protocol_id": "music_relation_mechanism_intervention_phase2_v1",
+  "protocol_hashes": {
+    "json_sha256": "99e9638d67d5d52d190705a91a11aad8ed82be2f2e9bac0f2931bb1844fc757f",
+    "markdown_sha256": "ee79d66418316f47bda1e49b5c9c7b89d5a0bed7dea7777ce90fd014718158b7"
+  },
+  "implementation_commit": "5255885ac78364011fe65b8ef999a7accec16108",
+  "file_sha256": {
+    "docs/phase2_catalog_verifier_amendment_20260713.md": "cc330b7b7a6dc781d007e650079ec1411b61435e73b410bdafc0d82aa72371be",
+    "scripts/export_phase2_mechanism_intervention_probe.py": "ebeaeb9d7ab82c51c5d4143433c3028c0a2b82b89485b7286ec98e5713280b3d",
+    "scripts/merge_phase2_shard_artifacts.py": "4bc248d224db1e124ac9ea9a0250b0872f54c00651ba3b74faf0891133ac4cff",
+    "scripts/phase2_mechanism_analysis.py": "63070d5d15a21ed7cecde8a8649e92ad53cdbf495eda5850c6fabf9143e43c3e",
+    "scripts/run_phase2_mechanism_intervention_probe.py": "d439d066efb8c74b606106a73ea6f8ee051f11b6404674a710dbd4992a1a99d2",
+    "scripts/score_phase2_mechanism_intervention.py": "24504f10a8700005ae9beb390f61743410bd45569176fa37d7498c4bb0486a87",
+    "scripts/verify_phase2_catalog.py": "c9659b932ac3f1064e75e0b5b03c8cad5aa34cf7ca84efa2946c8dd9a9bb9867"
+  },
+  "verification": {
+    "unit_tests_passed": 190,
+    "unit_tests_skipped": 1,
+    "python_compile_gate": true,
+    "git_diff_check_gate": true,
+    "independent_blocker_rereview": "PASS"
+  },
+  "legacy_primary_catalog_audit_only": {
+    "input_rows": 290,
+    "catalog_label_counts": {
+      "ambiguous": 104,
+      "error": 6,
+      "excluded": 136,
+      "strict_conflict": 8,
+      "strict_exact": 36
+    },
+    "evidence_request_count": 945,
+    "cache_entry_count": 908,
+    "stderr_bytes": 0,
+    "eligible_for_confirmatory_selection": false
+  },
+  "next_allowed_action": "publish this receipt and exact files before v2 catalog replay"
+}

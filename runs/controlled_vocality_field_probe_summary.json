@@ -1,0 +1,119 @@
+{
+  "run_id": "20260711T121410Z_pilot",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "target_layer": 18,
+  "selected_heads": [
+    0,
+    1,
+    8,
+    9
+  ],
+  "row_count": 4,
+  "failure_loci": {
+    "vocal_blinding_lights": "artist_only_weak_boundary",
+    "vocal_space_oddity": "both_fields",
+    "instrumental_river_flows_in_you": "neither_field",
+    "instrumental_awake": "title_only"
+  },
+  "field_effects": {
+    "vocal_blinding_lights": {
+      "title_mean_logp": 0.4304943084716797,
+      "artist_mean_logp": -0.026543298736214638,
+      "pair_mean_logp": 0.20197546482086182
+    },
+    "vocal_space_oddity": {
+      "title_mean_logp": -0.20085644721984863,
+      "artist_mean_logp": -0.0651540756225586,
+      "pair_mean_logp": -0.1465754508972168
+    },
+    "instrumental_river_flows_in_you": {
+      "title_mean_logp": 0.07071542739868164,
+      "artist_mean_logp": 0.552323043346405,
+      "pair_mean_logp": 0.25131821632385254
+    },
+    "instrumental_awake": {
+      "title_mean_logp": -1.0338211059570312,
+      "artist_mean_logp": 0.2919187545776367,
+      "pair_mean_logp": -0.1499948501586914
+    }
+  },
+  "head_field_curve": [
+    {
+      "head": 0,
+      "field": "title",
+      "nonweak_count": 4,
+      "mean_recovery": 0.2067292917840427,
+      "median_recovery": 0.21412757658355325,
+      "toward_source_rate": 0.75
+    },
+    {
+      "head": 0,
+      "field": "artist",
+      "nonweak_count": 3,
+      "mean_recovery": 0.017553190627238268,
+      "median_recovery": 0.02804333874389558,
+      "toward_source_rate": 0.6666666666666666
+    },
+    {
+      "head": 1,
+      "field": "title",
+      "nonweak_count": 4,
+      "mean_recovery": 0.1492567759733015,
+      "median_recovery": 0.1821587538120196,
+      "toward_source_rate": 0.75
+    },
+    {
+      "head": 1,
+      "field": "artist",
+      "nonweak_count": 3,
+      "mean_recovery": 0.07276364147072542,
+      "median_recovery": 0.09608656023051365,
+      "toward_source_rate": 1
+    },
+    {
+      "head": 8,
+      "field": "title",
+      "nonweak_count": 4,
+      "mean_recovery": -0.003343556134248573,
+      "median_recovery": 0.012863986416564426,
+      "toward_source_rate": 0.5
+    },
+    {
+      "head": 8,
+      "field": "artist",
+      "nonweak_count": 3,
+      "mean_recovery": 0.010143614321556537,
+      "median_recovery": 0.011181852626730666,
+      "toward_source_rate": 1
+    },
+    {
+      "head": 9,
+      "field": "title",
+      "nonweak_count": 4,
+      "mean_recovery": 0.08237351542890611,
+      "median_recovery": 0.07886606677454581,
+      "toward_source_rate": 0.5
+    },
+    {
+      "head": 9,
+      "field": "artist",
+      "nonweak_count": 3,
+      "mean_recovery": 0.0180606962262247,
+      "median_recovery": 0.01658940408168599,
+      "toward_source_rate": 1
+    }
+  ],
+  "maximum_pair_reconstruction_error": 3.178914388113352e-7,
+  "maximum_all_head_direct_error": 0,
+  "architecture_matches": true,
+  "interventions_complete": true,
+  "pair_reconstruction_gate": true,
+  "all_head_reproduction_gate": true,
+  "all_values_finite": true,
+  "technical_gate": true,
+  "interpretation_scope": "exploratory_title_artist_failure_locus",
+  "behavior_reference": "20260711T073819Z_pilot",
+  "head_reference_run": "20260711T080524Z_pilot",
+  "started_at": "2026-07-11T12:14:10.082262+00:00",
+  "finished_at": "2026-07-11T12:14:30.076080+00:00"
+}

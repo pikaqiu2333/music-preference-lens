@@ -1,0 +1,89 @@
+{
+  "run_id": "20260711T123240Z_pilot",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "row_count": 12,
+  "label_counts": {
+    "verified_exact": 6,
+    "catalog_conflict": 6
+  },
+  "catalog_first_token_metrics": {
+    "exact_count": 6,
+    "conflict_count": 6,
+    "exact_correct": 5,
+    "conflict_correct": 2,
+    "exact_specificity": 0.8333333333333334,
+    "conflict_sensitivity": 0.3333333333333333,
+    "balanced_accuracy": 0.5833333333333334
+  },
+  "catalog_sequence_metrics": {
+    "exact_count": 6,
+    "conflict_count": 6,
+    "exact_correct": 5,
+    "conflict_correct": 3,
+    "exact_specificity": 0.8333333333333334,
+    "conflict_sensitivity": 0.5,
+    "balanced_accuracy": 0.6666666666666667
+  },
+  "choice_metrics": {
+    "exact_count": 6,
+    "conflict_count": 6,
+    "exact_correct": 6,
+    "conflict_correct": 3,
+    "exact_specificity": 1,
+    "conflict_sensitivity": 0.5,
+    "balanced_accuracy": 0.75
+  },
+  "generation_first_token_metrics": {
+    "exact_count": 6,
+    "conflict_count": 6,
+    "exact_correct": 6,
+    "conflict_correct": 0,
+    "exact_specificity": 1,
+    "conflict_sensitivity": 0,
+    "balanced_accuracy": 0.5
+  },
+  "validation_status": "not_supported",
+  "conflict_categories": {
+    "context_override": 2,
+    "relation_not_recovered": 4
+  },
+  "patch_summary": [
+    {
+      "intervention": "layer21_attention",
+      "valid_count": 6,
+      "mean_recovery": 0.4313749077970493,
+      "median_recovery": 0.4986559139784946,
+      "toward_catalog_rate": 1
+    },
+    {
+      "intervention": "layer24_mlp",
+      "valid_count": 6,
+      "mean_recovery": 0.3091746681115554,
+      "median_recovery": 0.4289711579853637,
+      "toward_catalog_rate": 0.8333333333333334
+    },
+    {
+      "intervention": "layer27_full_residual",
+      "valid_count": 6,
+      "mean_recovery": 1.005643870279732,
+      "median_recovery": 1,
+      "toward_catalog_rate": 1
+    },
+    {
+      "intervention": "layer28_full_residual",
+      "valid_count": 6,
+      "mean_recovery": 1,
+      "median_recovery": 1,
+      "toward_catalog_rate": 1
+    }
+  ],
+  "maximum_final_readout_error": 0,
+  "maximum_endpoint_patch_error": 0,
+  "all_interventions_present": true,
+  "all_values_finite": true,
+  "technical_gate": true,
+  "interpretation_scope": "small_frozen_free_generation_transfer_pilot",
+  "field_reference_run": "20260711T121410Z_pilot",
+  "started_at": "2026-07-11T12:32:40.949346+00:00",
+  "finished_at": "2026-07-11T12:33:02.044195+00:00"
+}

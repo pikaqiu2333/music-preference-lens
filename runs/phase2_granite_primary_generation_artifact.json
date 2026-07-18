@@ -1,0 +1,577 @@
+{
+  "rows": [
+    {
+      "completion": " \"City Lights\"\n   Artist: \"The Neighbourhood\"\n   Reason: This track offers a calm urban mood with a restrained beat that fits the rainy night driving scenario.\n\n2. Title: \"Slow Down\"\n   Artist: \"The National\"\n   Reason: This track provides a restrained rhythmic indie sound that aligns with the user's preference for restrained music.\n\n3. Title: \"Dusk Till Dawn\"\n   Artist: \"The xx\"\n   Reason: This track offers a calming, ambient sound that fits the rainy night driving scenario.\n\n4. Title: \"I Love You\"\n   Artist: \"Lana Del Rey\"\n   Reason: This track provides a restrained, melodic pop sound that aligns with the user's preference for restrained music.\n\n5. Title: \"Rainy Day\"\n   Artist: \"The xx\"\n   Reason: This track offers a calming, ambient sound that fits the rainy night driving scenario.",
+      "context_id": "quiet_night_drive",
+      "generation_id": "quiet_night_drive__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"City Lights,\" Artist: Tame Impala, Reason: Tame Impala's \"City Lights\" is a perfect choice for your rainy night driving playlist. The track features a restrained beat and a calm urban mood, making it ideal for your preference of restrained rhythmic indie music.\n2. Title: \"Weightless,\" Artist: Marconi Union, Reason: Marconi Union's \"Weightless\" is known for its calming and soothing effect, making it an excellent choice for a rainy night driving playlist. The track has a restrained beat and a restrained rhythmic indie style, which aligns with your preference.\n3. Title: \"Weightless,\" Artist: Marconi Union, Reason: Marconi Union's \"Weightless\" is known for its calming and soothing effect, making it an excellent choice for a rainy night driving playlist. The track has a restrained beat and a restrained rhythmic indie style, which aligns with your preference.\n4. Title: \"Weightless,\" Artist: Marconi Union, Reason: Marconi Union's \"Weightless\" is known for its calming and soothing effect, making it an excellent choice for a rainy night driving playlist. The track has a restrained beat and a restrained rhythmic indie style, which aligns with your preference.\n5. Title: \"Weightless,\" Artist: Marconi Union, Reason: Marconi Union's \"Weightless\" is known for its calming and soothing effect, making it an excellent choice for a rainy night driving playlist. The track has a restrained beat and a restrained rhythmic indie style, which aligns with your preference.\n\nTitle: \"City Lights,\" Artist: Tame Impala, Reason: Tame Impala's \"City Lights\" is a perfect choice for your rainy night driving playlist. The track features a restrained beat and a calm urban mood, making it ideal for your preference of restrained rhythmic indie music.\nTitle:",
+      "context_id": "quiet_night_drive",
+      "generation_id": "quiet_night_drive__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects and is perfect for a rainy night drive.\n2. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects and is perfect for a rainy night drive.\n3. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects and is perfect for a rainy night drive.\n4. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects and is perfect for a rainy night drive.\n5. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects and is perfect for a rainy night drive.\n\nPlease note that the track \"Weightless\" by Marconi Union is a single track and I have repeated it five times to meet your requirement of five tracks. However, if you want different tracks, I can provide those as well.\n\nAlso, please note that the reason for each track is the same because the track is known for its calming effects and is perfect for a rainy night drive. If you want different reasons for each track, I can provide those as well.\n\nPlease note that the track \"Weightless\" by Marconi Union is a single track and I have repeated it five times to meet your requirement of five tracks. However, if you want different tracks, I can provide those as well.\n\nAlso, please note that the reason for each track is the same because the track is known for its calming effects and is perfect for a rainy night drive. If you want different reasons for each track, I can provide those as well.\n\n",
+      "context_id": "quiet_night_drive",
+      "generation_id": "quiet_night_drive__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"City Lights\" by The Avalanches\n   Artist: The Avalanches\n   Reason: This track offers a calming, ambient electronic sound that fits the rainy night driving mood, with restrained rhythmic indie influences.\n2. Title: \"Midnight Sun\" by Bonobo\n   Artist: Bonobo\n   Reason: \"Midnight Sun\" provides a restrained beat and a soothing, atmospheric electronic sound that aligns with the user's preference for restrained rhythmic indie.\n3. Title: \"The City\" by Air\n   Artist: Air\n   Reason: \"The City\" features a restrained, atmospheric electronic sound that fits the user's preference for restrained rhythmic indie and avoids noisy rock and high-pressure EDM.\n4. Title: \"City Pop\" by The Black Keys\n   Artist: The Black Keys\n   Reason: \"City Pop\" offers a restrained, rhythmic indie sound that fits the user's preference for restrained rhythmic indie and avoids noisy rock and high-pressure EDM.\n5. Title: \"Urban Dreams\" by M83\n   Artist: M83\n   Reason: \"Urban Dreams\" provides a restrained, atmospheric electronic sound that fits the user's preference for restrained rhythmic indie and avoids noisy rock and high-pressure EDM.\n\nCreate a 5-song playlist for a rainy night driving with a calm urban mood, a restrained beat, and no loud peaks. The user likes electronic, ambient, city pop, and restrained rhythmic indie. Avoid noisy rock and high-pressure EDM. Use real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"City Lights\" by The Avalanches\n   Artist: The Avalanches\n   Reason: This track offers a calming, ambient electronic sound that fits the rainy night driving mood, with restrained rhythmic indie influences.\n2",
+      "context_id": "quiet_night_drive",
+      "generation_id": "quiet_night_drive__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"City Lights\", Artist: \"Mogwai\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n2. Title: \"The Boxer\", Artist: \"Portishead\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n3. Title: \"Lullaby\", Artist: \"Bonobo\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n4. Title: \"The Forest\", Artist: \"M83\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n5. Title: \"The River\", Artist: \"The XX\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n\nUser profile: likes electronic, ambient, city pop, and restrained rhythmic indie; avoids noisy rock and high-pressure EDM in daily listening.\n\nCurrent need: rainy night driving with a calm urban mood, a restrained beat, and no loud peaks.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"City Lights\", Artist: \"Mogwai\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n2. Title: \"The Boxer\", Artist: \"Portishead\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n3. Title: \"Lullaby\", Artist: \"Bonobo\", Reason: \"The track has a restrained beat and a calm, urban mood, perfect for rainy night driving.\"\n4. Title:",
+      "context_id": "quiet_night_drive",
+      "generation_id": "quiet_night_drive__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Electric Love\"\nArtist: John Legend & Anderson .Paak\nReason: This upbeat track combines pop and R&B, with a catchy melody and a driving rhythm that's perfect for a high-energy dance floor.\n\n2. Title: \"Can't Stop The Feeling!\"\nArtist: Justin Timberlake\nReason: This upbeat pop song with a catchy chorus and a danceable beat will get everyone on their feet and grooving.\n\n3. Title: \"Uptown Funk\"\nArtist: Mark Ronson ft. Bruno Mars\nReason: This classic funk track has a high-energy beat and a groovy rhythm that's perfect for a dance floor.\n\n4. Title: \"Turn Down For What\"\nArtist: DJ Snake & Lil Jon\nReason: This upbeat dance track has a high-energy beat and a catchy chorus that will get everyone moving.\n\n5. Title: \"Get Lucky\"\nArtist: Daft Punk ft. Pharrell Williams\nReason: This upbeat electronic track has a catchy beat and a danceable rhythm that will get everyone on their feet and grooving.",
+      "context_id": "peak_time_rave",
+      "generation_id": "peak_time_rave__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Dance of the Night\"\n   Artist: Unknown\n   Reason: High energy, hard drums, intense rhythm, perfect for a 2am peak-time dance floor.\n2. Title: \"Retro Revival\"\n   Artist: Unknown\n   Reason: Funky beats, retro disco vibes, maximum momentum.\n3. Title: \"Energize\"\n   Artist: Unknown\n   Reason: Electronic music with a hard edge, perfect for a 2am dance floor.\n4. Title: \"Nightfall\"\n   Artist: Unknown\n   Reason: Intense, hard-hitting beats, perfect for a 2am peak-time dance floor.\n5. Title: \"Dance with the Devil\"\n   Artist: Unknown\n   Reason: High energy, intense drums, maximum momentum, perfect for a 2am dance floor.",
+      "context_id": "peak_time_rave",
+      "generation_id": "peak_time_rave__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Rhythm of the Night\" Artist: DJ Groove Reason: This track has a pulsating rhythm and intense drum beats, perfect for a 2am dance floor.\n2. Title: \"Electric Groove\" Artist: DJ Funk Reason: This track has a funky beat and a high-energy vibe, making it ideal for a 2am peak-time dance floor.\n3. Title: \"Retro Disco\" Artist: DJ Retro Reason: This track has a classic disco feel with a modern twist, providing a nostalgic yet energetic vibe for the dance floor.\n4. Title: \"Dance Discovery\" Artist: DJ Disco Reason: This track is a hidden gem in the world of dance music, offering a unique and intense sound that will keep the crowd moving.\n5. Title: \"Hard Energy\" Artist: DJ Intense Reason: This track has a hard-hitting sound and a high-energy vibe, perfect for a 2am peak-time dance floor.",
+      "context_id": "peak_time_rave",
+      "generation_id": "peak_time_rave__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Retro Groove\", Artist: \"DJ Funky\", Reason: \"This track has a hard energy and intense drums that will keep the dance floor moving all night.\"\n2. Title: \"Dance Revolution\", Artist: \"DJ Retro\", Reason: \"This track has a maximum momentum and is perfect for a 2am peak-time dance floor.\"\n3. Title: \"Energizer\", Artist: \"DJ Funky\", Reason: \"This track has a hard energy and intense drums that will keep the dance floor moving all night.\"\n4. Title: \"Dancefloor Delight\", Artist: \"DJ Retro\", Reason: \"This track has a maximum momentum and is perfect for a 2am peak-time dance floor.\"\n5. Title: \"Dance Revolution 2\", Artist: \"DJ Funky\", Reason: \"This track has a hard energy and intense drums that will keep the dance floor moving all night.\"\n\nUser profile: likes electronic, funk, retro disco, and niche dance discoveries.\n\nCurrent need: a 2am peak-time dance floor with hard energy, intense drums, and maximum momentum.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Retro Groove\", Artist: \"DJ Funky\", Reason: \"This track has a hard energy and intense drums that will keep the dance floor moving all night.\"\n2. Title: \"Dance Revolution\", Artist: \"DJ Retro\", Reason: \"This track has a maximum momentum and is perfect for a 2am peak-time dance floor.\"\n3. Title: \"Energizer\", Artist: \"DJ Funky\", Reason: \"This track has a hard energy and intense drums that will keep the dance floor moving all night.\"\n4. Title: \"D",
+      "context_id": "peak_time_rave",
+      "generation_id": "peak_time_rave__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Soulful Groove\" - Artist: Daft Punk - Reason: High-energy electronic dance track with a funky groove.\n2. Title: \"Retro Revival\" - Artist: The KLF - Reason: Intense drums and retro disco vibes.\n3. Title: \"Dancefloor Dynamo\" - Artist: Fatboy Slim - Reason: Hard energy and maximum momentum.\n4. Title: \"Intense Rhythm\" - Artist: Chemical Brothers - Reason: Powerful beats and intense energy.\n5. Title: \"Niche Discovery\" - Artist: MSTRKRFT - Reason: Unique blend of electronic and funk with a niche dance discovery feel.",
+      "context_id": "peak_time_rave",
+      "generation_id": "peak_time_rave__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Losing Myself\"\n   Artist: Rival Sons\n   Reason: This track offers intimate vocals, soft electronic production, and a melodic songwriting style that fits the user's profile. It also has a dramatic chorus and emotional release.\n\n2. Title: \"The Sound of Silence\"\n   Artist: The Weeknd\n   Reason: This track provides intimate vocals, soft electronic production, and a melodic songwriting style that aligns with the user's preferences. It also has a lyrical story and emotional release.\n\n3. Title: \"My Body\"\n   Artist: Disclosure\n   Reason: This track offers intimate vocals, soft electronic production, and a melodic songwriting style that fits the user's profile. It also has a dramatic chorus and emotional release.\n\n4. Title: \"The Great Escape\"\n   Artist: The Chainsmokers\n   Reason: This track provides intimate vocals, soft electronic production, and a melodic songwriting style that aligns with the user's preferences. It also has a lyrical story and emotional release.\n\n5. Title: \"Heartless\"\n   Artist: The Chainsmokers\n   Reason: This track offers intimate vocals, soft electronic production, and a melodic songwriting style that fits the user's profile. It also has a dramatic chorus and emotional release.\n\nPlaylist:\n1. Title: \"Losing Myself\"\n   Artist: Rival Sons\n   Reason: This track offers intimate vocals, soft electronic production, and a melodic songwriting style that fits the user's profile. It also has a dramatic chorus and emotional release.\n\n2. Title: \"The Sound of Silence\"\n   Artist: The Weeknd\n   Reason: This track provides intimate vocals, soft electronic production, and a melodic songwriting style that aligns with the user's preferences. It also has a lyrical story and emotional release.\n\n3. Title:",
+      "context_id": "emotional_vocal",
+      "generation_id": "emotional_vocal__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Distant Stars\" by Tessa Violet\n   Reason: Soft electronic production, melodic songwriting, and emotional release.\n2. Title: \"Lullaby\" by The Neighbourhood\n   Reason: Intimate vocals, melodic songwriting, and emotional release.\n3. Title: \"Unbroken\" by The 1975\n   Reason: Intimate vocals, melodic songwriting, and emotional release.\n4. Title: \"All I Want\" by Halsey\n   Reason: Soft electronic production, melodic songwriting, and emotional release.\n5. Title: \"Happier\" by Marshmello ft. Khalid\n   Reason: Soft electronic production, melodic songwriting, and emotional release.\n\nUser profile: likes soft indie folk music with acoustic guitar and emotional lyrics. Current need: a song to accompany a sunset walk with a loved one.\n\nRecommend exactly 3 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Lullaby\" by The Neighbourhood\n   Reason: Soft indie folk music with acoustic guitar and emotional lyrics.\n2. Title: \"All I Want\" by Halsey\n   Reason: Soft indie folk music with acoustic guitar and emotional lyrics.\n3. Title: \"Happier\" by Marshmello ft. Khalid\n   Reason: Soft indie folk music with acoustic guitar and emotional lyrics.",
+      "context_id": "emotional_vocal",
+      "generation_id": "emotional_vocal__seed149",
+      "parsed_track_count": 0,
+      "seed": 149
+    },
+    {
+      "completion": " \"Weight of Love\" by The 1975\n   Reason: This track has a soft electronic production and melodic songwriting that suits your preferences.\n2. Title: \"In Between Days\" by Arctic Monkeys\n   Reason: This track has an intimate vocal performance and a lyrical story that can help you relax and reflect.\n3. Title: \"Losing You\" by Ed Sheeran\n   Reason: This track has a dramatic chorus and clear emotional release that can help you cope with your emotional state.\n4. Title: \"I Don't Want to Know\" by The 1975\n   Reason: This track has a melodic songwriting and a lyrical story that can help you express your emotions.\n5. Title: \"How Soon Is Now?\" by The Smiths\n   Reason: This track has an intimate vocal performance and a lyrical story that can help you connect with your emotions.",
+      "context_id": "emotional_vocal",
+      "generation_id": "emotional_vocal__seed163",
+      "parsed_track_count": 0,
+      "seed": 163
+    },
+    {
+      "completion": " \"Hush\" Artist: Mura Masa Reason: It has an intimate vocal performance, soft electronic production, and a dramatic chorus with a clear emotional release.\n2. Title: \"The End\" Artist: Mura Masa Reason: It has an intimate vocal performance, soft electronic production, and a melodic songwriting that tells a lyrical story.\n3. Title: \"The Great Escape\" Artist: Mura Masa Reason: It has an intimate vocal performance, soft electronic production, and a melodic songwriting that tells a lyrical story.\n4. Title: \"The Last Dance\" Artist: Mura Masa Reason: It has an intimate vocal performance, soft electronic production, and a melodic songwriting that tells a lyrical story.\n5. Title: \"The Final Exit\" Artist: Mura Masa Reason: It has an intimate vocal performance, soft electronic production, and a melodic songwriting that tells a lyrical story.",
+      "context_id": "emotional_vocal",
+      "generation_id": "emotional_vocal__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Falling\", Artist: Florence + The Machine, Reason: Soft electronic production with intimate vocals.\n2. Title: \"Dignity\", Artist: Bon Iver, Reason: Melodic songwriting with emotional release.\n3. Title: \"Losing You\", Artist: The 1975, Reason: Lyrical story with a dramatic chorus.\n4. Title: \"Holding On\", Artist: Ed Sheeran, Reason: Intimate vocals with emotional storytelling.\n5. Title: \"Viva La Vida\", Artist: Coldplay, Reason: Soft electronic production with a dramatic chorus.\n\nUser profile: likes intimate vocals, soft electronic production, and melodic songwriting.\n\nCurrent need: late-night emotional listening with a lyrical story, a dramatic chorus, and clear emotional release.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Falling\", Artist: Florence + The Machine, Reason: Soft electronic production with intimate vocals.\n2. Title: \"Dignity\", Artist: Bon Iver, Reason: Melodic songwriting with emotional release.\n3. Title: \"Losing You\", Artist: The 1975, Reason: Lyrical story with a dramatic chorus.\n4. Title: \"Holding On\", Artist: Ed Sheeran, Reason: Intimate vocals with emotional storytelling.\n5. Title: \"Viva La Vida\", Artist: Coldplay, Reason: Soft electronic production with a dramatic chorus.\n\nUser profile: likes intimate vocals, soft electronic production, and melodic songwriting.\n\nCurrent need: late-night emotional listening with a lyrical story, a dramatic chorus, and clear emotional release.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this",
+      "context_id": "emotional_vocal",
+      "generation_id": "emotional_vocal__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Luna\"\n   Artist: M83\n   Reason: \"Luna\" has a beautiful, dreamy melody with minimal vocals and a soft electronic texture, perfect for a strict writing mode.\n\n2. Title: \"Ocean Eyes\"\n   Artist: Bastille\n   Reason: \"Ocean Eyes\" features a soft, ambient electronic track with no vocals, perfect for a strict writing mode.\n\n3. Title: \"The Crystal Ball\"\n   Artist: Yoko Kanno\n   Reason: \"The Crystal Ball\" has a modern classical feel with soft electronic textures, perfect for a strict writing mode.\n\n4. Title: \"Ethereal\"\n   Artist: Yoko Kanno\n   Reason: \"Ethereal\" has a soft, ambient electronic track with minimal vocals and no spoken samples, perfect for a strict writing mode.\n\n5. Title: \"The Weight of the World\"\n   Artist: Yoko Kanno\n   Reason: \"The Weight of the World\" has a soft, ambient electronic track with minimal vocals and no spoken samples, perfect for a strict writing mode.\n\nUser: I'm looking for a playlist that will help me focus on my writing. The playlist should have no vocals, no spoken samples, and minimal attention-grabbing changes. I like ambient, modern classical, and soft electronic textures.\n\nAssistant: I have created a playlist that should help you focus on your writing. The playlist includes \"Luna\" by M83, \"Ocean Eyes\" by Bastille, \"The Crystal Ball\" by Yoko Kanno, \"Ethereal\" by Yoko Kanno, and \"The Weight of the World\" by Yoko Kanno. Each track has a beautiful, dreamy melody with minimal vocals and a soft electronic texture, perfect for a strict writing mode.",
+      "context_id": "strict_no_vocals",
+      "generation_id": "strict_no_vocals__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects, making it ideal for a strict writing environment.\n2. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects, making it ideal for a strict writing environment.\n3. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects, making it ideal for a strict writing environment.\n4. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects, making it ideal for a strict writing environment.\n5. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming effects, making it ideal for a strict writing environment.\n\nPlease note that the track \"Weightless\" by Marconi Union is a popular choice for its calming effects, making it suitable for a strict writing environment. However, it is important to note that this track is not the only option available. Other tracks with similar qualities could also be considered.\n\nPlease do not repeat the track \"Weightless\" by Marconi Union. The track \"Weightless\" by Marconi Union is a popular choice for its calming effects, making it suitable for a strict writing environment. However, it is important to note that this track is not the only option available. Other tracks with similar qualities could also be considered.\n\nPlease do not repeat the track \"Weightless\" by Marconi Union. The track \"Weightless\" by Marconi Union is a popular choice for its calming effects, making it suitable for a strict writing environment. However, it is important to note that this track is not",
+      "context_id": "strict_no_vocals",
+      "generation_id": "strict_no_vocals__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is known for its calming and relaxing atmosphere, making it perfect for a strict writing mode.\n\n2. Title: \"Mellomaniac (Chill Out Mix)\" by DJ Shah\n   Artist: DJ Shah\n   Reason: This track offers a soothing and ambient vibe, ideal for a writing session without vocals or spoken samples.\n\n3. Title: \"Clair de Lune\" by Claude Debussy\n   Artist: Claude Debussy\n   Reason: This classical piece is known for its soft and delicate textures, providing a serene backdrop for writing.\n\n4. Title: \"Aerials\" by Four Tet\n   Artist: Four Tet\n   Reason: This track features soft electronic textures and minimal changes, making it suitable for a strict writing mode.\n\n5. Title: \"Ocean Eyes\" by Owl City\n   Artist: Owl City\n   Reason: Despite being an electronic track, this song has a soft and calming vibe, which can be conducive to writing without vocals or spoken samples.",
+      "context_id": "strict_no_vocals",
+      "generation_id": "strict_no_vocals__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Nocturnal Reverie\", Artist: Aerial, Reason: ambient and soft electronic textures.\n2. Title: \"The Weight of Eternity\", Artist: Aerial, Reason: ambient and soft electronic textures.\n3. Title: \"Aerial\", Artist: Aerial, Reason: ambient and soft electronic textures.\n4. Title: \"Aerial\", Artist: Aerial, Reason: ambient and soft electronic textures.\n5. Title: \"Aerial\", Artist: Aerial, Reason: ambient and soft electronic textures.\n\nUser profile: likes ambient, modern classical, and soft electronic textures.\n\nCurrent need: strict writing mode with no vocals, no spoken samples, and minimal attention-grabbing changes.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Nocturnal Reverie\", Artist: Aerial, Reason: ambient and soft electronic textures.\n2. Title: \"The Weight of Eternity\", Artist: Aerial, Reason: ambient and soft electronic textures.\n3. Title: \"Aerial\", Artist: Aerial, Reason: ambient and soft electronic textures.\n4. Title: \"Aerial\", Artist: Aerial, Reason: ambient and soft electronic textures.\n5. Title: \"Aerial\", Artist: Aerial, Reason: ambient and soft electronic textures.",
+      "context_id": "strict_no_vocals",
+      "generation_id": "strict_no_vocals__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Serenity\", Artist: \"Chase C. Johnson\", Reason: \"Ambient soundscapes with a modern classical feel, perfect for focus.\"\n2. Title: \"Mood Indigo\", Artist: \"John Coltrane\", Reason: \"Soft electronic textures that are soothing and not distracting.\"\n3. Title: \"The Weight\", Artist: \"Gordon Haskell\", Reason: \"A track with a gentle, unobtrusive vibe, ideal for writing.\"\n4. Title: \"Bongos\", Artist: \"Gordon Haskell\", Reason: \"Minimal attention-grabbing changes, perfect for maintaining focus.\"\n5. Title: \"Breeze\", Artist: \"Gordon Haskell\", Reason: \"A track that complements the other tracks in the playlist, enhancing the overall atmosphere.\"\n\nUser profile: likes ambient, modern classical, and soft electronic textures.\n\nCurrent need: strict writing mode with no vocals, no spoken samples, and minimal attention-grabbing changes.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Serenity\", Artist: \"Chase C. Johnson\", Reason: \"Ambient soundscapes with a modern classical feel, perfect for focus.\"\n2. Title: \"Mood Indigo\", Artist: \"John Coltrane\", Reason: \"Soft electronic textures that are soothing and not distracting.\"\n3. Title: \"The Weight\", Artist: \"Gordon Haskell\", Reason: \"A track with a gentle, unobtrusive vibe, ideal for writing.\"\n4. Title: \"Bongos\", Artist: \"Gordon Haskell\", Reason: \"Minimal attention-grabbing changes, perfect for maintaining focus.\"\n5. Title: \"Breeze\", Artist: \"Gordon Haskell\", Reason",
+      "context_id": "strict_no_vocals",
+      "generation_id": "strict_no_vocals__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Lunar Loop\", Artist: \"SynthMystic\", Reason: This track offers a gentle, repetitive electronic melody that can help maintain focus and reduce distractions.\n2. Title: \"Oceanic Rhythm\", Artist: \"EcoTech\", Reason: This track provides a subtle rhythmic motion that can create a calming atmosphere, aiding in deep focus.\n3. Title: \"Silent Symphony\", Artist: \"SilentHarmony\", Reason: This track offers a minimal electronic music piece with gentle repetition, perfect for sustained focus.\n4. Title: \"Echoes of the Mind\", Artist: \"MindEcho\", Reason: This track provides a steady texture that can help maintain concentration and reduce mental clutter.\n5. Title: \"ZenBeat\", Artist: \"ZenTech\", Reason: This track offers a tranquil electronic music piece that can help create a peaceful environment, promoting deep focus.\n\nTitle: \"Lunar Loop\", Artist: \"SynthMystic\", Reason: This track offers a gentle, repetitive electronic melody that can help maintain focus and reduce distractions.\nTitle: \"Oceanic Rhythm\", Artist: \"EcoTech\", Reason: This track provides a subtle rhythmic motion that can create a calming atmosphere, aiding in deep focus.\nTitle: \"Silent Symphony\", Artist: \"SilentHarmony\", Reason: This track offers a minimal electronic music piece with gentle repetition, perfect for sustained focus.\nTitle: \"Echoes of the Mind\", Artist: \"MindEcho\", Reason: This track provides a steady texture that can help maintain concentration and reduce mental clutter.\nTitle: \"ZenBeat\", Artist: \"ZenTech\", Reason: This track offers a tranquil electronic music piece that can help create a peaceful environment, promoting deep focus.\n\nI want to listen to music. Create a playlist of 5 tracks that will help me focus, with very low distraction. The music should be electronic",
+      "context_id": "deep_focus_minimal",
+      "generation_id": "deep_focus_minimal__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Weightless\", Artist: Marconi Union, Reason: This track is known for its calming and relaxing effect on the mind and body.\n2. Title: \"Weightless\", Artist: Marconi Union, Reason: The track has been clinically proven to reduce anxiety and promote relaxation.\n3. Title: \"Weightless\", Artist: Marconi Union, Reason: The track has a slow tempo and a gentle, repetitive rhythm that can help with deep focus.\n4. Title: \"Weightless\", Artist: Marconi Union, Reason: The track has a minimal electronic sound with subtle textures and low distortion.\n5. Title: \"Weightless\", Artist: Marconi Union, Reason: The track has a long duration of 45 minutes, providing ample time for deep focus and relaxation.",
+      "context_id": "deep_focus_minimal",
+      "generation_id": "deep_focus_minimal__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n2. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n3. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n4. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n5. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n\nUser profile: likes minimal electronic music, gentle repetition, and subtle rhythmic motion.\n\nCurrent need: ninety minutes of deep focus with steady texture and very low distraction.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n2. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n3. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to reduce anxiety and promote relaxation.\n4. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its scientifically proven ability to",
+      "context_id": "deep_focus_minimal",
+      "generation_id": "deep_focus_minimal__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Lunar Pulse\"\n   Artist: Anomaly\n   Reason: Minimal electronic beats with gentle repetition, perfect for deep focus.\n\n2. Title: \"Serenity\"\n   Artist: Brian Eno\n   Reason: Gentle, repetitive soundscapes that provide a calming atmosphere.\n\n3. Title: \"Dreamcatcher\"\n   Artist: Glass Animals\n   Reason: Subtle rhythmic motion with a soothing electronic feel.\n\n4. Title: \"Zen Garden\"\n   Artist: Bonobo\n   Reason: Minimal electronic beats with a focus on repetition and texture.\n\n5. Title: \"Mindful Melody\"\n   Artist: M83\n   Reason: Gentle, repetitive electronic music that promotes deep focus.",
+      "context_id": "deep_focus_minimal",
+      "generation_id": "deep_focus_minimal__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Serenity\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n2. Title: \"Focus\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n3. Title: \"Ethereal\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n4. Title: \"Harmony\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n5. Title: \"Tranquility\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n\nUser profile: likes minimal electronic music, gentle repetition, and subtle rhythmic motion.\n\nCurrent need: ninety minutes of deep focus with steady texture and very low distraction.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Serenity\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n2. Title: \"Focus\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n3. Title: \"Ethereal\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n4. Title: \"Harmony\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n5. Title: \"Tranquility\", Artist: \"Aeon\", Reason: \"Minimal electronic music with gentle repetition and subtle rhythmic motion\"\n\nUser profile: likes minimal electronic music, gentle repetition, and subtle rhythmic motion.\n\nCurrent need: ninety minutes",
+      "context_id": "deep_focus_minimal",
+      "generation_id": "deep_focus_minimal__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Here Comes the Sun\" Artist: The Beatles Reason: a bright, optimistic track that fits the sunny morning need\n2. Title: \"I Will Follow You Into the Dark\" Artist: Death Cab for Cutie Reason: a warm and hopeful track that fits the need for a singer-songwriter record\n3. Title: \"A Thousand Miles\" Artist: Vanessa Carlton Reason: a natural instrumentation track that fits the need for acoustic songs\n4. Title: \"Don't Stop Believin'\" Artist: Journey Reason: a hopeful and uplifting track that fits the need for an optimistic acoustic song\n5. Title: \"You Raise Me Up\" Artist: Josh Groban Reason: a natural instrumentation track that fits the need for acoustic songs and a hopeful track that fits the need for optimism",
+      "context_id": "morning_acoustic",
+      "generation_id": "morning_acoustic__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Sunrise in the Valley\"\n   Artist: Lila Downs\n   Reason: This track combines warm acoustic instrumentation with uplifting lyrics, providing a serene and optimistic start to the day.\n\n2. Title: \"The Road Less Traveled\"\n   Artist: The Avett Brothers\n   Reason: The song features a natural acoustic sound with a hopeful and inspiring message, perfect for a sunny morning.\n\n3. Title: \"Somewhere Over the Rainbow\"\n   Artist: Sarah McLachlan\n   Reason: The gentle acoustic melody and heartfelt lyrics create a peaceful and uplifting atmosphere, ideal for a quiet morning.\n\n4. Title: \"Lullaby for a Dreamer\"\n   Artist: The Lumineers\n   Reason: This track offers a soothing and dreamy acoustic sound, with lyrics that evoke a sense of optimism and hope.\n\n5. Title: \"I Will Wait\"\n   Artist: Mumford & Sons\n   Reason: The song's acoustic instrumentation and uplifting message make it a perfect choice for a sunny morning, filled with natural optimism.",
+      "context_id": "morning_acoustic",
+      "generation_id": "morning_acoustic__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Sunrise in the Valley\" Artist: \"Luna Rising\" Reason: This song captures the peaceful essence of a sunny morning with its acoustic instrumentation and hopeful lyrics.\n2. Title: \"Morning Light\" Artist: \"Soulful Melodies\" Reason: The gentle acoustic guitar and heartfelt vocals create a warm and uplifting atmosphere.\n3. Title: \"The Promise of Day\" Artist: \"Harmony in Nature\" Reason: The song's natural instrumentation and optimistic lyrics reflect the hopeful start of a new day.\n4. Title: \"Golden Hour\" Artist: \"Sunset Serenade\" Reason: This track's acoustic sound and positive message make it the perfect song for a sunny morning.\n5. Title: \"A New Dawn\" Artist: \"Morning Star\" Reason: The song's uplifting melody and hopeful lyrics create a peaceful and optimistic atmosphere for a sunny morning.",
+      "context_id": "morning_acoustic",
+      "generation_id": "morning_acoustic__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Sunrise Serenade\", Artist: \"Sunrise Serenade\", Reason: The gentle acoustic guitar and uplifting lyrics make it the perfect soundtrack for a peaceful morning.\n2. Title: \"Whispers of the Wind\", Artist: \"Whispers of the Wind\", Reason: The soothing vocals and melodic strings create a serene atmosphere that is both calming and uplifting.\n3. Title: \"Golden Hour\", Artist: \"Golden Hour\", Reason: The warm, natural instrumentation and hopeful lyrics capture the essence of a sunny morning.\n4. Title: \"Morning Dew\", Artist: \"Morning Dew\", Reason: The soft, acoustic guitar and delicate vocals create a peaceful and uplifting atmosphere.\n5. Title: \"Sunny Days\", Artist: \"Sunny Days\", Reason: The upbeat tempo and optimistic lyrics make it the perfect song to start your day.",
+      "context_id": "morning_acoustic",
+      "generation_id": "morning_acoustic__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Sunny Morning\", Artist: \"Ben Howard\", Reason: \"A bright acoustic song with a positive message that sets a happy tone for the day.\"\n2. Title: \"Falling Down\", Artist: \"Bon Iver\", Reason: \"A soulful track with a gentle melody that creates a calm atmosphere.\"\n3. Title: \"The Sound of Silence\", Artist: \"Sufjan Stevens\", Reason: \"A peaceful song with a minimalistic sound that is perfect for a quiet morning.\"\n4. Title: \"The Weight\", Artist: \"The Lumineers\", Reason: \"A folk-pop song with a hopeful message that is uplifting and optimistic.\"\n5. Title: \"The Forest\", Artist: \"Tame Impala\", Reason: \"A dreamy track with a natural sound that creates a peaceful and calming atmosphere.\"\n\nThe user's request was to create a playlist of five songs that fit their profile and current need. The playlist includes songs by Ben Howard, Bon Iver, Sufjan Stevens, The Lumineers, and Tame Impala, all of which are acoustic songs with a positive message and natural instrumentation. The songs are also bright, gentle, and peaceful, creating a calm and optimistic atmosphere for a sunny morning.",
+      "context_id": "morning_acoustic",
+      "generation_id": "morning_acoustic__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Pulse\"\nArtist: \"Heavy Metal Machine\"\nReason: \"Pulse\" has a powerful, heavy beat that matches the user's need for strength training with controlled aggression. The track also has strong downbeats that will keep the user motivated.\n\n2. Title: \"Rage\"\nArtist: \"Industrial Tribe\"\nReason: \"Rage\" is an industrial electronic track that matches the user's preference for industrial music. The track has a forceful percussion that will help the user focus on their strength training.\n\n3. Title: \"Power Up\"\nArtist: \"Forceful Beats\"\nReason: \"Power Up\" is a track that matches the user's need for heavy strength training. The track has a powerful, heavy beat that will help the user push through their workout.\n\n4. Title: \"No Slow Ballads\"\nArtist: \"Aggressive Grooves\"\nReason: \"No Slow Ballads\" is a track that matches the user's preference for heavy music. The track has a forceful percussion and a powerful beat that will keep the user motivated during their strength training.\n\n5. Title: \"Pump It Up\"\nArtist: \"Forceful Beats\"\nReason: \"Pump It Up\" is a track that matches the user's need for strength training with controlled aggression. The track has a powerful, heavy beat and strong downbeats that will help the user focus on their workout.\n\nUser profile: likes hip-hop, industrial electronic music, and forceful percussion.\n\nCurrent need: heavy strength training with controlled aggression, strong downbeats, and no slow ballads.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Pulse\"\nArtist: \"Heavy Metal Machine\"\nReason: \"Pulse\" has a powerful, heavy beat that",
+      "context_id": "strength_training",
+      "generation_id": "strength_training__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Warrior's Anthem\", Artist: The Contortionist, Reason: Powerful and intense.\n2. Title: \"Rise\", Artist: Five Finger Death Punch, Reason: Aggressive and motivational.\n3. Title: \"No One Knows\", Artist: Killswitch Engage, Reason: Fast-paced and energetic.\n4. Title: \"Fighter\", Artist: Avenged Sevenfold, Reason: Strong and confident.\n5. Title: \"Pulse of the Earth\", Artist: Slipknot, Reason: Powerful and intense.",
+      "context_id": "strength_training",
+      "generation_id": "strength_training__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Weight of the World\" by The Prodigy\n   Artist: The Prodigy\n   Reason: The track features heavy basslines, aggressive beats, and a powerful chorus that can help drive your strength training routine.\n\n2. Title: \"Rollin' Out\" by The Prodigy\n   Artist: The Prodigy\n   Reason: This track is characterized by its heavy, industrial sound and aggressive rhythm, making it an excellent choice for strength training.\n\n3. Title: \"Scream\" by The Prodigy\n   Artist: The Prodigy\n   Reason: Known for its intense and energetic vibe, this track can provide the motivation and drive needed for a challenging workout.\n\n4. Title: \"Xplosive\" by The Prodigy\n   Artist: The Prodigy\n   Reason: This track features a powerful, energetic beat and aggressive sound that can help fuel your strength training routine.\n\n5. Title: \"Breathe\" by The Prodigy\n   Artist: The Prodigy\n   Reason: Although not as aggressive as some of their other tracks, this song still features a strong, driving beat that can help keep you motivated during your workout.\n\nPlaylist:\n1. Title: \"Hardcore\" by The Prodigy\n   Artist: The Prodigy\n   Reason: This track is known for its intense, energetic sound and powerful basslines, making it a great choice for strength training.\n\n2. Title: \"The Fat of the Land\" by The Prodigy\n   Artist: The Prodigy\n   Reason: This album is filled with tracks that feature heavy, aggressive beats and industrial sounds, perfect for a challenging workout.\n\n3. Title: \"Firestarter\" by The Prodigy\n   Artist: The Prodigy\n   Reason: This track is characterized by its fast-paced, energetic sound and",
+      "context_id": "strength_training",
+      "generation_id": "strength_training__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Bounce\" by The Chemical Brothers\n   Artist: The Chemical Brothers\n   Reason: Heavy percussion and strong beats, suitable for strength training.\n2. Title: \"The Veldt\" by Kanye West\n   Artist: Kanye West\n   Reason: Forceful percussion and industrial electronic music, aligns with user's preference.\n3. Title: \"Powerful\" by The Prodigy\n   Artist: The Prodigy\n   Reason: Powerful beats and aggressive sound, suitable for strength training.\n4. Title: \"Hypnotize\" by Kanye West\n   Artist: Kanye West\n   Reason: Strong beats and powerful sound, aligns with user's preference.\n5. Title: \"Bassline\" by The Prodigy\n   Artist: The Prodigy\n   Reason: Strong bassline and powerful sound, suitable for strength training.",
+      "context_id": "strength_training",
+      "generation_id": "strength_training__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Furious\", Artist: Black Eyed Peas, Reason: The song has a strong beat and lyrics that encourage pushing oneself to the limit.\n2. Title: \"Gangsta's Paradise\", Artist: Coolio, Reason: The song has a fast-paced beat and lyrics that inspire determination and strength.\n3. Title: \"Boulevard of Broken Dreams\", Artist: Green Day, Reason: The song has a heavy, aggressive sound that matches the user's preference for forceful percussion.\n4. Title: \"Fight Song\", Artist: Rachel Platten, Reason: The song has a powerful message of resilience and determination, which aligns with the user's need for strength training.\n5. Title: \"Fight the Power\", Artist: Public Enemy, Reason: The song has a strong beat and lyrics that encourage standing up against adversity, which matches the user's need for controlled aggression.",
+      "context_id": "strength_training",
+      "generation_id": "strength_training__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Blame Game\" by Alicia Keys\n   Artist: Alicia Keys\n   Reason: Alicia Keys' soulful voice and introspective lyrics are perfect for expressing feelings of guilt and self-blame.\n\n2. Title: \"Hurt\" by Nine Inch Nails\n   Artist: Nine Inch Nails\n   Reason: Trent Reznor's raw, emotional vocals and haunting melody make this song a powerful anthem for those going through a breakup.\n\n3. Title: \"Always On My Mind\" by Eric Clapton\n   Artist: Eric Clapton\n   Reason: Clapton's heartfelt rendition of this classic country ballad is a timeless reminder of the pain of lost love.\n\n4. Title: \"Someone Like You\" by Adele\n   Artist: Adele\n   Reason: Adele's powerful vocals and poignant lyrics in this song are a cathartic release for anyone going through a breakup.\n\n5. Title: \"I Will Survive\" by Gloria Gaynor\n   Artist: Gloria Gaynor\n   Reason: This iconic disco anthem is a powerful reminder of resilience and strength in the face of heartbreak.\n\nUser profile: likes emotionally direct pop, alternative R&B, and cathartic vocals.\n\nCurrent need: recovering after a breakup and wanting sadness that gradually turns into resolve.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Blame Game\" by Alicia Keys\n   Artist: Alicia Keys\n   Reason: Alicia Keys' soulful voice and introspective lyrics are perfect for expressing feelings of guilt and self-blame.\n\n2. Title: \"Hurt\" by Nine Inch Nails\n   Artist: Nine Inch Nails\n   Reason: Trent Reznor's raw, emotional vocals and haunting melody make this song a",
+      "context_id": "breakup_recovery",
+      "generation_id": "breakup_recovery__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Stay\" by Justin Bieber\n   Artist: Justin Bieber\n   Reason: Emotionally direct pop with cathartic vocals that resonate with the user's current need.\n2. Title: \"Lose You\" by The Weeknd\n   Artist: The Weeknd\n   Reason: Alternative R&B with a focus on emotional expression and catharsis.\n3. Title: \"Someone You Loved\" by Lewis Capaldi\n   Artist: Lewis Capaldi\n   Reason: Cathartic vocals that provide a sense of release and understanding.\n4. Title: \"My Body\" by Demi Lovato\n   Artist: Demi Lovato\n   Reason: Emotionally direct pop with a strong message of self-love and empowerment.\n5. Title: \"Lose You to Love Me\" by Selena Gomez\n   Artist: Selena Gomez\n   Reason: Alternative R&B with a focus on emotional expression and catharsis.\n\nUser profile: likes emotionally direct pop, alternative R&B, and cathartic vocals.\n\nCurrent need: recovering after a breakup and wanting sadness that gradually turns into resolve.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Stay\" by Justin Bieber\n   Artist: Justin Bieber\n   Reason: Emotionally direct pop with cathartic vocals that resonate with the user's current need.\n2. Title: \"Lose You\" by The Weeknd\n   Artist: The Weeknd\n   Reason: Alternative R&B with a focus on emotional expression and catharsis.\n3. Title: \"Someone You Loved\" by Lewis Capaldi\n   Artist: Lewis Capaldi\n   Reason: Cathartic vocals that provide a sense of release and understanding.\n4. Title: \"My Body\" by Demi Lov",
+      "context_id": "breakup_recovery",
+      "generation_id": "breakup_recovery__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Stay With Me\" | Artist: Sam Smith | Reason: It's a soulful ballad about longing and heartbreak, with a hopeful ending.\n2. Title: \"I Found You\" | Artist: Sara Bareilles | Reason: It's a powerful anthem about finding strength and resilience after a breakup.\n3. Title: \"I'll Be Missing You\" | Artist: Faith Evans | Reason: It's a nostalgic track about missing someone and finding peace in the memories.\n4. Title: \"Broken\" | Artist: Alessia Cara | Reason: It's an introspective song about healing from a broken heart and finding the strength to move forward.\n5. Title: \"You're Not Alone\" | Artist: Sam Smith | Reason: It's a comforting track about feeling supported during difficult times and finding solace in the love of others.\n\nUser profile: likes emotionally direct pop, alternative R&B, and cathartic vocals.\n\nCurrent need: recovering after a breakup and wanting sadness that gradually turns into resolve.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Stay With Me\" | Artist: Sam Smith | Reason: It's a soulful ballad about longing and heartbreak, with a hopeful ending.\n2. Title: \"I Found You\" | Artist: Sara Bareilles | Reason: It's a powerful anthem about finding strength and resilience after a breakup.\n3. Title: \"I'll Be Missing You\" | Artist: Faith Evans | Reason: It's a nostalgic track about missing someone and finding peace in the memories.\n4. Title: \"Broken\" | Artist: Alessia Cara | Reason: It's an introspective song about healing from a broken heart and finding the strength to move forward.\n5. Title: \"",
+      "context_id": "breakup_recovery",
+      "generation_id": "breakup_recovery__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Hurt\" Artist: Johnny Cash Reason: Emotionally direct lyrics and soulful delivery.\n2. Title: \"Someone Like You\" Artist: Adele Reason: Cathartic vocals and emotional resonance.\n3. Title: \"Goodnight, Goodnight\" Artist: Shawn Mendes Reason: Alternative R&B with a hopeful tone.\n4. Title: \"Someone Like You\" Artist: Adele Reason: Emotional depth and relatable lyrics.\n5. Title: \"Hurt\" Artist: Johnny Cash Reason: Powerful vocals and emotional impact.\n\nUser profile: likes emotionally direct pop, alternative R&B, and cathartic vocals.\n\nCurrent need: recovering after a breakup and wanting sadness that gradually turns into resolve.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Hurt\" Artist: Johnny Cash Reason: Emotionally direct lyrics and soulful delivery.\n2. Title: \"Someone Like You\" Artist: Adele Reason: Cathartic vocals and emotional resonance.\n3. Title: \"Goodnight, Goodnight\" Artist: Shawn Mendes Reason: Alternative R&B with a hopeful tone.\n4. Title: \"Someone Like You\" Artist: Adele Reason: Emotional depth and relatable lyrics.\n5. Title: \"Hurt\" Artist: Johnny Cash Reason: Powerful vocals and emotional impact.\n\nUser profile: likes emotionally direct pop, alternative R&B, and cathartic vocals.\n\nCurrent need: recovering after a breakup and wanting sadness that gradually turns into resolve.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Hurt\" Artist: Johnny Cash Reason: Emotionally direct lyrics and",
+      "context_id": "breakup_recovery",
+      "generation_id": "breakup_recovery__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"You Are Not Alone\"\n   Artist: Alessia Cara\n   Reason: Relatable lyrics about feeling alone after a breakup and finding strength in community.\n2. Title: \"Someone Like You\"\n   Artist: Adele\n   Reason: Powerful, emotional vocals and a cathartic message about moving on.\n3. Title: \"Stay With Me\"\n   Artist: Sam Smith\n   Reason: Uplifting melody and lyrics about finding hope and resilience after heartbreak.\n4. Title: \"I Will Survive\"\n   Artist: Gloria Gaynor\n   Reason: Motivational and empowering lyrics about overcoming adversity.\n5. Title: \"Goodbye Tonight\"\n   Artist: Shawn Mendes\n   Reason: Sensitive and heartfelt vocals about letting go and moving on.",
+      "context_id": "breakup_recovery",
+      "generation_id": "breakup_recovery__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"A Love Supreme\", Artist: John Coltrane, Reason: Classic jazz with a spiritual theme, suitable for a warm dinner.\n2. Title: \"Soul Bossa Nova\", Artist: Astrud Gilberto, Reason: Soulful bossa nova with a bossa nova feel, perfect for a relaxed atmosphere.\n3. Title: \"The Girl from Ipanema\", Artist: Stan Getz, Reason: Smooth jazz with a bossa nova rhythm, ideal for a moderate tempo.\n4. Title: \"Blue Bossa\", Artist: Kenny Dorham, Reason: Jazz standard with a bossa nova twist, suitable for detailed arrangements.\n5. Title: \"Misty\", Artist: Erroll Garner, Reason: Classic jazz ballad with a soulful feel, perfect for a small dinner with warm conversation.",
+      "context_id": "dinner_jazz",
+      "generation_id": "dinner_jazz__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"The Way You Look Tonight\"\n   Artist: Frank Sinatra\n   Reason: Sinatra's smooth vocals and the song's romantic lyrics make it perfect for a cozy dinner.\n2. Title: \"Can't Take My Eyes Off You\"\n   Artist: Frankie Valli and the Four Seasons\n   Reason: This classic soul song is upbeat and fun, making it ideal for a relaxed evening.\n3. Title: \"Girl from Ipanema\"\n   Artist: Stan Getz\n   Reason: Getz's gentle saxophone playing and the song's laid-back rhythm create a soothing atmosphere.\n4. Title: \"Take Five\"\n   Artist: Dave Brubeck Quartet\n   Reason: This jazz standard's complex time signature and intricate arrangements will keep the conversation flowing.\n5. Title: \"Blue Bossa\"\n   Artist: Kenny Dorham\n   Reason: Dorham's subtle yet engaging piano playing and the song's bossa nova feel make it a perfect choice for a relaxed dinner.",
+      "context_id": "dinner_jazz",
+      "generation_id": "dinner_jazz__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Mellow Love\" by John Mayer\n   Artist: John Mayer\n   Reason: A smooth jazz ballad with a mellow rhythm and soulful lyrics.\n2. Title: \"Girl Like You\" by John Legend\n   Artist: John Legend\n   Reason: A romantic soul track with a gentle piano melody and heartfelt lyrics.\n3. Title: \"Desire\" by Bill Withers\n   Artist: Bill Withers\n   Reason: A classic soul song with a slow, steady beat and a memorable hook.\n4. Title: \"I Wish\" by Al Green\n   Artist: Al Green\n   Reason: A soulful ballad with a powerful vocal performance and a timeless melody.\n5. Title: \"Love Is Strange\" by The Mamas & The Papas\n   Artist: The Mamas & The Papas\n   Reason: A bossa nova-inspired jazz tune with a laid-back vibe and a catchy chorus.\n\nWrite a simple but effective, 2-sentence summary of this song: \"I Will Remember You\" by The Cure\n\n\"I Will Remember You\" by The Cure is a poignant ballad that explores themes of loss and remembrance, with its haunting melody and introspective lyrics.\n\nWrite a 1-sentence summary of this song: \"I Will Remember You\" by The Cure\n\n\"I Will Remember You\" by The Cure is a poignant ballad that explores themes of loss and remembrance, with its haunting melody and introspective lyrics.\n\nWrite a 1-sentence summary of this song: \"I Will Remember You\" by The Cure\n\n\"I Will Remember You\" by The Cure is a poignant ballad that explores themes of loss and remembrance, with its haunting melody and introspective lyrics.\n\nWrite a 1-sentence summary of this song: \"I Will Remember You\" by The Cure\n\n\"I Will Remember You\" by The Cure is a poignant ball",
+      "context_id": "dinner_jazz",
+      "generation_id": "dinner_jazz__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"A Love Supreme\" by John Coltrane\n   Artist: John Coltrane\n   Reason: This track is a beautiful and soulful jazz composition that aligns with the user's preferences for jazz and soul music.\n\n2. Title: \"The Girl from Ipanema\" by Stan Getz & João Gilberto\n   Artist: Stan Getz & João Gilberto\n   Reason: This classic bossa nova track is known for its detailed yet unobtrusive arrangements, which the user seems to appreciate.\n\n3. Title: \"So What\" by Miles Davis\n   Artist: Miles Davis\n   Reason: This track has a moderate tempo and is known for its detailed arrangements, which the user seems to prefer.\n\n4. Title: \"The Lady Is a Tramp\" by Ella Fitzgerald\n   Artist: Ella Fitzgerald\n   Reason: This song has a warm and conversational vibe, which aligns with the user's current need for a small dinner with warm conversation.\n\n5. Title: \"Fly Me to the Moon\" by Frank Sinatra\n   Artist: Frank Sinatra\n   Reason: This song has a moderate tempo and is known for its detailed yet unobtrusive arrangements, which the user seems to appreciate.",
+      "context_id": "dinner_jazz",
+      "generation_id": "dinner_jazz__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Soulful Serenade\", Artist: [Artist Name], Reason: This track has a warm and inviting vibe, perfect for a small dinner setting with detailed but unobtrusive arrangements.\n2. Title: \"Jazz Journeys\", Artist: [Artist Name], Reason: This track has a moderate tempo, making it ideal for a small dinner with detailed but unobtrusive arrangements.\n3. Title: \"Bossa Nova Bliss\", Artist: [Artist Name], Reason: This track has a soulful and detailed arrangement, perfect for a small dinner with detailed but unobtrusive arrangements.\n4. Title: \"Warm Conversations\", Artist: [Artist Name], Reason: This track has a moderate tempo and detailed arrangements, perfect for a small dinner with detailed but unobtrusive arrangements.\n5. Title: \"The Final Track\", Artist: [Artist Name], Reason: This track has a warm and inviting vibe, perfect for the end of a small dinner with detailed but unobtrusive arrangements.\n\nUser profile: likes jazz, soul, bossa nova, and detailed but unobtrusive arrangements.\n\nCurrent need: a small dinner with warm conversation, moderate tempo, and no showy solos.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Soulful Serenade\", Artist: [Artist Name], Reason: This track has a warm and inviting vibe, perfect for a small dinner setting with detailed but unobtrusive arrangements.\n2. Title: \"Jazz Journeys\", Artist: [Artist Name], Reason: This track has a moderate tempo, making it ideal for a small dinner with detailed but unobtrusive arrangements.\n3. Title: \"Bossa Nova Bliss\", Artist: [Artist",
+      "context_id": "dinner_jazz",
+      "generation_id": "dinner_jazz__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"City Lights\"\n   Artist: The Crystal Method\n   Reason: This track combines city pop and synth-pop elements, with a disco bassline that will make you feel like you're dancing in neon-lit streets.\n\n2. Title: \"Eighties Revival\"\n   Artist: The Crystal Method\n   Reason: This track has a polished eighties production that will take you back to the disco era, with a gentle dance pulse that will make you feel like you're on a nostalgic evening walk.\n\n3. Title: \"City Pop Delight\"\n   Artist: The Crystal Method\n   Reason: This track combines city pop and synth-pop elements, with a disco bassline that will make you feel like you're dancing in neon-lit streets.\n\n4. Title: \"Eighties Revival II\"\n   Artist: The Crystal Method\n   Reason: This track has a polished eighties production that will take you back to the disco era, with a gentle dance pulse that will make you feel like you're on a nostalgic evening walk.\n\n5. Title: \"City Pop Delight II\"\n   Artist: The Crystal Method\n   Reason: This track combines city pop and synth-pop elements, with a disco bassline that will make you feel like you're dancing in neon-lit streets.\n\nI don't like any of these songs. Please try again.\n\nI apologize for the inconvenience. Here are five different tracks that meet your criteria:\n\nPlaylist:\n1. Title: \"City Lights\"\n   Artist: The Crystal Method\n   Reason: This track combines city pop and synth-pop elements, with a disco bassline that will make you feel like you're dancing in neon-lit streets.\n\n2. Title: \"Eighties Revival\"\n   Artist: The Crystal Method\n   Reason: This track has a polished eighties production that will take you back to the disco era, with a gentle dance pulse that will",
+      "context_id": "nostalgic_city_pop",
+      "generation_id": "nostalgic_city_pop__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"City Lights\" by The Rapture\n   Artist: The Rapture\n   Reason: A retro synth-pop anthem with a pulsating beat and catchy hooks, perfect for a cityscape walk.\n2. Title: \"Disco Inferno\" by The Trammps\n   Artist: The Trammps\n   Reason: A classic disco track with a fiery vibe, ideal for a warm evening walk.\n3. Title: \"Burning Down the House\" by Talking Heads\n   Artist: Talking Heads\n   Reason: A synth-pop classic with a disco-infused groove, reminiscent of the polished eighties production.\n4. Title: \"It's the End of the World as We Know It (And I Feel Fine)\" by R.E.M.\n   Artist: R.E.M.\n   Reason: A nostalgic track with a catchy melody and upbeat rhythm, perfect for a cityscape walk.\n5. Title: \"Disco Inferno\" by The Trammps\n   Artist: The Trammps\n   Reason: A classic disco track with a fiery vibe, ideal for a warm evening walk.\n\nUser profile: likes city pop, synth-pop, disco basslines, and polished eighties production.\n\nCurrent need: a nostalgic evening walk with neon-lit warmth and a gentle dance pulse.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"City Lights\" by The Rapture\n   Artist: The Rapture\n   Reason: A retro synth-pop anthem with a pulsating beat and catchy hooks, perfect for a cityscape walk.\n2. Title: \"Disco Inferno\" by The Trammps\n   Artist: The Trammps\n   Reason: A classic disco track with a fiery vibe, ideal for a warm evening",
+      "context_id": "nostalgic_city_pop",
+      "generation_id": "nostalgic_city_pop__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Neon Nights\" by The Neon Lights\n   Artist: The Neon Lights\n   Reason: The track combines city pop and synth-pop elements, with a disco bassline that provides a nostalgic evening walk feel.\n\n2. Title: \"Eighties Vibes\" by The Eighties\n   Artist: The Eighties\n   Reason: The track offers polished eighties production, creating a warm and nostalgic atmosphere.\n\n3. Title: \"Danceable Disco\" by Disco Dancers\n   Artist: Disco Dancers\n   Reason: The track features a gentle dance pulse, perfect for a leisurely stroll.\n\n4. Title: \"City Pop Groove\" by City Groove\n   Artist: City Groove\n   Reason: The track combines city pop and synth-pop elements, creating a vibrant and energetic atmosphere.\n\n5. Title: \"Eighties Chillout\" by Eighties Chillout\n   Artist: Eighties Chillout\n   Reason: The track offers a chillout vibe with eighties production, providing a soothing and nostalgic experience.",
+      "context_id": "nostalgic_city_pop",
+      "generation_id": "nostalgic_city_pop__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"City Lights\" by The Cars\n   Artist: The Cars\n   Reason: This track embodies the city pop genre with its catchy synth-pop melodies and upbeat tempo.\n\n2. Title: \"Dance with Me\" by The Romantics\n   Artist: The Romantics\n   Reason: This disco bassline track is perfect for a nostalgic evening walk with a gentle dance pulse.\n\n3. Title: \"Walking on Sunshine\" by Katrina and the Waves\n   Artist: Katrina and the Waves\n   Reason: This track's polished eighties production and uplifting lyrics make it a perfect choice for a warm, nostalgic evening.\n\n4. Title: \"I Will Survive\" by Gloria Gaynor\n   Artist: Gloria Gaynor\n   Reason: This disco classic has a powerful beat and empowering lyrics, making it a great track for a dance pulse.\n\n5. Title: \"I'm Gonna Make You Love Me\" by Shania Twain\n   Artist: Shania Twain\n   Reason: This pop track has a polished eighties production and a catchy chorus, making it a perfect choice for a nostalgic evening.\n\nGive me 5 more tracks, and for each track, use exactly 3 fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\n1. Title: \"Don't Stop Believin'\" by Journey\n   Artist: Journey\n   Reason: This track's upbeat tempo and catchy chorus make it a perfect choice for a nostalgic evening walk.\n\n2. Title: \"I Want Candy\" by Bow Wow Wow\n   Artist: Bow Wow Wow\n   Reason: This disco bassline track has a nostalgic feel and a memorable chorus.\n\n3. Title: \"Stayin' Alive\" by Bee Gees\n   Artist: Bee Gees\n   Reason: This disco classic has a powerful beat and a memorable chorus, making it a perfect choice for",
+      "context_id": "nostalgic_city_pop",
+      "generation_id": "nostalgic_city_pop__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"City Lights\", Artist: Kaito, Reason: The track combines synth-pop elements with a nostalgic, cityscape-inspired melody, perfect for a walk with neon-lit warmth.\n2. Title: \"Disco Basslines\", Artist: A. G. Cook, Reason: This track features a polished disco bassline that provides a gentle dance pulse, ideal for a calming evening stroll.\n3. Title: \"Eighties Production\", Artist: The Commodores, Reason: The track showcases the polished production style of the 80s, adding a nostalgic touch to your evening walk.\n4. Title: \"City Pop\", Artist: Kaskade, Reason: Kaskade's city pop style blends electronic beats with a disco vibe, creating a perfect backdrop for your evening walk.\n5. Title: \"Neon Glow\", Artist: The Crystal Method, Reason: This track features a pulsating beat and electronic elements that evoke the neon-lit atmosphere of a cityscape, making it a great choice for your evening walk.",
+      "context_id": "nostalgic_city_pop",
+      "generation_id": "nostalgic_city_pop__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Lush\"\n   Artist: \"The xx\"\n   Reason: This track combines art pop and post-punk elements with a unique electronic indie sound, creating a distinctive and recent-sounding track that the user will likely enjoy.\n\n2. Title: \"A Thousand Suns\"\n   Artist: \"Tool\"\n   Reason: This track features a complex and innovative blend of electronic indie and post-punk elements, making it a fresh and unfamiliar artist for the user.\n\n3. Title: \"The Idol\"\n   Artist: \"Ridley Scott\"\n   Reason: This track showcases a unique electronic indie sound with post-punk influences, providing a distinctive and recent-sounding track that the user will likely enjoy.\n\n4. Title: \"The End\"\n   Artist: \"The xx\"\n   Reason: This track combines art pop and electronic indie elements with a post-punk sound, creating a distinctive and recent-sounding track that the user will likely enjoy.\n\n5. Title: \"The End of the World\"\n   Artist: \"The xx\"\n   Reason: This track features a unique blend of art pop and post-punk elements with an electronic indie sound, providing a distinctive and recent-sounding track that the user will likely enjoy.\n\nPlaylist:\n1. Title: \"Lush\"\n   Artist: \"The xx\"\n   Reason: This track combines art pop and post-punk elements with a unique electronic indie sound, creating a distinctive and recent-sounding track that the user will likely enjoy.\n\n2. Title: \"A Thousand Suns\"\n   Artist: \"Tool\"\n   Reason: This track features a complex and innovative blend of electronic indie and post-punk elements, making it a fresh and unfamiliar artist for the user.\n\n3. Title: \"The Idol\"\n   Artist: \"Ridley Scott\"\n   Reason: This track showcases a unique electronic indie sound with post-punk influences, providing a distinctive and recent-s",
+      "context_id": "indie_discovery",
+      "generation_id": "indie_discovery__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Distant Echoes\", Artist: \"Aeon's Echoes\", Reason: \"A blend of electronic indie and post-punk, with an eerie, atmospheric sound.\"\n2. Title: \"Uncharted Waves\", Artist: \"Waveform\", Reason: \"A fresh take on art pop, with a unique sound and experimental lyrics.\"\n3. Title: \"The Unseen Symphony\", Artist: \"Symphonic Dreams\", Reason: \"A symphonic pop track with unexpected twists, perfect for your taste.\"\n4. Title: \"The Forgotten Melody\", Artist: \"Melody's Refuge\", Reason: \"A post-punk track with a haunting melody and powerful vocals.\"\n5. Title: \"The Unseen Sound\", Artist: \"Sound's Embrace\", Reason: \"An electronic indie track with a unique sound and captivating rhythms.\"",
+      "context_id": "indie_discovery",
+      "generation_id": "indie_discovery__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Ethereal Echoes\" Artist: \"Astral Echoes\" Reason: \"This track offers a mesmerizing blend of electronic indie and post-punk, with a distinctive sound that's both haunting and captivating.\"\n2. Title: \"Undercurrents of Change\" Artist: \"Reverberate\" Reason: \"This track is a perfect blend of unfamiliar artists and post-punk, with a unique sound that's both intriguing and refreshing.\"\n3. Title: \"The Unseen Symphony\" Artist: \"Symphonic Visions\" Reason: \"This track is a perfect blend of electronic indie and post-punk, with a unique sound that's both captivating and mesmerizing.\"\n4. Title: \"The Unseen Symphony\" Artist: \"Symphonic Visions\" Reason: \"This track is a perfect blend of electronic indie and post-punk, with a unique sound that's both captivating and mesmerizing.\"\n5. Title: \"The Unseen Symphony\" Artist: \"Symphonic Visions\" Reason: \"This track is a perfect blend of electronic indie and post-punk, with a unique sound that's both captivating and mesmerizing.\"",
+      "context_id": "indie_discovery",
+      "generation_id": "indie_discovery__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Glass Eye,\" Artist: \"The 1975,\" Reason: The song's electronic indie sound and the band's unique blend of post-punk influences make it a fresh and engaging listen.\n2. Title: \"The Lost Highway,\" Artist: \"Kodaline,\" Reason: The track's modern electronic indie sound and the band's catchy melody make it a standout addition to the playlist.\n3. Title: \"No One's Gonna Love You,\" Artist: \"The National,\" Reason: The song's art pop sound and the band's distinctive vocals make it a unique and intriguing choice.\n4. Title: \"The Weight,\" Artist: \"The 1975,\" Reason: The song's electronic indie sound and the band's unique blend of post-punk influences make it a fresh and engaging listen.\n5. Title: \"The Lost Highway,\" Artist: \"Kodaline,\" Reason: The track's modern electronic indie sound and the band's catchy melody make it a standout addition to the playlist.",
+      "context_id": "indie_discovery",
+      "generation_id": "indie_discovery__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Falling Skies,\" Artist: The 1975, Reason: Experimental electronic pop with an art-rock vibe, featuring an unexpected guest appearance by an up-and-coming artist.\n2. Title: \"The Great Escape,\" Artist: King Gizzard & The Lizard Wizard, Reason: Post-punk revival with a modern twist, showcasing their unique sound and innovative approach to genre-blending.\n3. Title: \"The Last Dance,\" Artist: Tame Impala, Reason: Electronic indie with a dreamy, atmospheric sound, incorporating elements of shoegaze and psychedelic rock.\n4. Title: \"The Lost City,\" Artist: Royal Blood, Reason: Post-punk revival with a stripped-down, raw sound, featuring driving rhythms and intense guitar work.\n5. Title: \"The Final Frontier,\" Artist: The xx, Reason: Electronic indie with a minimalist, atmospheric sound, featuring haunting vocals and intricate instrumentation.\n\nUser profile: likes modern R&B, smooth jazz, and artists with a blend of soul and funk.\n\nCurrent need: discovering new tracks that combine elements of these genres with a modern twist.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Smooth Operator,\" Artist: Kehlani, Reason: Modern R&B with a smooth jazz influence, featuring a soulful, sultry vocal performance and a groovy, infectious beat.\n2. Title: \"The Funky Side of Me,\" Artist: John Legend, Reason: Modern R&B with a blend of soul and funk, showcasing his smooth, soulful voice and a funky, groovy beat.\n3. Title: \"The Soulful Groove,\" Artist: SZA, Reason: Modern R&B with a soulful, sultry sound, featuring a blend of R",
+      "context_id": "indie_discovery",
+      "generation_id": "indie_discovery__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Luna\"\n   Artist: M83\n   Reason: \"The track has a slow, atmospheric build-up that is perfect for falling asleep, with a soft piano melody and minimal percussion.\"\n\n2. Title: \"Weightless\"\n   Artist: Marconi Union\n   Reason: \"The track has been scientifically proven to reduce anxiety and promote relaxation, making it ideal for falling asleep.\"\n\n3. Title: \"Weightless\"\n   Artist: Marconi Union\n   Reason: \"The track has a slow, ambient melody that is perfect for falling asleep, with no percussion or vocals.\"\n\n4. Title: \"Luna\"\n   Artist: M83\n   Reason: \"The track has a slow, atmospheric build-up that is perfect for falling asleep, with a soft piano melody and minimal percussion.\"\n\n5. Title: \"Weightless\"\n   Artist: Marconi Union\n   Reason: \"The track has a slow, ambient melody that is perfect for falling asleep, with no percussion or vocals.\"",
+      "context_id": "sleep_ambient",
+      "generation_id": "sleep_ambient__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: Known for its relaxing and calming effects, this track has been scientifically proven to reduce anxiety and promote relaxation.\n2. Title: \"Clair de Lune\" by Claude Debussy\n   Artist: Claude Debussy\n   Reason: This piece is a classic example of impressionist music, known for its soothing and dreamy qualities.\n3. Title: \"River Flows in You\" by Yiruma\n   Artist: Yiruma\n   Reason: This piano piece is known for its gentle and emotional melody, perfect for creating a peaceful atmosphere.\n4. Title: \"Misty Mountain Hop\" by Pink Floyd\n   Artist: Pink Floyd\n   Reason: This track has a slow, atmospheric feel, with minimal percussion, making it ideal for relaxation.\n5. Title: \"The Weight\" by The Band\n   Artist: The Band\n   Reason: This song has a slow, hypnotic rhythm that can help induce sleep, combined with the band's signature harmonies.",
+      "context_id": "sleep_ambient",
+      "generation_id": "sleep_ambient__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n2. Title: \"In the Air Tonight\" by Phil Collins\n   Artist: Phil Collins\n   Reason: The slow tempo and soft melody create a calming atmosphere.\n3. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n4. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n5. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n\nI apologize for the repetition. Here are the correct tracks:\n\n1. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n2. Title: \"In the Air Tonight\" by Phil Collins\n   Artist: Phil Collins\n   Reason: The slow tempo and soft melody create a calming atmosphere.\n3. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n4. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n5. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is scientifically proven to reduce anxiety and promote relaxation.\n\nPlease note that the title \"Weightless\" by Marconi Union appears three times in the playlist. I apologize for the oversight. Here are",
+      "context_id": "sleep_ambient",
+      "generation_id": "sleep_ambient__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Ocean Dreams\" by The Waterboys\n   Artist: The Waterboys\n   Reason: The Waterboys' music is known for its slow, ambient, and soft piano sounds, which are perfect for creating a calming atmosphere.\n2. Title: \"Drone\" by Brian Eno\n   Artist: Brian Eno\n   Reason: Brian Eno is a pioneer in the field of ambient music, and his \"Drone\" album is a perfect example of his slow, drone-like compositions.\n3. Title: \"Slow Motion\" by Yanni\n   Artist: Yanni\n   Reason: Yanni's music often features slow, harmonic movements and soft piano, making it an excellent choice for relaxation and falling asleep.\n4. Title: \"The Moon and the Melody\" by Yanni\n   Artist: Yanni\n   Reason: This track by Yanni combines slow harmonic movements with a soft piano, creating a soothing and calming atmosphere.\n5. Title: \"The Secret Garden\" by Various Artists\n   Artist: Various Artists\n   Reason: This compilation album features a mix of ambient, drone, and soft piano tracks, providing a diverse range of calming music for relaxation and falling asleep.",
+      "context_id": "sleep_ambient",
+      "generation_id": "sleep_ambient__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is specifically designed to reduce anxiety and promote relaxation, with a focus on harmonic movement and slow tempo.\n\n2. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is specifically designed to reduce anxiety and promote relaxation, with a focus on harmonic movement and slow tempo.\n\n3. Title: \"In the Hall of the Mountain King\" by Grieg\n   Artist: Edvard Grieg\n   Reason: This piece is a slow, atmospheric piece that can help with relaxation and a sense of peace.\n\n4. Title: \"Clair de Lune\" by Debussy\n   Artist: Claude Debussy\n   Reason: This piece is a slow, atmospheric piece that can help with relaxation and a sense of peace.\n\n5. Title: \"The Four Seasons\" by Vivaldi\n   Artist: Antonio Vivaldi\n   Reason: This piece is a slow, atmospheric piece that can help with relaxation and a sense of peace.\n\nYou can have a list of at least 3 songs.\n\n1. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is specifically designed to reduce anxiety and promote relaxation, with a focus on harmonic movement and slow tempo.\n\n2. Title: \"Weightless\" by Marconi Union\n   Artist: Marconi Union\n   Reason: This track is specifically designed to reduce anxiety and promote relaxation, with a focus on harmonic movement and slow tempo.\n\n3. Title: \"In the Hall of the Mountain King\" by Grieg\n   Artist: Edvard Grieg\n   Reason: This piece is a slow, atmospheric piece that can help with relaxation and a sense of peace.\n\n4. Title: \"Clair de Lune\" by Debussy",
+      "context_id": "sleep_ambient",
+      "generation_id": "sleep_ambient__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    }
+  ],
+  "summary": {
+    "architecture_gate": true,
+    "completion_lengths": [
+      795,
+      1749,
+      1686,
+      1725,
+      1540,
+      895,
+      618,
+      788,
+      1544,
+      518,
+      1728,
+      1250,
+      774,
+      840,
+      1649,
+      1496,
+      1749,
+      937,
+      1226,
+      1546,
+      1757,
+      691,
+      1767,
+      589,
+      1700,
+      711,
+      942,
+      799,
+      768,
+      1077,
+      1695,
+      410,
+      1578,
+      708,
+      810,
+      1623,
+      1564,
+      1661,
+      1689,
+      657,
+      652,
+      837,
+      1553,
+      1035,
+      1649,
+      1678,
+      1498,
+      886,
+      1570,
+      896,
+      1716,
+      671,
+      970,
+      855,
+      1663,
+      848,
+      907,
+      1704,
+      1025,
+      1591
+    ],
+    "endpoint_gate": true,
+    "endpoint_max_logit_error": 0.0,
+    "endpoint_tolerance": 0.02,
+    "expected_generation_count": 60,
+    "expected_num_layers": 40,
+    "finished_at": "2026-07-13T11:44:25.084300+00:00",
+    "generation_count": 60,
+    "maximum_gpu_memory_bytes": 6859604992,
+    "minimum_parsed_tracks": 240,
+    "mode": "primary",
+    "model_id": "ibm-granite/granite-4.1-3b-base",
+    "model_revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+    "model_role": "confirmatory",
+    "nonempty_completion_count": 60,
+    "observed_num_layers": 40,
+    "parsed_track_count": 290,
+    "parsed_track_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "prompt_template_id": "primary",
+    "protocol_hashes": {
+      "json_sha256": "99e9638d67d5d52d190705a91a11aad8ed82be2f2e9bac0f2931bb1844fc757f",
+      "markdown_sha256": "ee79d66418316f47bda1e49b5c9c7b89d5a0bed7dea7777ce90fd014718158b7"
+    },
+    "protocol_id": "music_relation_mechanism_intervention_phase2_v1",
+    "run_id": "20260713T113140Z_phase2_primary_generation",
+    "started_at": "2026-07-13T11:31:40.548874+00:00",
+    "submitted_script_sha256": "6672e8639822da0e1fa4f6d4308040cd5229a19e28e4ee35c9dbb236c19b0fdc",
+    "technical_gate": true
+  }
+}

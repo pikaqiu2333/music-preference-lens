@@ -1,0 +1,13 @@
+# Recommended for Python 3.11 or 3.12.
+# The current local Python in this workspace is 3.14, so prefer a fresh
+# environment, Colab, or a remote GPU job for the actual SAE run.
+torch
+transformers
+sae-lens
+transformer-lens
+huggingface_hub
+pandas
+accelerate
+sentencepiece
+protobuf
+

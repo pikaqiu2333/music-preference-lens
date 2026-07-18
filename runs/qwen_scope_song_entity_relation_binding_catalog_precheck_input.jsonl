@@ -1,0 +1,40 @@
+{"pair_id": "rel_blinding_lights__exact", "relation_id": "rel_blinding_lights", "block_id": "en_swap_1", "group": "known_exact", "title": "Blinding Lights", "artist": "The Weeknd", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_blinding_lights__mismatch", "relation_id": "rel_blinding_lights", "block_id": "en_swap_1", "group": "artist_mismatch", "title": "Blinding Lights", "artist": "Billie Eilish", "language": "en"}
+{"pair_id": "rel_bad_guy__exact", "relation_id": "rel_bad_guy", "block_id": "en_swap_1", "group": "known_exact", "title": "bad guy", "artist": "Billie Eilish", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_bad_guy__mismatch", "relation_id": "rel_bad_guy", "block_id": "en_swap_1", "group": "artist_mismatch", "title": "bad guy", "artist": "The Weeknd", "language": "en"}
+{"pair_id": "rel_shape_of_you__exact", "relation_id": "rel_shape_of_you", "block_id": "en_swap_2", "group": "known_exact", "title": "Shape of You", "artist": "Ed Sheeran", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_shape_of_you__mismatch", "relation_id": "rel_shape_of_you", "block_id": "en_swap_2", "group": "artist_mismatch", "title": "Shape of You", "artist": "Queen", "language": "en"}
+{"pair_id": "rel_bohemian_rhapsody__exact", "relation_id": "rel_bohemian_rhapsody", "block_id": "en_swap_2", "group": "known_exact", "title": "Bohemian Rhapsody", "artist": "Queen", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_bohemian_rhapsody__mismatch", "relation_id": "rel_bohemian_rhapsody", "block_id": "en_swap_2", "group": "artist_mismatch", "title": "Bohemian Rhapsody", "artist": "Ed Sheeran", "language": "en"}
+{"pair_id": "rel_rolling_in_the_deep__exact", "relation_id": "rel_rolling_in_the_deep", "block_id": "en_swap_3", "group": "known_exact", "title": "Rolling in the Deep", "artist": "Adele", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_rolling_in_the_deep__mismatch", "relation_id": "rel_rolling_in_the_deep", "block_id": "en_swap_3", "group": "artist_mismatch", "title": "Rolling in the Deep", "artist": "Nirvana", "language": "en"}
+{"pair_id": "rel_smells_like_teen_spirit__exact", "relation_id": "rel_smells_like_teen_spirit", "block_id": "en_swap_3", "group": "known_exact", "title": "Smells Like Teen Spirit", "artist": "Nirvana", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_smells_like_teen_spirit__mismatch", "relation_id": "rel_smells_like_teen_spirit", "block_id": "en_swap_3", "group": "artist_mismatch", "title": "Smells Like Teen Spirit", "artist": "Adele", "language": "en"}
+{"pair_id": "rel_billie_jean__exact", "relation_id": "rel_billie_jean", "block_id": "en_swap_4", "group": "known_exact", "title": "Billie Jean", "artist": "Michael Jackson", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_billie_jean__mismatch", "relation_id": "rel_billie_jean", "block_id": "en_swap_4", "group": "artist_mismatch", "title": "Billie Jean", "artist": "Dua Lipa", "language": "en"}
+{"pair_id": "rel_levitating__exact", "relation_id": "rel_levitating", "block_id": "en_swap_4", "group": "known_exact", "title": "Levitating", "artist": "Dua Lipa", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_levitating__mismatch", "relation_id": "rel_levitating", "block_id": "en_swap_4", "group": "artist_mismatch", "title": "Levitating", "artist": "Michael Jackson", "language": "en"}
+{"pair_id": "rel_radioactive__exact", "relation_id": "rel_radioactive", "block_id": "en_swap_5", "group": "known_exact", "title": "Radioactive", "artist": "Imagine Dragons", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_radioactive__mismatch", "relation_id": "rel_radioactive", "block_id": "en_swap_5", "group": "artist_mismatch", "title": "Radioactive", "artist": "Coldplay", "language": "en"}
+{"pair_id": "rel_viva_la_vida__exact", "relation_id": "rel_viva_la_vida", "block_id": "en_swap_5", "group": "known_exact", "title": "Viva La Vida", "artist": "Coldplay", "accepted_artists": [], "language": "en"}
+{"pair_id": "rel_viva_la_vida__mismatch", "relation_id": "rel_viva_la_vida", "block_id": "en_swap_5", "group": "artist_mismatch", "title": "Viva La Vida", "artist": "Imagine Dragons", "language": "en"}
+{"pair_id": "rel_dao_xiang__exact", "relation_id": "rel_dao_xiang", "block_id": "zh_swap_1", "group": "known_exact", "title": "稻香", "artist": "周杰伦", "accepted_artists": ["周杰倫", "Jay Chou"], "language": "zh"}
+{"pair_id": "rel_dao_xiang__mismatch", "relation_id": "rel_dao_xiang", "block_id": "zh_swap_1", "group": "artist_mismatch", "title": "稻香", "artist": "邓紫棋", "language": "zh"}
+{"pair_id": "rel_qing_hua_ci__exact", "relation_id": "rel_qing_hua_ci", "block_id": "zh_swap_2", "group": "known_exact", "title": "青花瓷", "artist": "周杰伦", "accepted_artists": ["周杰倫", "Jay Chou"], "language": "zh"}
+{"pair_id": "rel_qing_hua_ci__mismatch", "relation_id": "rel_qing_hua_ci", "block_id": "zh_swap_2", "group": "artist_mismatch", "title": "青花瓷", "artist": "林俊杰", "language": "zh"}
+{"pair_id": "rel_shi_nian__exact", "relation_id": "rel_shi_nian", "block_id": "zh_swap_3", "group": "known_exact", "title": "十年", "artist": "陈奕迅", "accepted_artists": ["陳奕迅", "Eason Chan"], "language": "zh"}
+{"pair_id": "rel_shi_nian__mismatch", "relation_id": "rel_shi_nian", "block_id": "zh_swap_3", "group": "artist_mismatch", "title": "十年", "artist": "薛之谦", "language": "zh"}
+{"pair_id": "rel_qi_li_xiang__exact", "relation_id": "rel_qi_li_xiang", "block_id": "zh_swap_4", "group": "known_exact", "title": "七里香", "artist": "周杰伦", "accepted_artists": ["周杰倫", "Jay Chou"], "language": "zh"}
+{"pair_id": "rel_qi_li_xiang__mismatch", "relation_id": "rel_qi_li_xiang", "block_id": "zh_swap_4", "group": "artist_mismatch", "title": "七里香", "artist": "朴树", "language": "zh"}
+{"pair_id": "rel_guang_nian_zhi_wai__exact", "relation_id": "rel_guang_nian_zhi_wai", "block_id": "zh_swap_1", "group": "known_exact", "title": "光年之外", "artist": "邓紫棋", "accepted_artists": ["鄧紫棋", "G.E.M.", "G.E.M. 鄧紫棋"], "language": "zh"}
+{"pair_id": "rel_guang_nian_zhi_wai__mismatch", "relation_id": "rel_guang_nian_zhi_wai", "block_id": "zh_swap_1", "group": "artist_mismatch", "title": "光年之外", "artist": "周杰伦", "language": "zh"}
+{"pair_id": "rel_xiu_lian_ai_qing__exact", "relation_id": "rel_xiu_lian_ai_qing", "block_id": "zh_swap_2", "group": "known_exact", "title": "修炼爱情", "artist": "林俊杰", "accepted_artists": [], "language": "zh"}
+{"pair_id": "rel_xiu_lian_ai_qing__mismatch", "relation_id": "rel_xiu_lian_ai_qing", "block_id": "zh_swap_2", "group": "artist_mismatch", "title": "修炼爱情", "artist": "周杰伦", "language": "zh"}
+{"pair_id": "rel_yan_yuan__exact", "relation_id": "rel_yan_yuan", "block_id": "zh_swap_3", "group": "known_exact", "title": "演员", "artist": "薛之谦", "accepted_artists": [], "language": "zh"}
+{"pair_id": "rel_yan_yuan__mismatch", "relation_id": "rel_yan_yuan", "block_id": "zh_swap_3", "group": "artist_mismatch", "title": "演员", "artist": "陈奕迅", "language": "zh"}
+{"pair_id": "rel_ping_fan_zhi_lu__exact", "relation_id": "rel_ping_fan_zhi_lu", "block_id": "zh_swap_4", "group": "known_exact", "title": "平凡之路", "artist": "朴树", "accepted_artists": [], "language": "zh"}
+{"pair_id": "rel_ping_fan_zhi_lu__mismatch", "relation_id": "rel_ping_fan_zhi_lu", "block_id": "zh_swap_4", "group": "artist_mismatch", "title": "平凡之路", "artist": "周杰伦", "language": "zh"}
+{"pair_id": "rel_hong_dou__exact", "relation_id": "rel_hong_dou", "block_id": "zh_swap_5", "group": "known_exact", "title": "红豆", "artist": "王菲", "accepted_artists": [], "language": "zh"}
+{"pair_id": "rel_hong_dou__mismatch", "relation_id": "rel_hong_dou", "block_id": "zh_swap_5", "group": "artist_mismatch", "title": "红豆", "artist": "邓紫棋", "language": "zh"}
+{"pair_id": "rel_pao_mo__exact", "relation_id": "rel_pao_mo", "block_id": "zh_swap_5", "group": "known_exact", "title": "泡沫", "artist": "邓紫棋", "accepted_artists": ["鄧紫棋", "G.E.M.", "G.E.M. 鄧紫棋"], "language": "zh"}
+{"pair_id": "rel_pao_mo__mismatch", "relation_id": "rel_pao_mo", "block_id": "zh_swap_5", "group": "artist_mismatch", "title": "泡沫", "artist": "王菲", "language": "zh"}

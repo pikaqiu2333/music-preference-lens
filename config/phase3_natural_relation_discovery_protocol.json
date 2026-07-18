@@ -1,0 +1,253 @@
+{
+  "protocol_id": "music_relation_phase3_natural_discovery_v1",
+  "frozen_at_utc": "2026-07-14T05:04:11.4076717Z",
+  "parent_commit": "ffc1b69",
+  "status": "exploratory_protocol_frozen_before_relation_audit_results",
+  "research_question": "Does a model-generated title-artist catalog mismatch remain a known-relation error after requiring independent candidate-free recovery, and is relation validity decodable at title end before artist generation under entity-disjoint evaluation?",
+  "model": {
+    "model_id": "Qwen/Qwen3-4B-Base",
+    "revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+    "expected_num_layers": 36,
+    "hidden_size": 2560,
+    "license": "apache-2.0"
+  },
+  "generation": {
+    "tracks_per_playlist": 5,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 448,
+    "field_order": ["Title", "Artist", "Reason"],
+    "discovery_prompt_template": "Build a five-track music playlist for the request below. Use real, existing catalog tracks and the exact recording artist. Prefer less obvious selections when the request asks for discovery. For each item, write exactly one line in this form: N. Title: <title> | Artist: <artist> | Reason: <one short sentence>\n\nListener profile: {profile}\nCurrent request: {current_need}\n\nPlaylist:\n1. Title:",
+    "holdout_prompt_template": "Music recommendation task. Select exactly five existing recordings for this listener and situation. Return no introduction or conclusion. Use one line per recording: N. Track title: <title> | Recording artist: <artist> | Why: <one short sentence>\n\nPreferences: {profile}\nSituation: {current_need}\n\nRecommendations:\n1. Track title:",
+    "pilot_seeds": [211, 223, 227, 229, 233, 239],
+    "expansion_seeds": [241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349],
+    "holdout_seeds": [353, 359, 367, 373, 379, 383, 389, 397],
+    "pilot_playlist_count": 72,
+    "maximum_discovery_playlist_count": 288,
+    "holdout_playlist_count": 64,
+    "discovery_contexts": [
+      {
+        "context_id": "deep_cut_synthpop",
+        "profile": "likes melodic synth-pop, coldwave, electronic pop, and polished but unusual production",
+        "current_need": "discovering real synth-pop deep cuts from the 1980s through the 2010s while avoiding the artists' best-known singles"
+      },
+      {
+        "context_id": "regional_city_pop",
+        "profile": "likes Japanese city pop, boogie, fusion, and warm analog production",
+        "current_need": "a late-night city-pop set with genuine catalog tracks beyond the most internationally famous songs"
+      },
+      {
+        "context_id": "post_punk_art_pop",
+        "profile": "likes post-punk, art pop, new wave, and tense rhythmic arrangements",
+        "current_need": "less obvious real tracks that connect post-punk guitars with art-pop songwriting across different decades"
+      },
+      {
+        "context_id": "ambient_minimal_catalog",
+        "profile": "likes ambient, minimal electronic music, drone, and patient instrumental development",
+        "current_need": "real long-form ambient or minimal tracks for focused listening, avoiding generic relaxation compilations"
+      },
+      {
+        "context_id": "underground_hiphop_production",
+        "profile": "likes underground hip-hop, sample-based production, abstract beats, and distinctive flows",
+        "current_need": "real album tracks with memorable production, naming the recording artist rather than only the producer"
+      },
+      {
+        "context_id": "alternative_rnb_collaboration",
+        "profile": "likes alternative R&B, electronic soul, intimate vocals, and unusual collaborations",
+        "current_need": "real collaborative or featured-vocal tracks where the exact credited recording artist matters"
+      },
+      {
+        "context_id": "modern_jazz_ensemble",
+        "profile": "likes modern jazz, small ensembles, restrained improvisation, and detailed rhythm sections",
+        "current_need": "real twenty-first-century jazz recordings led by distinct bandleaders, without relying on standards compilations"
+      },
+      {
+        "context_id": "folk_songwriter_deep_cuts",
+        "profile": "likes folk, singer-songwriter albums, intimate acoustic arrangements, and narrative lyrics",
+        "current_need": "real album cuts from several decades, avoiding each artist's most obvious signature song"
+      },
+      {
+        "context_id": "idm_label_catalog",
+        "profile": "likes IDM, electro, glitch, and experimental electronic labels",
+        "current_need": "real catalog tracks with complex rhythm and unusual timbre, correctly separating track artist from label or compilation name"
+      },
+      {
+        "context_id": "soundtrack_song_credit",
+        "profile": "likes film and game soundtracks, dream pop, orchestral pop, and atmospheric songs",
+        "current_need": "real vocal songs associated with films or games, naming the recording performer rather than the composer or fictional character"
+      },
+      {
+        "context_id": "latin_alternative_catalog",
+        "profile": "likes Latin alternative, electronic cumbia, art rock, and regional crossovers",
+        "current_need": "real Spanish- or Portuguese-language tracks beyond global crossover hits, with exact artist credits"
+      },
+      {
+        "context_id": "metal_subgenre_catalog",
+        "profile": "likes progressive metal, doom, post-metal, and technically detailed heavy music",
+        "current_need": "real deep cuts that distinguish adjacent heavy subgenres and do not confuse similarly named bands"
+      }
+    ],
+    "holdout_contexts": [
+      {
+        "context_id": "holdout_quiet_night_drive",
+        "profile": "likes restrained electronic music, indie pop, and subtle rhythmic motion",
+        "current_need": "a calm night drive with steady momentum and no loud drops"
+      },
+      {
+        "context_id": "holdout_breakup_recovery",
+        "profile": "likes emotionally direct pop, alternative R&B, and melodic songwriting",
+        "current_need": "songs that move from grief toward resolve without becoming triumphant too quickly"
+      },
+      {
+        "context_id": "holdout_strength_training",
+        "profile": "likes hip-hop, industrial electronic music, metal, and forceful percussion",
+        "current_need": "controlled high-energy music for heavy strength training"
+      },
+      {
+        "context_id": "holdout_dinner_jazz",
+        "profile": "likes jazz, soul, bossa nova, and unobtrusive arrangements",
+        "current_need": "warm dinner music with moderate tempo and no showy solos"
+      },
+      {
+        "context_id": "holdout_rainy_cafe",
+        "profile": "likes trip-hop, mellow jazz, acoustic soul, and understated vocals",
+        "current_need": "reading alone in a rainy cafe with a soft pulse"
+      },
+      {
+        "context_id": "holdout_summer_road_trip",
+        "profile": "likes bright indie pop, funk, pop-rock, and strong hooks",
+        "current_need": "an open-road summer drive with forward motion and no melancholy ballads"
+      },
+      {
+        "context_id": "holdout_classical_focus",
+        "profile": "likes modern classical, solo piano, chamber music, and minimalism",
+        "current_need": "deep work with real instrumental recordings and very low distraction"
+      },
+      {
+        "context_id": "holdout_celebratory_dance",
+        "profile": "likes disco, house, funk, and exuberant vocal dance music",
+        "current_need": "a joyful celebration with immediate hooks and sustained dancing"
+      }
+    ]
+  },
+  "pilot_continuation_gate": {
+    "minimum_parsed_track_events": 300,
+    "minimum_unique_recoverable_conflict_title_clusters": 8,
+    "action_if_below_either_minimum": "stop_before_expansion_and_report_yield_failure",
+    "rationale": "Eight recoverable conflicts among approximately 360 pilot events are the minimum yield consistent with reaching about 30 at the registered 1440-event discovery cap."
+  },
+  "catalog_labeling": {
+    "sources": ["MusicBrainz", "Apple"],
+    "exact_requires_emitted_pair_support_from_both": true,
+    "conflict_requires_emitted_pair_absent_from_both": true,
+    "conflict_requires_shared_non_emitted_artist_from_both": true,
+    "separate_labels": [
+      "strict_exact",
+      "strict_catalog_conflict",
+      "title_absent_both",
+      "ambiguous_or_unverified",
+      "source_error"
+    ],
+    "generic_title_collision_is_not_a_known_relation_error": true
+  },
+  "knowledge_recoverability": {
+    "candidate_free_prompt_count": 3,
+    "minimum_reference_generations": 2,
+    "minimum_median_reference_minus_emitted_mean_logprob": 0.0,
+    "eligible_label": "recoverable_relation_conflict",
+    "failure_label": "catalog_conflict_without_recoverability",
+    "reference_semantics": "shared catalog-supported artist, not asserted unique worldwide"
+  },
+  "discovery_selection": {
+    "cluster_unit": "normalized_title",
+    "one_row_per_title_cluster": true,
+    "minimum_recoverable_conflict_clusters_for_probe_development": 30,
+    "minimum_matched_exact_clusters_for_probe_development": 30,
+    "matching_variables": [
+      "title_token_count",
+      "artist_token_count",
+      "generation_rank",
+      "context_family",
+      "catalog_title_result_count_bin"
+    ],
+    "discovery_data_may_select_layer_and_regularization": true,
+    "discovery_data_may_not_support_final_generalization_claim": true
+  },
+  "probe_development": {
+    "positions": [
+      "prompt_end",
+      "title_end_pre_artist",
+      "artist_first_token",
+      "complete_pair_end"
+    ],
+    "primary_position": "title_end_pre_artist",
+    "candidate_layers": "all_36_layers",
+    "feature": "full_residual_stream",
+    "primary_label_contrast": "recoverable_relation_conflict_vs_matched_strict_exact",
+    "outer_grouping": ["normalized_title", "normalized_artist"],
+    "baselines": [
+      "next_token_entropy",
+      "top1_top2_logit_margin",
+      "title_sequence_logprob",
+      "title_token_count",
+      "artist_token_count",
+      "catalog_title_result_count_bin",
+      "lexical_title_embedding",
+      "random_labels",
+      "random_layers"
+    ],
+    "metrics": ["AUROC", "AUPRC", "balanced_accuracy", "cluster_bootstrap_95ci"],
+    "layer_selection": "nested discovery-only cross-validation"
+  },
+  "holdout_freeze": {
+    "do_not_generate_until": [
+      "catalog verifier version frozen",
+      "recoverability runner version frozen",
+      "probe layer-selection rule frozen",
+      "surface baselines frozen",
+      "all discovery-only hyperparameters frozen",
+      "pipeline freeze receipt committed"
+    ],
+    "disjointness": [
+      "seed disjoint",
+      "context disjoint",
+      "prompt-template wording disjoint",
+      "normalized title disjoint",
+      "normalized emitted and reference artist disjoint"
+    ],
+    "minimum_recoverable_conflict_clusters": 10,
+    "failure_action": "report underpowered holdout without intervention"
+  },
+  "mechanism_gate": {
+    "required_before_intervention": [
+      "holdout pre-artist hidden-state AUROC exceeds the best frozen surface baseline",
+      "cluster-bootstrap 95% lower bound for AUROC difference exceeds zero",
+      "direction is consistent across at least two frozen generation seeds",
+      "no entity leakage or split violation"
+    ],
+    "intervention_primary_outcome": "correct-reference minus emitted-artist sequence logprob margin",
+    "intervention_controls": [
+      "random layer",
+      "random donor",
+      "entity-mismatched donor",
+      "sham patch",
+      "non-target-token KL",
+      "output length and format"
+    ]
+  },
+  "excluded_primary_factors": [
+    "reason-first output order",
+    "Song ID generation",
+    "candidate-list recommendation",
+    "subjective recommendation quality",
+    "recommendation-reason persuasiveness"
+  ],
+  "claim_boundaries": [
+    "This is a relation-stress study and cannot estimate ordinary product hallucination prevalence.",
+    "Catalog conflict alone is not evidence that the model knew a song relation.",
+    "Probe decodability is not subjective awareness or evidence of deception.",
+    "The title-end position is pre-artist and pre-relation-completion, not globally pre-output.",
+    "No intervention runs unless the frozen held-out probe gate passes.",
+    "Product deployment should still prefer retrieval, IDs, constrained decoding, or catalog validation."
+  ]
+}

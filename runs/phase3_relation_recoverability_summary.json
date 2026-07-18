@@ -1,0 +1,41 @@
+{
+  "record_count": 39,
+  "prompt_count": 117,
+  "group_counts": {
+    "canonical_positive": 8,
+    "phase3_conflict": 11,
+    "phase3_generated_exact": 20
+  },
+  "nonempty_generation_count": 117,
+  "nonempty_generation_fraction": 1.0,
+  "canonical_recovered_count": 8,
+  "canonical_control_count": 8,
+  "canonical_recovery_fraction": 1.0,
+  "phase3_exact_recovered_count": 14,
+  "phase3_exact_control_count": 20,
+  "phase3_exact_recovery_fraction": 0.7,
+  "conflict_category_counts": {
+    "margin_only": 4,
+    "unrecovered_or_indeterminate": 7
+  },
+  "recoverable_relation_conflict_record_ids": [],
+  "technical_gate": true,
+  "assay_validity_gate": true,
+  "protocol_id": "music_relation_phase3_recoverability_v1",
+  "model_id": "Qwen/Qwen3-4B-Base",
+  "model_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+  "observed_num_layers": 36,
+  "bundle_sha256": "35268b418f2eb6d9ae05dae2754b2cf5534bf4d9e51fbf15ba19dc303a529ffc",
+  "submitted_script_sha256": null,
+  "script_execution_mode": "inline_python_c_no_file",
+  "source_catalog_sha256": "da797490e335d54621ff7855af6e1f340c4fa5646a3e74c74af93e6b47ee03c0",
+  "source_catalog_row_count": 360,
+  "selected_conflict_cluster_count": 11,
+  "selected_exact_cluster_count": 20,
+  "minimum_recoverable_conflict_clusters": 8,
+  "pilot_continuation_gate": false,
+  "pilot_decision": "stop_before_expansion_and_report_yield_failure",
+  "maximum_gpu_memory_bytes": 8146182656,
+  "started_at": "2026-07-14T07:38:26.538820+00:00",
+  "finished_at": "2026-07-14T07:41:48.594805+00:00"
+}

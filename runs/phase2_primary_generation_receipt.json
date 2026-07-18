@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "job_id": "6a54cc73e4a4e82c0b591404",
+  "job_url": "https://huggingface.co/jobs/REDACTED/6a54cc73e4a4e82c0b591404",
+  "status": "COMPLETED",
+  "durations_seconds": {
+    "scheduling": 4,
+    "running": 803,
+    "total": 808
+  },
+  "public_pre_result_source": {
+    "gist_url": "https://gist.github.com/a56668283b095f59f0eacf0527395b58",
+    "gist_commit": "836343c10a34057fa9430b38e524d01a90f7ef0d",
+    "published_at_utc": "2026-07-13T11:30:07Z",
+    "remote_script_sha256_verified_before_submission": "6672e8639822da0e1fa4f6d4308040cd5229a19e28e4ee35c9dbb236c19b0fdc"
+  },
+  "run_summary": {
+    "run_id": "20260713T113140Z_phase2_primary_generation",
+    "model_id": "ibm-granite/granite-4.1-3b-base",
+    "model_revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+    "generation_count": 60,
+    "nonempty_completion_count": 60,
+    "parsed_track_count": 290,
+    "minimum_parsed_tracks": 240,
+    "unique_normalized_title_count": 223,
+    "endpoint_max_logit_error": 0.0,
+    "technical_gate": true,
+    "artifact_chunk_count": 3
+  },
+  "local_artifact_sha256": {
+    "runs/phase2_granite_primary_generation_artifact.json": "bfc90462604a010a170ad02b5c5ff7da34356af3d3a86e0cf036a20fca73f6ce",
+    "runs/phase2_granite_primary_catalog_input.jsonl": "3b3bef96edfb93359b94fbdf941f27c2ed500a3ec78da1ee6b549b5591e41f03",
+    "runs/phase2_granite_primary_catalog_input_summary.json": "610e4ec218b68aa084155f8d3b97ad3e7e8bc6b58d70edc3ad059794445177f4",
+    "runs/phase2_granite_primary_generation_bundle.json": "a05f89d8dfafd996b6ccafdc1e8950408366389f7e09b7d5748b7caf2ce5fc73",
+    "runs/jobs/run_phase2_granite_primary_generation_embedded.py": "6672e8639822da0e1fa4f6d4308040cd5229a19e28e4ee35c9dbb236c19b0fdc"
+  },
+  "catalog_inspection_complete": false,
+  "extension_decision_available": false
+}

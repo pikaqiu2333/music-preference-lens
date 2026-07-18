@@ -1,0 +1,10 @@
+{
+  "run_id": "20260711T124528Z_holdout",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "generation_count": 20,
+  "expected_generation_count": 20,
+  "unique_generation_count": 20,
+  "technical_gate": true,
+  "started_at": "2026-07-11T12:45:28.576108+00:00",
+  "finished_at": "2026-07-11T12:49:16.667657+00:00"
+}

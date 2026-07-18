@@ -1,0 +1,40 @@
+{"pair_id":"real_blinding_lights","group":"known_exact","title":"Blinding Lights","artist":"The Weeknd","language":"en"}
+{"pair_id":"real_bad_guy","group":"known_exact","title":"bad guy","artist":"Billie Eilish","language":"en"}
+{"pair_id":"real_shape_of_you","group":"known_exact","title":"Shape of You","artist":"Ed Sheeran","language":"en"}
+{"pair_id":"real_bohemian_rhapsody","group":"known_exact","title":"Bohemian Rhapsody","artist":"Queen","language":"en"}
+{"pair_id":"real_rolling_in_the_deep","group":"known_exact","title":"Rolling in the Deep","artist":"Adele","language":"en"}
+{"pair_id":"real_smells_like_teen_spirit","group":"known_exact","title":"Smells Like Teen Spirit","artist":"Nirvana","language":"en"}
+{"pair_id":"real_billie_jean","group":"known_exact","title":"Billie Jean","artist":"Michael Jackson","language":"en"}
+{"pair_id":"real_levitating","group":"known_exact","title":"Levitating","artist":"Dua Lipa","language":"en"}
+{"pair_id":"real_radioactive","group":"known_exact","title":"Radioactive","artist":"Imagine Dragons","language":"en"}
+{"pair_id":"real_viva_la_vida","group":"known_exact","title":"Viva La Vida","artist":"Coldplay","language":"en"}
+{"pair_id":"real_dao_xiang","group":"known_exact","title":"稻香","artist":"周杰伦","language":"zh"}
+{"pair_id":"real_qing_hua_ci","group":"known_exact","title":"青花瓷","artist":"周杰伦","accepted_artists":["周杰倫","Jay Chou"],"language":"zh"}
+{"pair_id":"real_shi_nian","group":"known_exact","title":"十年","artist":"陈奕迅","accepted_artists":["陳奕迅","Eason Chan"],"language":"zh"}
+{"pair_id":"real_qi_li_xiang","group":"known_exact","title":"七里香","artist":"周杰伦","accepted_artists":["周杰倫","Jay Chou"],"language":"zh"}
+{"pair_id":"real_guang_nian_zhi_wai","group":"known_exact","title":"光年之外","artist":"邓紫棋","accepted_artists":["鄧紫棋","G.E.M.","G.E.M. 鄧紫棋"],"language":"zh"}
+{"pair_id":"real_xiu_lian_ai_qing","group":"known_exact","title":"修炼爱情","artist":"林俊杰","language":"zh"}
+{"pair_id":"real_yan_yuan","group":"known_exact","title":"演员","artist":"薛之谦","language":"zh"}
+{"pair_id":"real_ping_fan_zhi_lu","group":"known_exact","title":"平凡之路","artist":"朴树","language":"zh"}
+{"pair_id":"real_hong_dou","group":"known_exact","title":"红豆","artist":"王菲","language":"zh"}
+{"pair_id":"real_pao_mo","group":"known_exact","title":"泡沫","artist":"邓紫棋","accepted_artists":["鄧紫棋","G.E.M.","G.E.M. 鄧紫棋"],"language":"zh"}
+{"pair_id":"mismatch_blinding_lights_billie","group":"artist_mismatch","title":"Blinding Lights","artist":"Billie Eilish","language":"en"}
+{"pair_id":"mismatch_bad_guy_weeknd","group":"artist_mismatch","title":"bad guy","artist":"The Weeknd","language":"en"}
+{"pair_id":"mismatch_shape_of_you_queen","group":"artist_mismatch","title":"Shape of You","artist":"Queen","language":"en"}
+{"pair_id":"mismatch_bohemian_ed","group":"artist_mismatch","title":"Bohemian Rhapsody","artist":"Ed Sheeran","language":"en"}
+{"pair_id":"mismatch_rolling_dua","group":"artist_mismatch","title":"Rolling in the Deep","artist":"Dua Lipa","language":"en"}
+{"pair_id":"mismatch_billie_jean_imagine_dragons","group":"artist_mismatch","title":"Billie Jean","artist":"Imagine Dragons","language":"en"}
+{"pair_id":"mismatch_dao_xiang_jj","group":"artist_mismatch","title":"稻香","artist":"林俊杰","language":"zh"}
+{"pair_id":"mismatch_qing_hua_ci_eason","group":"artist_mismatch","title":"青花瓷","artist":"陈奕迅","language":"zh"}
+{"pair_id":"mismatch_qi_li_xiang_faye","group":"artist_mismatch","title":"七里香","artist":"王菲","language":"zh"}
+{"pair_id":"mismatch_guang_nian_jay","group":"artist_mismatch","title":"光年之外","artist":"周杰伦","language":"zh"}
+{"pair_id":"synthetic_neon_rain_avenue","group":"synthetic_pair","title":"Neon Rain Avenue","artist":"Neon Avenue Collective","language":"en"}
+{"pair_id":"synthetic_soft_circuit_dream","group":"synthetic_pair","title":"Soft Circuit Dream","artist":"Soft Circuit Ensemble","language":"en"}
+{"pair_id":"synthetic_velvet_taxi","group":"synthetic_pair","title":"Velvet Taxi at 3AM","artist":"Velvet Taxi","language":"en"}
+{"pair_id":"synthetic_paper_lantern","group":"synthetic_pair","title":"Paper Lantern Pulse","artist":"Paper Lantern Project","language":"en"}
+{"pair_id":"synthetic_white_noise_harbor","group":"synthetic_pair","title":"White Noise Harbor","artist":"Harbor Tones","language":"en"}
+{"pair_id":"synthetic_moonlit_circuit","group":"synthetic_pair","title":"Moonlit Circuit Waltz","artist":"Moonlit Circuit","language":"en"}
+{"pair_id":"synthetic_glass_elevator","group":"synthetic_pair","title":"Glass Elevator at Midnight","artist":"Static Lobby","language":"en"}
+{"pair_id":"synthetic_rain_code_memory","group":"synthetic_pair","title":"Rain Code Memory","artist":"Afterimage Unit","language":"en"}
+{"pair_id":"synthetic_low_signal_sunrise","group":"synthetic_pair","title":"Low Signal Sunrise","artist":"Pale Frequency","language":"en"}
+{"pair_id":"synthetic_velvet_neon_archive","group":"synthetic_pair","title":"Velvet Neon Archive","artist":"Night Index","language":"en"}

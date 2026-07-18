@@ -1,0 +1,323 @@
+{
+  "run_id": "20260710T082114Z_smoke",
+  "mode": "smoke",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "sae_repo": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+  "sae_layer": 24,
+  "relation_count": 15,
+  "language_counts": {
+    "en": 10,
+    "zh": 5
+  },
+  "letter_token_ids": {
+    "A": 32,
+    "B": 33
+  },
+  "direct_pmi_accuracy": 0.8666666666666667,
+  "choice_pmi_accuracy": 0.8666666666666667,
+  "artist_end_sae_cv": {
+    "accuracy": 0,
+    "margins": [
+      -9.759445190429688,
+      -5.899186134338379,
+      -4.80358362197876,
+      -4.295109748840332,
+      -3.7412588596343994,
+      -8.43712043762207,
+      -8.468192100524902,
+      -5.782992362976074,
+      -7.188251495361328,
+      -6.383228778839111,
+      -6.269869327545166,
+      -6.617953300476074,
+      -4.651279449462891,
+      -6.018176078796387,
+      -5.640060901641846
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "test_relation_ids": [
+          "rel_billie_jean",
+          "rel_hong_dou",
+          "rel_rolling_in_the_deep"
+        ],
+        "accuracy": 0
+      },
+      {
+        "fold": 1,
+        "test_relation_ids": [
+          "rel_bohemian_rhapsody",
+          "rel_shape_of_you",
+          "rel_yan_yuan"
+        ],
+        "accuracy": 0
+      },
+      {
+        "fold": 2,
+        "test_relation_ids": [
+          "rel_guang_nian_zhi_wai",
+          "rel_levitating",
+          "rel_viva_la_vida"
+        ],
+        "accuracy": 0
+      },
+      {
+        "fold": 3,
+        "test_relation_ids": [
+          "rel_bad_guy",
+          "rel_dao_xiang",
+          "rel_smells_like_teen_spirit"
+        ],
+        "accuracy": 0
+      },
+      {
+        "fold": 4,
+        "test_relation_ids": [
+          "rel_blinding_lights",
+          "rel_radioactive",
+          "rel_shi_nian"
+        ],
+        "accuracy": 0
+      }
+    ]
+  },
+  "pair_end_sae_cv": {
+    "accuracy": 0.13333333333333333,
+    "margins": [
+      -1.5064480304718018,
+      -1.8490259647369385,
+      -0.3227328658103943,
+      -3.938504695892334,
+      2.8212316036224365,
+      -1.8354612588882446,
+      -0.5054472088813782,
+      0.04583609104156494,
+      -1.0211803913116455,
+      -1.7431859970092773,
+      -2.1491053104400635,
+      -0.424765408039093,
+      -3.3082542419433594,
+      -2.4958367347717285,
+      -2.1037731170654297
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "test_relation_ids": [
+          "rel_billie_jean",
+          "rel_hong_dou",
+          "rel_rolling_in_the_deep"
+        ],
+        "accuracy": 0
+      },
+      {
+        "fold": 1,
+        "test_relation_ids": [
+          "rel_bohemian_rhapsody",
+          "rel_shape_of_you",
+          "rel_yan_yuan"
+        ],
+        "accuracy": 0.3333333333333333
+      },
+      {
+        "fold": 2,
+        "test_relation_ids": [
+          "rel_guang_nian_zhi_wai",
+          "rel_levitating",
+          "rel_viva_la_vida"
+        ],
+        "accuracy": 0.3333333333333333
+      },
+      {
+        "fold": 3,
+        "test_relation_ids": [
+          "rel_bad_guy",
+          "rel_dao_xiang",
+          "rel_smells_like_teen_spirit"
+        ],
+        "accuracy": 0
+      },
+      {
+        "fold": 4,
+        "test_relation_ids": [
+          "rel_blinding_lights",
+          "rel_radioactive",
+          "rel_shi_nian"
+        ],
+        "accuracy": 0
+      }
+    ]
+  },
+  "selected_artist_end_features": [
+    {
+      "feature_id": 9177,
+      "effect": -0.6335563063621521
+    },
+    {
+      "feature_id": 31802,
+      "effect": -0.6089926362037659
+    },
+    {
+      "feature_id": 20017,
+      "effect": -0.596733033657074
+    },
+    {
+      "feature_id": 14271,
+      "effect": -0.49703091382980347
+    },
+    {
+      "feature_id": 23321,
+      "effect": 0.47749587893486023
+    },
+    {
+      "feature_id": 24850,
+      "effect": -0.4247826337814331
+    },
+    {
+      "feature_id": 13480,
+      "effect": 0.4106445014476776
+    },
+    {
+      "feature_id": 5550,
+      "effect": 0.4033770263195038
+    },
+    {
+      "feature_id": 11121,
+      "effect": 0.3978016972541809
+    },
+    {
+      "feature_id": 1140,
+      "effect": 0.3834495544433594
+    },
+    {
+      "feature_id": 26199,
+      "effect": -0.37977680563926697
+    },
+    {
+      "feature_id": 9053,
+      "effect": 0.3696102201938629
+    },
+    {
+      "feature_id": 9691,
+      "effect": -0.35949400067329407
+    },
+    {
+      "feature_id": 14858,
+      "effect": 0.3535260856151581
+    },
+    {
+      "feature_id": 30924,
+      "effect": -0.34819620847702026
+    },
+    {
+      "feature_id": 6336,
+      "effect": 0.34110626578330994
+    },
+    {
+      "feature_id": 31732,
+      "effect": -0.339572936296463
+    },
+    {
+      "feature_id": 3671,
+      "effect": -0.3369254469871521
+    },
+    {
+      "feature_id": 21178,
+      "effect": 0.336380273103714
+    },
+    {
+      "feature_id": 15964,
+      "effect": 0.3307662606239319
+    }
+  ],
+  "selected_pair_end_features": [
+    {
+      "feature_id": 19648,
+      "effect": -0.5724045634269714
+    },
+    {
+      "feature_id": 14148,
+      "effect": 0.49526306986808777
+    },
+    {
+      "feature_id": 1727,
+      "effect": -0.48975473642349243
+    },
+    {
+      "feature_id": 31547,
+      "effect": -0.4686553180217743
+    },
+    {
+      "feature_id": 28002,
+      "effect": -0.43076562881469727
+    },
+    {
+      "feature_id": 24875,
+      "effect": -0.4285162389278412
+    },
+    {
+      "feature_id": 12519,
+      "effect": 0.4268745481967926
+    },
+    {
+      "feature_id": 20774,
+      "effect": -0.4256388247013092
+    },
+    {
+      "feature_id": 3972,
+      "effect": -0.40366289019584656
+    },
+    {
+      "feature_id": 1118,
+      "effect": -0.39528122544288635
+    },
+    {
+      "feature_id": 14009,
+      "effect": 0.3790688216686249
+    },
+    {
+      "feature_id": 21990,
+      "effect": -0.37196412682533264
+    },
+    {
+      "feature_id": 32590,
+      "effect": -0.3615376651287079
+    },
+    {
+      "feature_id": 1391,
+      "effect": -0.35291415452957153
+    },
+    {
+      "feature_id": 227,
+      "effect": -0.34877893328666687
+    },
+    {
+      "feature_id": 7365,
+      "effect": -0.33685553073883057
+    },
+    {
+      "feature_id": 18931,
+      "effect": 0.33532416820526123
+    },
+    {
+      "feature_id": 29220,
+      "effect": -0.3344237506389618
+    },
+    {
+      "feature_id": 23518,
+      "effect": -0.3333849310874939
+    },
+    {
+      "feature_id": 27976,
+      "effect": 0.3175463378429413
+    }
+  ],
+  "technical_gate": true,
+  "behavioral_gate": true,
+  "mechanistic_gate": false,
+  "intervention_gate": false,
+  "threshold": 0.8,
+  "started_at": "2026-07-10T08:21:14.385484+00:00",
+  "finished_at": "2026-07-10T08:21:40.989370+00:00"
+}

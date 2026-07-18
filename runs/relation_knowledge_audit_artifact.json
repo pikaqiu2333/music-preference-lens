@@ -1,0 +1,3457 @@
+{
+  "summary": {
+    "record_count": 40,
+    "prompt_count": 120,
+    "group_counts": {
+      "canonical_positive": 8,
+      "phase2_conflict": 7,
+      "phase2_generated_exact": 25
+    },
+    "nonempty_generation_count": 118,
+    "nonempty_generation_fraction": 0.9833333333333333,
+    "canonical_recovered_count": 7,
+    "canonical_control_count": 8,
+    "canonical_recovery_fraction": 0.875,
+    "generated_exact_recovered_count": 14,
+    "generated_exact_control_count": 25,
+    "generated_exact_recovery_fraction": 0.56,
+    "conflict_category_counts": {
+      "unrecovered_or_indeterminate": 7
+    },
+    "reference_recoverable_record_ids": [],
+    "technical_gate": true,
+    "assay_validity_gate": true,
+    "audit_id": "granite_relation_knowledge_recoverability_audit_v1",
+    "model_id": "ibm-granite/granite-4.1-3b-base",
+    "model_revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+    "observed_num_layers": 40,
+    "bundle_sha256": "cec850d94ecacede39bed46821407d4b8492ec52dfcc7ff78c25fd7116e12636",
+    "submitted_script_sha256": null,
+    "script_execution_mode": "inline_python_c_no_file",
+    "maximum_gpu_memory_bytes": 6844850176,
+    "started_at": "2026-07-14T05:12:12.338835+00:00",
+    "finished_at": "2026-07-14T05:14:48.794523+00:00"
+  },
+  "record_rows": [
+    {
+      "record_id": "canonical_bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "accepted_target_artists": [
+        "Billie Eilish"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "canonical_billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "accepted_target_artists": [
+        "Michael Jackson"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical_blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "accepted_target_artists": [
+        "The Weeknd",
+        "Weeknd"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical_bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "accepted_target_artists": [
+        "Queen"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical_hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "accepted_target_artists": [
+        "Eagles",
+        "The Eagles"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical_rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "accepted_target_artists": [
+        "Adele"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical_smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "accepted_target_artists": [
+        "Nirvana"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical_space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "accepted_target_artists": [
+        "David Bowie"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "deep_focus_minimal__seed179__rank1",
+      "source_group": "phase2_conflict",
+      "title": "Lunar Pulse",
+      "target_artist": "Eyeman Reel",
+      "accepted_target_artists": [
+        "Eyeman Reel"
+      ],
+      "emitted_artist": "Anomaly",
+      "accepted_emitted_artists": [
+        "Anomaly"
+      ],
+      "context_id": "deep_focus_minimal",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "9679ad24d460c4309bad93e96e6a3a5bfee392b60c2977f83f730abf0636de20",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -1.9743186235427856,
+      "template_mean_logprob_margins": [
+        -2.479371428489685,
+        -0.9713022708892822,
+        -1.9743186235427856
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "experimental_electronic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "The Music of Life",
+      "target_artist": "Ace",
+      "accepted_target_artists": [
+        "Ace"
+      ],
+      "emitted_artist": "John Cage",
+      "accepted_emitted_artists": [
+        "John Cage"
+      ],
+      "context_id": "experimental_electronic",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "084bff14068377f17f81bbc873474e5dbdaf150afeea4865c1770eb2b9f691ec",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -5.445306777954102,
+      "template_mean_logprob_margins": [
+        -5.806879878044128,
+        -5.445306777954102,
+        -5.243564605712891
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "experimental_electronic__seed193__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Rhythmic Flux",
+      "target_artist": "Badawi",
+      "accepted_target_artists": [
+        "Badawi"
+      ],
+      "emitted_artist": "The Astronaut",
+      "accepted_emitted_artists": [
+        "The Astronaut"
+      ],
+      "context_id": "experimental_electronic",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "bc31158ed8c5db91f3781a48cb5cdca8606d5d8a6c0088b80db21c461eb89d3d",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -5.219721476236979,
+      "template_mean_logprob_margins": [
+        -4.795978864034017,
+        -5.219721476236979,
+        -5.2638559987147655
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "indie_discovery__seed163__rank2",
+      "source_group": "phase2_conflict",
+      "title": "Undercurrents of Change",
+      "target_artist": "Craig Padilla Marvin Allen",
+      "accepted_target_artists": [
+        "Craig Padilla & Marvin Allen",
+        "Craig Padilla Marvin Allen"
+      ],
+      "emitted_artist": "Reverberate",
+      "accepted_emitted_artists": [
+        "Reverberate"
+      ],
+      "context_id": "indie_discovery",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "6b11874304d6a9988740cd2078e1323e04eb88f1fab2064ef0d2c9d46544d7d8",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -2.8567399660746258,
+      "template_mean_logprob_margins": [
+        -4.2889051914215095,
+        -2.626702467600505,
+        -2.8567399660746258
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "Lullaby for a Dreamer",
+      "target_artist": "Jake Hertzog",
+      "accepted_target_artists": [
+        "Jake Hertzog"
+      ],
+      "emitted_artist": "The Lumineers",
+      "accepted_emitted_artists": [
+        "The Lumineers"
+      ],
+      "context_id": "morning_acoustic",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "d1cc7e3cb5f21f2c6a4fd5156d7bc101ac37cd316844f35f30f42e945142dd67",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -2.395852296947851,
+      "template_mean_logprob_margins": [
+        -2.2949800865608267,
+        -2.395852296947851,
+        -3.0232960026405635
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Retro Disco",
+      "target_artist": "Dj Moy",
+      "accepted_target_artists": [
+        "Dj Moy"
+      ],
+      "emitted_artist": "DJ Retro",
+      "accepted_emitted_artists": [
+        "DJ Retro"
+      ],
+      "context_id": "peak_time_rave",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "1462ab7c98cfb9a5f43cd36d099ffd07d4f2fa96b3a149f31a471568e9ae1fe1",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -3.2357993125915527,
+      "template_mean_logprob_margins": [
+        -5.868179082870483,
+        -2.8469552993774414,
+        -3.2357993125915527
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank5",
+      "source_group": "phase2_conflict",
+      "title": "Hard Energy",
+      "target_artist": "N-Vitral",
+      "accepted_target_artists": [
+        "N-Vitral"
+      ],
+      "emitted_artist": "DJ Intense",
+      "accepted_emitted_artists": [
+        "DJ Intense"
+      ],
+      "context_id": "peak_time_rave",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "6acefd58b8cd52753e30d8f585d31ca0d7bc9a3a0cb82b555638660e33611a98",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -1.828715642293294,
+      "template_mean_logprob_margins": [
+        -1.828715642293294,
+        -2.0552791357040405,
+        -1.3560300270716352
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "breakup_recovery__seed163__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Stay With Me",
+      "target_artist": "Sam Smith",
+      "accepted_target_artists": [
+        "Sam Smith"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "breakup_recovery",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "696600c5dd628a5250719585d184957d5403a681e32771924e10d524fcac780e",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "breakup_recovery__seed179__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "accepted_target_artists": [
+        "Johnny Cash"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "breakup_recovery",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "437312af6b22d058279f10693544d43f57f2f167309e6dd2ec25cb296558d69a",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Someone Like You",
+      "target_artist": "Adele",
+      "accepted_target_artists": [
+        "Adele"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "breakup_recovery",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "0cf6392cf2d01fb5afe910118c650374ac46b4808eaedea234d8461c1c8381e6",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Survive",
+      "target_artist": "Gloria Gaynor",
+      "accepted_target_artists": [
+        "Gloria Gaynor"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "breakup_recovery",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "0a23bbf7597f28692e75f545bb95b9dee3eb7afb0f90e3cc601b59d48e581a45",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "celebratory_dance__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Let's Dance\",",
+      "target_artist": "David Bowie,",
+      "accepted_target_artists": [
+        "David Bowie,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "celebratory_dance",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "4381dd36fd12c2d47a2213c97674ebe9bd775528d56e0dc7b116fc612f407b4b",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "A Love Supreme\",",
+      "target_artist": "John Coltrane,",
+      "accepted_target_artists": [
+        "John Coltrane,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "dinner_jazz",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "9cadb7a7a1e8ec0fe7ccf18c5a1330726fcd35a7b5382bf6f021694db7eb333f",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "The Girl from Ipanema\",",
+      "target_artist": "Stan Getz,",
+      "accepted_target_artists": [
+        "Stan Getz,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "dinner_jazz",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "8a2d43b6ed491f6296ab5bb1c7b11f607f00e47a3cbab76e2eefe61530094636",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Misty\",",
+      "target_artist": "Erroll Garner,",
+      "accepted_target_artists": [
+        "Erroll Garner,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "dinner_jazz",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "5b291a2b9e567a6193e298d4d02224a50131faa217ec2d3cbef5c3aabc286179",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "dinner_jazz__seed149__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "The Way You Look Tonight",
+      "target_artist": "Frank Sinatra",
+      "accepted_target_artists": [
+        "Frank Sinatra"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "dinner_jazz",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "497bdb6690c2883cafa6a64aef5675c4d920cd2436ea5d22ce6de242f0690ec3",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Falling\",",
+      "target_artist": "Florence + The Machine,",
+      "accepted_target_artists": [
+        "Florence + The Machine,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "emotional_vocal",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "dc4fd7a0fec3e11fc167b5a1eef3d55d51208a2d101454630d7ca4240ede59e0",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Viva La Vida\",",
+      "target_artist": "Coldplay,",
+      "accepted_target_artists": [
+        "Coldplay,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "emotional_vocal",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "33ed9cd472036d20ee5d88fd5cdceeebaa09d3445d01397126850d9604f3d55f",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Here Comes the Sun",
+      "target_artist": "The Beatles",
+      "accepted_target_artists": [
+        "The Beatles"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "morning_acoustic",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "d78b62acdb3e29e76e1428126188b30ff98d21b44f9b8effa21442f1efc91f66",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Follow You Into the Dark",
+      "target_artist": "Death Cab for Cutie",
+      "accepted_target_artists": [
+        "Death Cab for Cutie"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "morning_acoustic",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "075b224ccec639551dd5e077ff6363e8b1a38fbfbfdde144616568d9f4fe9e44",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "A Thousand Miles",
+      "target_artist": "Vanessa Carlton",
+      "accepted_target_artists": [
+        "Vanessa Carlton"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "morning_acoustic",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "090079ee818e082b6f5f1650bb95803096d1752233fc2bd8774ae78c3f014577",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Don't Stop Believin",
+      "target_artist": "Journey",
+      "accepted_target_artists": [
+        "Journey"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "morning_acoustic",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "d336bfe737bbc688ecb030a9c421efc801415e29e5130c0c60753161c54de143",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "You Raise Me Up",
+      "target_artist": "Josh Groban",
+      "accepted_target_artists": [
+        "Josh Groban"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "morning_acoustic",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "8faec12c34c77bf4b9ede42c128daa5381b367de4406718ad3ccc67622a68685",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Wait",
+      "target_artist": "Mumford & Sons",
+      "accepted_target_artists": [
+        "Mumford & Sons"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "morning_acoustic",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "d107e065cfc614d421ae752f634fd447a940d4f546d5c57f47db48ada24fa457",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Can't Stop The Feeling!",
+      "target_artist": "Justin Timberlake",
+      "accepted_target_artists": [
+        "Justin Timberlake"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "peak_time_rave",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "51aeb0ef26abedb5ffd40107dde330d8b606f5ef4102c54ccdd63185fa367ff7",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Turn Down For What",
+      "target_artist": "DJ Snake & Lil Jon",
+      "accepted_target_artists": [
+        "DJ Snake & Lil Jon"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "peak_time_rave",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "ebdfc23a7117b6081414b7eb3e441ee1cc93e6836f4ff60ba743d15087a9a0c0",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "quiet_night_drive__seed149__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "Weightless,",
+      "target_artist": "Marconi Union,",
+      "accepted_target_artists": [
+        "Marconi Union,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "quiet_night_drive",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "f795143b5069b911b5890637d79cdbc3e6216a929231fdc0f952a1ee9c8b69a8",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "strength_training__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Gangsta's Paradise\",",
+      "target_artist": "Coolio,",
+      "accepted_target_artists": [
+        "Coolio,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "strength_training",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "e7892cd2fffb3120062b933f93e8e2a52ee7047b3c42e0e511048ad5b9ffbcb1",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "strength_training__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight Song\",",
+      "target_artist": "Rachel Platten,",
+      "accepted_target_artists": [
+        "Rachel Platten,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "strength_training",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "b8c3af12e1c5dd810170184d3cf5215dc211c6d197e77eb9e599fc9ec3f628a7",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "strength_training__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight the Power\",",
+      "target_artist": "Public Enemy,",
+      "accepted_target_artists": [
+        "Public Enemy,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "strength_training",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "17c231debd9db6373e6389edbdf9ba33aea7263fcfbfb24de8bb519cf3445f3f",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I See Fire\",",
+      "target_artist": "Ed Sheeran,",
+      "accepted_target_artists": [
+        "Ed Sheeran,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "summer_road_trip",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "8a6b5ab83a9a0f9af534bfdee65c4270a4f77f3d24ef2972861187579cc5774a",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Believer\",",
+      "target_artist": "Imagine Dragons,",
+      "accepted_target_artists": [
+        "Imagine Dragons,"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "summer_road_trip",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "58c2fa76ba7c70b2d3e66af2239e061e56deb8c9687453d1789653d99cc1a1d7",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    }
+  ],
+  "prompt_rows": [
+    {
+      "record_id": "canonical_bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Billie Eilish\nAlbum:  When We All Fall Asleep,",
+      "parsed_artist": "Billie Eilish",
+      "normalized_parsed_artist": "billieeilish",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -0.882044107071124,
+        "mean_logprob": -0.17640882141422481
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "21 Savage\nAlbum: Savage Mode\nYear: 2018\nGenre:",
+      "parsed_artist": "21 Savage",
+      "normalized_parsed_artist": "21savage",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -0.5384360309690237,
+        "mean_logprob": -0.10768720619380474
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "21 Savage",
+      "parsed_artist": "21 Savage",
+      "normalized_parsed_artist": "21savage",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -0.2982335153501481,
+        "mean_logprob": -0.059646703070029616
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Michael Jackson\nAlbum:  Thriller\nYear:  1982\n",
+      "parsed_artist": "Michael Jackson",
+      "normalized_parsed_artist": "michaeljackson",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.2685348615050316,
+        "mean_logprob": -0.1342674307525158
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Michael Jackson\nAnswer: Michael Jackson",
+      "parsed_artist": "Michael Jackson",
+      "normalized_parsed_artist": "michaeljackson",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.11746378149837255,
+        "mean_logprob": -0.05873189074918628
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Michael Jackson",
+      "parsed_artist": "Michael Jackson",
+      "normalized_parsed_artist": "michaeljackson",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.03886891342699528,
+        "mean_logprob": -0.01943445671349764
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Weeknd\nAlbum: Starboy\nYear: 2016\nLabel",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.33023807604331523,
+        "mean_logprob": -0.11007935868110508
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Weeknd\nAnswer: The Weeknd",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.13281550561077893,
+        "mean_logprob": -0.04427183520359298
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Weeknd",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.047866425826214254,
+        "mean_logprob": -0.01595547527540475
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Queen\nAlbum:  Greatest Hits\nYear:  1975\nGenre",
+      "parsed_artist": "Queen",
+      "normalized_parsed_artist": "queen",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.4670791029930115,
+        "mean_logprob": -0.4670791029930115
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Queen\nAnswer: Queen",
+      "parsed_artist": "Queen",
+      "normalized_parsed_artist": "queen",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.36131325364112854,
+        "mean_logprob": -0.36131325364112854
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Queen",
+      "parsed_artist": "Queen",
+      "normalized_parsed_artist": "queen",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.24800372123718262,
+        "mean_logprob": -0.24800372123718262
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Eagles\nAlbum:  Hotel California\nYear:  1977\nTrack",
+      "parsed_artist": "Eagles",
+      "normalized_parsed_artist": "eagles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.25066760182380676,
+        "mean_logprob": -0.25066760182380676
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Eagles\nAlbum: Hotel California\nTrack: The Long Run\nRecorded",
+      "parsed_artist": "The Eagles",
+      "normalized_parsed_artist": "theeagles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.5774731636047363,
+        "mean_logprob": -0.5774731636047363
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Eagles",
+      "parsed_artist": "Eagles",
+      "normalized_parsed_artist": "eagles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.2284199297428131,
+        "mean_logprob": -0.2284199297428131
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Adele\nAlbum: 21\nYear: 2011\nGenre:",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -1.0306078474968672,
+        "mean_logprob": -0.5153039237484336
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Adele\nAnswer: Adele",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.12424943153746426,
+        "mean_logprob": -0.06212471576873213
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Adele",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.05261181970126927,
+        "mean_logprob": -0.026305909850634634
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Nirvana\nAlbum: Nevermind\nYear: 1991\nGenre:",
+      "parsed_artist": "Nirvana",
+      "normalized_parsed_artist": "nirvana",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.48895344883203506,
+        "mean_logprob": -0.24447672441601753
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Nirvana\nAnswer: Nirvana",
+      "parsed_artist": "Nirvana",
+      "normalized_parsed_artist": "nirvana",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.13125678058713675,
+        "mean_logprob": -0.06562839029356837
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Nirvana",
+      "parsed_artist": "Nirvana",
+      "normalized_parsed_artist": "nirvana",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.05179459857754409,
+        "mean_logprob": -0.025897299288772047
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " David Bowie\nAlbum:  The Rise and Fall of Ziggy Stardust and",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.11868544947355986,
+        "mean_logprob": -0.05934272473677993
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " David Bowie\nAnswer: David Bowie",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.07317581307142973,
+        "mean_logprob": -0.036587906535714865
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical_space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " David Bowie",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.033587606623768806,
+        "mean_logprob": -0.016793803311884403
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_focus_minimal__seed179__rank1",
+      "source_group": "phase2_conflict",
+      "title": "Lunar Pulse",
+      "target_artist": "Eyeman Reel",
+      "emitted_artist": "Anomaly",
+      "template_id": "catalog_entry",
+      "raw_generation": "3OH!3\nAlbum: Only See You\nYear: 2018",
+      "parsed_artist": "3OH!3",
+      "normalized_parsed_artist": "3oh3",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -32.09771490097046,
+        "mean_logprob": -8.024428725242615
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -11.09011459350586,
+        "mean_logprob": -5.54505729675293
+      },
+      "target_minus_emitted_mean_logprob": -2.479371428489685,
+      "target_minus_emitted_sum_logprob": -21.0076003074646
+    },
+    {
+      "record_id": "deep_focus_minimal__seed179__rank1",
+      "source_group": "phase2_conflict",
+      "title": "Lunar Pulse",
+      "target_artist": "Eyeman Reel",
+      "emitted_artist": "Anomaly",
+      "template_id": "track_relation",
+      "raw_generation": "2Pac\nAlbum: All Eyez On Me\nYear: 199",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -28.705060958862305,
+        "mean_logprob": -7.176265239715576
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -12.409925937652588,
+        "mean_logprob": -6.204962968826294
+      },
+      "target_minus_emitted_mean_logprob": -0.9713022708892822,
+      "target_minus_emitted_sum_logprob": -16.295135021209717
+    },
+    {
+      "record_id": "deep_focus_minimal__seed179__rank1",
+      "source_group": "phase2_conflict",
+      "title": "Lunar Pulse",
+      "target_artist": "Eyeman Reel",
+      "emitted_artist": "Anomaly",
+      "template_id": "direct_question",
+      "raw_generation": "3OH!3",
+      "parsed_artist": "3OH!3",
+      "normalized_parsed_artist": "3oh3",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -31.445051670074463,
+        "mean_logprob": -7.861262917518616
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -11.77388858795166,
+        "mean_logprob": -5.88694429397583
+      },
+      "target_minus_emitted_mean_logprob": -1.9743186235427856,
+      "target_minus_emitted_sum_logprob": -19.671163082122803
+    },
+    {
+      "record_id": "experimental_electronic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "The Music of Life",
+      "target_artist": "Ace",
+      "emitted_artist": "John Cage",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum:  The Beatles (1968)\nYear:  ",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -9.675799369812012,
+        "mean_logprob": -9.675799369812012
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -7.737838983535767,
+        "mean_logprob": -3.8689194917678833
+      },
+      "target_minus_emitted_mean_logprob": -5.806879878044128,
+      "target_minus_emitted_sum_logprob": -1.9379603862762451
+    },
+    {
+      "record_id": "experimental_electronic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "The Music of Life",
+      "target_artist": "Ace",
+      "emitted_artist": "John Cage",
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAlbum: The Beatles (White Album)\nTrack: The Long and",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -10.036641120910645,
+        "mean_logprob": -10.036641120910645
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -9.182668685913086,
+        "mean_logprob": -4.591334342956543
+      },
+      "target_minus_emitted_mean_logprob": -5.445306777954102,
+      "target_minus_emitted_sum_logprob": -0.8539724349975586
+    },
+    {
+      "record_id": "experimental_electronic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "The Music of Life",
+      "target_artist": "Ace",
+      "emitted_artist": "John Cage",
+      "template_id": "direct_question",
+      "raw_generation": " The Beatles",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -9.758650779724121,
+        "mean_logprob": -9.758650779724121
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -9.030172348022461,
+        "mean_logprob": -4.5150861740112305
+      },
+      "target_minus_emitted_mean_logprob": -5.243564605712891,
+      "target_minus_emitted_sum_logprob": -0.7284784317016602
+    },
+    {
+      "record_id": "experimental_electronic__seed193__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Rhythmic Flux",
+      "target_artist": "Badawi",
+      "emitted_artist": "The Astronaut",
+      "template_id": "catalog_entry",
+      "raw_generation": "1. The Rhythmic Flux\n2. The Rhythmic Flux\n",
+      "parsed_artist": "1. The Rhythmic Flux",
+      "normalized_parsed_artist": "1therhythmicflux",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -17.60447597503662,
+        "mean_logprob": -8.80223798751831
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -12.01877737045288,
+        "mean_logprob": -4.006259123484294
+      },
+      "target_minus_emitted_mean_logprob": -4.795978864034017,
+      "target_minus_emitted_sum_logprob": -5.58569860458374
+    },
+    {
+      "record_id": "experimental_electronic__seed193__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Rhythmic Flux",
+      "target_artist": "Badawi",
+      "emitted_artist": "The Astronaut",
+      "template_id": "track_relation",
+      "raw_generation": "2 Unlimited\nAnswer: 2 Unlimited",
+      "parsed_artist": "2 Unlimited",
+      "normalized_parsed_artist": "2unlimited",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -17.634870052337646,
+        "mean_logprob": -8.817435026168823
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -10.793140649795532,
+        "mean_logprob": -3.5977135499318442
+      },
+      "target_minus_emitted_mean_logprob": -5.219721476236979,
+      "target_minus_emitted_sum_logprob": -6.841729402542114
+    },
+    {
+      "record_id": "experimental_electronic__seed193__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Rhythmic Flux",
+      "target_artist": "Badawi",
+      "emitted_artist": "The Astronaut",
+      "template_id": "direct_question",
+      "raw_generation": "2 Chainz",
+      "parsed_artist": "2 Chainz",
+      "normalized_parsed_artist": "2chainz",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -16.748308658599854,
+        "mean_logprob": -8.374154329299927
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -9.330894991755486,
+        "mean_logprob": -3.1102983305851617
+      },
+      "target_minus_emitted_mean_logprob": -5.2638559987147655,
+      "target_minus_emitted_sum_logprob": -7.417413666844368
+    },
+    {
+      "record_id": "indie_discovery__seed163__rank2",
+      "source_group": "phase2_conflict",
+      "title": "Undercurrents of Change",
+      "target_artist": "Craig Padilla Marvin Allen",
+      "emitted_artist": "Reverberate",
+      "template_id": "catalog_entry",
+      "raw_generation": " _____________\nAlbum:  _____________\nYear:  __________",
+      "parsed_artist": "",
+      "normalized_parsed_artist": "",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -40.446107625961304,
+        "mean_logprob": -8.089221525192261
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -11.400949001312256,
+        "mean_logprob": -3.800316333770752
+      },
+      "target_minus_emitted_mean_logprob": -4.2889051914215095,
+      "target_minus_emitted_sum_logprob": -29.045158624649048
+    },
+    {
+      "record_id": "indie_discovery__seed163__rank2",
+      "source_group": "phase2_conflict",
+      "title": "Undercurrents of Change",
+      "target_artist": "Craig Padilla Marvin Allen",
+      "emitted_artist": "Reverberate",
+      "template_id": "track_relation",
+      "raw_generation": "2nd Chance\nAnswer: 2nd Chance",
+      "parsed_artist": "2nd Chance",
+      "normalized_parsed_artist": "2ndchance",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -38.079975843429565,
+        "mean_logprob": -7.615995168685913
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -14.967878103256226,
+        "mean_logprob": -4.989292701085408
+      },
+      "target_minus_emitted_mean_logprob": -2.626702467600505,
+      "target_minus_emitted_sum_logprob": -23.11209774017334
+    },
+    {
+      "record_id": "indie_discovery__seed163__rank2",
+      "source_group": "phase2_conflict",
+      "title": "Undercurrents of Change",
+      "target_artist": "Craig Padilla Marvin Allen",
+      "emitted_artist": "Reverberate",
+      "template_id": "direct_question",
+      "raw_generation": "",
+      "parsed_artist": "",
+      "normalized_parsed_artist": "",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -38.77482318878174,
+        "mean_logprob": -7.7549646377563475
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -14.694674015045166,
+        "mean_logprob": -4.898224671681722
+      },
+      "target_minus_emitted_mean_logprob": -2.8567399660746258,
+      "target_minus_emitted_sum_logprob": -24.080149173736572
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "Lullaby for a Dreamer",
+      "target_artist": "Jake Hertzog",
+      "emitted_artist": "The Lumineers",
+      "template_id": "catalog_entry",
+      "raw_generation": "1. The Beatles\n2. The Rolling Stones\n3. The Beach Boys",
+      "parsed_artist": "1. The Beatles",
+      "normalized_parsed_artist": "1thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -18.54252851009369,
+        "mean_logprob": -4.635632127523422
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -9.362608163850382,
+        "mean_logprob": -2.3406520409625955
+      },
+      "target_minus_emitted_mean_logprob": -2.2949800865608267,
+      "target_minus_emitted_sum_logprob": -9.179920346243307
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "Lullaby for a Dreamer",
+      "target_artist": "Jake Hertzog",
+      "emitted_artist": "The Lumineers",
+      "template_id": "track_relation",
+      "raw_generation": "2Pac\nAnswer: 2Pac",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -19.08185064792633,
+        "mean_logprob": -4.770462661981583
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -9.498441460134927,
+        "mean_logprob": -2.374610365033732
+      },
+      "target_minus_emitted_mean_logprob": -2.395852296947851,
+      "target_minus_emitted_sum_logprob": -9.583409187791403
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank4",
+      "source_group": "phase2_conflict",
+      "title": "Lullaby for a Dreamer",
+      "target_artist": "Jake Hertzog",
+      "emitted_artist": "The Lumineers",
+      "template_id": "direct_question",
+      "raw_generation": "",
+      "parsed_artist": "",
+      "normalized_parsed_artist": "",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -19.29264037683606,
+        "mean_logprob": -4.823160094209015
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -7.199456366273807,
+        "mean_logprob": -1.7998640915684518
+      },
+      "target_minus_emitted_mean_logprob": -3.0232960026405635,
+      "target_minus_emitted_sum_logprob": -12.093184010562254
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Retro Disco",
+      "target_artist": "Dj Moy",
+      "emitted_artist": "DJ Retro",
+      "template_id": "catalog_entry",
+      "raw_generation": "1. The Bee Gees\n2. The Jackson 5\n3.",
+      "parsed_artist": "1. The Bee Gees",
+      "normalized_parsed_artist": "1thebeegees",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -19.178372383117676,
+        "mean_logprob": -9.589186191558838
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -7.442014217376709,
+        "mean_logprob": -3.7210071086883545
+      },
+      "target_minus_emitted_mean_logprob": -5.868179082870483,
+      "target_minus_emitted_sum_logprob": -11.736358165740967
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Retro Disco",
+      "target_artist": "Dj Moy",
+      "emitted_artist": "DJ Retro",
+      "template_id": "track_relation",
+      "raw_generation": "2 Unlimited\nAnswer: 2 Unlimited",
+      "parsed_artist": "2 Unlimited",
+      "normalized_parsed_artist": "2unlimited",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -20.32154893875122,
+        "mean_logprob": -10.16077446937561
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -14.627638339996338,
+        "mean_logprob": -7.313819169998169
+      },
+      "target_minus_emitted_mean_logprob": -2.8469552993774414,
+      "target_minus_emitted_sum_logprob": -5.693910598754883
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank3",
+      "source_group": "phase2_conflict",
+      "title": "Retro Disco",
+      "target_artist": "Dj Moy",
+      "emitted_artist": "DJ Retro",
+      "template_id": "direct_question",
+      "raw_generation": "2 Unlimited",
+      "parsed_artist": "2 Unlimited",
+      "normalized_parsed_artist": "2unlimited",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -19.626277446746826,
+        "mean_logprob": -9.813138723373413
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -13.15467882156372,
+        "mean_logprob": -6.57733941078186
+      },
+      "target_minus_emitted_mean_logprob": -3.2357993125915527,
+      "target_minus_emitted_sum_logprob": -6.4715986251831055
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank5",
+      "source_group": "phase2_conflict",
+      "title": "Hard Energy",
+      "target_artist": "N-Vitral",
+      "emitted_artist": "DJ Intense",
+      "template_id": "catalog_entry",
+      "raw_generation": "2 Chainz\nAlbum: Based on a True Story\nYear: 201",
+      "parsed_artist": "2 Chainz",
+      "normalized_parsed_artist": "2chainz",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -30.751463890075684,
+        "mean_logprob": -7.687865972518921
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -17.57745099067688,
+        "mean_logprob": -5.859150330225627
+      },
+      "target_minus_emitted_mean_logprob": -1.828715642293294,
+      "target_minus_emitted_sum_logprob": -13.174012899398804
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank5",
+      "source_group": "phase2_conflict",
+      "title": "Hard Energy",
+      "target_artist": "N-Vitral",
+      "emitted_artist": "DJ Intense",
+      "template_id": "track_relation",
+      "raw_generation": "2 Chainz\nAlbum: Based on a True Story\nYear: 201",
+      "parsed_artist": "2 Chainz",
+      "normalized_parsed_artist": "2chainz",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -32.10596561431885,
+        "mean_logprob": -8.026491403579712
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -17.913636803627014,
+        "mean_logprob": -5.971212267875671
+      },
+      "target_minus_emitted_mean_logprob": -2.0552791357040405,
+      "target_minus_emitted_sum_logprob": -14.192328810691833
+    },
+    {
+      "record_id": "peak_time_rave__seed163__rank5",
+      "source_group": "phase2_conflict",
+      "title": "Hard Energy",
+      "target_artist": "N-Vitral",
+      "emitted_artist": "DJ Intense",
+      "template_id": "direct_question",
+      "raw_generation": "2 Chainz",
+      "parsed_artist": "2 Chainz",
+      "normalized_parsed_artist": "2chainz",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -30.460421562194824,
+        "mean_logprob": -7.615105390548706
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -18.777226090431213,
+        "mean_logprob": -6.259075363477071
+      },
+      "target_minus_emitted_mean_logprob": -1.3560300270716352,
+      "target_minus_emitted_sum_logprob": -11.68319547176361
+    },
+    {
+      "record_id": "breakup_recovery__seed163__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Stay With Me",
+      "target_artist": "Sam Smith",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Sam Smith\nAlbum: In the Lonely Hour\nYear: 2014\n",
+      "parsed_artist": "Sam Smith",
+      "normalized_parsed_artist": "samsmith",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.6537727741524577,
+        "mean_logprob": -0.32688638707622886
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed163__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Stay With Me",
+      "target_artist": "Sam Smith",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Sam Smith\nAlbum:  In the Lonely Hour\nRelease date:  ",
+      "parsed_artist": "Sam Smith",
+      "normalized_parsed_artist": "samsmith",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.5049029123038054,
+        "mean_logprob": -0.2524514561519027
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed163__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Stay With Me",
+      "target_artist": "Sam Smith",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "2 Chainz",
+      "parsed_artist": "2 Chainz",
+      "normalized_parsed_artist": "2chainz",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -3.8788869082927704,
+        "mean_logprob": -1.9394434541463852
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed179__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": "9 (Nine)\nAlbum: The Fragile\nYear: 1999\n",
+      "parsed_artist": "9 (Nine",
+      "normalized_parsed_artist": "9nine",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -1.8788173831999302,
+        "mean_logprob": -0.9394086915999651
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed179__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "3 Doors Down\nAnswer: 3 Doors Down",
+      "parsed_artist": "3 Doors Down",
+      "normalized_parsed_artist": "3doorsdown",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -2.7477006018161774,
+        "mean_logprob": -1.3738503009080887
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed179__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "30 Seconds to Mars",
+      "parsed_artist": "30 Seconds to Mars",
+      "normalized_parsed_artist": "30secondstomars",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -1.1296122521162033,
+        "mean_logprob": -0.5648061260581017
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Someone Like You",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Adele\nAlbum: 21\nYear: 2011\nGenre:",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.4951058265287429,
+        "mean_logprob": -0.24755291326437145
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Someone Like You",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Adele\nTrack: I'm Yours\nRecorded by: Jason Mraz",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.3193375819828361,
+        "mean_logprob": -0.15966879099141806
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Someone Like You",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Adele",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.07326624292181805,
+        "mean_logprob": -0.036633121460909024
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Survive",
+      "target_artist": "Gloria Gaynor",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Gloria Gaynor\nAlbum:  I Will Survive\nYear:  ",
+      "parsed_artist": "Gloria Gaynor",
+      "normalized_parsed_artist": "gloriagaynor",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.28188351541757584,
+        "mean_logprob": -0.09396117180585861
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Survive",
+      "target_artist": "Gloria Gaynor",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Gloria Gaynor\nAnswer: Gloria Gaynor",
+      "parsed_artist": "Gloria Gaynor",
+      "normalized_parsed_artist": "gloriagaynor",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.13496181089431047,
+        "mean_logprob": -0.04498727029810349
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "breakup_recovery__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Survive",
+      "target_artist": "Gloria Gaynor",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Gloria Gaynor",
+      "parsed_artist": "Gloria Gaynor",
+      "normalized_parsed_artist": "gloriagaynor",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.08836106432136148,
+        "mean_logprob": -0.029453688107120495
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "celebratory_dance__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Let's Dance\",",
+      "target_artist": "David Bowie,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"David Bowie\",\nYear: 1983,\nGenre:  \"Pop\",\n",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -6.172578820958734,
+        "mean_logprob": -2.057526273652911
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "celebratory_dance__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Let's Dance\",",
+      "target_artist": "David Bowie,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "1982\nArtist: David Bowie\nTitle: Let's Dance\nAlbum:",
+      "parsed_artist": "1982",
+      "normalized_parsed_artist": "1982",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -3.379719026386738,
+        "mean_logprob": -1.1265730087955792
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "celebratory_dance__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Let's Dance\",",
+      "target_artist": "David Bowie,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "2 Unlimited",
+      "parsed_artist": "2 Unlimited",
+      "normalized_parsed_artist": "2unlimited",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -8.014511696994305,
+        "mean_logprob": -2.6715038989981017
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "A Love Supreme\",",
+      "target_artist": "John Coltrane,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"John Coltrane\",\nYear:  \"1965\",\nLabel: ",
+      "parsed_artist": "John Coltrane",
+      "normalized_parsed_artist": "johncoltrane",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -5.479821130633354,
+        "mean_logprob": -1.0959642261266709
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "A Love Supreme\",",
+      "target_artist": "John Coltrane,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " John Coltrane\",\nYear:  1965\",\nLabel:  Imp",
+      "parsed_artist": "John Coltrane",
+      "normalized_parsed_artist": "johncoltrane",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -3.317728945519775,
+        "mean_logprob": -0.663545789103955
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "A Love Supreme\",",
+      "target_artist": "John Coltrane,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " John Coltrane",
+      "parsed_artist": "John Coltrane",
+      "normalized_parsed_artist": "johncoltrane",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -5.688774711336009,
+        "mean_logprob": -1.1377549422672018
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "The Girl from Ipanema\",",
+      "target_artist": "Stan Getz,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Antonio Carlos Jobim\",\nYear:  \"1964\",\nGenre:",
+      "parsed_artist": "Antonio Carlos Jobim",
+      "normalized_parsed_artist": "antoniocarlosjobim",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -6.204840412596241,
+        "mean_logprob": -1.5512101031490602
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "The Girl from Ipanema\",",
+      "target_artist": "Stan Getz,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Astrud Gilberto and Stan Getz\",\nArtist:  Stan Getz\",\n",
+      "parsed_artist": "Astrud Gilberto and Stan Getz",
+      "normalized_parsed_artist": "astrudgilbertoandstangetz",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -3.5299264946370386,
+        "mean_logprob": -0.8824816236592596
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "The Girl from Ipanema\",",
+      "target_artist": "Stan Getz,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Astrud Gilberto",
+      "parsed_artist": "Astrud Gilberto",
+      "normalized_parsed_artist": "astrudgilberto",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -4.590640486188931,
+        "mean_logprob": -1.1476601215472328
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Misty\",",
+      "target_artist": "Erroll Garner,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Misty\",\nYear:  \"1971\",\nLabel:  \"C",
+      "parsed_artist": "Misty",
+      "normalized_parsed_artist": "misty",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -11.915235713124275,
+        "mean_logprob": -2.978808928281069
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Misty\",",
+      "target_artist": "Erroll Garner,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " \"Misty\", \"Misty\", \"Misty\", \"Misty\",",
+      "parsed_artist": "Misty\", \"Misty\", \"Misty\", \"Misty",
+      "normalized_parsed_artist": "mistymistymistymisty",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -9.100514765828848,
+        "mean_logprob": -2.275128691457212
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Misty\",",
+      "target_artist": "Erroll Garner,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " \"Misty\"",
+      "parsed_artist": "Misty",
+      "normalized_parsed_artist": "misty",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -12.33039469923824,
+        "mean_logprob": -3.08259867480956
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed149__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "The Way You Look Tonight",
+      "target_artist": "Frank Sinatra",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": "2Pac\nAlbum: Greatest Hits\nYear: 1996\nGenre",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.4220402557402849,
+        "mean_logprob": -0.21102012787014246
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed149__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "The Way You Look Tonight",
+      "target_artist": "Frank Sinatra",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Frank Sinatra\nAnswer: Frank Sinatra",
+      "parsed_artist": "Frank Sinatra",
+      "normalized_parsed_artist": "franksinatra",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.5194380953907967,
+        "mean_logprob": -0.25971904769539833
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "dinner_jazz__seed149__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "The Way You Look Tonight",
+      "target_artist": "Frank Sinatra",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Frank Sinatra",
+      "parsed_artist": "Frank Sinatra",
+      "normalized_parsed_artist": "franksinatra",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.5366212506778538,
+        "mean_logprob": -0.2683106253389269
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Falling\",",
+      "target_artist": "Florence + The Machine,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"The Beatles\",\nYear:  1968,\nGenre:  \"Rock",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -15.810488253831863,
+        "mean_logprob": -3.1620976507663725
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Falling\",",
+      "target_artist": "Florence + The Machine,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "2Pac\",\nArtist: 2Pac\",\nAlbum: All Eyez",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -12.71707778563723,
+        "mean_logprob": -2.543415557127446
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Falling\",",
+      "target_artist": "Florence + The Machine,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "2Pac",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -13.390265228692442,
+        "mean_logprob": -2.6780530457384883
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Viva La Vida\",",
+      "target_artist": "Coldplay,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Coldplay\",\nYear:  \"2008\",\nGenre:  \"Rock",
+      "parsed_artist": "Coldplay",
+      "normalized_parsed_artist": "coldplay",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -7.828000154346228,
+        "mean_logprob": -2.609333384782076
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Viva La Vida\",",
+      "target_artist": "Coldplay,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Coldplay\",\nArtist:  Coldplay\",\nAlbum:  Viva La V",
+      "parsed_artist": "Coldplay",
+      "normalized_parsed_artist": "coldplay",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -3.137282444164157,
+        "mean_logprob": -1.0457608147213857
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "emotional_vocal__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Viva La Vida\",",
+      "target_artist": "Coldplay,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Coldplay",
+      "parsed_artist": "Coldplay",
+      "normalized_parsed_artist": "coldplay",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -5.700681748334318,
+        "mean_logprob": -1.9002272494447727
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Here Comes the Sun",
+      "target_artist": "The Beatles",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum:  Abbey Road\nYear:  1969\n",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.6889384388923645,
+        "mean_logprob": -0.34446921944618225
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Here Comes the Sun",
+      "target_artist": "The Beatles",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAnswer: The Beatles",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.3902049846947193,
+        "mean_logprob": -0.19510249234735966
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank1",
+      "source_group": "phase2_generated_exact",
+      "title": "Here Comes the Sun",
+      "target_artist": "The Beatles",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Beatles",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.35907044634222984,
+        "mean_logprob": -0.17953522317111492
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Follow You Into the Dark",
+      "target_artist": "Death Cab for Cutie",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Death Cab for Cutie\nAlbum:  Plans\nYear:  200",
+      "parsed_artist": "Death Cab for Cutie",
+      "normalized_parsed_artist": "deathcabforcutie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -1.4044938159640878,
+        "mean_logprob": -0.2808987631928176
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Follow You Into the Dark",
+      "target_artist": "Death Cab for Cutie",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "30 Seconds to Mars\nAlbum: This Is War\nTrack: The Only One",
+      "parsed_artist": "30 Seconds to Mars",
+      "normalized_parsed_artist": "30secondstomars",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -1.4112205159617588,
+        "mean_logprob": -0.28224410319235177
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Follow You Into the Dark",
+      "target_artist": "Death Cab for Cutie",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "30 Seconds to Mars",
+      "parsed_artist": "30 Seconds to Mars",
+      "normalized_parsed_artist": "30secondstomars",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -1.4701056320263888,
+        "mean_logprob": -0.2940211264052778
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "A Thousand Miles",
+      "target_artist": "Vanessa Carlton",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Vanessa Carlton\nAlbum:  Riptide\nYear:  2003",
+      "parsed_artist": "Vanessa Carlton",
+      "normalized_parsed_artist": "vanessacarlton",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.11822744831442833,
+        "mean_logprob": -0.059113724157214165
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "A Thousand Miles",
+      "target_artist": "Vanessa Carlton",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Vanessa Carlton\nAlbum: A Thousand Miles\nTrack: A Thousand Miles\nRecord",
+      "parsed_artist": "Vanessa Carlton",
+      "normalized_parsed_artist": "vanessacarlton",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.14875325467437506,
+        "mean_logprob": -0.07437662733718753
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "A Thousand Miles",
+      "target_artist": "Vanessa Carlton",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Vanessa Carlton",
+      "parsed_artist": "Vanessa Carlton",
+      "normalized_parsed_artist": "vanessacarlton",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -0.6222526701167226,
+        "mean_logprob": -0.3111263350583613
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Don't Stop Believin",
+      "target_artist": "Journey",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Journey\nAlbum:  Escape\nYear:  1981\nAnswer:",
+      "parsed_artist": "Journey",
+      "normalized_parsed_artist": "journey",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -1.0220980644226074,
+        "mean_logprob": -1.0220980644226074
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Don't Stop Believin",
+      "target_artist": "Journey",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "3 Doors Down\nAlbum: The Better Life\nYear: 2000\n",
+      "parsed_artist": "3 Doors Down",
+      "normalized_parsed_artist": "3doorsdown",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.43037939071655273,
+        "mean_logprob": -0.43037939071655273
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Don't Stop Believin",
+      "target_artist": "Journey",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "3 Doors Down",
+      "parsed_artist": "3 Doors Down",
+      "normalized_parsed_artist": "3doorsdown",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -0.0561148077249527,
+        "mean_logprob": -0.0561148077249527
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "You Raise Me Up",
+      "target_artist": "Josh Groban",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Josh Groban\nAlbum:  Josh Groban\nYear:  200",
+      "parsed_artist": "Josh Groban",
+      "normalized_parsed_artist": "joshgroban",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.8836696837097406,
+        "mean_logprob": -0.2945565612365802
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "You Raise Me Up",
+      "target_artist": "Josh Groban",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Josh Groban\nAlbum: Josh Groban\nYear: 2002\n",
+      "parsed_artist": "Josh Groban",
+      "normalized_parsed_artist": "joshgroban",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.42096694838255644,
+        "mean_logprob": -0.1403223161275188
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed139__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "You Raise Me Up",
+      "target_artist": "Josh Groban",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Josh Groban",
+      "parsed_artist": "Josh Groban",
+      "normalized_parsed_artist": "joshgroban",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.9436144046485424,
+        "mean_logprob": -0.3145381348828475
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Wait",
+      "target_artist": "Mumford & Sons",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Maroon 5\nAlbum:  V\nYear:  2014",
+      "parsed_artist": "Maroon 5",
+      "normalized_parsed_artist": "maroon5",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -2.3332066982984543,
+        "mean_logprob": -0.5833016745746136
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Wait",
+      "target_artist": "Mumford & Sons",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Cure\nAnswer: The Cure",
+      "parsed_artist": "The Cure",
+      "normalized_parsed_artist": "thecure",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -3.9978445060551167,
+        "mean_logprob": -0.9994611265137792
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "morning_acoustic__seed149__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "I Will Wait",
+      "target_artist": "Mumford & Sons",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "2 Chainz",
+      "parsed_artist": "2 Chainz",
+      "normalized_parsed_artist": "2chainz",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -5.247521698474884,
+        "mean_logprob": -1.311880424618721
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Can't Stop The Feeling!",
+      "target_artist": "Justin Timberlake",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Justin Timberlake\nAlbum:  The 20/20 Experience - 2",
+      "parsed_artist": "Justin Timberlake",
+      "normalized_parsed_artist": "justintimberlake",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.17676827555987984,
+        "mean_logprob": -0.05892275851995995
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Can't Stop The Feeling!",
+      "target_artist": "Justin Timberlake",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Justin Timberlake\nAnswer: Justin Timberlake",
+      "parsed_artist": "Justin Timberlake",
+      "normalized_parsed_artist": "justintimberlake",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.1507919916184619,
+        "mean_logprob": -0.05026399720615397
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Can't Stop The Feeling!",
+      "target_artist": "Justin Timberlake",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Justin Timberlake",
+      "parsed_artist": "Justin Timberlake",
+      "normalized_parsed_artist": "justintimberlake",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -0.03959598927758634,
+        "mean_logprob": -0.013198663092528781
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Turn Down For What",
+      "target_artist": "DJ Snake & Lil Jon",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " DJ Snake & Lil Jon\nAlbum: Turn Down For What\nRelease Date:",
+      "parsed_artist": "DJ Snake & Lil Jon",
+      "normalized_parsed_artist": "djsnakeliljon",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -2.5487451553344727,
+        "mean_logprob": -0.5097490310668945
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Turn Down For What",
+      "target_artist": "DJ Snake & Lil Jon",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " DJ Snake\nAnswer: DJ Snake",
+      "parsed_artist": "DJ Snake",
+      "normalized_parsed_artist": "djsnake",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -2.723422707989812,
+        "mean_logprob": -0.5446845415979624
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "peak_time_rave__seed139__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Turn Down For What",
+      "target_artist": "DJ Snake & Lil Jon",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "21 Savage",
+      "parsed_artist": "21 Savage",
+      "normalized_parsed_artist": "21savage",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -4.035888051614165,
+        "mean_logprob": -0.8071776103228331
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "quiet_night_drive__seed149__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "Weightless,",
+      "target_artist": "Marconi Union,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Marconi Union,\nAlbum:  Weightless,\nYear:  2015",
+      "parsed_artist": "Marconi Union",
+      "normalized_parsed_artist": "marconiunion",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -3.851381255313754,
+        "mean_logprob": -0.9628453138284385
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "quiet_night_drive__seed149__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "Weightless,",
+      "target_artist": "Marconi Union,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Marconi Union,\nAlbum: Weightless,\nYear: 2015,\nLabel",
+      "parsed_artist": "Marconi Union",
+      "normalized_parsed_artist": "marconiunion",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -3.9415521968039684,
+        "mean_logprob": -0.9853880492009921
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "quiet_night_drive__seed149__rank3",
+      "source_group": "phase2_generated_exact",
+      "title": "Weightless,",
+      "target_artist": "Marconi Union,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Marconi Union",
+      "parsed_artist": "Marconi Union",
+      "normalized_parsed_artist": "marconiunion",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -5.583944083075039,
+        "mean_logprob": -1.3959860207687598
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Gangsta's Paradise\",",
+      "target_artist": "Coolio,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Ludacris\",\nAlbum:  \"Get It How U Live!\",\n",
+      "parsed_artist": "Ludacris",
+      "normalized_parsed_artist": "ludacris",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -8.674780735280365,
+        "mean_logprob": -2.891593578426788
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Gangsta's Paradise\",",
+      "target_artist": "Coolio,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "2Pac\",\nArtist: 2Pac\",\nAlbum: All Eyez",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -3.227066038409248,
+        "mean_logprob": -1.0756886794697493
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank2",
+      "source_group": "phase2_generated_exact",
+      "title": "Gangsta's Paradise\",",
+      "target_artist": "Coolio,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "2Pac",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -4.874447703710757,
+        "mean_logprob": -1.624815901236919
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight Song\",",
+      "target_artist": "Rachel Platten,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Rachel Platten\",\nYear:  \"2015\",\nLabel:  \"",
+      "parsed_artist": "Rachel Platten",
+      "normalized_parsed_artist": "rachelplatten",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -4.893205866450444,
+        "mean_logprob": -1.223301466612611
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight Song\",",
+      "target_artist": "Rachel Platten,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Rachel Platten\nArtist: Rachel Platten\nAlbum: Fight Song\nYear",
+      "parsed_artist": "Rachel Platten",
+      "normalized_parsed_artist": "rachelplatten",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -2.9701003574300557,
+        "mean_logprob": -0.7425250893575139
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight Song\",",
+      "target_artist": "Rachel Platten,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Rachel Platten",
+      "parsed_artist": "Rachel Platten",
+      "normalized_parsed_artist": "rachelplatten",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -5.626395630068146,
+        "mean_logprob": -1.4065989075170364
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight the Power\",",
+      "target_artist": "Public Enemy,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Public Enemy\",\nYear:  \"1989\",\nLabel:  \"Def",
+      "parsed_artist": "Public Enemy",
+      "normalized_parsed_artist": "publicenemy",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -10.582039137370884,
+        "mean_logprob": -3.527346379123628
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight the Power\",",
+      "target_artist": "Public Enemy,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "2Pac\",\nArtist: 2Pac\",\nAlbum: All Eyez",
+      "parsed_artist": "2Pac",
+      "normalized_parsed_artist": "2pac",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -3.8836040534079075,
+        "mean_logprob": -1.2945346844693024
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "strength_training__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Fight the Power\",",
+      "target_artist": "Public Enemy,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Public Enemy",
+      "parsed_artist": "Public Enemy",
+      "normalized_parsed_artist": "publicenemy",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -5.790930730290711,
+        "mean_logprob": -1.930310243430237
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I See Fire\",",
+      "target_artist": "Ed Sheeran,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Ed Sheeran\",\nYear:  \"2011\",\nLabel: ",
+      "parsed_artist": "Ed Sheeran",
+      "normalized_parsed_artist": "edsheeran",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -5.818607866764069,
+        "mean_logprob": -1.1637215733528137
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I See Fire\",",
+      "target_artist": "Ed Sheeran,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Ed Sheeran\nArtist: Ed Sheeran\nAlbum: x\n",
+      "parsed_artist": "Ed Sheeran",
+      "normalized_parsed_artist": "edsheeran",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -3.221060557931196,
+        "mean_logprob": -0.6442121115862391
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank4",
+      "source_group": "phase2_generated_exact",
+      "title": "I See Fire\",",
+      "target_artist": "Ed Sheeran,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Ed Sheeran",
+      "parsed_artist": "Ed Sheeran",
+      "normalized_parsed_artist": "edsheeran",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -5.425648613832891,
+        "mean_logprob": -1.0851297227665782
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Believer\",",
+      "target_artist": "Imagine Dragons,",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " \"Imagine Dragons\",\nYear:  \"2017\",\nLabel:  \"Int",
+      "parsed_artist": "Imagine Dragons",
+      "normalized_parsed_artist": "imaginedragons",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -9.605222549289465,
+        "mean_logprob": -3.201740849763155
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Believer\",",
+      "target_artist": "Imagine Dragons,",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": "3OH!3\",\nAlbum: \"The B-Sides\",\nYear: ",
+      "parsed_artist": "3OH!3",
+      "normalized_parsed_artist": "3oh3",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -4.632995344698429,
+        "mean_logprob": -1.544331781566143
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "summer_road_trip__seed193__rank5",
+      "source_group": "phase2_generated_exact",
+      "title": "Believer\",",
+      "target_artist": "Imagine Dragons,",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": "3OH!3",
+      "parsed_artist": "3OH!3",
+      "normalized_parsed_artist": "3oh3",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -7.347568303346634,
+        "mean_logprob": -2.449189434448878
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    }
+  ],
+  "claim_boundaries": [
+    "This is an exploratory audit of seven previously observed conflicts, not a confirmatory test.",
+    "Reference recovery is evidence of behavioral accessibility, not subjective awareness.",
+    "Failure to recover does not prove that the model never encoded the relation.",
+    "The catalog-supported reference is not asserted to be the only real-world artist for a title.",
+    "No hidden-state, circuit, intervention, prevalence, or self-correction claim is permitted.",
+    "This audit cannot reopen the stopped Phase 2 H1 or H2 analyses."
+  ],
+  "downstream_rule": "Only reference_recoverable conflicts may be treated as candidate known-relation errors in the next mechanistic discovery stage; all other conflicts remain catalog mismatches without a latent-knowledge claim."
+}

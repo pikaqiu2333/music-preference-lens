@@ -1,0 +1,30 @@
+{
+  "raw_generation_count": 20,
+  "parsed_generation_count": 19,
+  "parsed_pair_count": 93,
+  "generation_pair_counts": {
+    "emotional_vocal__seed101": 3,
+    "emotional_vocal__seed127": 5,
+    "emotional_vocal__seed59": 5,
+    "emotional_vocal__seed71": 5,
+    "emotional_vocal__seed83": 5,
+    "peak_time_rave__seed101": 5,
+    "peak_time_rave__seed127": 5,
+    "peak_time_rave__seed59": 5,
+    "peak_time_rave__seed71": 5,
+    "peak_time_rave__seed83": 5,
+    "quiet_night_drive__seed101": 5,
+    "quiet_night_drive__seed127": 5,
+    "quiet_night_drive__seed59": 5,
+    "quiet_night_drive__seed71": 5,
+    "quiet_night_drive__seed83": 0,
+    "strict_no_vocals__seed101": 5,
+    "strict_no_vocals__seed127": 5,
+    "strict_no_vocals__seed59": 5,
+    "strict_no_vocals__seed71": 5,
+    "strict_no_vocals__seed83": 5
+  },
+  "minimum_parsed_generation_count": 16,
+  "minimum_parsed_pair_count": 75,
+  "technical_gate": true
+}

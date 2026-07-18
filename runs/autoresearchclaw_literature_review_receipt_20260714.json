@@ -1,0 +1,83 @@
+{
+  "schema_version": "autoresearchclaw_literature_review_receipt_v1",
+  "date": "2026-07-14",
+  "tool": {
+    "name": "researchclaw",
+    "version": "0.5.0",
+    "skills_detected": 22,
+    "relevant_project_skills": [
+      "literature-search",
+      "systematic-review",
+      "scientific-writing"
+    ]
+  },
+  "run": {
+    "run_id": "rc-20260714-020432-4b4cf6",
+    "mode": "full-auto",
+    "requested_terminal_stage": "SYNTHESIS",
+    "stages_executed": 5,
+    "stages_completed": 4,
+    "last_completed_stage": "LITERATURE_COLLECT",
+    "terminal_status": "failed",
+    "failure_stage": "LITERATURE_SCREEN",
+    "failure_class": "ACP usage limit",
+    "resume_not_before_local": "2026-07-20T17:50:00+08:00",
+    "retained_output_path_from_repository": "../../.tmp/autoresearchclaw_music_llm_review_20260714"
+  },
+  "search": {
+    "year_min": 2020,
+    "queries": [
+      "Mechanistic interpretability self correction hallucinated",
+      "whether a model internally retains catalog-supported",
+      "whether hidden states can predict the error before decoding",
+      "how recommendation rationales affect entity selection",
+      "mechanistic interpretability",
+      "interpretability self-correction",
+      "self-correction hallucinated",
+      "hallucinated title-artist"
+    ],
+    "candidate_count": 442,
+    "bibtex_entry_count": 440,
+    "provider_notes": [
+      "Semantic Scholar returned HTTP 429 and opened its circuit breaker.",
+      "arXiv returned HTTP 429 during collection.",
+      "OpenAlex supplied most of the retained broad candidate pool."
+    ],
+    "seed_recall_audit": {
+      "exact_titles_tested": 13,
+      "exact_titles_found": 1,
+      "found_titles": [
+        "Large Language Models have Intrinsic Self-Correction Ability"
+      ],
+      "interpretation": "The broad candidate pool is a recall artifact, not a screened evidence base."
+    }
+  },
+  "retained_artifacts": [
+    {
+      "path": "stage-04/candidates.jsonl",
+      "bytes": 1069127,
+      "sha256": "203d314c1a58b2609dbef6c551375cc711bbe83ce63f773bb7ca4250f5423ee9"
+    },
+    {
+      "path": "stage-04/references.bib",
+      "bytes": 215521,
+      "sha256": "7b070083c0fe102f7ef94079dd02ea8d2919c971390ebb6d908cbff353c9d166"
+    },
+    {
+      "path": "stage-03/queries.json",
+      "bytes": 516,
+      "sha256": "8ca8e8d2b3ce8509fdef1d7a7195f74c864a33a58c7aa929f5bb54eb9b7f0232"
+    },
+    {
+      "path": "pipeline_summary.json",
+      "bytes": 484,
+      "sha256": "884d4d4ba41631570c185a53f3970d89d1b60c5dd3d2481f81dcc402d9d4b44b"
+    }
+  ],
+  "curation": {
+    "status": "targeted_primary_source_audit_completed",
+    "systematic_review_complete": false,
+    "reason": "Automatic screening and synthesis did not run, and exact-title seed recall was inadequate.",
+    "report": "reports/autoresearchclaw_literature_audit_2026_07.zh.md"
+  }
+}

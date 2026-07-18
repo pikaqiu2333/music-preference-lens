@@ -1,0 +1,3532 @@
+{
+  "summary": {
+    "record_count": 39,
+    "prompt_count": 117,
+    "group_counts": {
+      "canonical_positive": 8,
+      "phase3_conflict": 11,
+      "phase3_generated_exact": 20
+    },
+    "nonempty_generation_count": 117,
+    "nonempty_generation_fraction": 1.0,
+    "canonical_recovered_count": 8,
+    "canonical_control_count": 8,
+    "canonical_recovery_fraction": 1.0,
+    "phase3_exact_recovered_count": 14,
+    "phase3_exact_control_count": 20,
+    "phase3_exact_recovery_fraction": 0.7,
+    "conflict_category_counts": {
+      "margin_only": 4,
+      "unrecovered_or_indeterminate": 7
+    },
+    "recoverable_relation_conflict_record_ids": [],
+    "technical_gate": true,
+    "assay_validity_gate": true,
+    "protocol_id": "music_relation_phase3_recoverability_v1",
+    "model_id": "Qwen/Qwen3-4B-Base",
+    "model_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+    "observed_num_layers": 36,
+    "bundle_sha256": "35268b418f2eb6d9ae05dae2754b2cf5534bf4d9e51fbf15ba19dc303a529ffc",
+    "submitted_script_sha256": null,
+    "script_execution_mode": "inline_python_c_no_file",
+    "source_catalog_sha256": "da797490e335d54621ff7855af6e1f340c4fa5646a3e74c74af93e6b47ee03c0",
+    "source_catalog_row_count": 360,
+    "selected_conflict_cluster_count": 11,
+    "selected_exact_cluster_count": 20,
+    "minimum_recoverable_conflict_clusters": 8,
+    "pilot_continuation_gate": false,
+    "pilot_decision": "stop_before_expansion_and_report_yield_failure",
+    "maximum_gpu_memory_bytes": 8146182656,
+    "started_at": "2026-07-14T07:38:26.538820+00:00",
+    "finished_at": "2026-07-14T07:41:48.594805+00:00"
+  },
+  "record_rows": [
+    {
+      "record_id": "canonical__bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "accepted_target_artists": [
+        "Billie Eilish"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical__billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "accepted_target_artists": [
+        "Michael Jackson"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical__blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "accepted_target_artists": [
+        "The Weeknd",
+        "Weeknd"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical__bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "accepted_target_artists": [
+        "Queen"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical__hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "accepted_target_artists": [
+        "Eagles",
+        "The Eagles"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical__rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "accepted_target_artists": [
+        "Adele"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical__smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "accepted_target_artists": [
+        "Nirvana"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "canonical__space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "accepted_target_artists": [
+        "David Bowie",
+        "Bowie"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null,
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Dance Wiv Me",
+      "target_artist": "Dylan Barnes Robert Davy",
+      "accepted_target_artists": [
+        "Dylan Barnes & Robert Davy",
+        "Dylan Barnes Robert Davy"
+      ],
+      "emitted_artist": "Frank Ocean ft. Kendrick Lamar",
+      "accepted_emitted_artists": [
+        "Frank Ocean ft. Kendrick Lamar"
+      ],
+      "context_id": "alternative_rnb_collaboration",
+      "normalized_title": "dancewivme",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "668e2dfa1746e20e01f41a057d0a410d5b8af20a2a6551b6213276e8581afec6",
+      "selection_hash": "d7502e922302d3af94e87e9d093e493c81674a3e0333aca01707b99b3cf4c076",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -4.125302358840902,
+      "template_mean_logprob_margins": [
+        -4.125302358840902,
+        -4.289219173913201,
+        -4.0697059358159695
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed239__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Love Drought",
+      "target_artist": "Beyoncé",
+      "accepted_target_artists": [
+        "Beyoncé"
+      ],
+      "emitted_artist": "Lizzo featuring Beyoncé",
+      "accepted_emitted_artists": [
+        "Lizzo featuring Beyoncé"
+      ],
+      "context_id": "alternative_rnb_collaboration",
+      "normalized_title": "lovedrought",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "2fcacc57665683e3957b0fa9c4cf7db55ff0052ce09d0f3f00400814e95c5f22",
+      "selection_hash": "b3a1390677152334710fe5e39346a93424daad60248349009e35d0d4a6baee82",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": 0.2670662363370253,
+      "template_mean_logprob_margins": [
+        -0.1257097244262697,
+        0.2670662363370253,
+        1.2186067084471386
+      ],
+      "audit_category": "margin_only"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "The Weary Blues",
+      "target_artist": "Langston Hughes",
+      "accepted_target_artists": [
+        "Langston Hughes"
+      ],
+      "emitted_artist": "Billie Holiday",
+      "accepted_emitted_artists": [
+        "Billie Holiday"
+      ],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "thewearyblues",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "0037e75caec76fa8019a314376391110dba1fd0f6705d32616f0a4d5c35f72ea",
+      "selection_hash": "71e70546e413151a5a8f320ab52cb1da39681c983a713d3675231df303621f96",
+      "target_generation_count": 1,
+      "emitted_generation_count": 1,
+      "primary_mean_logprob_margin": -0.9470639831076064,
+      "template_mean_logprob_margins": [
+        -0.9470639831076064,
+        -1.0605937031408152,
+        0.4807386210498712
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "idm_label_catalog__seed211__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Neon Diamonds",
+      "target_artist": "Lainey Wilson",
+      "accepted_target_artists": [
+        "Lainey Wilson"
+      ],
+      "emitted_artist": "Autechre",
+      "accepted_emitted_artists": [
+        "Autechre"
+      ],
+      "context_id": "idm_label_catalog",
+      "normalized_title": "neondiamonds",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "ddf93e9891e4dd6a397693141cf816fb6da91a0186aacba639821eae91e85878",
+      "selection_hash": "2078c05bc4fc7f5f8603e6ee637f0159fb7ebeb2548dca768c22543af5273953",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": 0.41556504380423576,
+      "template_mean_logprob_margins": [
+        0.373258159175748,
+        0.7682310679010698,
+        0.41556504380423576
+      ],
+      "audit_category": "margin_only"
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Cumbia de la Luna",
+      "target_artist": "Los Gallos",
+      "accepted_target_artists": [
+        "Los Gallos"
+      ],
+      "emitted_artist": "Cumbia Latina",
+      "accepted_emitted_artists": [
+        "Cumbia Latina"
+      ],
+      "context_id": "latin_alternative_catalog",
+      "normalized_title": "cumbiadelaluna",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "e00c240525b36d5e7a1abb45c23b88bc08c11857ebc708cacfa4b22b3ff42994",
+      "selection_hash": "ed5f636ad56d12aaad168c6e54ee25e1ff97e2d271a2794ab3c29c1e7c0c0e00",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -0.901919636875391,
+      "template_mean_logprob_margins": [
+        -0.901919636875391,
+        -1.1082674277325468,
+        -0.8809626366322236
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "metal_subgenre_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "The Day of the Triffids",
+      "target_artist": "The Celebrity Pilots",
+      "accepted_target_artists": [
+        "The Celebrity Pilots"
+      ],
+      "emitted_artist": "Isis",
+      "accepted_emitted_artists": [
+        "Isis"
+      ],
+      "context_id": "metal_subgenre_catalog",
+      "normalized_title": "thedayofthetriffids",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "2bb722fb4a0488df44d219fc2cfa2a7d3d97f79cad3ce87cdbb1abad541f7434",
+      "selection_hash": "0a173eecc6b66e2894a09f1aa430d8f071a8e6c7b4ead0428ac79fc3c895132f",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -1.215049386024475,
+      "template_mean_logprob_margins": [
+        -0.8652713000774384,
+        -1.215049386024475,
+        -2.7332865595817566
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "modern_jazz_ensemble__seed223__rank3",
+      "source_group": "phase3_conflict",
+      "title": "Astral Meditations",
+      "target_artist": "Kris \"Halo\" Pierce",
+      "accepted_target_artists": [
+        "Kris \"Halo\" Pierce"
+      ],
+      "emitted_artist": "Robert Glasper Trio",
+      "accepted_emitted_artists": [
+        "Robert Glasper Trio"
+      ],
+      "context_id": "modern_jazz_ensemble",
+      "normalized_title": "astralmeditations",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "d9b869f42cce8d8f9ee4d3aae7792d89422c5b951c9489244702e5e2dcfab80f",
+      "selection_hash": "0ea832fbc69997824fbaf44a6a33fa1f33fca943f52097c5b0dea5dd66e3edf3",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -0.6236064295683592,
+      "template_mean_logprob_margins": [
+        -0.6236064295683592,
+        -0.3631781169346402,
+        -1.4840567119286527
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Wanna Be Your Girlfriend",
+      "target_artist": "Chaplin",
+      "accepted_target_artists": [
+        "Chaplin"
+      ],
+      "emitted_artist": "Yumi Matsutoya",
+      "accepted_emitted_artists": [
+        "Yumi Matsutoya"
+      ],
+      "context_id": "regional_city_pop",
+      "normalized_title": "wannabeyourgirlfriend",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "cd8eb36329462495e97f3fda5fea3f4451d56bd543858906c569249bf3e01ad9",
+      "selection_hash": "022963084e6f4a30ea5ea28d74c4707aec478902639d3f2a7c8c9ae422f4abb2",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -2.631889756365369,
+      "template_mean_logprob_margins": [
+        -2.6308507126135128,
+        -2.631889756365369,
+        -2.716875403902183
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "regional_city_pop__seed227__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Suki Suki Suki",
+      "target_artist": "Sadistic Mika Band",
+      "accepted_target_artists": [
+        "Sadistic Mika Band"
+      ],
+      "emitted_artist": "Nana Mizuki",
+      "accepted_emitted_artists": [
+        "Nana Mizuki"
+      ],
+      "context_id": "regional_city_pop",
+      "normalized_title": "sukisukisuki",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "0bed4a297b39ce621e385e8475d8b34869dcd29ac112aa0dd4cfd646dd2791e0",
+      "selection_hash": "7742cc7a8aeba8f9eec19d895cc9483b37a29e581f0f8b22c1d847d6cd0d7a3a",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": -1.78328753169626,
+      "template_mean_logprob_margins": [
+        -1.567446369398385,
+        -1.78328753169626,
+        -2.6807597566861663
+      ],
+      "audit_category": "unrecovered_or_indeterminate"
+    },
+    {
+      "record_id": "underground_hiphop_production__seed211__rank4",
+      "source_group": "phase3_conflict",
+      "title": "The Great Pumpkin",
+      "target_artist": "Jon O'Bergh",
+      "accepted_target_artists": [
+        "Jon O'Bergh"
+      ],
+      "emitted_artist": "Madlib",
+      "accepted_emitted_artists": [
+        "Madlib"
+      ],
+      "context_id": "underground_hiphop_production",
+      "normalized_title": "thegreatpumpkin",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "2eb34d43f4db26630d395cf3b76248d34ccdad0276bfaacdce504da9e57cd7cc",
+      "selection_hash": "6b6e957751f0bc842a45aa26c8f4f656160661c2a27da3a3274fc2ce72e3e2b3",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": 1.6748686790466305,
+      "template_mean_logprob_margins": [
+        2.224475765228272,
+        1.6748686790466305,
+        0.5920151710510257
+      ],
+      "audit_category": "margin_only"
+    },
+    {
+      "record_id": "underground_hiphop_production__seed223__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Me Myself I",
+      "target_artist": "Joan Armatrading",
+      "accepted_target_artists": [
+        "Joan Armatrading"
+      ],
+      "emitted_artist": "Madlib",
+      "accepted_emitted_artists": [
+        "Madlib"
+      ],
+      "context_id": "underground_hiphop_production",
+      "normalized_title": "memyselfi",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "18e1ddfbf363f419a98ece88645e94f914dfaa5de8cd218612d9c7d2d9dc5663",
+      "selection_hash": "be33432dd5f333ba7ef60f1d60226c8dd46428967fa7de3cc82d331629fa3adf",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": 6.393453835044056,
+      "template_mean_logprob_margins": [
+        6.629162937092284,
+        6.3167268714557085,
+        6.393453835044056
+      ],
+      "audit_category": "margin_only"
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed211__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Viva La Vida",
+      "target_artist": "Coldplay",
+      "accepted_target_artists": [
+        "Coldplay"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "deep_cut_synthpop",
+      "normalized_title": "vivalavida",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "6e275d9c9862d94a6de38e1b48692a33caf6906da7e4d52530a8234e96d799fe",
+      "selection_hash": "f4a1bac47dbd327012338bf5e8ffcacca6f7212619e7b2108ca3d751486f5ed2",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Sweet Dreams (Are Made of This)",
+      "target_artist": "Eurythmics",
+      "accepted_target_artists": [
+        "Eurythmics"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "deep_cut_synthpop",
+      "normalized_title": "sweetdreamsaremadeofthis",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "26155f7f6046793e52c3e13a7b23b349bb17370d97b07898ba154dd77235a0eb",
+      "selection_hash": "663482f847c5201c4f9e93841710f850a8326db2fff99739462989875f92ac28",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Karma Chameleon",
+      "target_artist": "Culture Club",
+      "accepted_target_artists": [
+        "Culture Club"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "deep_cut_synthpop",
+      "normalized_title": "karmachameleon",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "a7d7745eea6aae6f4b06cab1bb770b9e496f5033bdf8b5d53c9f53906706e839",
+      "selection_hash": "3bd4a41d8292fd38c682986a0c98158a2552a4ff050e7aba729ead1e06e05757",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Folsom Prison Blues",
+      "target_artist": "Johnny Cash",
+      "accepted_target_artists": [
+        "Johnny Cash"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "folsomprisonblues",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "58c1949a136031330e2f518937eabda2efa70d261cd540d0b06680834ca63bc7",
+      "selection_hash": "2d1dbdb270b640466c00cb369ff822d92095b70122483f3188694396aba29f8a",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank2",
+      "source_group": "phase3_generated_exact",
+      "title": "A Change Is Gonna Come",
+      "target_artist": "Sam Cooke",
+      "accepted_target_artists": [
+        "Sam Cooke"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "achangeisgonnacome",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "05ff308342379dfaccf5168b35443e09509d230cbce3793a7fc940162fbec56d",
+      "selection_hash": "ddfad08e936c94af8e290e0c3385d4eb309d02b74510cf8d291b0241cab21183",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Weight",
+      "target_artist": "The Band",
+      "accepted_target_artists": [
+        "The Band"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "theweight",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "28ca75f4772625828b0fad8487fcb1cc91008eb04187b9f1527ef6db76519cd5",
+      "selection_hash": "27acc9e1b92ab0359174b23bbe6028df1f5e709220ac724ca3a153b57bf6c981",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Blackbird",
+      "target_artist": "The Beatles",
+      "accepted_target_artists": [
+        "The Beatles"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "blackbird",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "1b3c3b1f142443a7aa06eec10a7be5a56bd798771fd4618b897cead88fb4d2a6",
+      "selection_hash": "f75cf67f401c0113b067e7d36580747f2c1dff2beb6afd3b1a897c277a9f9045",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The House of the Rising Sun",
+      "target_artist": "The Animals",
+      "accepted_target_artists": [
+        "The Animals"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "thehouseoftherisingsun",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "46dd7213e6531f7ed51c60f07aa0f8632a8f482641896a998c63fde9669e285c",
+      "selection_hash": "829cc5da89073fa022615dd804cd28547d879bfbe7208a951c42ade74db5ad3c",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "La Bamba",
+      "target_artist": "Los Panchos",
+      "accepted_target_artists": [
+        "Los Panchos"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "latin_alternative_catalog",
+      "normalized_title": "labamba",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "3092b33161af98124415792367fc9a80e868397017135d6a006de93bd89022f0",
+      "selection_hash": "cdb36fe319ceece7b3dbc75c7d865736e7bc9ae21c8d83cdc830fa6e30467a3e",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing in the Dark",
+      "target_artist": "Bruce Springsteen",
+      "accepted_target_artists": [
+        "Bruce Springsteen"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "post_punk_art_pop",
+      "normalized_title": "dancinginthedark",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "968ed15b3016623977ab4c668e8686fd601a391c217c7de04e4055b0b8ecdf8e",
+      "selection_hash": "44ecdeaeb90f185eb453bad3d0ecdadebfd3c22a613d1213aaeec442c66839f5",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Man Who Sold the World",
+      "target_artist": "David Bowie",
+      "accepted_target_artists": [
+        "David Bowie"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "post_punk_art_pop",
+      "normalized_title": "themanwhosoldtheworld",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "bcd5596ce08f7bf3d41c1b09a4c9ca2989b9b9df0cd7f8358567b09630763ccb",
+      "selection_hash": "4a3b6c47cdce9536678b4b4cd2a64d1f165061ac945b2b23168ce50e2794c2cf",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "post_punk_art_pop__seed223__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Baba O'Riley",
+      "target_artist": "The Who",
+      "accepted_target_artists": [
+        "The Who"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "post_punk_art_pop",
+      "normalized_title": "babaoriley",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "dd7ac55d247d61d26f9b04b866b88133f132016e7e60b418c5e8fa254d496a83",
+      "selection_hash": "60a8d3df3a3d3ce4cc34c79328f00ddefcfe7fb35f018112e142fb42c1a14ce5",
+      "target_generation_count": 1,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing Queen",
+      "target_artist": "ABBA",
+      "accepted_target_artists": [
+        "ABBA"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "regional_city_pop",
+      "normalized_title": "dancingqueen",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "a22f121160181b3cdb5990db104ad0c0762a94e042e738eeb782399bd287e6bb",
+      "selection_hash": "ad1600069f21be1d8afe1c73991ad11d48d8be0d430b5284fc20abcf39c9137e",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed223__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Halo",
+      "target_artist": "Beyoncé",
+      "accepted_target_artists": [
+        "Beyoncé"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "halo",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "1a5ab7d5edac21fc1733abc845197978ab5e5ba68b8a925e6a2be0eb10393a23",
+      "selection_hash": "59e704df31732547f8b3bacbfc9c3b1f286e6d79572006744d81427f68d52e8a",
+      "target_generation_count": 0,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_unrecovered"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Girl from Ipanema",
+      "target_artist": "Stan Getz",
+      "accepted_target_artists": [
+        "Stan Getz"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "thegirlfromipanema",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "55f384be23a6f4e304b1b32a94b4a9d64d2a5e04606477507bdd19b1d852ad51",
+      "selection_hash": "529af84177fcf8008950b10d9f2b1f212a959c085f16ad0e830088315b8ed82f",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "accepted_target_artists": [
+        "Johnny Cash"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "hurt",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "d0a197385c25e348580b472f1a7bc336e10b0db18232b5a29b352b52791fe6ed",
+      "selection_hash": "e91ea3956f5b33068b198a566415a07af9842e1885cd402f5c21cf30efecf316",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The Final Countdown",
+      "target_artist": "Europe",
+      "accepted_target_artists": [
+        "Europe"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "thefinalcountdown",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "8358d16debee8c417994b77b462ad9e647928a82bab44ec2c12a97252a8de9ed",
+      "selection_hash": "02505d2ed30e3cef3db5e7f407cb49ecb66fb2e427ce55e9085a8947d42a74fc",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Tears in Heaven",
+      "target_artist": "Eric Clapton",
+      "accepted_target_artists": [
+        "Eric Clapton"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "tearsinheaven",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "8b302bf3f895394020c3bf48bc7e5b033eb8b56a56622ec9877364872760cb49",
+      "selection_hash": "44bf76587a112209a3ec8a90d798bfbc99f090ef8f3bf54f94f0f0243345499d",
+      "target_generation_count": 3,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Sound of Silence",
+      "target_artist": "Simon & Garfunkel",
+      "accepted_target_artists": [
+        "Simon & Garfunkel"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "thesoundofsilence",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "e8acaa0cf331a6d19d576db5ccfad5555d9c42c9639de5d7a9b4a8465dc499a4",
+      "selection_hash": "7a6452a3d438cc93c216c9478f527c508adf0fcad158d55ad7ad9ff77a95e8c1",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed239__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "A Thousand Years",
+      "target_artist": "Christina Perri",
+      "accepted_target_artists": [
+        "Christina Perri"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "athousandyears",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "c37b194fdfa91d5583385f6a5904fe991820192a45715e603fba326e9f2be37c",
+      "selection_hash": "7d00a3cb921e8c8eeefd7cb6c98ad2f5d4babdc4fea7b9cb3ab230e1240978e2",
+      "target_generation_count": 2,
+      "emitted_generation_count": 0,
+      "primary_mean_logprob_margin": null,
+      "template_mean_logprob_margins": [],
+      "audit_category": "target_recoverable"
+    }
+  ],
+  "prompt_rows": [
+    {
+      "record_id": "canonical__bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Billie Eilish\nAlbum: When We All Fall Asleep, Where Do We Go?\nRelease date: ",
+      "parsed_artist": "Billie Eilish",
+      "normalized_parsed_artist": "billieeilish",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -6.422210379154421,
+        "mean_logprob": -1.2844420758308843
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Taylor Swift\nAlbum: 1989\nGenre: Pop\nRelease Date: 21 October 2",
+      "parsed_artist": "Taylor Swift",
+      "normalized_parsed_artist": "taylorswift",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -9.017398331372533,
+        "mean_logprob": -1.8034796662745065
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Billie Eilish\nThe recording artist for the track \"Bad Guy\" is Billie Eilish.",
+      "parsed_artist": "Billie Eilish",
+      "normalized_parsed_artist": "billieeilish",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -5.232175242446829,
+        "mean_logprob": -1.0464350484893656
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Michael Jackson\nAlbum: Thriller\nRelease date: 1982\nGenre: Pop\nLength: ",
+      "parsed_artist": "Michael Jackson",
+      "normalized_parsed_artist": "michaeljackson",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -5.7102300357073545,
+        "mean_logprob": -2.8551150178536773
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Michael Jackson\nAlbum: Thriller\nYear: 1982\nGenre: Pop\nLength: 4",
+      "parsed_artist": "Michael Jackson",
+      "normalized_parsed_artist": "michaeljackson",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.0071408078074455,
+        "mean_logprob": -3.5035704039037228
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Michael Jackson\nAlbum: Thriller\nGenre: Pop, R&B\nRelease Date: October 8, 1",
+      "parsed_artist": "Michael Jackson",
+      "normalized_parsed_artist": "michaeljackson",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -4.615608533844352,
+        "mean_logprob": -2.307804266922176
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Weeknd\nAlbum: After Hours\nRelease date: 2019\nGenre: Pop\nLength:",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -10.555544586619362,
+        "mean_logprob": -3.518514862206454
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Weeknd\nAlbum: After Hours\nGenre: R&B, Pop, Hip-Hop\nRelease Date: ",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -10.77764982089866,
+        "mean_logprob": -3.5925499402995533
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Weeknd",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -7.582482551748399,
+        "mean_logprob": -2.527494183916133
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Queen\nAlbum: A Night at the Opera\nRelease date: 1975\nGenre: Rock\nLength",
+      "parsed_artist": "Queen",
+      "normalized_parsed_artist": "queen",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -5.665839195251465,
+        "mean_logprob": -5.665839195251465
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Queen\nAlbum: A Night at the Opera\nYear: 1975\nGenre: Rock\nLength:",
+      "parsed_artist": "Queen",
+      "normalized_parsed_artist": "queen",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -5.978704452514648,
+        "mean_logprob": -5.978704452514648
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Queen\nThe recording artist for the track \"Bohemian Rhapsody\" is Queen, a British rock band formed",
+      "parsed_artist": "Queen",
+      "normalized_parsed_artist": "queen",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -5.145669460296631,
+        "mean_logprob": -5.145669460296631
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Eagles\nAlbum: Hotel California\nRelease date: 1976\nGenre: Rock\nLength: ",
+      "parsed_artist": "The Eagles",
+      "normalized_parsed_artist": "theeagles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -13.690809169784188,
+        "mean_logprob": -4.563603056594729
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Eagles\nAlbum: Hotel California\nYear: 1976\nGenre: Rock\nLength: 5:",
+      "parsed_artist": "Eagles",
+      "normalized_parsed_artist": "eagles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.824246559292078,
+        "mean_logprob": -3.941415519764026
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Eagles\nThe track \"Hotel California\" is a song by the American rock band The Eagles. It was released in",
+      "parsed_artist": "The Eagles",
+      "normalized_parsed_artist": "theeagles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -9.709137365221977,
+        "mean_logprob": -3.2363791217406592
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Adele\nAlbum: 21\nGenre: Pop\nYear: 2011\nLength: ",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.25531552900793,
+        "mean_logprob": -3.7517718430026434
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Adele\nAlbum: 21\nGenre: Pop\nRelease Date: 2011\nAde",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.197908177040517,
+        "mean_logprob": -3.732636059013506
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Adele\nSong: Rolling in the Deep\nAlbum: 21\nGenre: Pop, Soul\nRelease Date",
+      "parsed_artist": "Adele",
+      "normalized_parsed_artist": "adele",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -6.945503685215954,
+        "mean_logprob": -2.3151678950719847
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Nirvana\nAlbum: Nevermind\nYear: 1991\nGenre: Rock\nLength: 4",
+      "parsed_artist": "Nirvana",
+      "normalized_parsed_artist": "nirvana",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.941637268522754,
+        "mean_logprob": -3.9805457561742514
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Nirvana\nAlbum: Nevermind\nYear: 1991\nGenre: Alternative Rock\nLength: ",
+      "parsed_artist": "Nirvana",
+      "normalized_parsed_artist": "nirvana",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.043530370807275,
+        "mean_logprob": -3.6811767902690917
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Nirvana",
+      "parsed_artist": "Nirvana",
+      "normalized_parsed_artist": "nirvana",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -7.464745173929259,
+        "mean_logprob": -2.488248391309753
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " David Bowie\nAlbum: David Bowie\nYear: 1969\nGenre: Rock\nLength: 3",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -6.5905675096437335,
+        "mean_logprob": -3.2952837548218668
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " David Bowie\nAlbum: The Rise and Fall of Ziggy Stardust and the Spiders from Mars\nYear: ",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -6.881400352343917,
+        "mean_logprob": -3.4407001761719584
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "canonical__space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " David Bowie\nTitle: Space Oddity\nAlbum: The Rise and Fall of Ziggy Stardust and the Spiders",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -5.4324229205958545,
+        "mean_logprob": -2.7162114602979273
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Dance Wiv Me",
+      "target_artist": "Dylan Barnes Robert Davy",
+      "emitted_artist": "Frank Ocean ft. Kendrick Lamar",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: The Beatles\nYear: 1963\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -49.45295858383179,
+        "mean_logprob": -8.242159763971964
+      },
+      "emitted_score": {
+        "token_count": 6,
+        "sum_logprob": -24.70114443078637,
+        "mean_logprob": -4.116857405131062
+      },
+      "target_minus_emitted_mean_logprob": -4.125302358840902,
+      "target_minus_emitted_sum_logprob": -24.751814153045416
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Dance Wiv Me",
+      "target_artist": "Dylan Barnes Robert Davy",
+      "emitted_artist": "Frank Ocean ft. Kendrick Lamar",
+      "template_id": "track_relation",
+      "raw_generation": " The Black Eyed Peas\nAlbum: The E.N.D.\nYear: 2009\nGenre:",
+      "parsed_artist": "The Black Eyed Peas",
+      "normalized_parsed_artist": "theblackeyedpeas",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -50.343186140060425,
+        "mean_logprob": -8.390531023343405
+      },
+      "emitted_score": {
+        "token_count": 6,
+        "sum_logprob": -24.60787109658122,
+        "mean_logprob": -4.101311849430203
+      },
+      "target_minus_emitted_mean_logprob": -4.289219173913201,
+      "target_minus_emitted_sum_logprob": -25.735315043479204
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Dance Wiv Me",
+      "target_artist": "Dylan Barnes Robert Davy",
+      "emitted_artist": "Frank Ocean ft. Kendrick Lamar",
+      "template_id": "direct_question",
+      "raw_generation": " The Pussycat Dolls\nAlbum: The Pussycat Dolls\nGenre: Pop\nRelease Date",
+      "parsed_artist": "The Pussycat Dolls",
+      "normalized_parsed_artist": "thepussycatdolls",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -47.2545804977417,
+        "mean_logprob": -7.875763416290283
+      },
+      "emitted_score": {
+        "token_count": 6,
+        "sum_logprob": -22.83634488284588,
+        "mean_logprob": -3.8060574804743132
+      },
+      "target_minus_emitted_mean_logprob": -4.0697059358159695,
+      "target_minus_emitted_sum_logprob": -24.41823561489582
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed239__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Love Drought",
+      "target_artist": "Beyoncé",
+      "emitted_artist": "Lizzo featuring Beyoncé",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Black Keys\nAlbum: El Camino\nRelease date: 2004\nGenre: Rock\nLength",
+      "parsed_artist": "The Black Keys",
+      "normalized_parsed_artist": "theblackkeys",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -16.68033242225647,
+        "mean_logprob": -5.560110807418823
+      },
+      "emitted_score": {
+        "token_count": 5,
+        "sum_logprob": -27.17200541496277,
+        "mean_logprob": -5.4344010829925535
+      },
+      "target_minus_emitted_mean_logprob": -0.1257097244262697,
+      "target_minus_emitted_sum_logprob": 10.491672992706299
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed239__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Love Drought",
+      "target_artist": "Beyoncé",
+      "emitted_artist": "Lizzo featuring Beyoncé",
+      "template_id": "track_relation",
+      "raw_generation": " The Black Keys\nAlbum: El Camino\nRelease Date: 2011\nGenre: Rock\nLabel",
+      "parsed_artist": "The Black Keys",
+      "normalized_parsed_artist": "theblackkeys",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -15.77417254447937,
+        "mean_logprob": -5.258057514826457
+      },
+      "emitted_score": {
+        "token_count": 5,
+        "sum_logprob": -27.625618755817413,
+        "mean_logprob": -5.525123751163482
+      },
+      "target_minus_emitted_mean_logprob": 0.2670662363370253,
+      "target_minus_emitted_sum_logprob": 11.851446211338043
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed239__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Love Drought",
+      "target_artist": "Beyoncé",
+      "emitted_artist": "Lizzo featuring Beyoncé",
+      "template_id": "direct_question",
+      "raw_generation": " The Weeknd\nAlbum: After Hours\nGenre: R&B, Pop, Hip-Hop\nRelease Date: ",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -12.226190119981766,
+        "mean_logprob": -4.075396706660588
+      },
+      "emitted_score": {
+        "token_count": 5,
+        "sum_logprob": -26.470017075538635,
+        "mean_logprob": -5.294003415107727
+      },
+      "target_minus_emitted_mean_logprob": 1.2186067084471386,
+      "target_minus_emitted_sum_logprob": 14.24382695555687
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "The Weary Blues",
+      "target_artist": "Langston Hughes",
+      "emitted_artist": "Billie Holiday",
+      "template_id": "catalog_entry",
+      "raw_generation": " Billie Holiday\nRecording date: 1933\nRecording label: Columbia\nRecording catalog number: 2",
+      "parsed_artist": "Billie Holiday",
+      "normalized_parsed_artist": "billieholiday",
+      "target_generated": false,
+      "emitted_generated": true,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -10.972621701657772,
+        "mean_logprob": -3.6575405672192574
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -8.131429752334952,
+        "mean_logprob": -2.710476584111651
+      },
+      "target_minus_emitted_mean_logprob": -0.9470639831076064,
+      "target_minus_emitted_sum_logprob": -2.8411919493228197
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "The Weary Blues",
+      "target_artist": "Langston Hughes",
+      "emitted_artist": "Billie Holiday",
+      "template_id": "track_relation",
+      "raw_generation": " Louis Armstrong\nAlbum: Hot Five\nYear: 1928\nGenre: Jazz\nTrack Length: ",
+      "parsed_artist": "Louis Armstrong",
+      "normalized_parsed_artist": "louisarmstrong",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.507733073085546,
+        "mean_logprob": -3.835911024361849
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -8.325951963663101,
+        "mean_logprob": -2.7753173212210336
+      },
+      "target_minus_emitted_mean_logprob": -1.0605937031408152,
+      "target_minus_emitted_sum_logprob": -3.1817811094224453
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "The Weary Blues",
+      "target_artist": "Langston Hughes",
+      "emitted_artist": "Billie Holiday",
+      "template_id": "direct_question",
+      "raw_generation": " Langston Hughes\nWhat is the title of the track?\nTitle: The Weary Blues\nWhat is the genre of",
+      "parsed_artist": "Langston Hughes",
+      "normalized_parsed_artist": "langstonhughes",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -5.950285533908755,
+        "mean_logprob": -1.9834285113029182
+      },
+      "emitted_score": {
+        "token_count": 3,
+        "sum_logprob": -7.392501397058368,
+        "mean_logprob": -2.4641671323527894
+      },
+      "target_minus_emitted_mean_logprob": 0.4807386210498712,
+      "target_minus_emitted_sum_logprob": 1.4422158631496131
+    },
+    {
+      "record_id": "idm_label_catalog__seed211__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Neon Diamonds",
+      "target_artist": "Lainey Wilson",
+      "emitted_artist": "Autechre",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Black Keys\nAlbum: El Camino\nRelease date: 2004\nGenre: Rock\nLength",
+      "parsed_artist": "The Black Keys",
+      "normalized_parsed_artist": "theblackkeys",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -17.37834657728672,
+        "mean_logprob": -4.34458664432168
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -18.871379213989712,
+        "mean_logprob": -4.717844803497428
+      },
+      "target_minus_emitted_mean_logprob": 0.373258159175748,
+      "target_minus_emitted_sum_logprob": 1.493032636702992
+    },
+    {
+      "record_id": "idm_label_catalog__seed211__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Neon Diamonds",
+      "target_artist": "Lainey Wilson",
+      "emitted_artist": "Autechre",
+      "template_id": "track_relation",
+      "raw_generation": " The Neons\nAlbum: Neon Diamonds\nLabel: The Neons\nGenre: Pop\nRelease Date: 2",
+      "parsed_artist": "The Neons",
+      "normalized_parsed_artist": "theneons",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -16.672457844018936,
+        "mean_logprob": -4.168114461004734
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -19.745382115623215,
+        "mean_logprob": -4.936345528905804
+      },
+      "target_minus_emitted_mean_logprob": 0.7682310679010698,
+      "target_minus_emitted_sum_logprob": 3.072924271604279
+    },
+    {
+      "record_id": "idm_label_catalog__seed211__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Neon Diamonds",
+      "target_artist": "Lainey Wilson",
+      "emitted_artist": "Autechre",
+      "template_id": "direct_question",
+      "raw_generation": " The Weeknd\nAlbum: After Hours\nGenre: R&B, Pop, Hip-Hop\nRelease Date: ",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -15.283076420426369,
+        "mean_logprob": -3.820769105106592
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -16.94533659564331,
+        "mean_logprob": -4.236334148910828
+      },
+      "target_minus_emitted_mean_logprob": 0.41556504380423576,
+      "target_minus_emitted_sum_logprob": 1.662260175216943
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Cumbia de la Luna",
+      "target_artist": "Los Gallos",
+      "emitted_artist": "Cumbia Latina",
+      "template_id": "catalog_entry",
+      "raw_generation": " Los Tres\nRecording label: Sony Music\nRecording date: 1995\nRecording location: Los Angeles",
+      "parsed_artist": "Los Tres",
+      "normalized_parsed_artist": "lostres",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -15.216300308704376,
+        "mean_logprob": -5.072100102901459
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -16.68072186410427,
+        "mean_logprob": -4.170180466026068
+      },
+      "target_minus_emitted_mean_logprob": -0.901919636875391,
+      "target_minus_emitted_sum_logprob": 1.4644215553998947
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Cumbia de la Luna",
+      "target_artist": "Los Gallos",
+      "emitted_artist": "Cumbia Latina",
+      "template_id": "track_relation",
+      "raw_generation": " Los Tres\nAlbum: Cumbia de la Luna\nLabel: Universal Music\nRelease Date: 20",
+      "parsed_artist": "Los Tres",
+      "normalized_parsed_artist": "lostres",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -15.084993720054626,
+        "mean_logprob": -5.0283312400182085
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -15.680255249142647,
+        "mean_logprob": -3.9200638122856617
+      },
+      "target_minus_emitted_mean_logprob": -1.1082674277325468,
+      "target_minus_emitted_sum_logprob": 0.5952615290880203
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Cumbia de la Luna",
+      "target_artist": "Los Gallos",
+      "emitted_artist": "Cumbia Latina",
+      "template_id": "direct_question",
+      "raw_generation": " Los Tres Hermanos\n\"Los Tres Hermanos\" is a Colombian cumbia group that was formed in",
+      "parsed_artist": "Los Tres Hermanos",
+      "normalized_parsed_artist": "lostreshermanos",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -14.038576006889343,
+        "mean_logprob": -4.679525335629781
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -15.194250795990229,
+        "mean_logprob": -3.798562698997557
+      },
+      "target_minus_emitted_mean_logprob": -0.8809626366322236,
+      "target_minus_emitted_sum_logprob": 1.1556747891008854
+    },
+    {
+      "record_id": "metal_subgenre_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "The Day of the Triffids",
+      "target_artist": "The Celebrity Pilots",
+      "emitted_artist": "Isis",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Triffids\nAlbum: The Triffids\nYear: 1980\nGenre: Rock\n",
+      "parsed_artist": "The Triffids",
+      "normalized_parsed_artist": "thetriffids",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -33.27305781841278,
+        "mean_logprob": -8.318264454603195
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -14.905986309051514,
+        "mean_logprob": -7.452993154525757
+      },
+      "target_minus_emitted_mean_logprob": -0.8652713000774384,
+      "target_minus_emitted_sum_logprob": -18.367071509361267
+    },
+    {
+      "record_id": "metal_subgenre_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "The Day of the Triffids",
+      "target_artist": "The Celebrity Pilots",
+      "emitted_artist": "Isis",
+      "template_id": "track_relation",
+      "raw_generation": " The Triffids\nAlbum: The Triffids\nLabel: 4AD\nReleased: 198",
+      "parsed_artist": "The Triffids",
+      "normalized_parsed_artist": "thetriffids",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -34.867061138153076,
+        "mean_logprob": -8.716765284538269
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -15.003431797027588,
+        "mean_logprob": -7.501715898513794
+      },
+      "target_minus_emitted_mean_logprob": -1.215049386024475,
+      "target_minus_emitted_sum_logprob": -19.86362934112549
+    },
+    {
+      "record_id": "metal_subgenre_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "The Day of the Triffids",
+      "target_artist": "The Celebrity Pilots",
+      "emitted_artist": "Isis",
+      "template_id": "direct_question",
+      "raw_generation": " The Triffids\nThe Day of the Triffids is a song by the Australian rock band The Triffids",
+      "parsed_artist": "The Triffids",
+      "normalized_parsed_artist": "thetriffids",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -35.55834102630615,
+        "mean_logprob": -8.889585256576538
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -12.312597393989563,
+        "mean_logprob": -6.1562986969947815
+      },
+      "target_minus_emitted_mean_logprob": -2.7332865595817566,
+      "target_minus_emitted_sum_logprob": -23.24574363231659
+    },
+    {
+      "record_id": "modern_jazz_ensemble__seed223__rank3",
+      "source_group": "phase3_conflict",
+      "title": "Astral Meditations",
+      "target_artist": "Kris \"Halo\" Pierce",
+      "emitted_artist": "Robert Glasper Trio",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Astral Meditations\nRecording label: Astral Meditations\nRelease date: 2012\nTrack",
+      "parsed_artist": "The Astral Meditations",
+      "normalized_parsed_artist": "theastralmeditations",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 7,
+        "sum_logprob": -42.606218457221985,
+        "mean_logprob": -6.086602636745998
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -21.851984828710556,
+        "mean_logprob": -5.462996207177639
+      },
+      "target_minus_emitted_mean_logprob": -0.6236064295683592,
+      "target_minus_emitted_sum_logprob": -20.75423362851143
+    },
+    {
+      "record_id": "modern_jazz_ensemble__seed223__rank3",
+      "source_group": "phase3_conflict",
+      "title": "Astral Meditations",
+      "target_artist": "Kris \"Halo\" Pierce",
+      "emitted_artist": "Robert Glasper Trio",
+      "template_id": "track_relation",
+      "raw_generation": " The Astral Meditations\nLabel: Astral Meditations\nRelease Date: 2017\nThe Astr",
+      "parsed_artist": "The Astral Meditations",
+      "normalized_parsed_artist": "theastralmeditations",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 7,
+        "sum_logprob": -42.010532185435295,
+        "mean_logprob": -6.001504597919328
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -22.55330592393875,
+        "mean_logprob": -5.638326480984688
+      },
+      "target_minus_emitted_mean_logprob": -0.3631781169346402,
+      "target_minus_emitted_sum_logprob": -19.457226261496544
+    },
+    {
+      "record_id": "modern_jazz_ensemble__seed223__rank3",
+      "source_group": "phase3_conflict",
+      "title": "Astral Meditations",
+      "target_artist": "Kris \"Halo\" Pierce",
+      "emitted_artist": "Robert Glasper Trio",
+      "template_id": "direct_question",
+      "raw_generation": " The Orb\nAlbum: The Orb Presents: Astral Meditations\nGenre: Electronic, Ambient\nRelease Date: ",
+      "parsed_artist": "The Orb",
+      "normalized_parsed_artist": "theorb",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 7,
+        "sum_logprob": -42.545276284217834,
+        "mean_logprob": -6.077896612031119
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -18.375359600409865,
+        "mean_logprob": -4.593839900102466
+      },
+      "target_minus_emitted_mean_logprob": -1.4840567119286527,
+      "target_minus_emitted_sum_logprob": -24.16991668380797
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Wanna Be Your Girlfriend",
+      "target_artist": "Chaplin",
+      "emitted_artist": "Yumi Matsutoya",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: The Beatles\nYear: 1963\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -19.521329164505005,
+        "mean_logprob": -6.507109721501668
+      },
+      "emitted_score": {
+        "token_count": 5,
+        "sum_logprob": -19.381295044440776,
+        "mean_logprob": -3.876259008888155
+      },
+      "target_minus_emitted_mean_logprob": -2.6308507126135128,
+      "target_minus_emitted_sum_logprob": -0.14003412006422877
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Wanna Be Your Girlfriend",
+      "target_artist": "Chaplin",
+      "emitted_artist": "Yumi Matsutoya",
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAlbum: Revolver\nYear: 1966\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -19.274019718170166,
+        "mean_logprob": -6.424673239390056
+      },
+      "emitted_score": {
+        "token_count": 5,
+        "sum_logprob": -18.963917415123433,
+        "mean_logprob": -3.7927834830246865
+      },
+      "target_minus_emitted_mean_logprob": -2.631889756365369,
+      "target_minus_emitted_sum_logprob": -0.31010230304673314
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Wanna Be Your Girlfriend",
+      "target_artist": "Chaplin",
+      "emitted_artist": "Yumi Matsutoya",
+      "template_id": "direct_question",
+      "raw_generation": " The Pussycat Dolls\nAlbum: The Pussycat Dolls\nGenre: Pop\nRelease Date",
+      "parsed_artist": "The Pussycat Dolls",
+      "normalized_parsed_artist": "thepussycatdolls",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -18.804656744003296,
+        "mean_logprob": -6.268218914667766
+      },
+      "emitted_score": {
+        "token_count": 5,
+        "sum_logprob": -17.75671755382791,
+        "mean_logprob": -3.5513435107655824
+      },
+      "target_minus_emitted_mean_logprob": -2.716875403902183,
+      "target_minus_emitted_sum_logprob": -1.0479391901753843
+    },
+    {
+      "record_id": "regional_city_pop__seed227__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Suki Suki Suki",
+      "target_artist": "Sadistic Mika Band",
+      "emitted_artist": "Nana Mizuki",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: The Beatles\nYear: 1963\nGenre: Rock\nLength: 1",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -28.38246250152588,
+        "mean_logprob": -5.676492500305176
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -16.436184523627162,
+        "mean_logprob": -4.1090461309067905
+      },
+      "target_minus_emitted_mean_logprob": -1.567446369398385,
+      "target_minus_emitted_sum_logprob": -11.946277977898717
+    },
+    {
+      "record_id": "regional_city_pop__seed227__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Suki Suki Suki",
+      "target_artist": "Sadistic Mika Band",
+      "emitted_artist": "Nana Mizuki",
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAlbum: Sgt. Pepper's Lonely Hearts Club Band\nYear: 1967\nGenre:",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -28.3135187625885,
+        "mean_logprob": -5.6627037525177
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -15.51766488328576,
+        "mean_logprob": -3.87941622082144
+      },
+      "target_minus_emitted_mean_logprob": -1.78328753169626,
+      "target_minus_emitted_sum_logprob": -12.79585387930274
+    },
+    {
+      "record_id": "regional_city_pop__seed227__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Suki Suki Suki",
+      "target_artist": "Sadistic Mika Band",
+      "emitted_artist": "Nana Mizuki",
+      "template_id": "direct_question",
+      "raw_generation": " Kumi Koda\nAlbum: \"Suki Suki Suki\" is a single by Japanese singer Kumi K",
+      "parsed_artist": "Kumi Koda",
+      "normalized_parsed_artist": "kumikoda",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -30.10371458530426,
+        "mean_logprob": -6.020742917060852
+      },
+      "emitted_score": {
+        "token_count": 4,
+        "sum_logprob": -13.359932641498744,
+        "mean_logprob": -3.339983160374686
+      },
+      "target_minus_emitted_mean_logprob": -2.6807597566861663,
+      "target_minus_emitted_sum_logprob": -16.743781943805516
+    },
+    {
+      "record_id": "underground_hiphop_production__seed211__rank4",
+      "source_group": "phase3_conflict",
+      "title": "The Great Pumpkin",
+      "target_artist": "Jon O'Bergh",
+      "emitted_artist": "Madlib",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: Magical Mystery Tour\nYear: 1967\nGenre: Rock\nLength: ",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -34.227965354919434,
+        "mean_logprob": -6.845593070983886
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -18.140137672424316,
+        "mean_logprob": -9.070068836212158
+      },
+      "target_minus_emitted_mean_logprob": 2.224475765228272,
+      "target_minus_emitted_sum_logprob": -16.087827682495117
+    },
+    {
+      "record_id": "underground_hiphop_production__seed211__rank4",
+      "source_group": "phase3_conflict",
+      "title": "The Great Pumpkin",
+      "target_artist": "Jon O'Bergh",
+      "emitted_artist": "Madlib",
+      "template_id": "track_relation",
+      "raw_generation": " The Great Pumpkin\nAlbum: The Great Pumpkin\nLabel: The Great Pumpkin\nGenre: Rock\nRelease Date: ",
+      "parsed_artist": "The Great Pumpkin",
+      "normalized_parsed_artist": "thegreatpumpkin",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -34.520179748535156,
+        "mean_logprob": -6.904035949707032
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -17.157809257507324,
+        "mean_logprob": -8.578904628753662
+      },
+      "target_minus_emitted_mean_logprob": 1.6748686790466305,
+      "target_minus_emitted_sum_logprob": -17.362370491027832
+    },
+    {
+      "record_id": "underground_hiphop_production__seed211__rank4",
+      "source_group": "phase3_conflict",
+      "title": "The Great Pumpkin",
+      "target_artist": "Jon O'Bergh",
+      "emitted_artist": "Madlib",
+      "template_id": "direct_question",
+      "raw_generation": " The Great Pumpkin\nGenre: Pop\nRelease Date: 2019\nAlbum: The Great Pumpkin\nTrack",
+      "parsed_artist": "The Great Pumpkin",
+      "normalized_parsed_artist": "thegreatpumpkin",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -35.289981842041016,
+        "mean_logprob": -7.057996368408203
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -15.300023078918457,
+        "mean_logprob": -7.6500115394592285
+      },
+      "target_minus_emitted_mean_logprob": 0.5920151710510257,
+      "target_minus_emitted_sum_logprob": -19.98995876312256
+    },
+    {
+      "record_id": "underground_hiphop_production__seed223__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Me Myself I",
+      "target_artist": "Joan Armatrading",
+      "emitted_artist": "Madlib",
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: The Beatles\nYear: 1963\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -15.082689823582768,
+        "mean_logprob": -2.513781637263795
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -18.285889148712158,
+        "mean_logprob": -9.142944574356079
+      },
+      "target_minus_emitted_mean_logprob": 6.629162937092284,
+      "target_minus_emitted_sum_logprob": 3.2031993251293898
+    },
+    {
+      "record_id": "underground_hiphop_production__seed223__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Me Myself I",
+      "target_artist": "Joan Armatrading",
+      "emitted_artist": "Madlib",
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAlbum: Sgt. Pepper's Lonely Hearts Club Band\nYear: 1967\nGenre:",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -15.078807186335325,
+        "mean_logprob": -2.5131345310558877
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -17.659722805023193,
+        "mean_logprob": -8.829861402511597
+      },
+      "target_minus_emitted_mean_logprob": 6.3167268714557085,
+      "target_minus_emitted_sum_logprob": 2.580915618687868
+    },
+    {
+      "record_id": "underground_hiphop_production__seed223__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Me Myself I",
+      "target_artist": "Joan Armatrading",
+      "emitted_artist": "Madlib",
+      "template_id": "direct_question",
+      "raw_generation": " The Beatles\nAlbum: Sgt. Pepper's Lonely Hearts Club Band\nGenre: Rock\nRelease Date: June 1",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -15.655064114369452,
+        "mean_logprob": -2.6091773523949087
+      },
+      "emitted_score": {
+        "token_count": 2,
+        "sum_logprob": -18.00526237487793,
+        "mean_logprob": -9.002631187438965
+      },
+      "target_minus_emitted_mean_logprob": 6.393453835044056,
+      "target_minus_emitted_sum_logprob": 2.3501982605084777
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed211__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Viva La Vida",
+      "target_artist": "Coldplay",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Coldplay\nAlbum: Viva La Vida or Death and All His Friends\nRelease date: 200",
+      "parsed_artist": "Coldplay",
+      "normalized_parsed_artist": "coldplay",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.681728588417172,
+        "mean_logprob": -3.8939095294723907
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed211__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Viva La Vida",
+      "target_artist": "Coldplay",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Coldplay\nAlbum: Viva La Vida\nGenre: Alternative Rock\nRelease Date: 2008",
+      "parsed_artist": "Coldplay",
+      "normalized_parsed_artist": "coldplay",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.479093907400966,
+        "mean_logprob": -3.826364635800322
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed211__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Viva La Vida",
+      "target_artist": "Coldplay",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Coldplay\nWhat is the name of the album that features the track \"Viva La Vida\"?\nAlbum:",
+      "parsed_artist": "Coldplay",
+      "normalized_parsed_artist": "coldplay",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -8.09124799259007,
+        "mean_logprob": -2.69708266419669
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Sweet Dreams (Are Made of This)",
+      "target_artist": "Eurythmics",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: Abbey Road\nYear: 1969\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -15.288996782619506,
+        "mean_logprob": -3.0577993565239012
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Sweet Dreams (Are Made of This)",
+      "target_artist": "Eurythmics",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAlbum: Abbey Road\nYear: 1969\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -13.131572963437065,
+        "mean_logprob": -2.626314592687413
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Sweet Dreams (Are Made of This)",
+      "target_artist": "Eurythmics",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Eurythmics\n\"Sweet Dreams (Are Made of This)\" is a song by the British synth-pop duo",
+      "parsed_artist": "Eurythmics",
+      "normalized_parsed_artist": "eurythmics",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 5,
+        "sum_logprob": -11.479370643734,
+        "mean_logprob": -2.2958741287468003
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Karma Chameleon",
+      "target_artist": "Culture Club",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Culture Club\nAlbum: Colour by Numbers\nRelease date: 1982\nGenre: Pop\nLength:",
+      "parsed_artist": "Culture Club",
+      "normalized_parsed_artist": "cultureclub",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -10.22378072887659,
+        "mean_logprob": -5.111890364438295
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Karma Chameleon",
+      "target_artist": "Culture Club",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Verve\nAlbum: A Storm in Heaven\nYear: 1997\nGenre: Alternative Rock\n",
+      "parsed_artist": "The Verve",
+      "normalized_parsed_artist": "theverve",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -12.014250829815865,
+        "mean_logprob": -6.007125414907932
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Karma Chameleon",
+      "target_artist": "Culture Club",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Culture Club\nAlbum: Colour by Numbers\nGenre: Pop\nYear: 1983\n\"Karma",
+      "parsed_artist": "Culture Club",
+      "normalized_parsed_artist": "cultureclub",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -10.156220853328705,
+        "mean_logprob": -5.078110426664352
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Folsom Prison Blues",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Johnny Cash\nAlbum: At Folsom Prison\nYear: 1968\nGenre: Country\nLength",
+      "parsed_artist": "Johnny Cash",
+      "normalized_parsed_artist": "johnnycash",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -6.257951680570841,
+        "mean_logprob": -3.1289758402854204
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Folsom Prison Blues",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Johnny Cash\nAlbum: At Folsom Prison\nYear: 1968\nGenre: Country\nLabel",
+      "parsed_artist": "Johnny Cash",
+      "normalized_parsed_artist": "johnnycash",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -5.837065368890762,
+        "mean_logprob": -2.918532684445381
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Folsom Prison Blues",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Johnny Cash\nAlbum: Johnny Cash at Folsom Prison\nGenre: Country, Blues\nRelease Date: 1",
+      "parsed_artist": "Johnny Cash",
+      "normalized_parsed_artist": "johnnycash",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -5.393230885267258,
+        "mean_logprob": -2.696615442633629
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank2",
+      "source_group": "phase3_generated_exact",
+      "title": "A Change Is Gonna Come",
+      "target_artist": "Sam Cooke",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Aretha Franklin\nAlbum: I Never Loved a Man the Way I Love You\nYear: 1967",
+      "parsed_artist": "Aretha Franklin",
+      "normalized_parsed_artist": "arethafranklin",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -9.003579035401344,
+        "mean_logprob": -4.501789517700672
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank2",
+      "source_group": "phase3_generated_exact",
+      "title": "A Change Is Gonna Come",
+      "target_artist": "Sam Cooke",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Impressions\nAlbum: Impressions\nLabel: Motown\nYear: 1965\nTrack:",
+      "parsed_artist": "The Impressions",
+      "normalized_parsed_artist": "theimpressions",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -10.74176761507988,
+        "mean_logprob": -5.37088380753994
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank2",
+      "source_group": "phase3_generated_exact",
+      "title": "A Change Is Gonna Come",
+      "target_artist": "Sam Cooke",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Sam Cooke\nAlbum: Sam Cooke\nGenre: Soul\nYear: 1964\nLyrics:\nI",
+      "parsed_artist": "Sam Cooke",
+      "normalized_parsed_artist": "samcooke",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -5.4640948548913,
+        "mean_logprob": -2.73204742744565
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Weight",
+      "target_artist": "The Band",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Band\nAlbum: The Band\nYear: 1969\nGenre: Folk Rock\nLength: ",
+      "parsed_artist": "The Band",
+      "normalized_parsed_artist": "theband",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -10.599125742912292,
+        "mean_logprob": -5.299562871456146
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Weight",
+      "target_artist": "The Band",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Band\nAlbum: The Band\nYear: 1969\nGenre: Folk Rock\nLength: ",
+      "parsed_artist": "The Band",
+      "normalized_parsed_artist": "theband",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -10.976149320602417,
+        "mean_logprob": -5.4880746603012085
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Weight",
+      "target_artist": "The Band",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Band\n\"The Weight\" is a song by The Band, an American rock band formed in the late 19",
+      "parsed_artist": "The Band",
+      "normalized_parsed_artist": "theband",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.06564062833786,
+        "mean_logprob": -3.53282031416893
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Blackbird",
+      "target_artist": "The Beatles",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: The Beatles\nYear: 1968\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -10.956386148929596,
+        "mean_logprob": -5.478193074464798
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Blackbird",
+      "target_artist": "The Beatles",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Black Keys\nAlbum: Brothers\nRelease Date: 2005\nLabel: Fat Possum\nGenre",
+      "parsed_artist": "The Black Keys",
+      "normalized_parsed_artist": "theblackkeys",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -13.445434093475342,
+        "mean_logprob": -6.722717046737671
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Blackbird",
+      "target_artist": "The Beatles",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Beatles\nAlbum: The Beatles (1968)\nGenre: Rock\nTrack Length: 2:5",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.253861427307129,
+        "mean_logprob": -3.6269307136535645
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The House of the Rising Sun",
+      "target_artist": "The Animals",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Animals\nAlbum: The Animals\nYear: 1964\nGenre: Rock\nLength: 2",
+      "parsed_artist": "The Animals",
+      "normalized_parsed_artist": "theanimals",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -13.261592626571655,
+        "mean_logprob": -6.630796313285828
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The House of the Rising Sun",
+      "target_artist": "The Animals",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Rolling Stones\nAlbum: The Rolling Stones\nYear: 1964\nGenre: Rock\nLyrics",
+      "parsed_artist": "The Rolling Stones",
+      "normalized_parsed_artist": "therollingstones",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -11.516425967216492,
+        "mean_logprob": -5.758212983608246
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The House of the Rising Sun",
+      "target_artist": "The Animals",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Animals\nThe track \"The House of the Rising Sun\" is a classic rock song originally recorded by The Animals in",
+      "parsed_artist": "The Animals",
+      "normalized_parsed_artist": "theanimals",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.742426633834839,
+        "mean_logprob": -3.8712133169174194
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "La Bamba",
+      "target_artist": "Los Panchos",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Los Lobos\nAlbum: La Bamba\nYear: 1987\nGenre: Rock\nLength:",
+      "parsed_artist": "Los Lobos",
+      "normalized_parsed_artist": "loslobos",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -13.456519909203053,
+        "mean_logprob": -3.364129977300763
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "La Bamba",
+      "target_artist": "Los Panchos",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Los Lobos\nAlbum: La Bamba\nYear: 1987\nLabel: Warner Bros.\nGenre",
+      "parsed_artist": "Los Lobos",
+      "normalized_parsed_artist": "loslobos",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -13.758001416921616,
+        "mean_logprob": -3.439500354230404
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "La Bamba",
+      "target_artist": "Los Panchos",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Ritchie Valens\nWhat is the name of the song that was recorded by Ritchie Valens and became a hit",
+      "parsed_artist": "Ritchie Valens",
+      "normalized_parsed_artist": "ritchievalens",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -13.917922288179398,
+        "mean_logprob": -3.4794805720448494
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing in the Dark",
+      "target_artist": "Bruce Springsteen",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Rolling Stones\nAlbum: Sticky Fingers\nYear: 1971\nGenre: Rock\nLength:",
+      "parsed_artist": "The Rolling Stones",
+      "normalized_parsed_artist": "therollingstones",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -11.94902384839952,
+        "mean_logprob": -3.9830079494665065
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing in the Dark",
+      "target_artist": "Bruce Springsteen",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Black Keys\nAlbum: Brothers\nRelease Date: 2005\nLabel: Fat Possum\nGenre",
+      "parsed_artist": "The Black Keys",
+      "normalized_parsed_artist": "theblackkeys",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -12.631271915510297,
+        "mean_logprob": -4.210423971836765
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing in the Dark",
+      "target_artist": "Bruce Springsteen",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Bruce Springsteen\nAlbum: Born to Run\nGenre: Rock\nYear: 1975\n\"Born",
+      "parsed_artist": "Bruce Springsteen",
+      "normalized_parsed_artist": "brucespringsteen",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -6.384232199750841,
+        "mean_logprob": -2.128077399916947
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Man Who Sold the World",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " David Bowie\nAlbum: The Man Who Sold the World\nRelease date: 1970\nGenre: Rock",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.912347886711359,
+        "mean_logprob": -3.9561739433556795
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Man Who Sold the World",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " David Bowie\nAlbum: The Man Who Sold the World\nReleased: 1970\nGenre: Rock\n",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.615942746400833,
+        "mean_logprob": -3.8079713732004166
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Man Who Sold the World",
+      "target_artist": "David Bowie",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " David Bowie\nAlbum: The Man Who Sold the World\nGenre: Rock\nRelease Date: 1970",
+      "parsed_artist": "David Bowie",
+      "normalized_parsed_artist": "davidbowie",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.066882487386465,
+        "mean_logprob": -3.5334412436932325
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed223__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Baba O'Riley",
+      "target_artist": "The Who",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Police\nAlbum: Outlandos d'Amour\nYear: 1978\nGenre: Rock",
+      "parsed_artist": "The Police",
+      "normalized_parsed_artist": "thepolice",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -12.710465431213379,
+        "mean_logprob": -6.3552327156066895
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed223__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Baba O'Riley",
+      "target_artist": "The Who",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Genesis\nAlbum: Selling England by the Pound\nYear: 1973\nGenre: Progressive Rock\nB",
+      "parsed_artist": "Genesis",
+      "normalized_parsed_artist": "genesis",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -12.064214944839478,
+        "mean_logprob": -6.032107472419739
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "post_punk_art_pop__seed223__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Baba O'Riley",
+      "target_artist": "The Who",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " The Who\nAlbum: Who's Next\nGenre: Rock\nYear: 1971\nTrack Title:",
+      "parsed_artist": "The Who",
+      "normalized_parsed_artist": "thewho",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -6.7179973646998405,
+        "mean_logprob": -3.3589986823499203
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing Queen",
+      "target_artist": "ABBA",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " ABBA\nAlbum: ABBA Gold\nYear: 1982\nGenre: Pop\nLength: ",
+      "parsed_artist": "ABBA",
+      "normalized_parsed_artist": "abba",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.0199795758817345,
+        "mean_logprob": -3.5099897879408672
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing Queen",
+      "target_artist": "ABBA",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " ABBA\nAlbum: ABBA Gold\nYear: 1982\nGenre: Pop\nLength: ",
+      "parsed_artist": "ABBA",
+      "normalized_parsed_artist": "abba",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -7.753238042700104,
+        "mean_logprob": -3.876619021350052
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing Queen",
+      "target_artist": "ABBA",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " ABBA\nThe track \"Dancing Queen\" is a song by the Swedish pop group ABBA. It was released",
+      "parsed_artist": "ABBA",
+      "normalized_parsed_artist": "abba",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -5.624929817859083,
+        "mean_logprob": -2.8124649089295417
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed223__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Halo",
+      "target_artist": "Beyoncé",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " The Beatles\nAlbum: Abbey Road\nYear: 1969\nGenre: Rock\nLength: 3",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -14.336715340614319,
+        "mean_logprob": -4.778905113538106
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed223__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Halo",
+      "target_artist": "Beyoncé",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAlbum: Sgt. Pepper's Lonely Hearts Club Band\nYear: 1967\nGenre:",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -14.95733779668808,
+        "mean_logprob": -4.985779265562694
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed223__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Halo",
+      "target_artist": "Beyoncé",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Beyoncé Knowles\nAlbum: \"I Am... Sasha Fierce\"\nGenre: R&B, Pop\nRelease Date",
+      "parsed_artist": "Beyoncé Knowles",
+      "normalized_parsed_artist": "beyoncéknowles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -10.177936732769012,
+        "mean_logprob": -3.3926455775896707
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Girl from Ipanema",
+      "target_artist": "Stan Getz",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Stan Getz\nAlbum title: Getz/Gilberto\nYear of release: 1964\n",
+      "parsed_artist": "Stan Getz",
+      "normalized_parsed_artist": "stangetz",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -9.310551649541594,
+        "mean_logprob": -3.1035172165138647
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Girl from Ipanema",
+      "target_artist": "Stan Getz",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Stan Getz\nAlbum: Getz/Gilberto\nYear: 1964\nTrack: The",
+      "parsed_artist": "Stan Getz",
+      "normalized_parsed_artist": "stangetz",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -9.0040018777363,
+        "mean_logprob": -3.0013339592454336
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Girl from Ipanema",
+      "target_artist": "Stan Getz",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Stan Getz\nAlbum: The Girl from Ipanema\nGenre: Jazz\nYear: 1964",
+      "parsed_artist": "Stan Getz",
+      "normalized_parsed_artist": "stangetz",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 3,
+        "sum_logprob": -9.070662236888893,
+        "mean_logprob": -3.0235540789629645
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Johnny Cash\nAlbum: American Recordings\nYear: 1994\nGenre: Country\nLength: ",
+      "parsed_artist": "Johnny Cash",
+      "normalized_parsed_artist": "johnnycash",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -8.75174455344677,
+        "mean_logprob": -4.375872276723385
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Cure\nAlbum: The Cure\nYear: 1985\nLabel: Fiction\nGenre: Post-P",
+      "parsed_artist": "The Cure",
+      "normalized_parsed_artist": "thecure",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -11.539081573486328,
+        "mean_logprob": -5.769540786743164
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Johnny Cash\nAlbum: American Recordings 3\nGenre: Country, Rock\nRelease Date: 200",
+      "parsed_artist": "Johnny Cash",
+      "normalized_parsed_artist": "johnnycash",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 2,
+        "sum_logprob": -5.45103146135807,
+        "mean_logprob": -2.725515730679035
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The Final Countdown",
+      "target_artist": "Europe",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Europe\nAlbum: Europe\nYear: 1985\nGenre: Hard Rock\nLength: 4:",
+      "parsed_artist": "Europe",
+      "normalized_parsed_artist": "europe",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -6.9411139488220215,
+        "mean_logprob": -6.9411139488220215
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The Final Countdown",
+      "target_artist": "Europe",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Final Countdown\nAlbum: The Final Countdown\nLabel: Atlantic\nReleased: 1986\nThe Final",
+      "parsed_artist": "The Final Countdown",
+      "normalized_parsed_artist": "thefinalcountdown",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -9.208343505859375,
+        "mean_logprob": -9.208343505859375
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The Final Countdown",
+      "target_artist": "Europe",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Europe\nThe recording artist for the track \"The Final Countdown\" is the Swedish rock band Europe. The song was released",
+      "parsed_artist": "Europe",
+      "normalized_parsed_artist": "europe",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 1,
+        "sum_logprob": -7.782784938812256,
+        "mean_logprob": -7.782784938812256
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Tears in Heaven",
+      "target_artist": "Eric Clapton",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Eric Clapton\nAlbum: Unplugged\nYear: 1992\nGenre: Rock\nLength",
+      "parsed_artist": "Eric Clapton",
+      "normalized_parsed_artist": "ericclapton",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -7.223438333487138,
+        "mean_logprob": -1.8058595833717845
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Tears in Heaven",
+      "target_artist": "Eric Clapton",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " Eric Clapton\nAlbum: Unplugged\nYear: 1992\nGenre: Rock\nLength",
+      "parsed_artist": "Eric Clapton",
+      "normalized_parsed_artist": "ericclapton",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -7.239302017958835,
+        "mean_logprob": -1.8098255044897087
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Tears in Heaven",
+      "target_artist": "Eric Clapton",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Eric Clapton\nSong: Tears in Heaven\nAlbum: Unplugged\nGenre: Rock\nYear: ",
+      "parsed_artist": "Eric Clapton",
+      "normalized_parsed_artist": "ericclapton",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -6.533058483153582,
+        "mean_logprob": -1.6332646207883954
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Sound of Silence",
+      "target_artist": "Simon & Garfunkel",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Simon & Garfunkel\nAlbum: Bookends\nYear: 1968\nGenre: Folk Rock",
+      "parsed_artist": "Simon & Garfunkel",
+      "normalized_parsed_artist": "simongarfunkel",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -7.824622100946726,
+        "mean_logprob": -1.304103683491121
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Sound of Silence",
+      "target_artist": "Simon & Garfunkel",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Beatles\nAlbum: Revolver\nYear: 1966\nGenre: Rock\nLyrics:\nSil",
+      "parsed_artist": "The Beatles",
+      "normalized_parsed_artist": "thebeatles",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -11.529648816795088,
+        "mean_logprob": -1.9216081361325148
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Sound of Silence",
+      "target_artist": "Simon & Garfunkel",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Simon & Garfunkel\nThe track \"The Sound of Silence\" is a song by the American folk rock duo",
+      "parsed_artist": "Simon & Garfunkel",
+      "normalized_parsed_artist": "simongarfunkel",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 6,
+        "sum_logprob": -7.149538128585846,
+        "mean_logprob": -1.1915896880976409
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed239__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "A Thousand Years",
+      "target_artist": "Christina Perri",
+      "emitted_artist": null,
+      "template_id": "catalog_entry",
+      "raw_generation": " Christina Perri\nAlbum: A Thousand Years\nRelease date: 2010\nGenre: Pop\nLength",
+      "parsed_artist": "Christina Perri",
+      "normalized_parsed_artist": "christinaperri",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -9.704765722388402,
+        "mean_logprob": -2.4261914305971004
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed239__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "A Thousand Years",
+      "target_artist": "Christina Perri",
+      "emitted_artist": null,
+      "template_id": "track_relation",
+      "raw_generation": " The Weeknd\nAlbum: After Hours\nGenre: R&B, Pop\nRelease Date: 2020",
+      "parsed_artist": "The Weeknd",
+      "normalized_parsed_artist": "theweeknd",
+      "target_generated": false,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -12.667116200784221,
+        "mean_logprob": -3.1667790501960553
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed239__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "A Thousand Years",
+      "target_artist": "Christina Perri",
+      "emitted_artist": null,
+      "template_id": "direct_question",
+      "raw_generation": " Christina Perri\nWhat is the name of the album that features the track \"A Thousand Years\"?\nAlbum: A",
+      "parsed_artist": "Christina Perri",
+      "normalized_parsed_artist": "christinaperri",
+      "target_generated": true,
+      "emitted_generated": false,
+      "target_score": {
+        "token_count": 4,
+        "sum_logprob": -4.588687396724708,
+        "mean_logprob": -1.147171849181177
+      },
+      "emitted_score": null,
+      "target_minus_emitted_mean_logprob": null,
+      "target_minus_emitted_sum_logprob": null
+    }
+  ],
+  "claim_boundaries": [
+    "Catalog conflict alone is not evidence that the model knew the reference relation.",
+    "Behavioral recoverability does not establish subjective awareness or deception.",
+    "Relation-stress yield is not ordinary recommendation hallucination prevalence.",
+    "No probe or intervention is allowed from pilot rows if the continuation gate fails.",
+    "Thresholds, prompts, controls, and selection rules may not change after catalog results."
+  ]
+}

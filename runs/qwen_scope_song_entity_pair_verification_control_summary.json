@@ -1,0 +1,32 @@
+{
+  "letter_token_ids": {
+    "A": 32,
+    "B": 33
+  },
+  "groups": {
+    "known_exact": {
+      "n": 20,
+      "neutral_mean": -1.88828125,
+      "neutral_unknown_count": 0,
+      "self_mean": -1.1,
+      "self_unknown_count": 0
+    },
+    "artist_mismatch": {
+      "n": 10,
+      "neutral_mean": -1.53125,
+      "neutral_unknown_count": 0,
+      "self_mean": -0.865625,
+      "self_unknown_count": 0
+    },
+    "synthetic_pair": {
+      "n": 10,
+      "neutral_mean": -0.6484375,
+      "neutral_unknown_count": 0,
+      "self_mean": -0.3609375,
+      "self_unknown_count": 0
+    }
+  },
+  "neutral_balanced_accuracy": 0.5,
+  "self_balanced_accuracy": 0.5,
+  "mean_self_minus_neutral": 0.632421875
+}

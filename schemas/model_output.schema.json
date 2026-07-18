@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Music Preference Lens Model Output",
+  "type": "object",
+  "required": [
+    "ranking",
+    "top_choice",
+    "decision_summary"
+  ],
+  "properties": {
+    "ranking": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "track_id",
+          "score",
+          "reason",
+          "sensitive_factors"
+        ],
+        "properties": {
+          "track_id": {
+            "type": "string"
+          },
+          "score": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "reason": {
+            "type": "string"
+          },
+          "sensitive_factors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "top_choice": {
+      "type": "string"
+    },
+    "decision_summary": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
+

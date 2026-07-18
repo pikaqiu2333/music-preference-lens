@@ -1,0 +1,279 @@
+{
+  "protocol_id": "music_relation_mechanism_intervention_phase2_v1",
+  "frozen_at_utc": "2026-07-13T11:11:05.1161669Z",
+  "phase1_archive_commit": "5d4b9ba8ad20ac5d3aa402b92abdabbe8bc20e06",
+  "research_question": "Can a pre-correction mechanism label predict which correction method repairs a naturally generated title-artist relation conflict?",
+  "models": {
+    "confirmatory": {
+      "model_id": "ibm-granite/granite-4.1-3b-base",
+      "revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+      "expected_num_layers": 40,
+      "license": "apache-2.0"
+    },
+    "technical_backup_only": {
+      "model_id": "HuggingFaceTB/SmolLM3-3B-Base",
+      "revision": "d78a42f79198603e614095753484a04c10c2b940",
+      "expected_num_layers": 36,
+      "diagnostic_layers": [18, 25, 32],
+      "allowed_reason": "Confirmatory model fails the format-only technical smoke under both frozen prompt formats.",
+      "forbidden_reasons": [
+        "catalog yield",
+        "scientific effect size",
+        "mechanism prevalence",
+        "hypothesis failure"
+      ]
+    }
+  },
+  "generation": {
+    "seeds": [139, 149, 163, 179, 193],
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 384,
+    "tracks_per_playlist": 5,
+    "prompt_templates": {
+      "primary": "Music playlist request.\n\nUser profile: {profile}.\n\nCurrent need: {current_need}.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title:",
+      "single_format_fallback": "Music playlist request.\n\nUser profile: {profile}.\n\nCurrent need: {current_need}.\n\nRecommend exactly 5 real, existing tracks. Return exactly five single-line records and no other text. Each record must use this literal form: N. Title: <real title> | Artist: <real artist> | Reason: <one short sentence>\n\nPlaylist:\n1. Title:"
+    },
+    "primary_playlist_count": 60,
+    "extension_playlist_count": 20,
+    "maximum_playlist_count": 80,
+    "maximum_parsed_event_count": 400,
+    "extension_trigger": {
+      "minimum_primary_parsed_events": 240,
+      "minimum_primary_unique_strict_conflict_title_clusters": 40,
+      "run_extension_if_either_below_minimum": true
+    },
+    "selection": {
+      "cluster_unit": "normalized_title",
+      "within_cluster_row_hash_salt": "phase2-v1-within-title-row",
+      "maximum_unique_conflict_title_clusters": 40,
+      "maximum_unique_exact_title_clusters": 40,
+      "conflict_hash_salt": "phase2-v1-conflict",
+      "exact_hash_salt": "phase2-v1-exact"
+    },
+    "primary_contexts": [
+      {
+        "context_id": "quiet_night_drive",
+        "profile": "likes electronic, ambient, city pop, and restrained rhythmic indie; avoids noisy rock and high-pressure EDM in daily listening",
+        "current_need": "rainy night driving with a calm urban mood, a restrained beat, and no loud peaks"
+      },
+      {
+        "context_id": "peak_time_rave",
+        "profile": "likes electronic, funk, retro disco, and niche dance discoveries",
+        "current_need": "a 2am peak-time dance floor with hard energy, intense drums, and maximum momentum"
+      },
+      {
+        "context_id": "emotional_vocal",
+        "profile": "likes intimate vocals, soft electronic production, and melodic songwriting",
+        "current_need": "late-night emotional listening with a lyrical story, a dramatic chorus, and clear emotional release"
+      },
+      {
+        "context_id": "strict_no_vocals",
+        "profile": "likes ambient, modern classical, and soft electronic textures",
+        "current_need": "strict writing mode with no vocals, no spoken samples, and minimal attention-grabbing changes"
+      },
+      {
+        "context_id": "deep_focus_minimal",
+        "profile": "likes minimal electronic music, gentle repetition, and subtle rhythmic motion",
+        "current_need": "ninety minutes of deep focus with steady texture and very low distraction"
+      },
+      {
+        "context_id": "morning_acoustic",
+        "profile": "likes warm singer-songwriter records, folk-pop, and natural instrumentation",
+        "current_need": "a quiet sunny morning with optimistic acoustic songs that do not feel sugary"
+      },
+      {
+        "context_id": "strength_training",
+        "profile": "likes hip-hop, industrial electronic music, and forceful percussion",
+        "current_need": "heavy strength training with controlled aggression, strong downbeats, and no slow ballads"
+      },
+      {
+        "context_id": "breakup_recovery",
+        "profile": "likes emotionally direct pop, alternative R&B, and cathartic vocals",
+        "current_need": "recovering after a breakup and wanting sadness that gradually turns into resolve"
+      },
+      {
+        "context_id": "dinner_jazz",
+        "profile": "likes jazz, soul, bossa nova, and detailed but unobtrusive arrangements",
+        "current_need": "a small dinner with warm conversation, moderate tempo, and no showy solos"
+      },
+      {
+        "context_id": "nostalgic_city_pop",
+        "profile": "likes city pop, synth-pop, disco basslines, and polished eighties production",
+        "current_need": "a nostalgic evening walk with neon-lit warmth and a gentle dance pulse"
+      },
+      {
+        "context_id": "indie_discovery",
+        "profile": "likes art pop, post-punk, electronic indie, and unfamiliar artists",
+        "current_need": "discovering distinctive recent-sounding tracks without obvious stadium hits"
+      },
+      {
+        "context_id": "sleep_ambient",
+        "profile": "likes drone, ambient, soft piano, and very slow harmonic movement",
+        "current_need": "falling asleep with low-volume music, no percussion shocks, and no prominent vocals"
+      }
+    ],
+    "registered_extension_contexts": [
+      {
+        "context_id": "summer_road_trip",
+        "profile": "likes bright pop-rock, funk, indie pop, and singalong hooks",
+        "current_need": "a summer road trip with forward motion, open-road energy, and no melancholy ballads"
+      },
+      {
+        "context_id": "rainy_cafe",
+        "profile": "likes mellow jazz, acoustic soul, trip-hop, and understated vocals",
+        "current_need": "reading alone in a rainy cafe with warmth, detail, and a soft pulse"
+      },
+      {
+        "context_id": "experimental_electronic",
+        "profile": "likes IDM, electroacoustic work, unusual timbres, and complex rhythm",
+        "current_need": "focused listening to adventurous electronic tracks that remain musically coherent"
+      },
+      {
+        "context_id": "celebratory_dance",
+        "profile": "likes disco, house, funk, and exuberant vocal dance records",
+        "current_need": "a joyful celebration with immediate hooks, inclusive energy, and sustained dancing"
+      }
+    ]
+  },
+  "technical_smoke": {
+    "context": {
+      "context_id": "format_only_smoke",
+      "profile": "likes melodic pop, light funk, and familiar upbeat records",
+      "current_need": "an ordinary afternoon doing household chores with moderate energy"
+    },
+    "seed": 997,
+    "excluded_from_scientific_batches": true,
+    "prompt_attempt_order": ["primary", "single_format_fallback"],
+    "minimum_nonempty_completions": 1,
+    "minimum_parsed_tracks": 4,
+    "allowed_inspection": [
+      "model loading",
+      "model revision",
+      "nonempty completion",
+      "parser yield",
+      "GPU memory",
+      "hook endpoint reproduction"
+    ],
+    "forbidden_inspection": [
+      "catalog correctness",
+      "mechanism label",
+      "relation score",
+      "intervention outcome"
+    ],
+    "maximum_format_repairs": 1,
+    "forbid_raw_artifact_upload": true
+  },
+  "catalog": {
+    "sources": ["MusicBrainz", "Apple"],
+    "exact_requires_both": true,
+    "conflict_requires_emitted_absent_from_both": true,
+    "conflict_requires_exactly_one_shared_non_emitted_artist": true,
+    "ambiguous_rows_excluded": true,
+    "reference_semantics": "catalog-supported reference, not unique real-world answer",
+    "archive_requirements": [
+      "complete raw response body",
+      "query URL or normalized query parameters",
+      "UTC query timestamp",
+      "source recording or track identifiers",
+      "HTTP success or failure status"
+    ]
+  },
+  "mechanism_diagnosis": {
+    "layers": [20, 28, 36],
+    "depth_fractions": [0.5, 0.7, 0.9],
+    "component": "full_residual",
+    "diagnostic_prompt_templates": [
+      "Complete the factual catalog entry.\nTitle: {title}\nArtist:",
+      "Track-title relation.\nTrack: {title}\nRecorded by:"
+    ],
+    "diagnostic_neutral_title_count": 3,
+    "heldout_manipulation_neutral_title_count": 3,
+    "neutral_selection_key": "sha256('phase2-v1-neutral-control:' + normalized_conflict_title + ':' + normalized_exact_pool_title)",
+    "neutral_candidate_exclusions": [
+      "same normalized title as conflict",
+      "strict exact artist equals emitted artist",
+      "strict exact artist equals reference artist",
+      "either catalog lists emitted artist for neutral title",
+      "either catalog lists reference artist for neutral title"
+    ],
+    "minimum_global_unique_exact_pool_titles": 6,
+    "minimum_absolute_patch_relation_shift_nats": 0.05,
+    "minimum_layers_same_direction": 2,
+    "label_requires_template_agreement": true,
+    "labels": ["prior_masked", "wrong_binding", "indeterminate"],
+    "patch_specification": {
+      "source": "factual-title prompt plus complete candidate artist continuation",
+      "target": "otherwise identical neutral-title prompt plus the same candidate artist continuation",
+      "token_alignment": "source and target complete artist continuation token IDs must match",
+      "patched_positions": "all prediction positions immediately preceding every complete artist continuation token",
+      "maximum_selected_cluster_technical_failure_rate": 0.1
+    }
+  },
+  "correction": {
+    "generation": {
+      "do_sample": false,
+      "max_new_tokens": 32
+    },
+    "naive_candidate_free_templates": [
+      "You previously wrote that the track titled '{title}' is by '{emitted_artist}'. Recheck that factual relation without tools. Output exactly 'Artist: <artist name>' if you can correct or confirm it, or 'ABSTAIN' if you cannot.",
+      "Verify the artist for the song title '{title}'. Your earlier answer was '{emitted_artist}'. Do not use tools or a candidate list. Reply only 'Artist: <artist name>' or 'ABSTAIN'."
+    ],
+    "anti_prior_candidate_free_templates": [
+      "You previously wrote that the track titled '{title}' is by '{emitted_artist}'. Ignore artist fame and generic name associations; retrieve the specific title-artist relation. Without tools or candidates, reply only 'Artist: <artist name>' or 'ABSTAIN'.",
+      "Recall the exact artist linked to the song title '{title}', not the artist who is merely more famous or generally likely. Your earlier answer was '{emitted_artist}'. Reply only 'Artist: <artist name>' or 'ABSTAIN'."
+    ],
+    "closed_set_manipulation_prompt_template": "The artist associated with the track titled {title} is",
+    "conditions": [
+      "naive_candidate_free_self_check",
+      "anti_prior_candidate_free_recall",
+      "heldout_prior_subtracted_closed_set_manipulation_check",
+      "strict_double_catalog_safety_control"
+    ],
+    "placebo": "hash_selected_shuffled_title_prior_subtraction",
+    "abstention_counts_as_correction": false,
+    "candidate_free_response_scoring": {
+      "per_paraphrase_indicator": "1 only when the parsed artist equals the catalog-supported reference after frozen normalization; 0 otherwise",
+      "per_title_condition_accuracy": "arithmetic mean of the two frozen paraphrase indicators, yielding 0, 0.5, or 1",
+      "abstained": "report each ABSTAIN response separately",
+      "paraphrase_disagreement": "report when the two normalized outputs differ",
+      "continued_error": "report each parsed non-reference artist separately",
+      "invalid": "report each response that is neither ABSTAIN nor exactly one Artist field separately",
+      "tie_handling": "no tie-breaking; the two paraphrase indicators remain separate before averaging"
+    },
+    "exact_false_candidate_selection_salt": "phase2-v1-exact-false-candidate"
+  },
+  "hypothesis_gates": {
+    "h1_agreement_denominator": "all selected normalized-title conflict clusters including indeterminate labels and technical failures",
+    "h1_kappa_type": "unweighted_three_class_cohens_kappa",
+    "h1_minimum_raw_three_class_agreement": 0.8,
+    "h1_minimum_cohens_kappa": 0.6,
+    "h1_minimum_same_non_indeterminate_coverage": 0.6,
+    "h2_minimum_normalized_title_clusters_per_class": 15,
+    "h2_minimum_interaction_percentage_points": 25,
+    "h2_bootstrap_lower_bound_must_exceed_zero": true,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20260713,
+    "bootstrap_cluster": "normalized_title",
+    "bootstrap_type": "percentile_stratified_within_mechanism_class_with_replacement"
+  },
+  "stop_conditions": {
+    "minimum_unique_strict_conflict_title_clusters_after_cap": 30,
+    "minimum_normalized_title_clusters_per_mechanism_class": 15,
+    "minimum_h1_raw_agreement": 0.8,
+    "minimum_h1_cohens_kappa": 0.6,
+    "minimum_h1_same_non_indeterminate_coverage": 0.6,
+    "minimum_h2_interaction_percentage_points": 25,
+    "stop_if_interaction_confidence_interval_crosses_zero": true,
+    "stop_if_only_qwen_discovery_reproduces": true,
+    "forbid_third_model_rescue": true,
+    "forbid_post_result_threshold_prompt_layer_or_sample_changes": true
+  },
+  "claim_boundaries": [
+    "No subjective-awareness claim.",
+    "No universal hallucination-detector claim.",
+    "No claim that activation patching establishes a unique necessary circuit.",
+    "No claim that internal diagnostics replace external catalog grounding.",
+    "Recommendation relevance and explanation faithfulness remain separate from entity validity."
+  ]
+}

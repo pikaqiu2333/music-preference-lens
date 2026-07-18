@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Music Preference Lens J-Space Complexity Task",
+  "type": "object",
+  "required": [
+    "task_id",
+    "complexity_level",
+    "task_family",
+    "workspace_pressure",
+    "paired_with",
+    "hypothesis",
+    "input_text",
+    "target_signals",
+    "success_checks"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "complexity_level": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4
+    },
+    "task_family": {
+      "type": "string"
+    },
+    "workspace_pressure": {
+      "enum": ["low", "medium", "high"]
+    },
+    "paired_with": {
+      "type": ["string", "null"]
+    },
+    "hypothesis": {
+      "type": "string"
+    },
+    "input_text": {
+      "type": "string"
+    },
+    "target_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "success_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

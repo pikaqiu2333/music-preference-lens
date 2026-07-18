@@ -1,0 +1,7 @@
+# Direct dependencies used by the four July 2026 publication-stage runners.
+# Run with Python 3.12 and the model revisions recorded in
+# runs/hf_job_metadata.json. PEP 723 headers in each runner are authoritative.
+accelerate==1.8.1
+torch==2.7.1
+transformers==4.53.2
+

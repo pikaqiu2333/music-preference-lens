@@ -1,0 +1,58 @@
+{
+  "source_job_id": "6a51ae56effc02a91cbd9235",
+  "parser_revision": "inline_fields_and_title_by_artist_v2",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "generation_count": 8,
+  "valid_generation_count": 8,
+  "complete_row_count": 40,
+  "row_counts_by_order": {
+    "pair_first": 20,
+    "reason_first": 20
+  },
+  "placeholder_artist_counts_by_order": {
+    "pair_first": 0,
+    "reason_first": 5
+  },
+  "explicit_artist_field_rates_by_order": {
+    "pair_first": 1.0,
+    "reason_first": 0.75
+  },
+  "order_compliance": 1.0,
+  "matched_overlaps": [
+    {
+      "context_id": "emotional_vocal",
+      "seed": 17,
+      "pair_first_count": 5,
+      "reason_first_count": 5,
+      "exact_pair_overlap_count": 0,
+      "exact_pair_jaccard": 0.0
+    },
+    {
+      "context_id": "emotional_vocal",
+      "seed": 29,
+      "pair_first_count": 5,
+      "reason_first_count": 5,
+      "exact_pair_overlap_count": 0,
+      "exact_pair_jaccard": 0.0
+    },
+    {
+      "context_id": "strict_no_vocals",
+      "seed": 17,
+      "pair_first_count": 5,
+      "reason_first_count": 5,
+      "exact_pair_overlap_count": 0,
+      "exact_pair_jaccard": 0.0
+    },
+    {
+      "context_id": "strict_no_vocals",
+      "seed": 29,
+      "pair_first_count": 5,
+      "reason_first_count": 5,
+      "exact_pair_overlap_count": 0,
+      "exact_pair_jaccard": 0.0
+    }
+  ],
+  "mean_exact_pair_jaccard": 0.0,
+  "technical_gate": true,
+  "catalog_verification_required": true
+}

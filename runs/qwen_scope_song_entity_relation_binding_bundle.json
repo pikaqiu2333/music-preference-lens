@@ -1,0 +1,220 @@
+{
+  "bundle_version": "song_entity_relation_binding_v1",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "sae_repo": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+  "sae_layer": 24,
+  "controls": [
+    {
+      "relation_id": "rel_blinding_lights",
+      "block_id": "en_swap_1",
+      "title": "Blinding Lights",
+      "correct_artist": "The Weeknd",
+      "wrong_artist": "Billie Eilish",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_bad_guy",
+      "block_id": "en_swap_1",
+      "title": "bad guy",
+      "correct_artist": "Billie Eilish",
+      "wrong_artist": "The Weeknd",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_shape_of_you",
+      "block_id": "en_swap_2",
+      "title": "Shape of You",
+      "correct_artist": "Ed Sheeran",
+      "wrong_artist": "Queen",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_bohemian_rhapsody",
+      "block_id": "en_swap_2",
+      "title": "Bohemian Rhapsody",
+      "correct_artist": "Queen",
+      "wrong_artist": "Ed Sheeran",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_rolling_in_the_deep",
+      "block_id": "en_swap_3",
+      "title": "Rolling in the Deep",
+      "correct_artist": "Adele",
+      "wrong_artist": "Nirvana",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_smells_like_teen_spirit",
+      "block_id": "en_swap_3",
+      "title": "Smells Like Teen Spirit",
+      "correct_artist": "Nirvana",
+      "wrong_artist": "Adele",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_billie_jean",
+      "block_id": "en_swap_4",
+      "title": "Billie Jean",
+      "correct_artist": "Michael Jackson",
+      "wrong_artist": "Dua Lipa",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_levitating",
+      "block_id": "en_swap_4",
+      "title": "Levitating",
+      "correct_artist": "Dua Lipa",
+      "wrong_artist": "Michael Jackson",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_radioactive",
+      "block_id": "en_swap_5",
+      "title": "Radioactive",
+      "correct_artist": "Imagine Dragons",
+      "wrong_artist": "Coldplay",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_viva_la_vida",
+      "block_id": "en_swap_5",
+      "title": "Viva La Vida",
+      "correct_artist": "Coldplay",
+      "wrong_artist": "Imagine Dragons",
+      "neutral_title": "Untitled Song",
+      "language": "en"
+    },
+    {
+      "relation_id": "rel_dao_xiang",
+      "block_id": "zh_swap_1",
+      "title": "稻香",
+      "correct_artist": "周杰伦",
+      "wrong_artist": "邓紫棋",
+      "neutral_title": "未命名歌曲",
+      "language": "zh",
+      "accepted_artists": [
+        "周杰倫",
+        "Jay Chou"
+      ]
+    },
+    {
+      "relation_id": "rel_qing_hua_ci",
+      "block_id": "zh_swap_2",
+      "title": "青花瓷",
+      "correct_artist": "周杰伦",
+      "wrong_artist": "林俊杰",
+      "neutral_title": "未命名歌曲",
+      "language": "zh",
+      "accepted_artists": [
+        "周杰倫",
+        "Jay Chou"
+      ]
+    },
+    {
+      "relation_id": "rel_shi_nian",
+      "block_id": "zh_swap_3",
+      "title": "十年",
+      "correct_artist": "陈奕迅",
+      "wrong_artist": "薛之谦",
+      "neutral_title": "未命名歌曲",
+      "language": "zh",
+      "accepted_artists": [
+        "陳奕迅",
+        "Eason Chan"
+      ]
+    },
+    {
+      "relation_id": "rel_qi_li_xiang",
+      "block_id": "zh_swap_4",
+      "title": "七里香",
+      "correct_artist": "周杰伦",
+      "wrong_artist": "朴树",
+      "neutral_title": "未命名歌曲",
+      "language": "zh",
+      "accepted_artists": [
+        "周杰倫",
+        "Jay Chou"
+      ]
+    },
+    {
+      "relation_id": "rel_guang_nian_zhi_wai",
+      "block_id": "zh_swap_1",
+      "title": "光年之外",
+      "correct_artist": "邓紫棋",
+      "wrong_artist": "周杰伦",
+      "neutral_title": "未命名歌曲",
+      "language": "zh",
+      "accepted_artists": [
+        "鄧紫棋",
+        "G.E.M.",
+        "G.E.M. 鄧紫棋"
+      ]
+    },
+    {
+      "relation_id": "rel_xiu_lian_ai_qing",
+      "block_id": "zh_swap_2",
+      "title": "修炼爱情",
+      "correct_artist": "林俊杰",
+      "wrong_artist": "周杰伦",
+      "neutral_title": "未命名歌曲",
+      "language": "zh"
+    },
+    {
+      "relation_id": "rel_yan_yuan",
+      "block_id": "zh_swap_3",
+      "title": "演员",
+      "correct_artist": "薛之谦",
+      "wrong_artist": "陈奕迅",
+      "neutral_title": "未命名歌曲",
+      "language": "zh"
+    },
+    {
+      "relation_id": "rel_ping_fan_zhi_lu",
+      "block_id": "zh_swap_4",
+      "title": "平凡之路",
+      "correct_artist": "朴树",
+      "wrong_artist": "周杰伦",
+      "neutral_title": "未命名歌曲",
+      "language": "zh"
+    },
+    {
+      "relation_id": "rel_hong_dou",
+      "block_id": "zh_swap_5",
+      "title": "红豆",
+      "correct_artist": "王菲",
+      "wrong_artist": "邓紫棋",
+      "neutral_title": "未命名歌曲",
+      "language": "zh"
+    },
+    {
+      "relation_id": "rel_pao_mo",
+      "block_id": "zh_swap_5",
+      "title": "泡沫",
+      "correct_artist": "邓紫棋",
+      "wrong_artist": "王菲",
+      "neutral_title": "未命名歌曲",
+      "language": "zh",
+      "accepted_artists": [
+        "鄧紫棋",
+        "G.E.M.",
+        "G.E.M. 鄧紫棋"
+      ]
+    }
+  ],
+  "sae_template": "Catalog fact check.\nTitle: {title}\nArtist: {artist}\nRelation:",
+  "likelihood_template": "Complete the factual catalog entry.\nTitle: {title}\nArtist: ",
+  "choice_template": "Which artist is correctly associated with the song title \"{title}\"?\nA. {artist_a}\nB. {artist_b}\nAnswer:",
+  "feature_count": 32,
+  "pair_folds": 5,
+  "interpretation_threshold": 0.8
+}

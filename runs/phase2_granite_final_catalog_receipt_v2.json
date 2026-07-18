@@ -1,0 +1,87 @@
+{
+    "receipt_version":  "phase2_granite_final_catalog_receipt_v1",
+    "protocol_id":  "music_relation_mechanism_intervention_phase2_v1",
+    "protocol_hashes":  {
+                            "json_sha256":  "99e9638d67d5d52d190705a91a11aad8ed82be2f2e9bac0f2931bb1844fc757f",
+                            "markdown_sha256":  "ee79d66418316f47bda1e49b5c9c7b89d5a0bed7dea7777ce90fd014718158b7"
+                        },
+    "catalog_verifier":  {
+                             "version":  "phase2_catalog_v2_complete_alias_audit",
+                             "sha256":  "c9659b932ac3f1064e75e0b5b03c8cad5aa34cf7ca84efa2946c8dd9a9bb9867"
+                         },
+    "generation_jobs":  {
+                            "primary":  "6a54cc73e4a4e82c0b591404",
+                            "extension":  "6a54e481e4a4e82c0b591722"
+                        },
+    "extension_recovery":  {
+                               "initial_terminal_error_rows":  9,
+                               "retry_1_terminal_error_rows":  8,
+                               "retry_2_terminal_error_rows":  0,
+                               "final_error_rows":  0,
+                               "retry_scope":  "retry_errors_only"
+                           },
+    "evidence_merge":  {
+                           "input_request_counts":  [
+                                                        957,
+                                                        394
+                                                    ],
+                           "byte_identical_duplicate_request_count":  2,
+                           "unique_request_count":  1349,
+                           "combined_raw_bytes":  325241299,
+                           "combined_raw_sha256":  "5c14f2e6ed519a6a3005801c9a0cb0989deeb21bd83edeb8cefef0c474bfe57f"
+                       },
+    "assets":  {
+                   "primary_evidence_gzip":  {
+                                                 "bytes":  33996356,
+                                                 "sha256":  "1d8b5b0c0f5bb91c5d4173a9ecc0c4fea08dc91b25c466e1eb5196b480252e92"
+                                             },
+                   "extension_evidence_raw":  {
+                                                  "bytes":  90445279,
+                                                  "sha256":  "03cb574543de3e86bbbd7a6436c5ed8a03ee3ce18f16ac1e53d5e82d471d6036"
+                                              },
+                   "extension_evidence_gzip":  {
+                                                   "bytes":  12583026,
+                                                   "sha256":  "5abd5d57d38f295addd51c2b6b6d035810d10ae85c583d895979373e058fbd36"
+                                               },
+                   "combined_evidence_gzip":  {
+                                                  "bytes":  46969843,
+                                                  "sha256":  "f63f8b78876052d95da9c907943ccc1b985bec315a548d81b232fcbaa3b42ef2"
+                                              },
+                   "extension_generation_artifact":  {
+                                                         "bytes":  30731,
+                                                         "sha256":  "58956b7d3ed70be47eee7dce18a8678b3d8279088b45afb83105a8a6222372ba"
+                                                     },
+                   "extension_catalog_rows":  {
+                                                  "bytes":  2166719,
+                                                  "sha256":  "b357dd31d82d65704322efdaf09e2484220e5972fb3b5f82b4632a54324c7386"
+                                              },
+                   "combined_catalog_rows":  {
+                                                 "bytes":  12478092,
+                                                 "sha256":  "49b31b2e8fb6d50decb47ef610ed8aa2ce52d62f04996389b7d3ff05a594b043"
+                                             },
+                   "selected_conflicts":  {
+                                              "bytes":  106167,
+                                              "sha256":  "ff87ca47a855f01fb485b4703ea8a428eb2737da2ed185ee049f7c089dbba2a0"
+                                          },
+                   "selected_exact":  {
+                                          "bytes":  1352792,
+                                          "sha256":  "ec9f9d190d6653f5ee2970acd770bbed9807de06cd5557afbe2c2b2a101b222f"
+                                      },
+                   "final_summary":  {
+                                         "bytes":  2489,
+                                         "sha256":  "dd86f462a3d3981518d26db1a85dd9598838fd1396b7c6bccab5997c98f80397"
+                                     }
+               },
+    "final_counts":  {
+                         "playlist_count":  80,
+                         "parsed_event_count":  385,
+                         "unique_normalized_title_count":  304,
+                         "strict_conflict_event_count":  9,
+                         "strict_exact_event_count":  41,
+                         "selected_unique_strict_conflict_title_cluster_count":  7,
+                         "selected_unique_strict_exact_title_cluster_count":  25,
+                         "minimum_conflict_clusters_to_continue":  30
+                     },
+    "decision":  "STOP_INSUFFICIENT_STRICT_CONFLICT_CLUSTERS",
+    "formal_mechanism_run_allowed":  false
+}

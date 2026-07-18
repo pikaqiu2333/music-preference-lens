@@ -1,0 +1,10 @@
+{"pair_id":"rel_bad_guy__mismatch","relation_id":"rel_bad_guy","block_id":"en_swap_1","group":"artist_mismatch","title":"bad guy","artist":"The Weeknd","language":"en"}
+{"pair_id":"rel_bohemian_rhapsody__mismatch","relation_id":"rel_bohemian_rhapsody","block_id":"en_swap_2","group":"artist_mismatch","title":"Bohemian Rhapsody","artist":"Ed Sheeran","language":"en"}
+{"pair_id":"rel_smells_like_teen_spirit__mismatch","relation_id":"rel_smells_like_teen_spirit","block_id":"en_swap_3","group":"artist_mismatch","title":"Smells Like Teen Spirit","artist":"Adele","language":"en"}
+{"pair_id":"rel_levitating__mismatch","relation_id":"rel_levitating","block_id":"en_swap_4","group":"artist_mismatch","title":"Levitating","artist":"Michael Jackson","language":"en"}
+{"pair_id":"rel_viva_la_vida__mismatch","relation_id":"rel_viva_la_vida","block_id":"en_swap_5","group":"artist_mismatch","title":"Viva La Vida","artist":"Imagine Dragons","language":"en"}
+{"pair_id":"rel_guang_nian_zhi_wai__mismatch","relation_id":"rel_guang_nian_zhi_wai","block_id":"zh_swap_1","group":"artist_mismatch","title":"光年之外","artist":"周杰伦","language":"zh"}
+{"pair_id":"rel_xiu_lian_ai_qing__mismatch","relation_id":"rel_xiu_lian_ai_qing","block_id":"zh_swap_2","group":"artist_mismatch","title":"修炼爱情","artist":"周杰伦","language":"zh"}
+{"pair_id":"rel_yan_yuan__mismatch","relation_id":"rel_yan_yuan","block_id":"zh_swap_3","group":"artist_mismatch","title":"演员","artist":"陈奕迅","language":"zh"}
+{"pair_id":"rel_hong_dou__mismatch","relation_id":"rel_hong_dou","block_id":"zh_swap_5","group":"artist_mismatch","title":"红豆","artist":"邓紫棋","language":"zh"}
+{"pair_id":"rel_pao_mo__mismatch","relation_id":"rel_pao_mo","block_id":"zh_swap_5","group":"artist_mismatch","title":"泡沫","artist":"王菲","language":"zh"}

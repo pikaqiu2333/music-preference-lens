@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research snapshot, please cite it as follows."
+title: "Music Preference Lens: Title-Artist Hallucinations in LLM Music Recommendation"
+type: software
+authors:
+  - name: "Music Preference Lens Contributors"
+version: 0.1.0
+date-released: 2026-07-18
+repository-code: "https://github.com/pikaqiu2333/music-preference-lens"
+url: "https://github.com/pikaqiu2333/music-preference-lens"
+abstract: >-
+  An anonymized, reproducible research snapshot testing whether base language
+  models can self-detect unsupported title-artist relations in open-ended music
+  recommendation, with counterfactual and causal mechanism diagnostics.
+keywords:
+  - mechanistic interpretability
+  - music recommendation
+  - hallucination
+  - activation patching
+  - reproducible research

@@ -1,0 +1,159 @@
+{
+  "run_id": "20260711T020834Z_pilot",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "case_count": 3,
+  "valid_case_count": 3,
+  "selected_layers": [
+    14,
+    16,
+    18,
+    21,
+    24,
+    27,
+    28
+  ],
+  "analysis_layers": [
+    14,
+    16,
+    18,
+    21,
+    24,
+    27
+  ],
+  "component_curve": [
+    {
+      "layer": 14,
+      "component": "attention",
+      "mean_recovery": -0.034422330078442406,
+      "median_recovery": -0.03412373002239251,
+      "toward_opposite_rate": 0.3333333333333333
+    },
+    {
+      "layer": 14,
+      "component": "mlp",
+      "mean_recovery": -0.08416365219264212,
+      "median_recovery": -0.015953048847045258,
+      "toward_opposite_rate": 0.3333333333333333
+    },
+    {
+      "layer": 14,
+      "component": "full_residual",
+      "mean_recovery": 0.18430405084535217,
+      "median_recovery": 0.1561156050876595,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 16,
+      "component": "attention",
+      "mean_recovery": 0.27556115885936006,
+      "median_recovery": 0.18427500929930407,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 16,
+      "component": "mlp",
+      "mean_recovery": 0.20030161644551292,
+      "median_recovery": 0.07653001974219022,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 16,
+      "component": "full_residual",
+      "mean_recovery": 0.6514519106986538,
+      "median_recovery": 0.28436964495204103,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 18,
+      "component": "attention",
+      "mean_recovery": 0.24344427210608707,
+      "median_recovery": 0.3331270905875253,
+      "toward_opposite_rate": 0.6666666666666666
+    },
+    {
+      "layer": 18,
+      "component": "mlp",
+      "mean_recovery": 0.22189583391365356,
+      "median_recovery": 0.09657308723118123,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 18,
+      "component": "full_residual",
+      "mean_recovery": 1.12875899494743,
+      "median_recovery": 0.7738104044111024,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 21,
+      "component": "attention",
+      "mean_recovery": 0.07737604408650323,
+      "median_recovery": 0.09228194854067161,
+      "toward_opposite_rate": 0.6666666666666666
+    },
+    {
+      "layer": 21,
+      "component": "mlp",
+      "mean_recovery": 0.6870251330026843,
+      "median_recovery": 0.34659942201248595,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 21,
+      "component": "full_residual",
+      "mean_recovery": 1.1621528211935825,
+      "median_recovery": 1.0121231132480375,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 24,
+      "component": "attention",
+      "mean_recovery": 0.08153054677234174,
+      "median_recovery": 0.10634777096013295,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 24,
+      "component": "mlp",
+      "mean_recovery": 0.16193017800685713,
+      "median_recovery": 0.3113926277448843,
+      "toward_opposite_rate": 0.6666666666666666
+    },
+    {
+      "layer": 24,
+      "component": "full_residual",
+      "mean_recovery": 1.0293984852037017,
+      "median_recovery": 1.0211008892360158,
+      "toward_opposite_rate": 1
+    },
+    {
+      "layer": 27,
+      "component": "attention",
+      "mean_recovery": 0.1776542861238515,
+      "median_recovery": -0.00938217649284298,
+      "toward_opposite_rate": 0.3333333333333333
+    },
+    {
+      "layer": 27,
+      "component": "mlp",
+      "mean_recovery": -0.15704166751682316,
+      "median_recovery": 0.15453419229583126,
+      "toward_opposite_rate": 0.6666666666666666
+    },
+    {
+      "layer": 27,
+      "component": "full_residual",
+      "mean_recovery": 1.0113559382814674,
+      "median_recovery": 1.007341946272807,
+      "toward_opposite_rate": 1
+    }
+  ],
+  "max_baseline_error": 0.0027083555857339014,
+  "max_layer28_full_residual_endpoint_error": 0,
+  "technical_gate": true,
+  "interpretation_scope": "exploratory_three_case_pilot",
+  "behavior_reference": "20260711T015944Z_smoke",
+  "started_at": "2026-07-11T02:08:34.956790+00:00",
+  "finished_at": "2026-07-11T02:08:56.248767+00:00"
+}
+

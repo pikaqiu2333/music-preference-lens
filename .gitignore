@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Raw third-party catalog response bodies are retained outside public Git.
+runs/*catalog_evidence*.jsonl.gz
+
+# Reconstructable Phase 2 catalog working files (compressed freezes are tracked).
+runs/phase2_catalog_request_cache.jsonl
+runs/phase2_granite_primary_catalog_evidence.jsonl
+runs/phase2_granite_primary_catalog_evidence_frozen_v2.jsonl
+runs/phase2_granite_extension_catalog_evidence_v2.jsonl
+runs/phase2_granite_combined_catalog_evidence_v2.jsonl
+runs/phase2_granite_primary_catalog_verified.jsonl
+runs/phase2_granite_primary_catalog_stdout*.log
+runs/phase2_granite_primary_catalog_stderr*.log
+runs/phase2_granite_extension_catalog_stdout_v2.log
+runs/phase2_granite_extension_catalog_stderr_v2.log
+
+# Reconstructable Phase 3 catalog working files (compressed evidence is tracked).
+runs/phase3_natural_pilot_catalog_evidence.jsonl
+runs/phase3_natural_pilot_catalog_request_cache.jsonl

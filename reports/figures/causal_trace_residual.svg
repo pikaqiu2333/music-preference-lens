@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650">
+<title>Layerwise causal recovery of factual-title effects</title>
+<desc>Mean normalized recovery from control-title states toward factual-title complete-artist scoring states after full residual patching.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="560.0" y="34.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2933">Where factual-title effects enter the residual stream</text>
+<text x="560.0" y="58.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#52606d">Full-sequence causal patching at all artist prediction positions</text>
+<line x1="90" y1="525.6" x2="1080" y2="525.6" stroke="#d9e2ec" stroke-width="1"/>
+<text x="76.0" y="530.6" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">-0.25</text>
+<line x1="90" y1="453.8" x2="1080" y2="453.8" stroke="#d9e2ec" stroke-width="1"/>
+<text x="76.0" y="458.8" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">0.00</text>
+<line x1="90" y1="381.9" x2="1080" y2="381.9" stroke="#d9e2ec" stroke-width="1"/>
+<text x="76.0" y="386.9" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">0.25</text>
+<line x1="90" y1="310.0" x2="1080" y2="310.0" stroke="#d9e2ec" stroke-width="1"/>
+<text x="76.0" y="315.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">0.50</text>
+<line x1="90" y1="238.1" x2="1080" y2="238.1" stroke="#d9e2ec" stroke-width="1"/>
+<text x="76.0" y="243.1" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">0.75</text>
+<line x1="90" y1="166.2" x2="1080" y2="166.2" stroke="#d9e2ec" stroke-width="1"/>
+<text x="76.0" y="171.2" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">1.00</text>
+<line x1="90" y1="94.4" x2="1080" y2="94.4" stroke="#d9e2ec" stroke-width="1"/>
+<text x="76.0" y="99.4" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">1.25</text>
+<line x1="90.0" y1="80" x2="90.0" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="90.0" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">1</text>
+<line x1="200.0" y1="80" x2="200.0" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="200.0" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">4</text>
+<line x1="346.7" y1="80" x2="346.7" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="346.7" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">8</text>
+<line x1="493.3" y1="80" x2="493.3" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="493.3" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">12</text>
+<line x1="640.0" y1="80" x2="640.0" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="640.0" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">16</text>
+<line x1="786.7" y1="80" x2="786.7" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="786.7" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">20</text>
+<line x1="933.3" y1="80" x2="933.3" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="933.3" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">24</text>
+<line x1="1080.0" y1="80" x2="1080.0" y2="540" stroke="#edf2f7" stroke-width="1"/>
+<text x="1080.0" y="566.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#52606d">28</text>
+<text x="28.0" y="310.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#1f2933" transform="rotate(-90.0 28.0 310.0)">Mean normalized recovery</text>
+<text x="585.0" y="592.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#1f2933">Qwen3-1.7B layer</text>
+<polyline points="90.0,453.4 126.7,454.7 163.3,455.7 200.0,456.7 236.7,456.5 273.3,456.4 310.0,461.1 346.7,465.0 383.3,469.9 420.0,503.7 456.7,504.4 493.3,503.4 530.0,498.3 566.7,500.3 603.3,497.0 640.0,475.2 676.7,460.3 713.3,429.5 750.0,346.3 786.7,345.4 823.3,198.6 860.0,163.2 896.7,162.5 933.3,164.1 970.0,160.3 1006.7,163.2 1043.3,166.5 1080.0,166.2" fill="none" stroke="#2A9D8F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="493.3" cy="503.4" r="3.5" fill="#2A9D8F"/>
+<circle cx="640.0" cy="475.2" r="3.5" fill="#2A9D8F"/>
+<circle cx="713.3" cy="429.5" r="3.5" fill="#2A9D8F"/>
+<circle cx="823.3" cy="198.6" r="3.5" fill="#2A9D8F"/>
+<circle cx="933.3" cy="164.1" r="3.5" fill="#2A9D8F"/>
+<circle cx="1080.0" cy="166.2" r="3.5" fill="#2A9D8F"/>
+<polyline points="90.0,454.7 126.7,455.5 163.3,457.6 200.0,456.3 236.7,450.1 273.3,456.6 310.0,450.2 346.7,441.1 383.3,432.3 420.0,367.5 456.7,352.7 493.3,351.2 530.0,338.3 566.7,327.4 603.3,324.1 640.0,301.3 676.7,287.2 713.3,267.9 750.0,231.5 786.7,226.1 823.3,185.5 860.0,164.9 896.7,170.6 933.3,170.5 970.0,168.8 1006.7,168.7 1043.3,166.3 1080.0,166.2" fill="none" stroke="#3A86FF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="493.3" cy="351.2" r="3.5" fill="#3A86FF"/>
+<circle cx="640.0" cy="301.3" r="3.5" fill="#3A86FF"/>
+<circle cx="713.3" cy="267.9" r="3.5" fill="#3A86FF"/>
+<circle cx="823.3" cy="185.5" r="3.5" fill="#3A86FF"/>
+<circle cx="933.3" cy="170.5" r="3.5" fill="#3A86FF"/>
+<circle cx="1080.0" cy="166.2" r="3.5" fill="#3A86FF"/>
+<polyline points="90.0,450.7 126.7,458.4 163.3,458.6 200.0,476.7 236.7,484.1 273.3,478.5 310.0,495.5 346.7,509.8 383.3,500.5 420.0,497.2 456.7,481.3 493.3,472.4 530.0,467.4 566.7,458.4 603.3,434.2 640.0,275.3 676.7,287.8 713.3,219.6 750.0,175.6 786.7,190.7 823.3,107.2 860.0,121.2 896.7,118.7 933.3,123.6 970.0,133.5 1006.7,135.3 1043.3,167.8 1080.0,166.2" fill="none" stroke="#F4A261" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="493.3" cy="472.4" r="3.5" fill="#F4A261"/>
+<circle cx="640.0" cy="275.3" r="3.5" fill="#F4A261"/>
+<circle cx="713.3" cy="219.6" r="3.5" fill="#F4A261"/>
+<circle cx="823.3" cy="107.2" r="3.5" fill="#F4A261"/>
+<circle cx="933.3" cy="123.6" r="3.5" fill="#F4A261"/>
+<circle cx="1080.0" cy="166.2" r="3.5" fill="#F4A261"/>
+<polyline points="90.0,457.0 126.7,462.9 163.3,455.2 200.0,458.0 236.7,461.2 273.3,463.2 310.0,475.9 346.7,476.1 383.3,462.8 420.0,417.3 456.7,404.3 493.3,392.0 530.0,387.2 566.7,378.1 603.3,371.3 640.0,310.9 676.7,301.4 713.3,253.2 750.0,289.4 786.7,287.3 823.3,223.5 860.0,204.4 896.7,186.2 933.3,191.6 970.0,186.4 1006.7,178.8 1043.3,171.4 1080.0,166.2" fill="none" stroke="#D62828" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="493.3" cy="392.0" r="3.5" fill="#D62828"/>
+<circle cx="640.0" cy="310.9" r="3.5" fill="#D62828"/>
+<circle cx="713.3" cy="253.2" r="3.5" fill="#D62828"/>
+<circle cx="823.3" cy="223.5" r="3.5" fill="#D62828"/>
+<circle cx="933.3" cy="191.6" r="3.5" fill="#D62828"/>
+<circle cx="1080.0" cy="166.2" r="3.5" fill="#D62828"/>
+<line x1="120" y1="617" x2="144" y2="617" stroke="#2A9D8F" stroke-width="4"/>
+<text x="152.0" y="622.0" text-anchor="start" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Clean exact</text>
+<line x1="365" y1="617" x2="389" y2="617" stroke="#3A86FF" stroke-width="4"/>
+<text x="397.0" y="622.0" text-anchor="start" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Exact, prior-masked</text>
+<line x1="610" y1="617" x2="634" y2="617" stroke="#F4A261" stroke-width="4"/>
+<text x="642.0" y="622.0" text-anchor="start" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Detected conflict</text>
+<line x1="855" y1="617" x2="879" y2="617" stroke="#D62828" stroke-width="4"/>
+<text x="887.0" y="622.0" text-anchor="start" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Missed conflict</text>
+<text x="1080.0" y="98.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7b2c2c">Recovery follows the factual-title state; it is not necessarily a correction.</text>
+</svg>

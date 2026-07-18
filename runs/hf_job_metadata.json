@@ -1,0 +1,183 @@
+{
+    "schema_version":  "music_preference_lens_hf_jobs_v1",
+    "captured_at":  "2026-07-12T16:20:52+08:00",
+    "metadata_source":  "Hugging Face Jobs inspect and logs APIs",
+    "command_hash_canonicalization":  "SHA-256 of the compact JSON serialization of the command array",
+    "log_capture_scope":  "terminal snapshot returned by hf jobs logs (last 20 lines), not a full lifecycle log",
+    "model_revisions":  {
+                            "Qwen/Qwen3-1.7B-Base":  {
+                                                         "revision":  "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+                                                         "repo_last_modified_at":  "2025-07-26T03:50:48.000Z",
+                                                         "pin_status":  "retrospectively_resolved",
+                                                         "resolution_basis":  "The Hub default revision observed on 2026-07-12; the repository last-modified time predates every archived job. The original jobs did not pass revision explicitly."
+                                                     },
+                            "Qwen/Qwen3-4B-Base":  {
+                                                       "revision":  "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+                                                       "repo_last_modified_at":  "2025-07-26T03:45:37.000Z",
+                                                       "pin_status":  "retrospectively_resolved",
+                                                       "resolution_basis":  "The Hub default revision observed on 2026-07-12; the repository last-modified time predates every archived job. The original job did not pass revision explicitly."
+                                                   }
+                        },
+    "jobs":  [
+                 {
+                     "role":  "holdout_generation",
+                     "job_id":  "6a523ac0effc02a91cbd98aa",
+                     "url":  "https://huggingface.co/jobs/REDACTED/6a523ac0effc02a91cbd98aa",
+                     "model_id":  "Qwen/Qwen3-1.7B-Base",
+                     "model_revision":  "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+                     "created_at":  "2026-07-11T12:44:48.186Z",
+                     "started_at":  "2026-07-11T12:44:53.046Z",
+                     "finished_at":  "2026-07-11T12:49:19.930Z",
+                     "status":  "COMPLETED",
+                     "docker_image":  "ghcr.io/astral-sh/uv:python3.12-bookworm",
+                     "flavor":  "a10g-small",
+                     "arch":  "amd64",
+                     "timeout_seconds":  1800,
+                     "retry":  0,
+                     "secret_names":  [
+
+                                      ],
+                     "durations_seconds":  {
+                                               "scheduling":  4,
+                                               "running":  266,
+                                               "total":  271
+                                           },
+                     "exact_command_sha256":  "22159a7c9c47ac21898c6206d9f9365e4a81a8a0b3e3b40ffca67269d7d4cd37",
+                     "embedded_script_sha256":  "7f9173de07f9104b86398ef059ee8ee2e418349a780a5337dfdd853c3e1f0d7f",
+                     "embedded_script_bytes":  8525,
+                     "embedded_script_exact_base64_path":  "runs/job_scripts/6a523ac0effc02a91cbd98aa.py.b64",
+                     "embedded_script_readable_path":  "runs/job_scripts/6a523ac0effc02a91cbd98aa.py",
+                     "terminal_log_path":  "runs/job_logs/6a523ac0effc02a91cbd98aa.log",
+                     "terminal_log_sha256":  "b794cc051784b023a6ae6f11e8540e73ffc1194a9ca1c7e1e2715d9352c6fb31",
+                     "terminal_log_bytes":  26853
+                 },
+                 {
+                     "role":  "qwen3_1_7b_confirmation",
+                     "job_id":  "6a524112e4a4e82c0b58da32",
+                     "url":  "https://huggingface.co/jobs/REDACTED/6a524112e4a4e82c0b58da32",
+                     "model_id":  "Qwen/Qwen3-1.7B-Base",
+                     "model_revision":  "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+                     "created_at":  "2026-07-11T13:11:46.444Z",
+                     "started_at":  "2026-07-11T13:13:42.379Z",
+                     "finished_at":  "2026-07-11T13:14:52.763Z",
+                     "status":  "COMPLETED",
+                     "docker_image":  "ghcr.io/astral-sh/uv:python3.12-bookworm",
+                     "flavor":  "a10g-small",
+                     "arch":  "amd64",
+                     "timeout_seconds":  2700,
+                     "retry":  0,
+                     "secret_names":  [
+                                          "HF_TOKEN"
+                                      ],
+                     "durations_seconds":  {
+                                               "scheduling":  115,
+                                               "running":  70,
+                                               "total":  186
+                                           },
+                     "exact_command_sha256":  "257b4ba748fcf6cd10317ac6e7d76492263a1e0209a48eee3e5ea37ef393e93f",
+                     "embedded_script_sha256":  "932371383d9eab7d60979f6fec8840287f9c17c596df2cb7be245fef1aaaad1b",
+                     "embedded_script_bytes":  24575,
+                     "embedded_script_exact_base64_path":  "runs/job_scripts/6a524112e4a4e82c0b58da32.py.b64",
+                     "embedded_script_readable_path":  "runs/job_scripts/6a524112e4a4e82c0b58da32.py",
+                     "terminal_log_path":  "runs/job_logs/6a524112e4a4e82c0b58da32.log",
+                     "terminal_log_sha256":  "1d637142a0a67da1ee74c0b2167a073970f07200b6fe353098c7546737daf5d4",
+                     "terminal_log_bytes":  23018
+                 },
+                 {
+                     "role":  "qwen3_4b_cross_model",
+                     "job_id":  "6a52f77feffc02a91cbda1bb",
+                     "url":  "https://huggingface.co/jobs/REDACTED/6a52f77feffc02a91cbda1bb",
+                     "model_id":  "Qwen/Qwen3-4B-Base",
+                     "model_revision":  "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+                     "created_at":  "2026-07-12T02:10:07.824Z",
+                     "started_at":  "2026-07-12T02:10:39.168Z",
+                     "finished_at":  "2026-07-12T02:12:26.811Z",
+                     "status":  "COMPLETED",
+                     "docker_image":  "ghcr.io/astral-sh/uv:python3.12-bookworm",
+                     "flavor":  "a10g-small",
+                     "arch":  "amd64",
+                     "timeout_seconds":  2700,
+                     "retry":  0,
+                     "secret_names":  [
+                                          "HF_TOKEN"
+                                      ],
+                     "durations_seconds":  {
+                                               "scheduling":  31,
+                                               "running":  107,
+                                               "total":  138
+                                           },
+                     "exact_command_sha256":  "94a3645ebfc2b5af2a740bd31abb06a347d2838fc12c80910394d70159ae783b",
+                     "embedded_script_sha256":  "952033320f704271d7cbab8dbe1259c4471bde3a4b4de027ac16e9e3b3e95e44",
+                     "embedded_script_bytes":  24571,
+                     "embedded_script_exact_base64_path":  "runs/job_scripts/6a52f77feffc02a91cbda1bb.py.b64",
+                     "embedded_script_readable_path":  "runs/job_scripts/6a52f77feffc02a91cbda1bb.py",
+                     "terminal_log_path":  "runs/job_logs/6a52f77feffc02a91cbda1bb.log",
+                     "terminal_log_sha256":  "164bc47e7124db8c259c739d29c3ade39b4eca5129c8db249c20c2f06e073f47",
+                     "terminal_log_bytes":  23061
+                 },
+                 {
+                     "role":  "title_counterfactual_retry",
+                     "job_id":  "6a52f913e4a4e82c0b58ea8f",
+                     "url":  "https://huggingface.co/jobs/REDACTED/6a52f913e4a4e82c0b58ea8f",
+                     "model_id":  "Qwen/Qwen3-1.7B-Base",
+                     "model_revision":  "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+                     "created_at":  "2026-07-12T02:16:51.845Z",
+                     "started_at":  "2026-07-12T02:16:57.379Z",
+                     "finished_at":  "2026-07-12T02:18:03.727Z",
+                     "status":  "COMPLETED",
+                     "docker_image":  "ghcr.io/astral-sh/uv:python3.12-bookworm",
+                     "flavor":  "a10g-small",
+                     "arch":  "amd64",
+                     "timeout_seconds":  2700,
+                     "retry":  0,
+                     "secret_names":  [
+                                          "HF_TOKEN"
+                                      ],
+                     "durations_seconds":  {
+                                               "scheduling":  5,
+                                               "running":  66,
+                                               "total":  71
+                                           },
+                     "exact_command_sha256":  "3310ae31e682a17c89a639eacc883d985c3a64dc539b6b1d5dff6fc19812b3ca",
+                     "embedded_script_sha256":  "e563bad55e0c32f08b80f8b4b38aac03adb7e4f18065a773e57c958950dc16bb",
+                     "embedded_script_bytes":  18607,
+                     "embedded_script_exact_base64_path":  "runs/job_scripts/6a52f913e4a4e82c0b58ea8f.py.b64",
+                     "embedded_script_readable_path":  "runs/job_scripts/6a52f913e4a4e82c0b58ea8f.py",
+                     "terminal_log_path":  "runs/job_logs/6a52f913e4a4e82c0b58ea8f.log",
+                     "terminal_log_sha256":  "aa22441da779e0929c066dcbb7bb82b308ea7d41444e23535c3dbf6feeaf0c2a",
+                     "terminal_log_bytes":  32555
+                 },
+                 {
+                     "role":  "causal_trace_artifact_retry",
+                     "job_id":  "6a52fca6effc02a91cbda1c9",
+                     "url":  "https://huggingface.co/jobs/REDACTED/6a52fca6effc02a91cbda1c9",
+                     "model_id":  "Qwen/Qwen3-1.7B-Base",
+                     "model_revision":  "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+                     "created_at":  "2026-07-12T02:32:06.109Z",
+                     "started_at":  "2026-07-12T02:32:10.788Z",
+                     "finished_at":  "2026-07-12T02:33:19.123Z",
+                     "status":  "COMPLETED",
+                     "docker_image":  "ghcr.io/astral-sh/uv:python3.12-bookworm",
+                     "flavor":  "a10g-small",
+                     "arch":  "amd64",
+                     "timeout_seconds":  3600,
+                     "retry":  0,
+                     "secret_names":  [
+                                          "HF_TOKEN"
+                                      ],
+                     "durations_seconds":  {
+                                               "scheduling":  4,
+                                               "running":  68,
+                                               "total":  73
+                                           },
+                     "exact_command_sha256":  "04004d9bae4396c4eb45c2728fbb2f07212f48b90d06fb25163d73bf709d151c",
+                     "embedded_script_sha256":  "cf3a2a894d93c5ce7751290da39e0c530bc874414de515a9dd741517fc13191d",
+                     "embedded_script_bytes":  24495,
+                     "embedded_script_exact_base64_path":  "runs/job_scripts/6a52fca6effc02a91cbda1c9.py.b64",
+                     "embedded_script_readable_path":  "runs/job_scripts/6a52fca6effc02a91cbda1c9.py",
+                     "terminal_log_path":  "runs/job_logs/6a52fca6effc02a91cbda1c9.log",
+                     "terminal_log_sha256":  "e9d030c0e71c2b48e4b89b2ba9a802d1235ac9d342c953762bc50df6c01f46c8",
+                     "terminal_log_bytes":  74207
+                 }
+             ]
+}

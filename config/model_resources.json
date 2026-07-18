@@ -1,0 +1,58 @@
+{
+  "recommended_sequence": [
+    "gemma_scope_2_270m_it",
+    "gemma_scope_2_1b_it",
+    "qwen_scope_qwen3_1_7b_base",
+    "qwen_scope_qwen3_8b_base"
+  ],
+  "resources": {
+    "gemma_scope_2_270m_it": {
+      "base_model": "google/gemma-3-270m-it",
+      "sae_repo": "google/gemma-scope-2-270m-it",
+      "sae_release": "gemma-scope-2-270m-it-resid_post",
+      "sae_id": "layer_12_width_16k_l0_small",
+      "why_use": "Fastest sanity check for the probe workflow.",
+      "notes": "Use when local hardware is weak or when validating notebook logic."
+    },
+    "gemma_scope_2_1b_it": {
+      "base_model": "google/gemma-3-1b-it",
+      "sae_repo": "google/gemma-scope-2-1b-it",
+      "sae_release": "gemma-scope-2-1b-it-resid_post",
+      "sae_id": "layer_12_width_16k_l0_small",
+      "why_use": "Best first pilot target: small enough to run, instruction-tuned, and has Gemma Scope 2 SAE resources.",
+      "notes": "Good for validating context/constraint feature movement before switching to Chinese-heavy models."
+    },
+    "gemma_scope_2_4b_it": {
+      "base_model": "google/gemma-3-4b-it",
+      "sae_repo": "google/gemma-scope-2-4b-it",
+      "sae_release": "gemma-scope-2-4b-it-resid_post",
+      "sae_id": "layer_12_width_16k_l0_small",
+      "why_use": "Higher-quality Gemma pilot if GPU memory allows.",
+      "notes": "Use after the 1B workflow is stable."
+    },
+    "qwen_scope_qwen3_1_7b_base": {
+      "base_model": "Qwen/Qwen3-1.7B-Base",
+      "sae_repo": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+      "sae_release": null,
+      "sae_id": null,
+      "why_use": "Smallest Qwen-Scope path for Chinese-oriented mechanistic probing.",
+      "notes": "Base model is less assistant-like than instruct models but better aligned with available Qwen-Scope SAE resources."
+    },
+    "qwen_scope_qwen3_8b_base": {
+      "base_model": "Qwen/Qwen3-8B-Base",
+      "sae_repo": "Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_50",
+      "sae_release": null,
+      "sae_id": null,
+      "why_use": "Most relevant target for Chinese music/product phrasing once compute is available.",
+      "notes": "Use after the Gemma/Qwen-1.7B workflow is proven."
+    },
+    "qwen_scope_qwen3_5_2b_base": {
+      "base_model": "Qwen/Qwen3.5-2B-Base",
+      "sae_repo": "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_50",
+      "sae_release": null,
+      "sae_id": null,
+      "why_use": "Alternative compact Qwen-Scope target.",
+      "notes": "Use if Qwen3.5 model access and local support are smoother than Qwen3."
+    }
+  }
+}

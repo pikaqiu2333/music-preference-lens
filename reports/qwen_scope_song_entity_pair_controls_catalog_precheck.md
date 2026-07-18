@@ -1,0 +1,54 @@
+# Song Entity Catalog Verification
+
+- Reported pairs: 40
+- Verified exact: 20
+- Catalog conflicts: 13
+- Unverified: 7
+- Verification errors: 0
+- Control expectations passed: 40/40
+
+A catalog miss is reported as `unverified`, not as proof that a pair is
+fictional.
+
+| Context/group | Title | Artist | Catalog label | Generation knownness | Neutral Unknown logit | Self-attributed Unknown logit |
+|---|---|---|---|---:|---:|---:|
+| known_exact | Blinding Lights | The Weeknd | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | bad guy | Billie Eilish | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Shape of You | Ed Sheeran | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Bohemian Rhapsody | Queen | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Rolling in the Deep | Adele | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Smells Like Teen Spirit | Nirvana | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Billie Jean | Michael Jackson | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Levitating | Dua Lipa | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Radioactive | Imagine Dragons | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | Viva La Vida | Coldplay | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 稻香 | 周杰伦 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 青花瓷 | 周杰伦 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 十年 | 陈奕迅 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 七里香 | 周杰伦 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 光年之外 | 邓紫棋 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 修炼爱情 | 林俊杰 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 演员 | 薛之谦 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 平凡之路 | 朴树 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 红豆 | 王菲 | verified_exact | 0.000 | 0.000 | 0.000 |
+| known_exact | 泡沫 | 邓紫棋 | verified_exact | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | Blinding Lights | Billie Eilish | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | bad guy | The Weeknd | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | Shape of You | Queen | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | Bohemian Rhapsody | Ed Sheeran | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | Rolling in the Deep | Dua Lipa | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | Billie Jean | Imagine Dragons | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | 稻香 | 林俊杰 | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | 青花瓷 | 陈奕迅 | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | 七里香 | 王菲 | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| artist_mismatch | 光年之外 | 周杰伦 | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Neon Rain Avenue | Neon Avenue Collective | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Soft Circuit Dream | Soft Circuit Ensemble | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Velvet Taxi at 3AM | Velvet Taxi | unverified | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Paper Lantern Pulse | Paper Lantern Project | catalog_conflict | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | White Noise Harbor | Harbor Tones | unverified | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Moonlit Circuit Waltz | Moonlit Circuit | unverified | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Glass Elevator at Midnight | Static Lobby | unverified | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Rain Code Memory | Afterimage Unit | unverified | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Low Signal Sunrise | Pale Frequency | unverified | 0.000 | 0.000 | 0.000 |
+| synthetic_pair | Velvet Neon Archive | Night Index | unverified | 0.000 | 0.000 | 0.000 |

@@ -1,0 +1,33 @@
+{
+  "record_count": 40,
+  "prompt_count": 120,
+  "group_counts": {
+    "canonical_positive": 8,
+    "phase2_conflict": 7,
+    "phase2_generated_exact": 25
+  },
+  "nonempty_generation_count": 118,
+  "nonempty_generation_fraction": 0.9833333333333333,
+  "canonical_recovered_count": 7,
+  "canonical_control_count": 8,
+  "canonical_recovery_fraction": 0.875,
+  "generated_exact_recovered_count": 14,
+  "generated_exact_control_count": 25,
+  "generated_exact_recovery_fraction": 0.56,
+  "conflict_category_counts": {
+    "unrecovered_or_indeterminate": 7
+  },
+  "reference_recoverable_record_ids": [],
+  "technical_gate": true,
+  "assay_validity_gate": true,
+  "audit_id": "granite_relation_knowledge_recoverability_audit_v1",
+  "model_id": "ibm-granite/granite-4.1-3b-base",
+  "model_revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+  "observed_num_layers": 40,
+  "bundle_sha256": "cec850d94ecacede39bed46821407d4b8492ec52dfcc7ff78c25fd7116e12636",
+  "submitted_script_sha256": null,
+  "script_execution_mode": "inline_python_c_no_file",
+  "maximum_gpu_memory_bytes": 6844850176,
+  "started_at": "2026-07-14T05:12:12.338835+00:00",
+  "finished_at": "2026-07-14T05:14:48.794523+00:00"
+}

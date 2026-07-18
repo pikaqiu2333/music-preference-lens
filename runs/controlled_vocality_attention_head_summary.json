@@ -1,0 +1,275 @@
+{
+  "run_id": "20260711T080524Z_pilot",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "target_layer": 18,
+  "num_attention_heads": 16,
+  "head_dim": 128,
+  "pair_count": 4,
+  "choice_relation_count": 4,
+  "choice_head_curve": [
+    {
+      "head": 0,
+      "mean_recovery": 0.1632851899822736,
+      "median_recovery": 0.14642643889096973,
+      "toward_source_rate": 1,
+      "minimum_recovery": 0.0951406546393833
+    },
+    {
+      "head": 1,
+      "mean_recovery": 0.24516423682231503,
+      "median_recovery": 0.24355727454869433,
+      "toward_source_rate": 1,
+      "minimum_recovery": 0.160452570260053
+    },
+    {
+      "head": 2,
+      "mean_recovery": -0.0029693529041595417,
+      "median_recovery": -0.0035866596709313745,
+      "toward_source_rate": 0,
+      "minimum_recovery": -0.004704092274775418
+    },
+    {
+      "head": 3,
+      "mean_recovery": -0.016616941895588086,
+      "median_recovery": -0.012019738501017289,
+      "toward_source_rate": 0,
+      "minimum_recovery": -0.04078244608575157
+    },
+    {
+      "head": 4,
+      "mean_recovery": 0.0008051591061605705,
+      "median_recovery": 0,
+      "toward_source_rate": 0.25,
+      "minimum_recovery": -0.004434219908248241
+    },
+    {
+      "head": 5,
+      "mean_recovery": 0.00008660051156478412,
+      "median_recovery": -0.0008462149036068397,
+      "toward_source_rate": 0.25,
+      "minimum_recovery": -0.0031019130423099593
+    },
+    {
+      "head": 6,
+      "mean_recovery": 0.004508759895978064,
+      "median_recovery": 0.004845588420293796,
+      "toward_source_rate": 0.75,
+      "minimum_recovery": -0.0016924298072136794
+    },
+    {
+      "head": 7,
+      "mean_recovery": -0.0007555566797913514,
+      "median_recovery": -0.0008462149036068397,
+      "toward_source_rate": 0.25,
+      "minimum_recovery": -0.0050732534205109574
+    },
+    {
+      "head": 8,
+      "mean_recovery": 0.06493159011308962,
+      "median_recovery": 0.06747952252635288,
+      "toward_source_rate": 1,
+      "minimum_recovery": 0.03788297373870371
+    },
+    {
+      "head": 9,
+      "mean_recovery": 0.06403810011221588,
+      "median_recovery": 0.06771909030544715,
+      "toward_source_rate": 1,
+      "minimum_recovery": 0.024691026284808352
+    },
+    {
+      "head": 10,
+      "mean_recovery": 0.000176731277213095,
+      "median_recovery": 0.00241958267748315,
+      "toward_source_rate": 0.5,
+      "minimum_recovery": -0.009477875987138609
+    },
+    {
+      "head": 11,
+      "mean_recovery": 0.00618751806474732,
+      "median_recovery": 0.006333142437764406,
+      "toward_source_rate": 1,
+      "minimum_recovery": 0.001648033794782796
+    },
+    {
+      "head": 12,
+      "mean_recovery": 0.02624825864947934,
+      "median_recovery": 0.021819144475263032,
+      "toward_source_rate": 0.75,
+      "minimum_recovery": -0.0033840578128070216
+    },
+    {
+      "head": 13,
+      "mean_recovery": 0.017401715474474267,
+      "median_recovery": 0.014597351910678454,
+      "toward_source_rate": 1,
+      "minimum_recovery": 0.01084069903539573
+    },
+    {
+      "head": 14,
+      "mean_recovery": 0.0018631231103365057,
+      "median_recovery": 0.0007523860546588316,
+      "toward_source_rate": 0.5,
+      "minimum_recovery": 0
+    },
+    {
+      "head": 15,
+      "mean_recovery": -0.0033863270375347684,
+      "median_recovery": -0.0034741656726779944,
+      "toward_source_rate": 0,
+      "minimum_recovery": -0.004704092274775418
+    }
+  ],
+  "pair_head_curve": [
+    {
+      "head": 0,
+      "success_mean_recovery": 0.015538951739728812,
+      "failure_mean_recovery": 0.27334561969362803,
+      "success_toward_source_rate": 0.5,
+      "failure_toward_source_rate": 1,
+      "success_minus_failure_mean": -0.2578066679538992
+    },
+    {
+      "head": 1,
+      "success_mean_recovery": 0.14095081968299483,
+      "failure_mean_recovery": 0.4204618603582151,
+      "success_toward_source_rate": 0.5,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": -0.27951104067522026
+    },
+    {
+      "head": 2,
+      "success_mean_recovery": 0.002440038916519653,
+      "failure_mean_recovery": -0.009708221474809785,
+      "success_toward_source_rate": 1,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": 0.012148260391329439
+    },
+    {
+      "head": 3,
+      "success_mean_recovery": -0.010572806368414114,
+      "failure_mean_recovery": 0.04424906415056299,
+      "success_toward_source_rate": 0.5,
+      "failure_toward_source_rate": 1,
+      "success_minus_failure_mean": -0.054821870518977106
+    },
+    {
+      "head": 4,
+      "success_mean_recovery": 0.0011504346800245919,
+      "failure_mean_recovery": -0.0197002356567511,
+      "success_toward_source_rate": 0.5,
+      "failure_toward_source_rate": 0,
+      "success_minus_failure_mean": 0.020850670336775692
+    },
+    {
+      "head": 5,
+      "success_mean_recovery": -0.014576978075272844,
+      "failure_mean_recovery": 0.00819338350250177,
+      "success_toward_source_rate": 0,
+      "failure_toward_source_rate": 1,
+      "success_minus_failure_mean": -0.022770361577774616
+    },
+    {
+      "head": 6,
+      "success_mean_recovery": 0.010657779937047756,
+      "failure_mean_recovery": -0.0529156704381729,
+      "success_toward_source_rate": 1,
+      "failure_toward_source_rate": 0,
+      "success_minus_failure_mean": 0.06357345037522065
+    },
+    {
+      "head": 7,
+      "success_mean_recovery": -0.012972462133829502,
+      "failure_mean_recovery": 0.0046929878462061165,
+      "success_toward_source_rate": 0,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": -0.01766544998003562
+    },
+    {
+      "head": 8,
+      "success_mean_recovery": 0.00431701144078946,
+      "failure_mean_recovery": 0.0016489824833512898,
+      "success_toward_source_rate": 1,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": 0.0026680289574381707
+    },
+    {
+      "head": 9,
+      "success_mean_recovery": 0.011410937942449746,
+      "failure_mean_recovery": 0.06070718843418821,
+      "success_toward_source_rate": 0.5,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": -0.04929625049173846
+    },
+    {
+      "head": 10,
+      "success_mean_recovery": -0.007001738003321926,
+      "failure_mean_recovery": -0.02280351064844077,
+      "success_toward_source_rate": 0.5,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": 0.015801772645118842
+    },
+    {
+      "head": 11,
+      "success_mean_recovery": -0.015555718596964016,
+      "failure_mean_recovery": -0.09144196916769888,
+      "success_toward_source_rate": 0,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": 0.07588625057073486
+    },
+    {
+      "head": 12,
+      "success_mean_recovery": 0.26329295375353357,
+      "failure_mean_recovery": -0.4672928262640447,
+      "success_toward_source_rate": 1,
+      "failure_toward_source_rate": 0.5,
+      "success_minus_failure_mean": 0.7305857800175783
+    },
+    {
+      "head": 13,
+      "success_mean_recovery": -0.1280644804293013,
+      "failure_mean_recovery": 0.3176691046887712,
+      "success_toward_source_rate": 0,
+      "failure_toward_source_rate": 1,
+      "success_minus_failure_mean": -0.4457335851180725
+    },
+    {
+      "head": 14,
+      "success_mean_recovery": -0.0048546639319419025,
+      "failure_mean_recovery": -0.013790986673462515,
+      "success_toward_source_rate": 0,
+      "failure_toward_source_rate": 0,
+      "success_minus_failure_mean": 0.008936322741520612
+    },
+    {
+      "head": 15,
+      "success_mean_recovery": -0.013098560143675608,
+      "failure_mean_recovery": -0.0178851931808133,
+      "success_toward_source_rate": 0,
+      "failure_toward_source_rate": 0,
+      "success_minus_failure_mean": 0.004786633037137691
+    }
+  ],
+  "choice_consistent_heads": [
+    0,
+    1,
+    8,
+    9
+  ],
+  "choice_consistent_rule": {
+    "toward_source_rate": 1,
+    "minimum_mean_recovery": 0.05
+  },
+  "max_pair_all_heads_direct_error": 0,
+  "max_choice_all_heads_direct_error": 0,
+  "architecture_matches": true,
+  "all_interventions_present": true,
+  "all_values_finite": true,
+  "technical_gate": true,
+  "interpretation_scope": "exploratory_layer18_head_localization",
+  "behavior_reference": "20260711T073819Z_pilot",
+  "component_reference_run": "20260711T075330Z_pilot",
+  "started_at": "2026-07-11T08:05:24.023897+00:00",
+  "finished_at": "2026-07-11T08:05:44.446894+00:00"
+}
+

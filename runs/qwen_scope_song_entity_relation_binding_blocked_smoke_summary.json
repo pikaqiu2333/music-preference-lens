@@ -1,0 +1,287 @@
+{
+  "run_id": "20260710T083839Z_smoke",
+  "mode": "smoke",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "sae_repo": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+  "sae_layer": 24,
+  "relation_count": 12,
+  "language_counts": {
+    "en": 6,
+    "zh": 6
+  },
+  "letter_token_ids": {
+    "A": 32,
+    "B": 33
+  },
+  "direct_pmi_accuracy": 0.8333333333333334,
+  "choice_pmi_accuracy": 0.75,
+  "artist_end_sae_cv": {
+    "accuracy": 0.5,
+    "margins": [
+      -0.2580909729003906,
+      1.2281063795089722,
+      -1.2697985172271729,
+      1.7542872428894043,
+      1.492863655090332,
+      -1.5313043594360352,
+      -4.304409980773926,
+      2.0945112705230713,
+      1.1585978269577026,
+      -2.033292770385742,
+      0.405198335647583,
+      -1.5865892171859741
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "test_relation_ids": [
+          "rel_bohemian_rhapsody",
+          "rel_dao_xiang",
+          "rel_guang_nian_zhi_wai",
+          "rel_shape_of_you"
+        ],
+        "accuracy": 0.5
+      },
+      {
+        "fold": 1,
+        "test_relation_ids": [
+          "rel_bad_guy",
+          "rel_blinding_lights",
+          "rel_qing_hua_ci",
+          "rel_xiu_lian_ai_qing"
+        ],
+        "accuracy": 0.5
+      },
+      {
+        "fold": 2,
+        "test_relation_ids": [
+          "rel_rolling_in_the_deep",
+          "rel_shi_nian",
+          "rel_smells_like_teen_spirit",
+          "rel_yan_yuan"
+        ],
+        "accuracy": 0.5
+      }
+    ]
+  },
+  "pair_end_sae_cv": {
+    "accuracy": 0.5833333333333334,
+    "margins": [
+      -2.837465286254883,
+      3.412071466445923,
+      -0.2940073013305664,
+      2.756265640258789,
+      -0.4329741597175598,
+      3.158012866973877,
+      0.9610503911972046,
+      3.529221534729004,
+      4.8208770751953125,
+      -3.7859630584716797,
+      -2.195596218109131,
+      0.0658113956451416
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "test_relation_ids": [
+          "rel_bohemian_rhapsody",
+          "rel_dao_xiang",
+          "rel_guang_nian_zhi_wai",
+          "rel_shape_of_you"
+        ],
+        "accuracy": 0.5
+      },
+      {
+        "fold": 1,
+        "test_relation_ids": [
+          "rel_bad_guy",
+          "rel_blinding_lights",
+          "rel_qing_hua_ci",
+          "rel_xiu_lian_ai_qing"
+        ],
+        "accuracy": 0.75
+      },
+      {
+        "fold": 2,
+        "test_relation_ids": [
+          "rel_rolling_in_the_deep",
+          "rel_shi_nian",
+          "rel_smells_like_teen_spirit",
+          "rel_yan_yuan"
+        ],
+        "accuracy": 0.5
+      }
+    ]
+  },
+  "selected_artist_end_features": [
+    {
+      "feature_id": 23321,
+      "effect": 0.587996244430542
+    },
+    {
+      "feature_id": 13694,
+      "effect": 0.5479741096496582
+    },
+    {
+      "feature_id": 9177,
+      "effect": -0.5470956563949585
+    },
+    {
+      "feature_id": 556,
+      "effect": 0.4967239797115326
+    },
+    {
+      "feature_id": 29862,
+      "effect": 0.46360722184181213
+    },
+    {
+      "feature_id": 9716,
+      "effect": 0.44411563873291016
+    },
+    {
+      "feature_id": 11905,
+      "effect": 0.4106638729572296
+    },
+    {
+      "feature_id": 20017,
+      "effect": -0.4064483642578125
+    },
+    {
+      "feature_id": 1047,
+      "effect": 0.40270233154296875
+    },
+    {
+      "feature_id": 28672,
+      "effect": -0.3971991240978241
+    },
+    {
+      "feature_id": 1513,
+      "effect": 0.3932255208492279
+    },
+    {
+      "feature_id": 23432,
+      "effect": 0.3922770917415619
+    },
+    {
+      "feature_id": 14940,
+      "effect": 0.39109107851982117
+    },
+    {
+      "feature_id": 10343,
+      "effect": -0.3835938274860382
+    },
+    {
+      "feature_id": 23970,
+      "effect": -0.38158226013183594
+    },
+    {
+      "feature_id": 7835,
+      "effect": -0.3695260286331177
+    },
+    {
+      "feature_id": 24056,
+      "effect": -0.3694508969783783
+    },
+    {
+      "feature_id": 13630,
+      "effect": 0.36814022064208984
+    },
+    {
+      "feature_id": 673,
+      "effect": -0.3675817549228668
+    },
+    {
+      "feature_id": 17324,
+      "effect": -0.3588840663433075
+    }
+  ],
+  "selected_pair_end_features": [
+    {
+      "feature_id": 2228,
+      "effect": -0.8573074340820312
+    },
+    {
+      "feature_id": 27895,
+      "effect": -0.7656850218772888
+    },
+    {
+      "feature_id": 25071,
+      "effect": -0.6821186542510986
+    },
+    {
+      "feature_id": 5445,
+      "effect": -0.6082074046134949
+    },
+    {
+      "feature_id": 12509,
+      "effect": -0.6055718064308167
+    },
+    {
+      "feature_id": 30471,
+      "effect": -0.5929250121116638
+    },
+    {
+      "feature_id": 1727,
+      "effect": -0.48218750953674316
+    },
+    {
+      "feature_id": 31547,
+      "effect": -0.45259252190589905
+    },
+    {
+      "feature_id": 11044,
+      "effect": 0.4475501775741577
+    },
+    {
+      "feature_id": 1391,
+      "effect": -0.4397977590560913
+    },
+    {
+      "feature_id": 21990,
+      "effect": -0.4391714334487915
+    },
+    {
+      "feature_id": 31902,
+      "effect": -0.4285355806350708
+    },
+    {
+      "feature_id": 13439,
+      "effect": -0.4250061810016632
+    },
+    {
+      "feature_id": 5763,
+      "effect": 0.4235970675945282
+    },
+    {
+      "feature_id": 24875,
+      "effect": -0.42252373695373535
+    },
+    {
+      "feature_id": 16688,
+      "effect": -0.42201367020606995
+    },
+    {
+      "feature_id": 15330,
+      "effect": -0.41870519518852234
+    },
+    {
+      "feature_id": 19648,
+      "effect": -0.41277989745140076
+    },
+    {
+      "feature_id": 12296,
+      "effect": -0.4092492163181305
+    },
+    {
+      "feature_id": 11737,
+      "effect": -0.4018147885799408
+    }
+  ],
+  "technical_gate": true,
+  "behavioral_gate": true,
+  "mechanistic_gate": false,
+  "intervention_gate": false,
+  "threshold": 0.8,
+  "started_at": "2026-07-10T08:38:39.425861+00:00",
+  "finished_at": "2026-07-10T08:39:03.911746+00:00"
+}

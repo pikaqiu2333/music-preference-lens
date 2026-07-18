@@ -1,0 +1,223 @@
+{
+  "run_id": "20260711T004402Z_smoke",
+  "mode": "smoke",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "relation_count": 12,
+  "valid_relation_count": 10,
+  "selected_layers": [
+    14,
+    16,
+    18,
+    21,
+    24,
+    27,
+    28
+  ],
+  "analysis_layers": [
+    14,
+    16,
+    18,
+    21,
+    24,
+    27
+  ],
+  "component_curve": [
+    {
+      "layer": 14,
+      "component": "attention",
+      "mean_recovery": 0.03491952501382607,
+      "median_recovery": 0.015342143906020558,
+      "toward_neutral_accuracy": 0.7,
+      "mean_remaining_fraction": 0.965080474986174
+    },
+    {
+      "layer": 14,
+      "component": "mlp",
+      "mean_recovery": 0.013845514325360995,
+      "median_recovery": 0.0027282970615417727,
+      "toward_neutral_accuracy": 0.5,
+      "mean_remaining_fraction": 0.9861544856746389
+    },
+    {
+      "layer": 14,
+      "component": "full_residual",
+      "mean_recovery": 0.10285647303320564,
+      "median_recovery": 0.045824554683010915,
+      "toward_neutral_accuracy": 0.8,
+      "mean_remaining_fraction": 0.8971435269667942
+    },
+    {
+      "layer": 16,
+      "component": "attention",
+      "mean_recovery": 0.09900457055245357,
+      "median_recovery": 0.06860869565217391,
+      "toward_neutral_accuracy": 0.7,
+      "mean_remaining_fraction": 0.9009954294475465
+    },
+    {
+      "layer": 16,
+      "component": "mlp",
+      "mean_recovery": 0.1282145412556484,
+      "median_recovery": 0.10961945636623749,
+      "toward_neutral_accuracy": 0.7,
+      "mean_remaining_fraction": 0.8717854587443515
+    },
+    {
+      "layer": 16,
+      "component": "full_residual",
+      "mean_recovery": 0.3790120250296638,
+      "median_recovery": 0.4085606475213872,
+      "toward_neutral_accuracy": 0.9,
+      "mean_remaining_fraction": 0.6209879749703362
+    },
+    {
+      "layer": 18,
+      "component": "attention",
+      "mean_recovery": 0.12211829900522556,
+      "median_recovery": 0.12233476394849785,
+      "toward_neutral_accuracy": 0.9,
+      "mean_remaining_fraction": 0.8778817009947744
+    },
+    {
+      "layer": 18,
+      "component": "mlp",
+      "mean_recovery": 0.02475607817280192,
+      "median_recovery": 0.0749812507483945,
+      "toward_neutral_accuracy": 0.6,
+      "mean_remaining_fraction": 0.9752439218271981
+    },
+    {
+      "layer": 18,
+      "component": "full_residual",
+      "mean_recovery": 0.5072857427599693,
+      "median_recovery": 0.7215652173913043,
+      "toward_neutral_accuracy": 0.9,
+      "mean_remaining_fraction": 0.5094243895688243
+    },
+    {
+      "layer": 21,
+      "component": "attention",
+      "mean_recovery": 0.6165670711185134,
+      "median_recovery": 0.4640392505341173,
+      "toward_neutral_accuracy": 0.9,
+      "mean_remaining_fraction": 0.6600471427829392
+    },
+    {
+      "layer": 21,
+      "component": "mlp",
+      "mean_recovery": 0.15560648517768377,
+      "median_recovery": 0.08840268706848292,
+      "toward_neutral_accuracy": 0.6,
+      "mean_remaining_fraction": 0.8738052795281985
+    },
+    {
+      "layer": 21,
+      "component": "full_residual",
+      "mean_recovery": 0.5873672475658289,
+      "median_recovery": 0.9013897404455344,
+      "toward_neutral_accuracy": 0.9,
+      "mean_remaining_fraction": 0.41985738725454214
+    },
+    {
+      "layer": 24,
+      "component": "attention",
+      "mean_recovery": 0.10705519429492723,
+      "median_recovery": 0.07686004588659456,
+      "toward_neutral_accuracy": 0.9,
+      "mean_remaining_fraction": 0.8929448057050727
+    },
+    {
+      "layer": 24,
+      "component": "mlp",
+      "mean_recovery": 0.39612020749610843,
+      "median_recovery": 0.29089166258769783,
+      "toward_neutral_accuracy": 0.8,
+      "mean_remaining_fraction": 0.7122541767403447
+    },
+    {
+      "layer": 24,
+      "component": "full_residual",
+      "mean_recovery": 0.726241350101918,
+      "median_recovery": 0.9196977375800814,
+      "toward_neutral_accuracy": 0.9,
+      "mean_remaining_fraction": 0.3096756916140972
+    },
+    {
+      "layer": 27,
+      "component": "attention",
+      "mean_recovery": 0.05522789303046542,
+      "median_recovery": 0.017127642664123352,
+      "toward_neutral_accuracy": 1,
+      "mean_remaining_fraction": 0.9447721069695346
+    },
+    {
+      "layer": 27,
+      "component": "mlp",
+      "mean_recovery": 0.11820364796858582,
+      "median_recovery": 0.027757908122714996,
+      "toward_neutral_accuracy": 0.5,
+      "mean_remaining_fraction": 0.8882002929181138
+    },
+    {
+      "layer": 27,
+      "component": "full_residual",
+      "mean_recovery": 0.9911153224658511,
+      "median_recovery": 0.9992846924177397,
+      "toward_neutral_accuracy": 1,
+      "mean_remaining_fraction": 0.010317326502090664
+    }
+  ],
+  "component_dominance": [
+    {
+      "layer": 14,
+      "attention_mean_recovery": 0.03491952501382607,
+      "mlp_mean_recovery": 0.013845514325360995,
+      "attention_minus_mlp": 0.021074010688465077,
+      "larger_component": "attention"
+    },
+    {
+      "layer": 16,
+      "attention_mean_recovery": 0.09900457055245357,
+      "mlp_mean_recovery": 0.1282145412556484,
+      "attention_minus_mlp": -0.029209970703194837,
+      "larger_component": "mlp"
+    },
+    {
+      "layer": 18,
+      "attention_mean_recovery": 0.12211829900522556,
+      "mlp_mean_recovery": 0.02475607817280192,
+      "attention_minus_mlp": 0.09736222083242363,
+      "larger_component": "attention"
+    },
+    {
+      "layer": 21,
+      "attention_mean_recovery": 0.6165670711185134,
+      "mlp_mean_recovery": 0.15560648517768377,
+      "attention_minus_mlp": 0.4609605859408296,
+      "larger_component": "attention"
+    },
+    {
+      "layer": 24,
+      "attention_mean_recovery": 0.10705519429492723,
+      "mlp_mean_recovery": 0.39612020749610843,
+      "attention_minus_mlp": -0.2890650132011812,
+      "larger_component": "mlp"
+    },
+    {
+      "layer": 27,
+      "attention_mean_recovery": 0.05522789303046542,
+      "mlp_mean_recovery": 0.11820364796858582,
+      "attention_minus_mlp": -0.0629757549381204,
+      "larger_component": "mlp"
+    }
+  ],
+  "max_layer28_full_residual_endpoint_error": 0,
+  "behavior_reference": {
+    "run_id": "20260710T090506Z_smoke",
+    "final_sequence_pmi_accuracy": 0.8333333333333334
+  },
+  "technical_gate": true,
+  "interpretation_gate": true,
+  "started_at": "2026-07-11T00:44:02.685297+00:00",
+  "finished_at": "2026-07-11T00:44:24.760829+00:00"
+}

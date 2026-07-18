@@ -1,0 +1,112 @@
+{
+  "audit_id": "granite_relation_knowledge_recoverability_audit_v1",
+  "frozen_at_utc": "2026-07-14T04:55:52.5148260Z",
+  "source_commit": "ffc1b69",
+  "purpose": "Audit whether the seven Phase 2 catalog conflicts contain a directly recoverable title-artist relation before using them as mechanistic examples.",
+  "model": {
+    "model_id": "ibm-granite/granite-4.1-3b-base",
+    "revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+    "expected_num_layers": 40
+  },
+  "inputs": {
+    "conflicts": "runs/phase2_granite_final_selected_conflicts_v2.jsonl",
+    "generated_exact_controls": "runs/phase2_granite_final_selected_exact_v2.jsonl",
+    "expected_conflict_count": 7,
+    "expected_generated_exact_count": 25
+  },
+  "canonical_positive_controls": [
+    {
+      "control_id": "canonical_space_oddity",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "accepted_target_artists": ["David Bowie"]
+    },
+    {
+      "control_id": "canonical_bohemian_rhapsody",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "accepted_target_artists": ["Queen"]
+    },
+    {
+      "control_id": "canonical_billie_jean",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "accepted_target_artists": ["Michael Jackson"]
+    },
+    {
+      "control_id": "canonical_smells_like_teen_spirit",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "accepted_target_artists": ["Nirvana"]
+    },
+    {
+      "control_id": "canonical_hotel_california",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "accepted_target_artists": ["Eagles", "The Eagles"]
+    },
+    {
+      "control_id": "canonical_rolling_in_the_deep",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "accepted_target_artists": ["Adele"]
+    },
+    {
+      "control_id": "canonical_bad_guy",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "accepted_target_artists": ["Billie Eilish"]
+    },
+    {
+      "control_id": "canonical_blinding_lights",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "accepted_target_artists": ["The Weeknd", "Weeknd"]
+    }
+  ],
+  "prompt_templates": [
+    {
+      "template_id": "catalog_entry",
+      "template": "Complete the factual music catalog entry. Return only the artist name.\nTitle: {title}\nArtist: "
+    },
+    {
+      "template_id": "track_relation",
+      "template": "Track-title relation. Give only the recording artist.\nTrack: {title}\nRecorded by: "
+    },
+    {
+      "template_id": "direct_question",
+      "template": "Who performs the song titled \"{title}\"? Reply with only the artist name.\nArtist: "
+    }
+  ],
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 16
+  },
+  "scoring": {
+    "generated_match_normalization": "Unicode NFKC, casefold, alphanumeric characters only",
+    "target_generation_recovery_minimum_prompts": 2,
+    "primary_margin": "median across templates of target mean token logprob minus emitted mean token logprob",
+    "positive_margin_threshold_nats_per_token": 0.0,
+    "conflict_categories": {
+      "reference_recoverable": "reference generated in at least 2 of 3 prompts and primary margin > 0",
+      "generation_only": "reference generated in at least 2 of 3 prompts and primary margin <= 0",
+      "margin_only": "reference generated in fewer than 2 prompts and primary margin > 0",
+      "persistent_emitted_binding": "emitted artist generated in at least 2 prompts, reference generated in fewer than 2 prompts, and primary margin <= 0",
+      "unrecovered_or_indeterminate": "all remaining outcomes"
+    }
+  },
+  "validity_gates": {
+    "minimum_nonempty_generation_fraction": 0.95,
+    "minimum_canonical_control_recovery_fraction": 0.75,
+    "minimum_prompt_templates_per_record": 3
+  },
+  "claim_boundaries": [
+    "This is an exploratory audit of seven previously observed conflicts, not a confirmatory test.",
+    "Reference recovery is evidence of behavioral accessibility, not subjective awareness.",
+    "Failure to recover does not prove that the model never encoded the relation.",
+    "The catalog-supported reference is not asserted to be the only real-world artist for a title.",
+    "No hidden-state, circuit, intervention, prevalence, or self-correction claim is permitted.",
+    "This audit cannot reopen the stopped Phase 2 H1 or H2 analyses."
+  ],
+  "downstream_rule": "Only reference_recoverable conflicts may be treated as candidate known-relation errors in the next mechanistic discovery stage; all other conflicts remain catalog mismatches without a latent-knowledge claim."
+}

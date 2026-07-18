@@ -1,0 +1,52 @@
+{
+  "receipt_version": "phase3_natural_pilot_catalog_receipt_v1",
+  "created_at_utc": "2026-07-14T07:19:18.5693431Z",
+  "generation": {
+    "job_id": "6a55d4dfeffc02a91cbdc365",
+    "job_url": "https://huggingface.co/jobs/REDACTED/6a55d4dfeffc02a91cbdc365",
+    "frozen_baseline_commit": "9c338e3",
+    "status": "COMPLETED",
+    "scheduling_seconds": 5,
+    "running_seconds": 774,
+    "total_seconds": 779,
+    "generation_count": 72,
+    "parsed_track_count": 360,
+    "unique_normalized_title_count": 318,
+    "technical_gate": true,
+    "log_sha256": "5857a4d3ddf0c26701316583a61d1f2a5a0ae507d305bf59dfdc58299a834aa1",
+    "artifact_sha256": "433c8694d1b0683cbcd828c7d46e597633386f9dfc8b2d69df4aba428f3e5015"
+  },
+  "catalog": {
+    "verifier_version": "phase2_catalog_v2_complete_alias_audit",
+    "verifier_source_sha256": "c9659b932ac3f1064e75e0b5b03c8cad5aa34cf7ca84efa2946c8dd9a9bb9867",
+    "runtime_seconds": 2551.2,
+    "input_row_count": 360,
+    "processed_row_count": 360,
+    "label_counts": {
+      "strict_conflict": 12,
+      "strict_exact": 26,
+      "ambiguous": 56,
+      "excluded": 266,
+      "error": 0
+    },
+    "evidence_request_count": 1309,
+    "cache_entry_count": 1300,
+    "verified_rows_sha256": "da797490e335d54621ff7855af6e1f340c4fa5646a3e74c74af93e6b47ee03c0",
+    "raw_evidence_sha256": "396816ee003e25ec8c976654f41410c01ee5dd002e6e7af766c7ef7c9bc9127d",
+    "compressed_evidence_sha256": "b7db46fa0986c264a5a3d72ab8ee3809e0cebc09b2f8999c4d56acac3f7d3ed2",
+    "compressed_evidence_replays_raw_sha256": true
+  },
+  "recoverability_handoff": {
+    "protocol_freeze_commit": "1f6a097",
+    "protocol_sha256": "e7beca97cd405a3289aacd821651075bd19e26f410aae31857e594696f6e70f5",
+    "unique_strict_conflict_title_clusters": 11,
+    "selected_strict_exact_title_clusters": 20,
+    "canonical_control_count": 8,
+    "audit_record_count": 39,
+    "audit_prompt_count": 117,
+    "bundle_sha256": "b2a9031e7e46505578ad6d783a7837954872236e79504eb9320f64dd5e87d8e2",
+    "embedded_script_sha256": "8c8c360746f70ea2890f3e3a5a42e8eeb3328666de8db219187b74057520eb75",
+    "status": "READY_FOR_FROZEN_AUDIT"
+  },
+  "claim_boundary": "The 12 catalog-conflict rows and 11 unique titles are candidates only; none is a known-relation error until the frozen behavioral recoverability audit passes."
+}

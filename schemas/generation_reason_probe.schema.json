@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Music Preference Lens Generated Reason Probe",
+  "type": "object",
+  "required": [
+    "probe_id",
+    "dimension",
+    "candidate_track_ids",
+    "profile",
+    "original_current_need",
+    "counterfactual_current_need",
+    "candidate_cards",
+    "expected_original_reason_factors",
+    "expected_counterfactual_reason_factors",
+    "feature_hypotheses",
+    "interpretability_question"
+  ],
+  "properties": {
+    "probe_id": {
+      "type": "string"
+    },
+    "dimension": {
+      "type": "string"
+    },
+    "candidate_track_ids": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "profile": {
+      "type": "string"
+    },
+    "original_current_need": {
+      "type": "string"
+    },
+    "counterfactual_current_need": {
+      "type": "string"
+    },
+    "candidate_cards": {
+      "type": "string"
+    },
+    "expected_original_reason_factors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_counterfactual_reason_factors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "feature_hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "feature",
+          "expected_original_direction",
+          "expected_counterfactual_direction",
+          "reason_factor"
+        ],
+        "properties": {
+          "feature": {
+            "type": "string"
+          },
+          "expected_original_direction": {
+            "enum": [
+              "higher",
+              "lower",
+              "neutral",
+              "mixed"
+            ]
+          },
+          "expected_counterfactual_direction": {
+            "enum": [
+              "higher",
+              "lower",
+              "neutral",
+              "mixed"
+            ]
+          },
+          "reason_factor": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "interpretability_question": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

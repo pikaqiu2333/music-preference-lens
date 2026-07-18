@@ -1,0 +1,45 @@
+{
+  "receipt_version": "public_third_party_evidence_omission_v1",
+  "created_at": "2026-07-18",
+  "distribution_status": "not_publicly_redistributed",
+  "reason": "The frozen archives contain raw third-party catalog response bodies. The public repository retains derived verification rows, request provenance, and cryptographic receipts without relicensing those response bodies.",
+  "private_archive_status": "retained_in_non_public_evidence_storage",
+  "omitted_assets": [
+    {
+      "path": "runs/phase2_granite_primary_catalog_evidence_v2.jsonl.gz",
+      "bytes": 33996356,
+      "sha256": "1d8b5b0c0f5bb91c5d4173a9ecc0c4fea08dc91b25c466e1eb5196b480252e92",
+      "request_count": 957
+    },
+    {
+      "path": "runs/phase2_granite_extension_catalog_evidence_v2.jsonl.gz",
+      "bytes": 12583026,
+      "sha256": "5abd5d57d38f295addd51c2b6b6d035810d10ae85c583d895979373e058fbd36",
+      "request_count": 394
+    },
+    {
+      "path": "runs/phase2_granite_combined_catalog_evidence_v2.jsonl.gz",
+      "bytes": 46969843,
+      "sha256": "f63f8b78876052d95da9c907943ccc1b985bec315a548d81b232fcbaa3b42ef2",
+      "request_count": 1349,
+      "decompressed_bytes": 325241299,
+      "decompressed_sha256": "5c14f2e6ed519a6a3005801c9a0cb0989deeb21bd83edeb8cefef0c474bfe57f"
+    },
+    {
+      "path": "runs/phase3_natural_pilot_catalog_evidence.jsonl.gz",
+      "bytes": 30037031,
+      "sha256": "b7db46fa0986c264a5a3d72ab8ee3809e0cebc09b2f8999c4d56acac3f7d3ed2",
+      "request_count": 1309,
+      "decompressed_sha256": "396816ee003e25ec8c976654f41410c01ee5dd002e6e7af766c7ef7c9bc9127d"
+    }
+  ],
+  "public_replacements": [
+    "runs/phase2_granite_primary_catalog_verified_v2.jsonl",
+    "runs/phase2_granite_extension_catalog_verified_v2.jsonl",
+    "runs/phase2_granite_combined_catalog_verified_v2.jsonl",
+    "runs/phase2_granite_final_catalog_receipt_v2.json",
+    "runs/phase3_natural_pilot_catalog_verified.jsonl",
+    "runs/phase3_natural_pilot_catalog_receipt.json"
+  ],
+  "claim_boundary": "The public snapshot reproduces analysis from released derived rows and preserves hashes of the frozen raw archives. It does not provide public byte-level replay of third-party response bodies."
+}

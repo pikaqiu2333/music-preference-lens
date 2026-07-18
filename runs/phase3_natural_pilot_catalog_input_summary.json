@@ -1,0 +1,17 @@
+{
+  "duplicate_title_cluster_count": 27,
+  "generation_count": 72,
+  "minimum_parsed_event_count": 300,
+  "parsed_event_count": 360,
+  "parser_replay_gate": true,
+  "protocol_hashes": {
+    "json_sha256": "530af4758e2be515bf475b7cfbb2da56cdb279fb81eb1ac39ea8bbae2497c88e",
+    "markdown_sha256": "241c2c4f066870c3c3f5bc6727197a0da4cf6a8c23d0ddf7391bac397c97344a"
+  },
+  "protocol_id": "music_relation_phase3_natural_discovery_v1",
+  "record_sha256_unique": true,
+  "source_mode": "pilot",
+  "source_run_id": "20260714T061956Z_phase3_natural_pilot",
+  "technical_gate": true,
+  "unique_normalized_title_count": 318
+}

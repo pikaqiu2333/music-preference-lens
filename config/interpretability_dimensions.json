@@ -1,0 +1,88 @@
+{
+  "dimensions": [
+    {
+      "dimension_id": "low_energy_quiet",
+      "description": "Low energy, quiet, non-intrusive listening.",
+      "keywords": ["quiet", "calm", "soft", "minimal", "low energy", "not too loud", "低打扰", "安静", "不要太吵", "轻一点"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "high_energy_workout",
+      "description": "High-energy, strong-beat workout or activation context.",
+      "keywords": ["gym", "workout", "sprint", "high energy", "strong beat", "健身", "冲刺", "高能量", "强节奏", "提神"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "rain_night_drive",
+      "description": "Rainy night driving, urban night, road mood.",
+      "keywords": ["rain", "night", "drive", "city lights", "雨", "夜晚", "开车", "城市", "街道"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "solitude_melancholy",
+      "description": "Lonely, slightly melancholic, not overly depressing mood.",
+      "keywords": ["lonely", "solitude", "melancholy", "nostalgic", "孤独", "怀旧", "不压抑"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "chinese_vocal",
+      "description": "Chinese vocal preference or Chinese-language track signal.",
+      "keywords": ["Chinese vocal", "Chinese", "中文", "中文女声", "人声"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "instrumental_focus",
+      "description": "Instrumental focus, white-noise-like background music.",
+      "keywords": ["instrumental", "white noise", "focus", "no vocals", "无人声", "白噪声", "专注"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "lyric_narrative",
+      "description": "Vocal-forward, emotional, narrative lyrics.",
+      "keywords": ["lyrics", "narrative", "emotional", "dramatic", "歌词", "叙事", "情绪", "人声突出"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "party_warmup_groove",
+      "description": "Social warm-up, groove, funk, nu-disco.",
+      "keywords": ["party", "warm-up", "groove", "funk", "disco", "聚会", "预热", "律动", "升温"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "rave_hard_energy",
+      "description": "Hard techno, rave, peak-time intensity.",
+      "keywords": ["rave", "hard techno", "intense", "dark", "硬", "更强", "凌晨", "压迫感"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "novelty_discovery",
+      "description": "Preference for discovery, niche, lesser-known tracks.",
+      "keywords": ["discover", "novelty", "niche", "unknown", "探索", "小众", "新鲜"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "identity_self_model",
+      "description": "Claims about assistant, base model, deployment identity, or exact model name.",
+      "keywords": ["who are you", "identity", "model name", "base model", "assistant role", "deployment", "self model"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "role_binding",
+      "description": "Binding the current assistant role to app wrapper, tool role, user task, and system context without collapsing them.",
+      "keywords": ["role", "agent", "wrapper", "tool", "current task", "app context", "not the tool"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "instruction_hierarchy",
+      "description": "Reasoning about source authority across system context, model metadata, tool results, and user claims.",
+      "keywords": ["system context", "metadata", "source hierarchy", "user claim", "evidence source", "authority"],
+      "candidate_feature_ids": []
+    },
+    {
+      "dimension_id": "weak_evidence_overjustification",
+      "description": "Risk that the model invents a rich vibe from weak evidence.",
+      "keywords": ["weak evidence", "over-justify", "unsupported", "证据弱", "过度解释", "强行解释"],
+      "candidate_feature_ids": []
+    }
+  ]
+}

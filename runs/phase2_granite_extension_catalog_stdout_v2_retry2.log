@@ -1,0 +1,1 @@
+PHASE2_CATALOG_SUMMARY_JSON={"cache_entry_count": 1253, "catalog_label_counts": {"ambiguous": 4, "excluded": 83, "strict_conflict": 4, "strict_exact": 4}, "evidence_request_count": 394, "input_row_count": 95, "normalized_title_cluster_count": 84, "processed_row_count": 8}

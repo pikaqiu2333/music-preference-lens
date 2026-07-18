@@ -1,0 +1,43 @@
+{
+  "generation_count": 72,
+  "expected_generation_count": 72,
+  "unique_generation_count": 72,
+  "nonempty_completion_count": 72,
+  "parsed_track_count": 360,
+  "minimum_parsed_track_count": 300,
+  "maximum_parsed_track_count": 360,
+  "parsed_tracks_by_context": {
+    "alternative_rnb_collaboration": 30,
+    "ambient_minimal_catalog": 30,
+    "deep_cut_synthpop": 30,
+    "folk_songwriter_deep_cuts": 30,
+    "idm_label_catalog": 30,
+    "latin_alternative_catalog": 30,
+    "metal_subgenre_catalog": 30,
+    "modern_jazz_ensemble": 30,
+    "post_punk_art_pop": 30,
+    "regional_city_pop": 30,
+    "soundtrack_song_credit": 30,
+    "underground_hiphop_production": 30
+  },
+  "architecture_gate": true,
+  "technical_gate": true,
+  "run_id": "20260714T061956Z_phase3_natural_pilot",
+  "protocol_id": "music_relation_phase3_natural_discovery_v1",
+  "protocol_hashes": {
+    "json_sha256": "530af4758e2be515bf475b7cfbb2da56cdb279fb81eb1ac39ea8bbae2497c88e",
+    "markdown_sha256": "241c2c4f066870c3c3f5bc6727197a0da4cf6a8c23d0ddf7391bac397c97344a"
+  },
+  "mode": "pilot",
+  "prompt_template_id": "discovery_v1",
+  "model_id": "Qwen/Qwen3-4B-Base",
+  "model_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+  "expected_num_layers": 36,
+  "observed_num_layers": 36,
+  "bundle_canonical_sha256": "8fa667c497e4bc36b29e396c5a20173eaa4959449a3a9737b6ec50d60554548e",
+  "submitted_script_sha256": null,
+  "script_execution_mode": "inline_python_c_no_file",
+  "maximum_gpu_memory_bytes": 8176654336,
+  "started_at": "2026-07-14T06:19:56.292726+00:00",
+  "finished_at": "2026-07-14T06:32:07.983261+00:00"
+}

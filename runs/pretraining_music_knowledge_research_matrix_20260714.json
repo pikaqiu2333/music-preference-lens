@@ -1,0 +1,191 @@
+{
+  "schema_version": "pretraining_music_knowledge_research_matrix_v1",
+  "date": "2026-07-14",
+  "review_method": "academic-research-suite deep research with parallel source, model, literature, and devil-advocate audits",
+  "research_question": "At matched exposure frequency, how do source diversity, expression diversity, duplication, and conflicting evidence affect the acquisition, representation, forgetting, and candidate-free access of multivalued title-artist relations?",
+  "evidence_ladder": [
+    "appears_in_an_open_corpus",
+    "belongs_to_the_exact_model_training_sequence",
+    "causally_influences_parameter_updates",
+    "is_decodable_from_internal_representations",
+    "is_stably_accessible_without_candidates"
+  ],
+  "deepseek_audit": {
+    "conclusion": "Major DeepSeek releases provide many final weights and substantial technical detail, but not a complete document-level corpus, sample order, end-to-end trainer, raw logs, and post-training data required for source-to-knowledge tracing.",
+    "families": [
+      {
+        "name": "DeepSeek LLM 7B/67B",
+        "final_weights": true,
+        "intermediate_checkpoints": true,
+        "raw_corpus_or_document_ids": false,
+        "exact_sample_order": false,
+        "full_training_code": false,
+        "suitability": "checkpoint timing only; cannot attribute song knowledge to exact documents",
+        "primary_source": "https://github.com/deepseek-ai/DeepSeek-LLM"
+      },
+      {
+        "name": "DeepSeek V3",
+        "final_weights": true,
+        "intermediate_checkpoints": false,
+        "raw_corpus_or_document_ids": false,
+        "exact_sample_order": false,
+        "full_training_code": false,
+        "suitability": "capability comparison only",
+        "primary_source": "https://arxiv.org/abs/2412.19437"
+      },
+      {
+        "name": "DeepSeek R1",
+        "final_weights": true,
+        "intermediate_checkpoints": false,
+        "raw_corpus_or_document_ids": false,
+        "exact_sample_order": false,
+        "full_posttraining_data": false,
+        "suitability": "post-training behavior only; inherits V3 corpus opacity",
+        "primary_source": "https://github.com/deepseek-ai/DeepSeek-R1"
+      },
+      {
+        "name": "DeepSeek V4 Preview",
+        "final_and_base_weights": true,
+        "intermediate_checkpoints": false,
+        "raw_corpus_or_document_ids": false,
+        "exact_sample_order": false,
+        "full_training_code": false,
+        "suitability": "large capability comparison only",
+        "primary_source": "https://api-docs.deepseek.com/news/news260424"
+      }
+    ]
+  },
+  "model_candidates": [
+    {
+      "rank_for_feasibility": 1,
+      "name": "Pythia-1B-deduped",
+      "model_id": "EleutherAI/pythia-1b-deduped",
+      "training_corpus": "Deduplicated Pile",
+      "exact_order": true,
+      "checkpoint_count": 154,
+      "optimizer_state": "final public; intermediate available by request",
+      "role": "primary low-cost exact-sequence feasibility study",
+      "strength": "same data order across scales, pretokenized data and dataloader reconstruction",
+      "limitation": "older architecture and corpus",
+      "primary_source": "https://github.com/EleutherAI/pythia"
+    },
+    {
+      "rank_for_feasibility": 2,
+      "name": "OLMo-1B",
+      "model_id": "allenai/OLMo-1B",
+      "training_corpus": "Dolma",
+      "exact_order": true,
+      "checkpoint_interval": "1000 steps",
+      "optimizer_state": "released",
+      "role": "confirmatory natural trajectory and controlled continuation",
+      "strength": "open data order, checkpoints, optimizer state, configs, code, and logs",
+      "limitation": "multi-trillion-token corpus is expensive to scan",
+      "primary_source": "https://arxiv.org/abs/2402.00838"
+    },
+    {
+      "rank_for_feasibility": 3,
+      "name": "OLMo 2 1B",
+      "model_id": "allenai/OLMo-2-0425-1B",
+      "training_corpus": "OLMo-mix-1124 plus Dolmino-mix-1124",
+      "exact_order": "available through original OLMo artifacts; verify every artifact link before use",
+      "checkpoint_interval": "at least 1000 steps in OLMo format",
+      "role": "modern replication",
+      "strength": "modern small model with open data, recipes, checkpoints, and logs",
+      "limitation": "the convenient early-training HF trajectory is a later rerun and is not identical to the original training run",
+      "primary_source": "https://huggingface.co/allenai/OLMo-2-0425-1B"
+    },
+    {
+      "rank_for_feasibility": 4,
+      "name": "Qwen and DeepSeek families",
+      "exact_order": false,
+      "role": "final behavior and capability comparison only",
+      "strength": "stronger current models",
+      "limitation": "no exact document-to-checkpoint audit chain",
+      "primary_source": "https://github.com/deepseek-ai/DeepSeek-V3"
+    }
+  ],
+  "core_literature": [
+    {
+      "id": "kandpal_2023_long_tail",
+      "claim": "fact QA accuracy is strongly related to the number of relevant pretraining documents; retrieval especially helps the long tail",
+      "use": "baseline exposure-frequency hypothesis",
+      "limitation": "entity co-occurrence is not a semantic relation assertion",
+      "url": "https://proceedings.mlr.press/v202/kandpal23a.html"
+    },
+    {
+      "id": "kang_choi_2023_cooccurrence",
+      "claim": "high-frequency incorrect co-occurrence can overpower a lower-frequency correct object",
+      "use": "same-title and popular-artist competition",
+      "limitation": "controlled fine-tuning does not directly establish pretraining dynamics",
+      "url": "https://aclanthology.org/2023.findings-emnlp.518/"
+    },
+    {
+      "id": "allen_zhu_li_2023_knowledge_manipulation",
+      "claim": "paraphrase and sentence-order diversity improve extraction from stored synthetic biography knowledge",
+      "use": "diversity-at-fixed-dose hypothesis",
+      "limitation": "synthetic single-valued biographies",
+      "url": "https://openreview.net/forum?id=5x788rqbcj"
+    },
+    {
+      "id": "chang_2024_acquisition",
+      "claim": "factual probability increases incrementally at exposures and is diluted by forgetting; duplicated data forgets faster",
+      "use": "event-aligned acquisition and washout design",
+      "limitation": "injected fictional facts do not establish natural web behavior",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6fdf57c71bc1f1ee29014b8dc52e723f-Abstract-Conference.html"
+    },
+    {
+      "id": "merullo_2025_frequency_linearity",
+      "claim": "pretraining frequency correlates strongly with linear representations of factual relations",
+      "use": "representation-acquisition trajectory",
+      "limitation": "linear decodability is neither necessary nor sufficient for candidate-free access",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b35c6f99df526a798433fabff039bd50-Abstract-Conference.html"
+    },
+    {
+      "id": "chang_2025_trackstar",
+      "claim": "influential examples and passages explicitly stating a fact are not the same retrieval target",
+      "use": "separate textual support from causal influence",
+      "limitation": "influence is not exact leave-one-out causal proof",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/65798a76cc176c29b6bfefe84b0a03ff-Abstract-Conference.html"
+    },
+    {
+      "id": "jiang_2020_prompt_knowledge",
+      "claim": "prompt choice substantially changes measured factual knowledge",
+      "use": "multi-template stable-access definition",
+      "limitation": "behavioral elicitation does not locate training sources",
+      "url": "https://aclanthology.org/2020.tacl-1.28/"
+    },
+    {
+      "id": "biderman_2023_pythia",
+      "claim": "154 checkpoints and a reconstructable common data order enable learning-dynamics research",
+      "use": "primary feasibility infrastructure",
+      "limitation": "older Pile-era architecture",
+      "url": "https://proceedings.mlr.press/v202/biderman23a.html"
+    },
+    {
+      "id": "groeneveld_2024_olmo",
+      "claim": "data, order tools, code, checkpoints, optimizer states, and logs are released for open LM science",
+      "use": "confirmatory and controlled continuation infrastructure",
+      "limitation": "full corpus search is operationally expensive",
+      "url": "https://arxiv.org/abs/2402.00838"
+    },
+    {
+      "id": "soldaini_2024_dolma",
+      "claim": "a documented three-trillion-token corpus spans web, papers, code, books, social media, and encyclopedic content",
+      "use": "natural source-type analysis",
+      "limitation": "corpus availability alone does not label music relation assertions",
+      "url": "https://aclanthology.org/2024.acl-long.840/"
+    }
+  ],
+  "novelty_requirements": [
+    "semantic relation exposure rather than raw entity co-occurrence",
+    "natural multivalued music relations rather than synthetic single-valued triples alone",
+    "separate frequency, independent-source diversity, duplicate concentration, and conflict",
+    "exact checkpoint acquisition and forgetting trajectory",
+    "candidate-free access as primary behavior, with forced-choice only secondary",
+    "controlled continuation that tests the natural-data pattern causally",
+    "mechanistic claims only after behavior and disjoint-generalization gates"
+  ],
+  "devil_advocate_verdict": "REVISE_THEN_RUN_FEASIBILITY",
+  "fatal_risk": "A synthetic-only factorial study would look like an existing knowledge-acquisition experiment with music labels. Natural music evidence and multivalued relation structure are required for novelty.",
+  "recommended_next_step": "Freeze and execute the 120-relation Pythia corpus-mapping and 12-checkpoint feasibility protocol before any new probe or intervention."
+}

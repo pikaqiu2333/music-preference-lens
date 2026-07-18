@@ -1,0 +1,14 @@
+{
+  "duplicate_title_cluster_count": 6,
+  "generation_count": 20,
+  "parsed_event_count": 95,
+  "protocol_hashes": {
+    "json_sha256": "99e9638d67d5d52d190705a91a11aad8ed82be2f2e9bac0f2931bb1844fc757f",
+    "markdown_sha256": "ee79d66418316f47bda1e49b5c9c7b89d5a0bed7dea7777ce90fd014718158b7"
+  },
+  "protocol_id": "music_relation_mechanism_intervention_phase2_v1",
+  "record_sha256_unique": true,
+  "source_mode": "extension",
+  "source_run_id": "20260713T131418Z_phase2_extension_generation",
+  "unique_normalized_title_count": 84
+}

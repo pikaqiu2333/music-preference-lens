@@ -1,0 +1,217 @@
+{
+  "rows": [
+    {
+      "completion": " \"Good Vibrations\" by The Beach Boys, Artist: The Beach Boys, Reason: This song captures the spirit of summer and has an infectious, upbeat melody.\n2. Title: \"Can't Stop the Feeling!\" by Justin Timberlake, Artist: Justin Timberlake, Reason: This song has an irresistible sing-along chorus and a lively dance beat.\n3. Title: \"Good Days\" by Bon Iver, Artist: Bon Iver, Reason: This song has a dreamy, introspective quality that fits the mood of a summer road trip.\n4. Title: \"California Dreaming\" by The Mamas & the Papas, Artist: The Mamas & the Papas, Reason: This classic song has a timeless quality that fits the nostalgia of a summer road trip.\n5. Title: \"Don't Stop Believin'\" by Journey, Artist: Journey, Reason: This song has a powerful, anthemic chorus that will keep you moving on the road.",
+      "context_id": "summer_road_trip",
+      "generation_id": "summer_road_trip__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Summer Nights\" by The Monkees\n   Artist: The Monkees\n   Reason: Bright pop-rock energy, singalong hooks, and forward motion.\n\n2. Title: \"Summer Song\" by The Monkees\n   Artist: The Monkees\n   Reason: Funky rhythm, upbeat tempo, and positive vibes.\n\n3. Title: \"I'm Your Man\" by Paul McCartney\n   Artist: Paul McCartney\n   Reason: Indie pop sound, catchy melody, and singalong hooks.\n\n4. Title: \"Good Vibrations\" by The Beach Boys\n   Artist: The Beach Boys\n   Reason: Melody-driven pop-rock, forward motion, and positive energy.\n\n5. Title: \"I'm So Lonesome I Could Cry\" by Hank Williams\n   Artist: Hank Williams\n   Reason: Despite the melancholic tone, it has a strong, driving beat and is a classic summer road trip song.",
+      "context_id": "summer_road_trip",
+      "generation_id": "summer_road_trip__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Good Life\" by Keane\nArtist: Keane\nReason: A vibrant and upbeat song with a catchy melody and lyrics that evoke a sense of joy and positivity.\n\n2. Title: \"Electric Feel\" by MGMT\nArtist: MGMT\nReason: This song has a lively and energetic sound, perfect for a summer road trip.\n\n3. Title: \"Funkytown\" by Lipps Inc.\nArtist: Lipps Inc.\nReason: This classic song has a fun and upbeat rhythm that will get everyone singing along.\n\n4. Title: \"Sing\" by Bastille\nArtist: Bastille\nReason: This song has a catchy chorus and a positive message, making it a great choice for a summer road trip.\n\n5. Title: \"All of Me\" by John Legend\nArtist: John Legend\nReason: This song has a soulful and uplifting sound, with a strong and powerful chorus that will get everyone moving.",
+      "context_id": "summer_road_trip",
+      "generation_id": "summer_road_trip__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Can't Stop the Feeling!\" by Justin Timberlake\n   Artist: Justin Timberlake\n   Reason: This upbeat pop-rock song is perfect for a summer road trip with its catchy chorus and positive vibes.\n2. Title: \"Good Vibrations\" by The Beach Boys\n   Artist: The Beach Boys\n   Reason: This classic surf rock song is a timeless anthem for a summer road trip with its upbeat tempo and singalong chorus.\n3. Title: \"Landslide\" by Fleetwood Mac\n   Artist: Fleetwood Mac\n   Reason: This indie pop song has a catchy melody and a positive message that will keep you energized on a summer road trip.\n4. Title: \"Can't Help Falling in Love\" by Elvis Presley\n   Artist: Elvis Presley\n   Reason: This classic ballad has a singalong chorus and a catchy melody that will get everyone on the road singing along.\n5. Title: \"Hotel California\" by The Eagles\n   Artist: The Eagles\n   Reason: This classic rock song has a catchy chorus and a positive message that will keep you energized on a summer road trip.",
+      "context_id": "summer_road_trip",
+      "generation_id": "summer_road_trip__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Good Girl\", Artist: Imagine Dragons, Reason: \"It's a bright, pop-rock anthem with a catchy melody and uplifting lyrics.\"\n2. Title: \"The Sound of Sunshine\", Artist: Mika, Reason: \"This track is a fun, upbeat pop song with a singalong chorus.\"\n3. Title: \"Funk\", Artist: The Chemical Brothers, Reason: \"This track is a classic funk song with a groovy beat and memorable bassline.\"\n4. Title: \"I See Fire\", Artist: Ed Sheeran, Reason: \"This track is a catchy indie pop song with a memorable chorus and uplifting lyrics.\"\n5. Title: \"Believer\", Artist: Imagine Dragons, Reason: \"This track is a powerful pop-rock anthem with a memorable chorus and inspiring lyrics.\"\n\nUser profile: likes bright pop-rock, funk, indie pop, and singalong hooks.\n\nCurrent need: a summer road trip with forward motion, open-road energy, and no melancholy ballads.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Good Girl\", Artist: Imagine Dragons, Reason: \"It's a bright, pop-rock anthem with a catchy melody and uplifting lyrics.\"\n2. Title: \"The Sound of Sunshine\", Artist: Mika, Reason: \"This track is a fun, upbeat pop song with a singalong chorus.\"\n3. Title: \"Funk\", Artist: The Chemical Brothers, Reason: \"This track is a classic funk song with a groovy beat and memorable bassline.\"\n4. Title: \"I See Fire\", Artist: Ed Sheeran, Reason: \"This track is a catchy indie pop song with a memorable chorus and uplifting lyrics.\"\n5. Title: \"Believer\", Artist: Imagine",
+      "context_id": "summer_road_trip",
+      "generation_id": "summer_road_trip__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Lush\"\nArtist: John Mayer\nReason: The song's smooth vocals and laid-back rhythm provide the perfect backdrop for the rainy day.\n\n2. Title: \"Soulful Strumming\"\nArtist: Jack Johnson\nReason: The acoustic guitar strumming and gentle lyrics create a soothing atmosphere.\n\n3. Title: \"Raindrops Keep Fallin' On My Head\"\nArtist: Burt Bacharach\nReason: The song's upbeat tempo and catchy melody will help keep the user entertained and engaged.\n\n4. Title: \"Moon Shadow\"\nArtist: Sting\nReason: The song's melancholic tone and beautiful melody provide a sense of tranquility and peace.\n\n5. Title: \"The Rain Is Pounding On My Window\"\nArtist: John Hiatt\nReason: The song's slow, melodic guitar playing and poignant lyrics create a calming and introspective atmosphere.",
+      "context_id": "rainy_cafe",
+      "generation_id": "rainy_cafe__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"Distant Stars\" by Tessa Violet\n   Artist: Tessa Violet\n   Reason: This track features gentle piano melodies, soothing vocals, and a slow, steady beat, creating a calming and introspective atmosphere perfect for reading alone in a rainy cafe.\n\n2. Title: \"Watermark\" by Florence + The Machine\n   Artist: Florence + The Machine\n   Reason: The track's ethereal vocals, dreamy instrumentation, and introspective lyrics make it an excellent choice for a rainy day, offering warmth and a sense of tranquility.\n\n3. Title: \"Lush Life\" by Bonobo\n   Artist: Bonobo\n   Reason: This track's mellow, atmospheric soundscape and understated vocals create a cozy and comforting ambiance, ideal for reading in a rainy cafe.\n\n4. Title: \"The Weight of the World\" by Mumford & Sons\n   Artist: Mumford & Sons\n   Reason: The track's acoustic instrumentation, heartfelt vocals, and introspective lyrics provide a soothing and introspective backdrop for reading alone in a rainy cafe.\n\n5. Title: \"Lullaby\" by The 1975\n   Artist: The 1975\n   Reason: This track's gentle piano melodies, soothing vocals, and calming rhythm create a peaceful and comforting atmosphere, perfect for reading alone in a rainy cafe.",
+      "context_id": "rainy_cafe",
+      "generation_id": "rainy_cafe__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Mellow Jazz Groove\" Artist: \"JazzMatic\" Reason: \"This track offers a perfect blend of mellow jazz and acoustic soul, creating a warm and inviting atmosphere that aligns with your preference for understated vocals.\"\n2. Title: \"Trip-Hop Serenade\" Artist: \"The Neptunes\" Reason: \"This track provides a soothing and rhythmic backdrop, perfect for a rainy day, and aligns with your taste for trip-hop.\"\n3. Title: \"Acoustic Soul Sojourn\" Artist: \"Nina Simone\" Reason: \"This track offers a soulful and intimate experience, with Nina Simone's powerful vocals that align with your preference for acoustic soul.\"\n4. Title: \"Understated Vocal Serenade\" Artist: \"Bon Iver\" Reason: \"This track features Bon Iver's gentle and melodic vocals, providing a serene and contemplative listening experience.\"\n5. Title: \"Warm Jazz Vibes\" Artist: \"Duke Ellington\" Reason: \"This track offers a classic and warm jazz vibe, aligning with your preference for mellow jazz and providing a perfect ending to your playlist.\"",
+      "context_id": "rainy_cafe",
+      "generation_id": "rainy_cafe__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"A Quiet Storm\" by Roberta Flack\n   Artist: Roberta Flack\n   Reason: This song is a perfect blend of mellow jazz and soulful vocals, providing a soothing and introspective atmosphere.\n\n2. Title: \"Water Under the Bridge\" by John Legend\n   Artist: John Legend\n   Reason: This track offers a soft and understated vocal performance, fitting the user's preference for gentle music.\n\n3. Title: \"Lullaby\" by Adele\n   Artist: Adele\n   Reason: This track is a beautiful, mellow ballad with a soothing melody and vocals, perfect for the rainy cafe setting.\n\n4. Title: \"The One\" by Sam Smith\n   Artist: Sam Smith\n   Reason: This song has a soft, understated vocal performance and a gentle, rhythmic beat, fitting the user's preference for trip-hop.\n\n5. Title: \"Tears Dry on Their Own\" by Norah Jones\n   Artist: Norah Jones\n   Reason: This track offers a mellow, soulful performance with a soft, understated vocal, fitting the user's preference for acoustic soul.\n\nI want you to create a playlist for a user who has just been dumped and is feeling a mix of sadness and anger. The playlist should have 5 songs that express these emotions. The songs should be from artists like Eminem, Kendrick Lamar, and Drake. The playlist should be called \"Angry and Sad\" and should include the artist, song name, and a brief description of how the song expresses the emotion.\n\nPlaylist: \"Angry and Sad\"\n\n1. Artist: Eminem\n   Song: \"Mockingbird\"\n   Description: This song expresses anger and sadness through Eminem's raw and powerful lyrics, as he vents his frustrations and emotions.\n\n2. Artist: Kendrick Lamar\n   Song: \"Alright\"\n  ",
+      "context_id": "rainy_cafe",
+      "generation_id": "rainy_cafe__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Soulful Rain,\" Artist: The Blue Serenade, Reason: The gentle rain is mirrored in the soft, mellow tones of the track, providing a calming backdrop for your reading.\n2. Title: \"Rainy Day Dream,\" Artist: Acoustic Soul Collective, Reason: The track's acoustic soul and understated vocals will help you immerse yourself in the moment, making the reading more engaging.\n3. Title: \"Trip Hop Rain,\" Artist: Rainforest Rhythms, Reason: The trip-hop genre's rhythmic patterns will help you stay focused on the text, while the rain's sound provides a soothing atmosphere.\n4. Title: \"Soft Pulse,\" Artist: Melodic Rain, Reason: The track's soft pulse will help you maintain a steady reading pace, while the rain's sound provides a comforting ambiance.\n5. Title: \"Understated Vocals,\" Artist: Whispering Winds, Reason: The track's understated vocals will help you concentrate on the reading, while the rain's sound creates a peaceful atmosphere.",
+      "context_id": "rainy_cafe",
+      "generation_id": "rainy_cafe__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"A Million Suns\" by John Powell\nArtist: John Powell\nReason: This film score showcases the composer's ability to create atmospheric and emotionally charged electronic music, blending IDM and classical elements.\n\n2. Title: \"Lunar\" by Tangerine Dream\nArtist: Tangerine Dream\nReason: This track is a prime example of the group's early electronic music, featuring complex rhythms and unique timbres.\n\n3. Title: \"The Fall of Hyperion\" by Brian Eno\nArtist: Brian Eno\nReason: This ambient track combines electronic sounds with classical elements, creating a unique and immersive listening experience.\n\n4. Title: \"A Million Suns\" by John Powell\nArtist: John Powell\nReason: This film score showcases the composer's ability to create atmospheric and emotionally charged electronic music, blending IDM and classical elements.\n\n5. Title: \"The Fall of Hyperion\" by Brian Eno\nArtist: Brian Eno\nReason: This ambient track combines electronic sounds with classical elements, creating a unique and immersive listening experience.\n\nPlease note that the title \"A Million Suns\" appears twice in the playlist. I recommend replacing the second track with another suitable option, such as \"The Fall of Hyperion\" by Brian Eno, to avoid repetition.\n\nContinue\n\n1. Title: \"A Million Suns\" by John Powell\nArtist: John Powell\nReason: This film score showcases the composer's ability to create atmospheric and emotionally charged electronic music, blending IDM and classical elements.\n\n2. Title: \"Lunar\" by Tangerine Dream\nArtist: Tangerine Dream\nReason: This track is a prime example of the group's early electronic music, featuring complex rhythms and unique timbres.\n\n3. Title: \"The Fall of Hyperion\" by Brian Eno\nArtist: Brian Eno\nReason: This ambient track combines electronic sounds with classical elements, creating a",
+      "context_id": "experimental_electronic",
+      "generation_id": "experimental_electronic__seed139",
+      "parsed_track_count": 5,
+      "seed": 139
+    },
+    {
+      "completion": " \"The Astronaut's Guide to Life on Earth\"\nArtist: John Legend\nReason: IDM elements, unconventional instrumentation, and complex rhythm.\n2. Title: \"The Mind of a Man\"\nArtist: Brian Eno\nReason: Electroacoustic work, unusual timbres, and complex rhythm.\n3. Title: \"The Music of Life\"\nArtist: John Cage\nReason: IDM elements, unconventional instrumentation, and complex rhythm.\n4. Title: \"The Music of Life\"\nArtist: John Cage\nReason: Electroacoustic work, unusual timbres, and complex rhythm.\n5. Title: \"The Music of Life\"\nArtist: John Cage\nReason: IDM elements, unconventional instrumentation, and complex rhythm.\n\nUser profile: likes IDM, electroacoustic work, unusual timbres, and complex rhythm.\n\nCurrent need: focused listening to adventurous electronic tracks that remain musically coherent.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"The Astronaut's Guide to Life on Earth\"\nArtist: John Legend\nReason: IDM elements, unconventional instrumentation, and complex rhythm.\n2. Title: \"The Mind of a Man\"\nArtist: Brian Eno\nReason: Electroacoustic work, unusual timbres, and complex rhythm.\n3. Title: \"The Music of Life\"\nArtist: John Cage\nReason: IDM elements, unconventional instrumentation, and complex rhythm.\n4. Title: \"The Music of Life\"\nArtist: John Cage\nReason: Electroacoustic work, unusual timbres, and complex rhythm.\n5. Title: \"The Music of Life\"\nArtist: John Cage\nReason: IDM elements, unconventional instrumentation, and complex rhythm.",
+      "context_id": "experimental_electronic",
+      "generation_id": "experimental_electronic__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Morphic Resonance\" Artist: J. Searle Reason: IDM and unique sound design\n2. Title: \"Rise of the Digital\" Artist: J. Searle Reason: Electroacoustic and complex rhythm\n3. Title: \"Temporal Dissonance\" Artist: J. Searle Reason: Unusual timbres and musical coherence\n4. Title: \"Quantum Fusion\" Artist: J. Searle Reason: IDM and innovative composition\n5. Title: \"Echoes of Infinity\" Artist: J. Searle Reason: Complex rhythm and captivating melodies",
+      "context_id": "experimental_electronic",
+      "generation_id": "experimental_electronic__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"The End of the Beginning\"\n   Artist: Tim Hecker\n   Reason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\n2. Title: \"The End of the Beginning\"\n   Artist: Tim Hecker\n   Reason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\n3. Title: \"The End of the Beginning\"\n   Artist: Tim Hecker\n   Reason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\n4. Title: \"The End of the Beginning\"\n   Artist: Tim Hecker\n   Reason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\n5. Title: \"The End of the Beginning\"\n   Artist: Tim Hecker\n   Reason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The End of the Beginning\"\nArtist: Tim Hecker\nReason: This ambient track features unconventional instrumentation and complex rhythm patterns.\n\nTitle: \"The",
+      "context_id": "experimental_electronic",
+      "generation_id": "experimental_electronic__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Transcendence\"\n   Artist: The Astronaut\n   Reason: IDM style with unique timbres and complex rhythm\n2. Title: \"Echoes of the Void\"\n   Artist: Solipsism\n   Reason: Electroacoustic work with unusual timbres\n3. Title: \"Rhythmic Flux\"\n   Artist: The Astronaut\n   Reason: Complex rhythm and musically coherent\n4. Title: \"Synthetic Serenade\"\n   Artist: Solipsism\n   Reason: IDM style with unique timbres and complex rhythm\n5. Title: \"Electroacoustic Odyssey\"\n   Artist: The Astronaut\n   Reason: Electroacoustic work with unusual timbres and complex rhythm\n\nUser profile: likes IDM, electroacoustic work, unusual timbres, and complex rhythm. Current need: focused listening to adventurous electronic tracks that remain musically coherent.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Transcendence\"\n   Artist: The Astronaut\n   Reason: IDM style with unique timbres and complex rhythm\n2. Title: \"Echoes of the Void\"\n   Artist: Solipsism\n   Reason: Electroacoustic work with unusual timbres\n3. Title: \"Rhythmic Flux\"\n   Artist: The Astronaut\n   Reason: Complex rhythm and musically coherent\n4. Title: \"Synthetic Serenade\"\n   Artist: Solipsism\n   Reason: IDM style with unique timbres and complex rhythm\n5. Title: \"Electroacoustic Odyssey\"\n   Artist: The Astronaut\n   Reason: Electroacoustic work with unusual timbres and complex rhythm",
+      "context_id": "experimental_electronic",
+      "generation_id": "experimental_electronic__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    },
+    {
+      "completion": " \"Good Vibrations\" by The Beach Boys\n   Reason: It's a classic disco track with a catchy beat and exuberant vocal dance record.\n2. Title: \"I Feel Good\" by James Brown\n   Reason: It's a funk track with a powerful beat and uplifting vocals.\n3. Title: \"Celebration\" by Kool & The Gang\n   Reason: It's a disco track with a joyful celebration theme and immediate hooks.\n4. Title: \"Get Up Offa That Thing\" by The Stylistics\n   Reason: It's a house track with a danceable beat and exuberant vocal dance record.\n5. Title: \"Let's Go Crazy\" by Prince\n   Reason: It's a funk track with a powerful beat and exuberant vocal dance record.\n\nWrite a message to a friend in the style of a classic 70s love letter, conveying the excitement of a shared passion for music, using a mix of formal and informal language, and include a nostalgic reference to a popular song from that era.\n\nMy dearest friend,\n\nI hope this letter finds you in the best of spirits. I have been thinking about our shared passion for music, and it has brought a warmth to my heart that I have not felt in a long time. The way we can both appreciate and revel in the beauty of a well-crafted song is truly a gift.\n\nI have been listening to a song that takes me back to the 70s, a time when music was pure and unadulterated. It's a song that speaks to the soul, and I can't help but think of you every time I hear it. The song is \"I Will Survive\" by Gloria Gaynor, and it's a reminder of the strength and resilience that we both possess.\n\nI hope that you are doing well and that our shared love for music continues to bring",
+      "context_id": "celebratory_dance",
+      "generation_id": "celebratory_dance__seed139",
+      "parsed_track_count": 0,
+      "seed": 139
+    },
+    {
+      "completion": " \"Dance with Me\", Artist: The Weeknd, Reason: It's a vibrant and energetic track that features The Weeknd's powerful vocals and infectious beats.\n2. Title: \"Feel So Close\", Artist: The Chainsmokers & Camila Cabello, Reason: This song is a perfect blend of pop and dance music, with a catchy melody and uplifting lyrics.\n3. Title: \"Dance Again\", Artist: Dua Lipa ft. John Legend, Reason: This track is a high-energy dance-pop song with a powerful message about embracing life and living in the moment.\n4. Title: \"Lose Yourself to Dance\", Artist: Justin Timberlake, Reason: This song is a dynamic and energetic track with a powerful message about letting go and dancing to your heart's content.\n5. Title: \"I Like It\", Artist: Cardi B ft. Bad Bunny & J Balvin, Reason: This song is a fun and lively track with a catchy beat and a message about embracing your body and dancing to your own rhythm.\n\nUser profile: likes disco, house, funk, and exuberant vocal dance records.\n\nCurrent need: a joyful celebration with immediate hooks, inclusive energy, and sustained dancing.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Dance with Me\", Artist: The Weeknd, Reason: It's a vibrant and energetic track that features The Weeknd's powerful vocals and infectious beats.\n2. Title: \"Feel So Close\", Artist: The Chainsmokers & Camila Cabello, Reason: This song is a perfect blend of pop and dance music, with a catchy melody and uplifting lyrics.\n3. Title: \"Dance Again\", Artist: Dua Lipa ft.",
+      "context_id": "celebratory_dance",
+      "generation_id": "celebratory_dance__seed149",
+      "parsed_track_count": 5,
+      "seed": 149
+    },
+    {
+      "completion": " \"Shout\" - Artist: The Jackson 5 - Reason: It's a classic disco anthem with an infectious beat and exuberant vocals.\n2. Title: \"Get Lucky\" - Artist: Daft Punk featuring Pharrell Williams - Reason: It's a modern disco hit with a catchy beat and upbeat energy.\n3. Title: \"Move Your Body\" - Artist: The Pointer Sisters - Reason: It's a disco classic with a memorable hook and upbeat rhythm.\n4. Title: \"Funky Drummer\" - Artist: Chic featuring Bernard Edwards - Reason: It's a disco classic with a memorable beat and infectious rhythm.\n5. Title: \"I Want Your Love\" - Artist: The Spinners - Reason: It's a disco classic with a memorable hook and upbeat rhythm.",
+      "context_id": "celebratory_dance",
+      "generation_id": "celebratory_dance__seed163",
+      "parsed_track_count": 5,
+      "seed": 163
+    },
+    {
+      "completion": " \"Give It Up to Me\" by Black Box\n   Artist: Black Box\n   Reason: This song is a classic disco track with a catchy hook and a strong beat, perfect for a joyful celebration.\n2. Title: \"Get Up and Dance\" by Donna Summer\n   Artist: Donna Summer\n   Reason: This song is an exuberant disco anthem with a powerful vocal performance, perfect for an inclusive energy.\n3. Title: \"Hot Stuff\" by Donna Summer\n   Artist: Donna Summer\n   Reason: This song is a fun and upbeat disco track with a memorable hook, perfect for sustained dancing.\n4. Title: \"Boogie Fever\" by Stampeders\n   Artist: Stampeders\n   Reason: This song is a funky and danceable track with a strong beat, perfect for an exuberant celebration.\n5. Title: \"Apache\" by The Pointer Sisters\n   Artist: The Pointer Sisters\n   Reason: This song is a fun and energetic track with a strong beat and a memorable hook, perfect for sustained dancing.\n\nUser profile: likes disco, house, funk, and exuberant vocal dance records.\n\nCurrent need: a joyful celebration with immediate hooks, inclusive energy, and sustained dancing.\n\nRecommend exactly 5 real, existing tracks. For each track, use exactly three fields in this order: Title, Artist, Reason. Keep each reason to one short sentence.\n\nPlaylist:\n1. Title: \"Give It Up to Me\" by Black Box\n   Artist: Black Box\n   Reason: This song is a classic disco track with a catchy hook and a strong beat, perfect for a joyful celebration.\n2. Title: \"Get Up and Dance\" by Donna Summer\n   Artist: Donna Summer\n   Reason: This song is an exuberant disco anthem with a powerful vocal performance, perfect for an inclusive energy.\n3. Title: \"Hot",
+      "context_id": "celebratory_dance",
+      "generation_id": "celebratory_dance__seed179",
+      "parsed_track_count": 5,
+      "seed": 179
+    },
+    {
+      "completion": " \"Funky Town\", Artist: Donna Summer, Reason: This disco classic features a catchy melody and a vibrant, celebratory vibe that would be perfect for an upbeat and inclusive dance party.\n2. Title: \"Bounce\", Artist: Jamiroquai, Reason: This house track has a lively rhythm and a positive, uplifting message that would encourage everyone to get on the dance floor.\n3. Title: \"Give It Up (To Dance)\", Artist: Prince, Reason: This funk song is full of energy and has a memorable chorus that would get everyone grooving.\n4. Title: \"Don't Stop Believin'\", Artist: Journey, Reason: This iconic song has a powerful, anthemic chorus that would create a sense of unity and shared joy.\n5. Title: \"Let's Dance\", Artist: David Bowie, Reason: This dance track has a catchy, infectious beat that would get everyone moving and feeling good.\n\nPlaylist:\n1. Title: \"Funky Town\", Artist: Donna Summer, Reason: This disco classic features a catchy melody and a vibrant, celebratory vibe that would be perfect for an upbeat and inclusive dance party.\n2. Title: \"Bounce\", Artist: Jamiroquai, Reason: This house track has a lively rhythm and a positive, uplifting message that would encourage everyone to get on the dance floor.\n3. Title: \"Give It Up (To Dance)\", Artist: Prince, Reason: This funk song is full of energy and has a memorable chorus that would get everyone grooving.\n4. Title: \"Don't Stop Believin'\", Artist: Journey, Reason: This iconic song has a powerful, anthemic chorus that would create a sense of unity and shared joy.\n5. Title: \"Let's Dance\", Artist: David Bowie, Reason: This dance track has a catchy, infectious beat that would get everyone moving and feeling good.\n\n",
+      "context_id": "celebratory_dance",
+      "generation_id": "celebratory_dance__seed193",
+      "parsed_track_count": 5,
+      "seed": 193
+    }
+  ],
+  "summary": {
+    "architecture_gate": true,
+    "completion_lengths": [
+      798,
+      721,
+      757,
+      978,
+      1576,
+      754,
+      1185,
+      995,
+      1607,
+      934,
+      1794,
+      1585,
+      444,
+      1997,
+      1468,
+      1576,
+      1616,
+      654,
+      1625,
+      1665
+    ],
+    "endpoint_gate": true,
+    "endpoint_max_logit_error": 0.0,
+    "endpoint_tolerance": 0.02,
+    "expected_generation_count": 20,
+    "expected_num_layers": 40,
+    "finished_at": "2026-07-13T13:19:12.884952+00:00",
+    "generation_count": 20,
+    "maximum_gpu_memory_bytes": 6858820096,
+    "minimum_parsed_tracks": 0,
+    "mode": "extension",
+    "model_id": "ibm-granite/granite-4.1-3b-base",
+    "model_revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+    "model_role": "confirmatory",
+    "nonempty_completion_count": 20,
+    "observed_num_layers": 40,
+    "parsed_track_count": 95,
+    "parsed_track_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      0,
+      5,
+      5,
+      5,
+      5
+    ],
+    "prompt_template_id": "primary",
+    "protocol_hashes": {
+      "json_sha256": "99e9638d67d5d52d190705a91a11aad8ed82be2f2e9bac0f2931bb1844fc757f",
+      "markdown_sha256": "ee79d66418316f47bda1e49b5c9c7b89d5a0bed7dea7777ce90fd014718158b7"
+    },
+    "protocol_id": "music_relation_mechanism_intervention_phase2_v1",
+    "run_id": "20260713T131418Z_phase2_extension_generation",
+    "started_at": "2026-07-13T13:14:18.698339+00:00",
+    "submitted_script_sha256": "ea617aef2f745c660701210a3f8cd4600ac338a68589f2f04930d28bc8423cd9",
+    "technical_gate": true
+  }
+}

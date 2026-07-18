@@ -1,0 +1,718 @@
+{
+  "bundle_version": "phase3_relation_recoverability_v1",
+  "protocol_id": "music_relation_phase3_recoverability_v1",
+  "protocol_status": "frozen_before_phase3_pilot_catalog_results",
+  "protocol_hashes": {
+    "json_sha256": "e7beca97cd405a3289aacd821651075bd19e26f410aae31857e594696f6e70f5",
+    "markdown_sha256": "4dbf7804ecd616a2913173a7748e5a82fb83be2a461cdee78c804545da4b8cff"
+  },
+  "protocol_payloads_b64": {
+    "json": "ewogICJwcm90b2NvbF9pZCI6ICJtdXNpY19yZWxhdGlvbl9waGFzZTNfcmVjb3ZlcmFiaWxpdHlfdjEiLAogICJmcm96ZW5fYXRfdXRjIjogIjIwMjYtMDctMTRUMDY6MjI6MTYuMTk3ODQxMVoiLAogICJwYXJlbnRfZ2VuZXJhdGlvbl9jb21taXQiOiAiOWMzMzhlMyIsCiAgInN0YXR1cyI6ICJmcm96ZW5fYmVmb3JlX3BoYXNlM19waWxvdF9jYXRhbG9nX3Jlc3VsdHMiLAogICJtb2RlbCI6IHsKICAgICJtb2RlbF9pZCI6ICJRd2VuL1F3ZW4zLTRCLUJhc2UiLAogICAgInJldmlzaW9uIjogIjkwNmJmZDRiNGRjN2YxNGVlNDMyMDA5NGQ4YjQxNjg0YWJmZjg1MzkiLAogICAgImV4cGVjdGVkX251bV9sYXllcnMiOiAzNiwKICAgICJ0b3JjaF9kdHlwZSI6ICJmbG9hdDE2IgogIH0sCiAgImlucHV0IjogewogICAgImNhdGFsb2dfdmVyaWZpZWRfcm93cyI6ICJydW5zL3BoYXNlM19uYXR1cmFsX3BpbG90X2NhdGFsb2dfdmVyaWZpZWQuanNvbmwiLAogICAgIm1pbmltdW1fY2F0YWxvZ19yb3dfY291bnQiOiAzMDAsCiAgICAiY2F0YWxvZ19sYWJlbF9maWVsZCI6ICJwaGFzZTJfY2F0YWxvZ19sYWJlbCIsCiAgICAic3RyaWN0X2NvbmZsaWN0X2xhYmVsIjogInN0cmljdF9jb25mbGljdCIsCiAgICAic3RyaWN0X2V4YWN0X2xhYmVsIjogInN0cmljdF9leGFjdCIsCiAgICAiY2F0YWxvZ192ZXJpZmllcl92ZXJzaW9uIjogInBoYXNlMl9jYXRhbG9nX3YyX2NvbXBsZXRlX2FsaWFzX2F1ZGl0IiwKICAgICJjYXRhbG9nX3ZlcmlmaWVyX3NoYTI1NiI6ICJjOTY1OWI5MzJhYzNmMTA2NGU3NWUwYjViMDNjOGNhZDVhYTM0Y2Y3Y2E4NGVmYTI5NDZjOGRkOWE5YmI5ODY3IgogIH0sCiAgInNlbGVjdGlvbiI6IHsKICAgICJjbHVzdGVyX3VuaXQiOiAibm9ybWFsaXplZF90aXRsZSIsCiAgICAib25lX3Jvd19wZXJfdGl0bGVfY2x1c3RlciI6IHRydWUsCiAgICAicmVwcmVzZW50YXRpdmVfcnVsZSI6ICJtaW5pbXVtX3NoYTI1Nl9vZl9waGFzZTMtcmVjb3ZlcmFiaWxpdHktdjEtcGlwZS1nZW5lcmF0aW9uX3Jvd19zaGEyNTYiLAogICAgImluY2x1ZGVfYWxsX3VuaXF1ZV9zdHJpY3RfY29uZmxpY3RfY2x1c3RlcnMiOiB0cnVlLAogICAgIm1heGltdW1fc3RyaWN0X2V4YWN0X2NvbnRyb2xzIjogMjQsCiAgICAiZXhhY3RfY29udHJvbHNfZXhjbHVkZV9hbGxfY29uZmxpY3RfdGl0bGVzIjogdHJ1ZSwKICAgICJleGFjdF9jb250cm9sX3J1bGUiOiAibWluaW11bV9yZXByZXNlbnRhdGl2ZV9wZXJfdGl0bGVfdGhlbl9zbWFsbGVzdF9zZWxlY3Rpb25faGFzaCIsCiAgICAic2VsZWN0aW9uX3NhbHQiOiAicGhhc2UzLXJlY292ZXJhYmlsaXR5LXYxIgogIH0sCiAgImNhbm9uaWNhbF9wb3NpdGl2ZV9jb250cm9scyI6IFsKICAgIHsKICAgICAgImNvbnRyb2xfaWQiOiAiY2Fub25pY2FsX19ib2hlbWlhbl9yaGFwc29keSIsCiAgICAgICJ0aXRsZSI6ICJCb2hlbWlhbiBSaGFwc29keSIsCiAgICAgICJ0YXJnZXRfYXJ0aXN0IjogIlF1ZWVuIiwKICAgICAgImFjY2VwdGVkX3RhcmdldF9hcnRpc3RzIjogWyJRdWVlbiJdCiAgICB9LAogICAgewogICAgICAiY29udHJvbF9pZCI6ICJjYW5vbmljYWxfX2JpbGxpZV9qZWFuIiwKICAgICAgInRpdGxlIjogIkJpbGxpZSBKZWFuIiwKICAgICAgInRhcmdldF9hcnRpc3QiOiAiTWljaGFlbCBKYWNrc29uIiwKICAgICAgImFjY2VwdGVkX3RhcmdldF9hcnRpc3RzIjogWyJNaWNoYWVsIEphY2tzb24iXQogICAgfSwKICAgIHsKICAgICAgImNvbnRyb2xfaWQiOiAiY2Fub25pY2FsX19ob3RlbF9jYWxpZm9ybmlhIiwKICAgICAgInRpdGxlIjogIkhvdGVsIENhbGlmb3JuaWEiLAogICAgICAidGFyZ2V0X2FydGlzdCI6ICJFYWdsZXMiLAogICAgICAiYWNjZXB0ZWRfdGFyZ2V0X2FydGlzdHMiOiBbIkVhZ2xlcyIsICJUaGUgRWFnbGVzIl0KICAgIH0sCiAgICB7CiAgICAgICJjb250cm9sX2lkIjogImNhbm9uaWNhbF9fc21lbGxzX2xpa2VfdGVlbl9zcGlyaXQiLAogICAgICAidGl0bGUiOiAiU21lbGxzIExpa2UgVGVlbiBTcGlyaXQiLAogICAgICAidGFyZ2V0X2FydGlzdCI6ICJOaXJ2YW5hIiwKICAgICAgImFjY2VwdGVkX3RhcmdldF9hcnRpc3RzIjogWyJOaXJ2YW5hIl0KICAgIH0sCiAgICB7CiAgICAgICJjb250cm9sX2lkIjogImNhbm9uaWNhbF9fcm9sbGluZ19pbl90aGVfZGVlcCIsCiAgICAgICJ0aXRsZSI6ICJSb2xsaW5nIGluIHRoZSBEZWVwIiwKICAgICAgInRhcmdldF9hcnRpc3QiOiAiQWRlbGUiLAogICAgICAiYWNjZXB0ZWRfdGFyZ2V0X2FydGlzdHMiOiBbIkFkZWxlIl0KICAgIH0sCiAgICB7CiAgICAgICJjb250cm9sX2lkIjogImNhbm9uaWNhbF9fYmFkX2d1eSIsCiAgICAgICJ0aXRsZSI6ICJCYWQgR3V5IiwKICAgICAgInRhcmdldF9hcnRpc3QiOiAiQmlsbGllIEVpbGlzaCIsCiAgICAgICJhY2NlcHRlZF90YXJnZXRfYXJ0aXN0cyI6IFsiQmlsbGllIEVpbGlzaCJdCiAgICB9LAogICAgewogICAgICAiY29udHJvbF9pZCI6ICJjYW5vbmljYWxfX2JsaW5kaW5nX2xpZ2h0cyIsCiAgICAgICJ0aXRsZSI6ICJCbGluZGluZyBMaWdodHMiLAogICAgICAidGFyZ2V0X2FydGlzdCI6ICJUaGUgV2Vla25kIiwKICAgICAgImFjY2VwdGVkX3RhcmdldF9hcnRpc3RzIjogWyJUaGUgV2Vla25kIiwgIldlZWtuZCJdCiAgICB9LAogICAgewogICAgICAiY29udHJvbF9pZCI6ICJjYW5vbmljYWxfX3NwYWNlX29kZGl0eSIsCiAgICAgICJ0aXRsZSI6ICJTcGFjZSBPZGRpdHkiLAogICAgICAidGFyZ2V0X2FydGlzdCI6ICJEYXZpZCBCb3dpZSIsCiAgICAgICJhY2NlcHRlZF90YXJnZXRfYXJ0aXN0cyI6IFsiRGF2aWQgQm93aWUiLCAiQm93aWUiXQogICAgfQogIF0sCiAgInByb21wdF90ZW1wbGF0ZXMiOiBbCiAgICB7CiAgICAgICJ0ZW1wbGF0ZV9pZCI6ICJjYXRhbG9nX2VudHJ5IiwKICAgICAgInRlbXBsYXRlIjogIkNhdGFsb2cgZW50cnk6XG5UcmFjayB0aXRsZToge3RpdGxlfVxuUmVjb3JkaW5nIGFydGlzdDoiCiAgICB9LAogICAgewogICAgICAidGVtcGxhdGVfaWQiOiAidHJhY2tfcmVsYXRpb24iLAogICAgICAidGVtcGxhdGUiOiAiVHJhY2s6IHt0aXRsZX1cbkFydGlzdDoiCiAgICB9LAogICAgewogICAgICAidGVtcGxhdGVfaWQiOiAiZGlyZWN0X3F1ZXN0aW9uIiwKICAgICAgInRlbXBsYXRlIjogIldobyBpcyB0aGUgcmVjb3JkaW5nIGFydGlzdCBmb3IgdGhlIHRyYWNrIFwie3RpdGxlfVwiP1xuQXJ0aXN0OiIKICAgIH0KICBdLAogICJnZW5lcmF0aW9uIjogewogICAgImRvX3NhbXBsZSI6IGZhbHNlLAogICAgIm1heF9uZXdfdG9rZW5zIjogMjQKICB9LAogICJzY29yaW5nIjogewogICAgIm1pbmltdW1fcmVmZXJlbmNlX2dlbmVyYXRpb25zIjogMiwKICAgICJwcmltYXJ5X21hcmdpbiI6ICJtZWRpYW5fcmVmZXJlbmNlX21pbnVzX2VtaXR0ZWRfbWVhbl90b2tlbl9sb2dwcm9iX2Fjcm9zc190aHJlZV90ZW1wbGF0ZXMiLAogICAgIm1pbmltdW1fcHJpbWFyeV9tYXJnaW4iOiAwLjAsCiAgICAiZWxpZ2libGVfY29uZmxpY3RfbGFiZWwiOiAicmVjb3ZlcmFibGVfcmVsYXRpb25fY29uZmxpY3QiCiAgfSwKICAidmFsaWRpdHlfZ2F0ZXMiOiB7CiAgICAibWluaW11bV9ub25lbXB0eV9nZW5lcmF0aW9uX2ZyYWN0aW9uIjogMC45NSwKICAgICJtaW5pbXVtX2Nhbm9uaWNhbF9jb250cm9sX3JlY292ZXJ5X2ZyYWN0aW9uIjogMC43NQogIH0sCiAgInBpbG90X2NvbnRpbnVhdGlvbl9nYXRlIjogewogICAgIm1pbmltdW1fY2F0YWxvZ19yb3dzIjogMzAwLAogICAgIm1pbmltdW1fdW5pcXVlX3JlY292ZXJhYmxlX2NvbmZsaWN0X3RpdGxlX2NsdXN0ZXJzIjogOCwKICAgICJwYXNzX2FjdGlvbiI6ICJjb250aW51ZV90b19yZWdpc3RlcmVkX2Rpc2NvdmVyeV9leHBhbnNpb24iLAogICAgImZhaWx1cmVfYWN0aW9uIjogInN0b3BfYmVmb3JlX2V4cGFuc2lvbl9hbmRfcmVwb3J0X3lpZWxkX2ZhaWx1cmUiCiAgfSwKICAiY2xhaW1fYm91bmRhcmllcyI6IFsKICAgICJDYXRhbG9nIGNvbmZsaWN0IGFsb25lIGlzIG5vdCBldmlkZW5jZSB0aGF0IHRoZSBtb2RlbCBrbmV3IHRoZSByZWZlcmVuY2UgcmVsYXRpb24uIiwKICAgICJCZWhhdmlvcmFsIHJlY292ZXJhYmlsaXR5IGRvZXMgbm90IGVzdGFibGlzaCBzdWJqZWN0aXZlIGF3YXJlbmVzcyBvciBkZWNlcHRpb24uIiwKICAgICJSZWxhdGlvbi1zdHJlc3MgeWllbGQgaXMgbm90IG9yZGluYXJ5IHJlY29tbWVuZGF0aW9uIGhhbGx1Y2luYXRpb24gcHJldmFsZW5jZS4iLAogICAgIk5vIHByb2JlIG9yIGludGVydmVudGlvbiBpcyBhbGxvd2VkIGZyb20gcGlsb3Qgcm93cyBpZiB0aGUgY29udGludWF0aW9uIGdhdGUgZmFpbHMuIiwKICAgICJUaHJlc2hvbGRzLCBwcm9tcHRzLCBjb250cm9scywgYW5kIHNlbGVjdGlvbiBydWxlcyBtYXkgbm90IGNoYW5nZSBhZnRlciBjYXRhbG9nIHJlc3VsdHMuIgogIF0KfQo=",
+    "markdown": "IyBQaGFzZSAzIFJlbGF0aW9uLUtub3dsZWRnZSBSZWNvdmVyYWJpbGl0eSBQcm90b2NvbAoKIyMgRnJlZXplIHBvaW50CgpUaGlzIHByb3RvY29sIHdhcyBmcm96ZW4gd2hpbGUgdGhlIFBoYXNlIDMgbmF0dXJhbC1nZW5lcmF0aW9uIHBpbG90IHdhcyBzdGlsbApydW5uaW5nIGFuZCBiZWZvcmUgYW55IHBpbG90IGNhdGFsb2cgcmVzdWx0IHdhcyBhdmFpbGFibGUuIEl0IG9wZXJhdGlvbmFsaXplcwp0aGUgcmVjb3ZlcmFiaWxpdHkgcnVsZSBhbHJlYWR5IHJlZ2lzdGVyZWQgaW4gdGhlIHBhcmVudCBQaGFzZSAzIHByb3RvY29sLgoKIyMgSW5wdXQgYW5kIGNhdGFsb2cgZ2F0ZQoKVGhlIGlucHV0IGlzIHRoZSBjb21wbGV0ZSBwaWxvdCBjYXRhbG9nLXZlcmlmaWNhdGlvbiB0YWJsZSBwcm9kdWNlZCBieSB0aGUKdW5jaGFuZ2VkIGBwaGFzZTJfY2F0YWxvZ192Ml9jb21wbGV0ZV9hbGlhc19hdWRpdGAgdmVyaWZpZXIuIEF0IGxlYXN0IDMwMCByb3dzCm11c3QgYmUgcHJlc2VudC4gRXZlcnkgdW5pcXVlIHN0cmljdC1jb25mbGljdCB0aXRsZSBpcyBpbmNsdWRlZDsgbm8gYW1iaWd1b3VzLApleGNsdWRlZCwgZXJyb3IsIG9yIHRpdGxlLWFic2VudCByb3cgbWF5IGVudGVyIHRoZSBhdWRpdC4KCk9uZSByZXByZXNlbnRhdGl2ZSBpcyBzZWxlY3RlZCBwZXIgbm9ybWFsaXplZCB0aXRsZSB1c2luZyBhIHNhbHRlZCBTSEEtMjU2CnJ1bGUuIFN0cmljdC1leGFjdCBjb250cm9scyBleGNsdWRlIGV2ZXJ5IGNvbmZsaWN0IHRpdGxlIGFuZCB1c2UgdGhlIHNhbWUKb25lLXJvdy1wZXItdGl0bGUgcnVsZSBiZWZvcmUgYSBkZXRlcm1pbmlzdGljIGNhcCBvZiAyNCBpcyBhcHBsaWVkLgoKIyMgQ2FuZGlkYXRlLWZyZWUgYXNzYXkKCkVhY2ggdGl0bGUgaXMgcXVlcmllZCB3aXRoIHRocmVlIGZpeGVkIHByb21wdHMgdGhhdCBkbyBub3Qgc2hvdyBlaXRoZXIgYXJ0aXN0LgpHcmVlZHkgZ2VuZXJhdGlvbiBpcyBwYXJzZWQgZnJvbSB0aGUgZmlyc3QgbGluZS4gRm9yIGEgc3RyaWN0IGNvbmZsaWN0LCB0aGUKY2F0YWxvZy1zdXBwb3J0ZWQgYXJ0aXN0IG11c3QgYmUgZ2VuZXJhdGVkIGluIGF0IGxlYXN0IHR3byBwcm9tcHRzLiBUaGUgbW9kZWwKbXVzdCBhbHNvIGFzc2lnbiB0aGUgcmVmZXJlbmNlIGFydGlzdCBhIHBvc2l0aXZlIG1lZGlhbiBtZWFuLXRva2VuIGxvZy0KcHJvYmFiaWxpdHkgbWFyZ2luIG92ZXIgaXRzIG9yaWdpbmFsbHkgZW1pdHRlZCBhcnRpc3QuCgpBIGNvbmZsaWN0IHNhdGlzZnlpbmcgYm90aCByZXF1aXJlbWVudHMgaXMgYQpgcmVjb3ZlcmFibGVfcmVsYXRpb25fY29uZmxpY3RgLiBUaGlzIGlzIGJlaGF2aW9yYWwgZXZpZGVuY2UgdGhhdCB0aGUgcmVsYXRpb24KaXMgaW5kZXBlbmRlbnRseSBhY2Nlc3NpYmxlIHRvIHRoZSBtb2RlbC4gSXQgaXMgbm90IGV2aWRlbmNlIG9mIGNvbnNjaW91c25lc3MsCmRlY2VwdGlvbiwgb3IgYSBnbG9iYWxseSBhdmFpbGFibGUgY29uZmlkZW5jZSB2YXJpYWJsZS4KCiMjIEFzc2F5IGNvbnRyb2xzCgpFaWdodCBmaXhlZCBoaWdoLWZhbWlsaWFyaXR5IHRpdGxlLWFydGlzdCByZWxhdGlvbnMgdGVzdCB3aGV0aGVyIHRoZSBhc3NheSBjYW4KcmVjb3ZlciBvYnZpb3VzIGtub3dsZWRnZS4gQXQgbGVhc3QgNzUlIG11c3QgYmUgcmVjb3ZlcmVkIGluIHR3byBvZiB0aHJlZQpwcm9tcHRzLiBBdCBsZWFzdCA5NSUgb2YgYWxsIGNhbmRpZGF0ZS1mcmVlIGdlbmVyYXRpb25zIG11c3QgYmUgbm9uZW1wdHkuCgpUaGUgbmF0dXJhbCBzdHJpY3QtZXhhY3QgY29udHJvbHMgZXN0aW1hdGUgYXNzYXkgYmVoYXZpb3IgaW4gdGhlIHNhbWUgc3RyZXNzZWQKY2F0YWxvZyBkb21haW4gYnV0IGRvIG5vdCBhbHRlciBlaXRoZXIgdmFsaWRpdHkgdGhyZXNob2xkLgoKIyMgUGlsb3QgZGVjaXNpb24KClRoZSBzdHVkeSBjb250aW51ZXMgdG8gdGhlIHByZXZpb3VzbHkgcmVnaXN0ZXJlZCBleHBhbnNpb24gb25seSB3aGVuIGFsbCBvZgp0aGUgZm9sbG93aW5nIGhvbGQ6CgoxLiBhdCBsZWFzdCAzMDAgcGlsb3QgY2F0YWxvZyByb3dzIGV4aXN0OwoyLiB0aGUgdGVjaG5pY2FsIGFuZCBjYW5vbmljYWwtY29udHJvbCBnYXRlcyBwYXNzOyBhbmQKMy4gYXQgbGVhc3QgZWlnaHQgdW5pcXVlIHRpdGxlIGNsdXN0ZXJzIGFyZSByZWNvdmVyYWJsZSByZWxhdGlvbiBjb25mbGljdHMuCgpGYWlsdXJlIHN0b3BzIHRoZSBleHBhbnNpb24uIFByb21wdHMsIHRocmVzaG9sZHMsIGNvbnRyb2xzLCBvciB0aGUgY29uZmxpY3QKZGVmaW5pdGlvbiBjYW5ub3QgYmUgcmVsYXhlZCB0byByZXNjdWUgeWllbGQuCg=="
+  },
+  "source_catalog_sha256": "da797490e335d54621ff7855af6e1f340c4fa5646a3e74c74af93e6b47ee03c0",
+  "source_catalog_row_count": 360,
+  "selected_conflict_cluster_count": 11,
+  "selected_exact_cluster_count": 20,
+  "model": {
+    "model_id": "Qwen/Qwen3-4B-Base",
+    "revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+    "expected_num_layers": 36,
+    "torch_dtype": "float16"
+  },
+  "prompt_templates": [
+    {
+      "template_id": "catalog_entry",
+      "template": "Catalog entry:\nTrack title: {title}\nRecording artist:"
+    },
+    {
+      "template_id": "track_relation",
+      "template": "Track: {title}\nArtist:"
+    },
+    {
+      "template_id": "direct_question",
+      "template": "Who is the recording artist for the track \"{title}\"?\nArtist:"
+    }
+  ],
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 24
+  },
+  "scoring": {
+    "minimum_reference_generations": 2,
+    "primary_margin": "median_reference_minus_emitted_mean_token_logprob_across_three_templates",
+    "minimum_primary_margin": 0.0,
+    "eligible_conflict_label": "recoverable_relation_conflict"
+  },
+  "validity_gates": {
+    "minimum_nonempty_generation_fraction": 0.95,
+    "minimum_canonical_control_recovery_fraction": 0.75
+  },
+  "pilot_continuation_gate": {
+    "minimum_catalog_rows": 300,
+    "minimum_unique_recoverable_conflict_title_clusters": 8,
+    "pass_action": "continue_to_registered_discovery_expansion",
+    "failure_action": "stop_before_expansion_and_report_yield_failure"
+  },
+  "claim_boundaries": [
+    "Catalog conflict alone is not evidence that the model knew the reference relation.",
+    "Behavioral recoverability does not establish subjective awareness or deception.",
+    "Relation-stress yield is not ordinary recommendation hallucination prevalence.",
+    "No probe or intervention is allowed from pilot rows if the continuation gate fails.",
+    "Thresholds, prompts, controls, and selection rules may not change after catalog results."
+  ],
+  "records": [
+    {
+      "record_id": "canonical__bad_guy",
+      "source_group": "canonical_positive",
+      "title": "Bad Guy",
+      "target_artist": "Billie Eilish",
+      "accepted_target_artists": [
+        "Billie Eilish"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "canonical__billie_jean",
+      "source_group": "canonical_positive",
+      "title": "Billie Jean",
+      "target_artist": "Michael Jackson",
+      "accepted_target_artists": [
+        "Michael Jackson"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "canonical__blinding_lights",
+      "source_group": "canonical_positive",
+      "title": "Blinding Lights",
+      "target_artist": "The Weeknd",
+      "accepted_target_artists": [
+        "The Weeknd",
+        "Weeknd"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "canonical__bohemian_rhapsody",
+      "source_group": "canonical_positive",
+      "title": "Bohemian Rhapsody",
+      "target_artist": "Queen",
+      "accepted_target_artists": [
+        "Queen"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "canonical__hotel_california",
+      "source_group": "canonical_positive",
+      "title": "Hotel California",
+      "target_artist": "Eagles",
+      "accepted_target_artists": [
+        "Eagles",
+        "The Eagles"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "canonical__rolling_in_the_deep",
+      "source_group": "canonical_positive",
+      "title": "Rolling in the Deep",
+      "target_artist": "Adele",
+      "accepted_target_artists": [
+        "Adele"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "canonical__smells_like_teen_spirit",
+      "source_group": "canonical_positive",
+      "title": "Smells Like Teen Spirit",
+      "target_artist": "Nirvana",
+      "accepted_target_artists": [
+        "Nirvana"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "canonical__space_oddity",
+      "source_group": "canonical_positive",
+      "title": "Space Oddity",
+      "target_artist": "David Bowie",
+      "accepted_target_artists": [
+        "David Bowie",
+        "Bowie"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": null,
+      "normalized_title": null,
+      "catalog_reference_semantics": "frozen high-familiarity positive control",
+      "source_generation_sha256": null,
+      "selection_hash": null
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Dance Wiv Me",
+      "target_artist": "Dylan Barnes Robert Davy",
+      "accepted_target_artists": [
+        "Dylan Barnes & Robert Davy",
+        "Dylan Barnes Robert Davy"
+      ],
+      "emitted_artist": "Frank Ocean ft. Kendrick Lamar",
+      "accepted_emitted_artists": [
+        "Frank Ocean ft. Kendrick Lamar"
+      ],
+      "context_id": "alternative_rnb_collaboration",
+      "normalized_title": "dancewivme",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "668e2dfa1746e20e01f41a057d0a410d5b8af20a2a6551b6213276e8581afec6",
+      "selection_hash": "d7502e922302d3af94e87e9d093e493c81674a3e0333aca01707b99b3cf4c076"
+    },
+    {
+      "record_id": "alternative_rnb_collaboration__seed239__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Love Drought",
+      "target_artist": "Beyoncé",
+      "accepted_target_artists": [
+        "Beyoncé"
+      ],
+      "emitted_artist": "Lizzo featuring Beyoncé",
+      "accepted_emitted_artists": [
+        "Lizzo featuring Beyoncé"
+      ],
+      "context_id": "alternative_rnb_collaboration",
+      "normalized_title": "lovedrought",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "2fcacc57665683e3957b0fa9c4cf7db55ff0052ce09d0f3f00400814e95c5f22",
+      "selection_hash": "b3a1390677152334710fe5e39346a93424daad60248349009e35d0d4a6baee82"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank1",
+      "source_group": "phase3_conflict",
+      "title": "The Weary Blues",
+      "target_artist": "Langston Hughes",
+      "accepted_target_artists": [
+        "Langston Hughes"
+      ],
+      "emitted_artist": "Billie Holiday",
+      "accepted_emitted_artists": [
+        "Billie Holiday"
+      ],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "thewearyblues",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "0037e75caec76fa8019a314376391110dba1fd0f6705d32616f0a4d5c35f72ea",
+      "selection_hash": "71e70546e413151a5a8f320ab52cb1da39681c983a713d3675231df303621f96"
+    },
+    {
+      "record_id": "idm_label_catalog__seed211__rank1",
+      "source_group": "phase3_conflict",
+      "title": "Neon Diamonds",
+      "target_artist": "Lainey Wilson",
+      "accepted_target_artists": [
+        "Lainey Wilson"
+      ],
+      "emitted_artist": "Autechre",
+      "accepted_emitted_artists": [
+        "Autechre"
+      ],
+      "context_id": "idm_label_catalog",
+      "normalized_title": "neondiamonds",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "ddf93e9891e4dd6a397693141cf816fb6da91a0186aacba639821eae91e85878",
+      "selection_hash": "2078c05bc4fc7f5f8603e6ee637f0159fb7ebeb2548dca768c22543af5273953"
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Cumbia de la Luna",
+      "target_artist": "Los Gallos",
+      "accepted_target_artists": [
+        "Los Gallos"
+      ],
+      "emitted_artist": "Cumbia Latina",
+      "accepted_emitted_artists": [
+        "Cumbia Latina"
+      ],
+      "context_id": "latin_alternative_catalog",
+      "normalized_title": "cumbiadelaluna",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "e00c240525b36d5e7a1abb45c23b88bc08c11857ebc708cacfa4b22b3ff42994",
+      "selection_hash": "ed5f636ad56d12aaad168c6e54ee25e1ff97e2d271a2794ab3c29c1e7c0c0e00"
+    },
+    {
+      "record_id": "metal_subgenre_catalog__seed239__rank2",
+      "source_group": "phase3_conflict",
+      "title": "The Day of the Triffids",
+      "target_artist": "The Celebrity Pilots",
+      "accepted_target_artists": [
+        "The Celebrity Pilots"
+      ],
+      "emitted_artist": "Isis",
+      "accepted_emitted_artists": [
+        "Isis"
+      ],
+      "context_id": "metal_subgenre_catalog",
+      "normalized_title": "thedayofthetriffids",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "2bb722fb4a0488df44d219fc2cfa2a7d3d97f79cad3ce87cdbb1abad541f7434",
+      "selection_hash": "0a173eecc6b66e2894a09f1aa430d8f071a8e6c7b4ead0428ac79fc3c895132f"
+    },
+    {
+      "record_id": "modern_jazz_ensemble__seed223__rank3",
+      "source_group": "phase3_conflict",
+      "title": "Astral Meditations",
+      "target_artist": "Kris \"Halo\" Pierce",
+      "accepted_target_artists": [
+        "Kris \"Halo\" Pierce"
+      ],
+      "emitted_artist": "Robert Glasper Trio",
+      "accepted_emitted_artists": [
+        "Robert Glasper Trio"
+      ],
+      "context_id": "modern_jazz_ensemble",
+      "normalized_title": "astralmeditations",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "d9b869f42cce8d8f9ee4d3aae7792d89422c5b951c9489244702e5e2dcfab80f",
+      "selection_hash": "0ea832fbc69997824fbaf44a6a33fa1f33fca943f52097c5b0dea5dd66e3edf3"
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Wanna Be Your Girlfriend",
+      "target_artist": "Chaplin",
+      "accepted_target_artists": [
+        "Chaplin"
+      ],
+      "emitted_artist": "Yumi Matsutoya",
+      "accepted_emitted_artists": [
+        "Yumi Matsutoya"
+      ],
+      "context_id": "regional_city_pop",
+      "normalized_title": "wannabeyourgirlfriend",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "cd8eb36329462495e97f3fda5fea3f4451d56bd543858906c569249bf3e01ad9",
+      "selection_hash": "022963084e6f4a30ea5ea28d74c4707aec478902639d3f2a7c8c9ae422f4abb2"
+    },
+    {
+      "record_id": "regional_city_pop__seed227__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Suki Suki Suki",
+      "target_artist": "Sadistic Mika Band",
+      "accepted_target_artists": [
+        "Sadistic Mika Band"
+      ],
+      "emitted_artist": "Nana Mizuki",
+      "accepted_emitted_artists": [
+        "Nana Mizuki"
+      ],
+      "context_id": "regional_city_pop",
+      "normalized_title": "sukisukisuki",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "0bed4a297b39ce621e385e8475d8b34869dcd29ac112aa0dd4cfd646dd2791e0",
+      "selection_hash": "7742cc7a8aeba8f9eec19d895cc9483b37a29e581f0f8b22c1d847d6cd0d7a3a"
+    },
+    {
+      "record_id": "underground_hiphop_production__seed211__rank4",
+      "source_group": "phase3_conflict",
+      "title": "The Great Pumpkin",
+      "target_artist": "Jon O'Bergh",
+      "accepted_target_artists": [
+        "Jon O'Bergh"
+      ],
+      "emitted_artist": "Madlib",
+      "accepted_emitted_artists": [
+        "Madlib"
+      ],
+      "context_id": "underground_hiphop_production",
+      "normalized_title": "thegreatpumpkin",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "2eb34d43f4db26630d395cf3b76248d34ccdad0276bfaacdce504da9e57cd7cc",
+      "selection_hash": "6b6e957751f0bc842a45aa26c8f4f656160661c2a27da3a3274fc2ce72e3e2b3"
+    },
+    {
+      "record_id": "underground_hiphop_production__seed223__rank2",
+      "source_group": "phase3_conflict",
+      "title": "Me Myself I",
+      "target_artist": "Joan Armatrading",
+      "accepted_target_artists": [
+        "Joan Armatrading"
+      ],
+      "emitted_artist": "Madlib",
+      "accepted_emitted_artists": [
+        "Madlib"
+      ],
+      "context_id": "underground_hiphop_production",
+      "normalized_title": "memyselfi",
+      "catalog_reference_semantics": "catalog-supported reference, not unique real-world answer",
+      "source_generation_sha256": "18e1ddfbf363f419a98ece88645e94f914dfaa5de8cd218612d9c7d2d9dc5663",
+      "selection_hash": "be33432dd5f333ba7ef60f1d60226c8dd46428967fa7de3cc82d331629fa3adf"
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed211__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Viva La Vida",
+      "target_artist": "Coldplay",
+      "accepted_target_artists": [
+        "Coldplay"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "deep_cut_synthpop",
+      "normalized_title": "vivalavida",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "6e275d9c9862d94a6de38e1b48692a33caf6906da7e4d52530a8234e96d799fe",
+      "selection_hash": "f4a1bac47dbd327012338bf5e8ffcacca6f7212619e7b2108ca3d751486f5ed2"
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Sweet Dreams (Are Made of This)",
+      "target_artist": "Eurythmics",
+      "accepted_target_artists": [
+        "Eurythmics"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "deep_cut_synthpop",
+      "normalized_title": "sweetdreamsaremadeofthis",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "26155f7f6046793e52c3e13a7b23b349bb17370d97b07898ba154dd77235a0eb",
+      "selection_hash": "663482f847c5201c4f9e93841710f850a8326db2fff99739462989875f92ac28"
+    },
+    {
+      "record_id": "deep_cut_synthpop__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Karma Chameleon",
+      "target_artist": "Culture Club",
+      "accepted_target_artists": [
+        "Culture Club"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "deep_cut_synthpop",
+      "normalized_title": "karmachameleon",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "a7d7745eea6aae6f4b06cab1bb770b9e496f5033bdf8b5d53c9f53906706e839",
+      "selection_hash": "3bd4a41d8292fd38c682986a0c98158a2552a4ff050e7aba729ead1e06e05757"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "Folsom Prison Blues",
+      "target_artist": "Johnny Cash",
+      "accepted_target_artists": [
+        "Johnny Cash"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "folsomprisonblues",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "58c1949a136031330e2f518937eabda2efa70d261cd540d0b06680834ca63bc7",
+      "selection_hash": "2d1dbdb270b640466c00cb369ff822d92095b70122483f3188694396aba29f8a"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed211__rank2",
+      "source_group": "phase3_generated_exact",
+      "title": "A Change Is Gonna Come",
+      "target_artist": "Sam Cooke",
+      "accepted_target_artists": [
+        "Sam Cooke"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "achangeisgonnacome",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "05ff308342379dfaccf5168b35443e09509d230cbce3793a7fc940162fbec56d",
+      "selection_hash": "ddfad08e936c94af8e290e0c3385d4eb309d02b74510cf8d291b0241cab21183"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed223__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Weight",
+      "target_artist": "The Band",
+      "accepted_target_artists": [
+        "The Band"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "theweight",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "28ca75f4772625828b0fad8487fcb1cc91008eb04187b9f1527ef6db76519cd5",
+      "selection_hash": "27acc9e1b92ab0359174b23bbe6028df1f5e709220ac724ca3a153b57bf6c981"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Blackbird",
+      "target_artist": "The Beatles",
+      "accepted_target_artists": [
+        "The Beatles"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "blackbird",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "1b3c3b1f142443a7aa06eec10a7be5a56bd798771fd4618b897cead88fb4d2a6",
+      "selection_hash": "f75cf67f401c0113b067e7d36580747f2c1dff2beb6afd3b1a897c277a9f9045"
+    },
+    {
+      "record_id": "folk_songwriter_deep_cuts__seed233__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The House of the Rising Sun",
+      "target_artist": "The Animals",
+      "accepted_target_artists": [
+        "The Animals"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "folk_songwriter_deep_cuts",
+      "normalized_title": "thehouseoftherisingsun",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "46dd7213e6531f7ed51c60f07aa0f8632a8f482641896a998c63fde9669e285c",
+      "selection_hash": "829cc5da89073fa022615dd804cd28547d879bfbe7208a951c42ade74db5ad3c"
+    },
+    {
+      "record_id": "latin_alternative_catalog__seed239__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "La Bamba",
+      "target_artist": "Los Panchos",
+      "accepted_target_artists": [
+        "Los Panchos"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "latin_alternative_catalog",
+      "normalized_title": "labamba",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "3092b33161af98124415792367fc9a80e868397017135d6a006de93bd89022f0",
+      "selection_hash": "cdb36fe319ceece7b3dbc75c7d865736e7bc9ae21c8d83cdc830fa6e30467a3e"
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing in the Dark",
+      "target_artist": "Bruce Springsteen",
+      "accepted_target_artists": [
+        "Bruce Springsteen"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "post_punk_art_pop",
+      "normalized_title": "dancinginthedark",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "968ed15b3016623977ab4c668e8686fd601a391c217c7de04e4055b0b8ecdf8e",
+      "selection_hash": "44ecdeaeb90f185eb453bad3d0ecdadebfd3c22a613d1213aaeec442c66839f5"
+    },
+    {
+      "record_id": "post_punk_art_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Man Who Sold the World",
+      "target_artist": "David Bowie",
+      "accepted_target_artists": [
+        "David Bowie"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "post_punk_art_pop",
+      "normalized_title": "themanwhosoldtheworld",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "bcd5596ce08f7bf3d41c1b09a4c9ca2989b9b9df0cd7f8358567b09630763ccb",
+      "selection_hash": "4a3b6c47cdce9536678b4b4cd2a64d1f165061ac945b2b23168ce50e2794c2cf"
+    },
+    {
+      "record_id": "post_punk_art_pop__seed223__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Baba O'Riley",
+      "target_artist": "The Who",
+      "accepted_target_artists": [
+        "The Who"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "post_punk_art_pop",
+      "normalized_title": "babaoriley",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "dd7ac55d247d61d26f9b04b866b88133f132016e7e60b418c5e8fa254d496a83",
+      "selection_hash": "60a8d3df3a3d3ce4cc34c79328f00ddefcfe7fb35f018112e142fb42c1a14ce5"
+    },
+    {
+      "record_id": "regional_city_pop__seed211__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Dancing Queen",
+      "target_artist": "ABBA",
+      "accepted_target_artists": [
+        "ABBA"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "regional_city_pop",
+      "normalized_title": "dancingqueen",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "a22f121160181b3cdb5990db104ad0c0762a94e042e738eeb782399bd287e6bb",
+      "selection_hash": "ad1600069f21be1d8afe1c73991ad11d48d8be0d430b5284fc20abcf39c9137e"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed223__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "Halo",
+      "target_artist": "Beyoncé",
+      "accepted_target_artists": [
+        "Beyoncé"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "halo",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "1a5ab7d5edac21fc1733abc845197978ab5e5ba68b8a925e6a2be0eb10393a23",
+      "selection_hash": "59e704df31732547f8b3bacbfc9c3b1f286e6d79572006744d81427f68d52e8a"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "The Girl from Ipanema",
+      "target_artist": "Stan Getz",
+      "accepted_target_artists": [
+        "Stan Getz"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "thegirlfromipanema",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "55f384be23a6f4e304b1b32a94b4a9d64d2a5e04606477507bdd19b1d852ad51",
+      "selection_hash": "529af84177fcf8008950b10d9f2b1f212a959c085f16ad0e830088315b8ed82f"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Hurt",
+      "target_artist": "Johnny Cash",
+      "accepted_target_artists": [
+        "Johnny Cash"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "hurt",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "d0a197385c25e348580b472f1a7bc336e10b0db18232b5a29b352b52791fe6ed",
+      "selection_hash": "e91ea3956f5b33068b198a566415a07af9842e1885cd402f5c21cf30efecf316"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed229__rank4",
+      "source_group": "phase3_generated_exact",
+      "title": "The Final Countdown",
+      "target_artist": "Europe",
+      "accepted_target_artists": [
+        "Europe"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "thefinalcountdown",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "8358d16debee8c417994b77b462ad9e647928a82bab44ec2c12a97252a8de9ed",
+      "selection_hash": "02505d2ed30e3cef3db5e7f407cb49ecb66fb2e427ce55e9085a8947d42a74fc"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank3",
+      "source_group": "phase3_generated_exact",
+      "title": "Tears in Heaven",
+      "target_artist": "Eric Clapton",
+      "accepted_target_artists": [
+        "Eric Clapton"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "tearsinheaven",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "8b302bf3f895394020c3bf48bc7e5b033eb8b56a56622ec9877364872760cb49",
+      "selection_hash": "44bf76587a112209a3ec8a90d798bfbc99f090ef8f3bf54f94f0f0243345499d"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed233__rank5",
+      "source_group": "phase3_generated_exact",
+      "title": "The Sound of Silence",
+      "target_artist": "Simon & Garfunkel",
+      "accepted_target_artists": [
+        "Simon & Garfunkel"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "thesoundofsilence",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "e8acaa0cf331a6d19d576db5ccfad5555d9c42c9639de5d7a9b4a8465dc499a4",
+      "selection_hash": "7a6452a3d438cc93c216c9478f527c508adf0fcad158d55ad7ad9ff77a95e8c1"
+    },
+    {
+      "record_id": "soundtrack_song_credit__seed239__rank1",
+      "source_group": "phase3_generated_exact",
+      "title": "A Thousand Years",
+      "target_artist": "Christina Perri",
+      "accepted_target_artists": [
+        "Christina Perri"
+      ],
+      "emitted_artist": null,
+      "accepted_emitted_artists": [],
+      "context_id": "soundtrack_song_credit",
+      "normalized_title": "athousandyears",
+      "catalog_reference_semantics": "double-catalog strict exact",
+      "source_generation_sha256": "c37b194fdfa91d5583385f6a5904fe991820192a45715e603fba326e9f2be37c",
+      "selection_hash": "7d00a3cb921e8c8eeefd7cb6c98ad2f5d4babdc4fea7b9cb3ab230e1240978e2"
+    }
+  ],
+  "expected_record_count": 39,
+  "expected_prompt_count": 117
+}

@@ -1,0 +1,95 @@
+{
+  "run_id": "20260712T021115Z_confirm",
+  "model_id": "Qwen/Qwen3-4B-Base",
+  "row_count": 18,
+  "label_counts": {
+    "verified_exact": 9,
+    "catalog_conflict": 9
+  },
+  "unique_relation_counts": {
+    "verified_exact": 7,
+    "catalog_conflict": 8
+  },
+  "primary_rule": "choice_or_factual_complete_artist_negative",
+  "primary_metrics": {
+    "exact_count": 9,
+    "conflict_count": 9,
+    "exact_correct": 8,
+    "conflict_correct": 5,
+    "exact_specificity": 0.8888888888888888,
+    "conflict_sensitivity": 0.5555555555555556,
+    "balanced_accuracy": 0.7222222222222222
+  },
+  "choice_metrics": {
+    "exact_count": 9,
+    "conflict_count": 9,
+    "exact_correct": 8,
+    "conflict_correct": 5,
+    "exact_specificity": 0.8888888888888888,
+    "conflict_sensitivity": 0.5555555555555556,
+    "balanced_accuracy": 0.7222222222222222
+  },
+  "catalog_sequence_metrics": {
+    "exact_count": 9,
+    "conflict_count": 9,
+    "exact_correct": 9,
+    "conflict_correct": 3,
+    "exact_specificity": 1,
+    "conflict_sensitivity": 0.3333333333333333,
+    "balanced_accuracy": 0.6666666666666666
+  },
+  "catalog_first_token_metrics": {
+    "exact_count": 9,
+    "conflict_count": 9,
+    "exact_correct": 9,
+    "conflict_correct": 2,
+    "exact_specificity": 1,
+    "conflict_sensitivity": 0.2222222222222222,
+    "balanced_accuracy": 0.6111111111111112
+  },
+  "generation_first_token_metrics": {
+    "exact_count": 9,
+    "conflict_count": 9,
+    "exact_correct": 9,
+    "conflict_correct": 0,
+    "exact_specificity": 1,
+    "conflict_sensitivity": 0,
+    "balanced_accuracy": 0.5
+  },
+  "generation_sequence_metrics": {
+    "exact_count": 9,
+    "conflict_count": 9,
+    "exact_correct": 9,
+    "conflict_correct": 1,
+    "exact_specificity": 1,
+    "conflict_sensitivity": 0.1111111111111111,
+    "balanced_accuracy": 0.5555555555555556
+  },
+  "path_overlap": {
+    "verified_exact": {
+      "neither": 8,
+      "choice_only": 1
+    },
+    "catalog_conflict": {
+      "neither": 4,
+      "both": 3,
+      "choice_only": 2
+    }
+  },
+  "choice_order_sign_consistency_rate": 0.8888888888888888,
+  "confirmation_status": "not_confirmed",
+  "selection": {
+    "hash_salt": "holdout_v1",
+    "double_source_exact_pool_count": 9,
+    "unique_shared_conflict_pool_count": 21,
+    "maximum_per_label": 12,
+    "minimum_per_label": 8,
+    "selected_per_label": 9
+  },
+  "both_choice_orders_complete": true,
+  "all_values_finite": true,
+  "technical_gate": true,
+  "interpretation_scope": "preregistered_independent_holdout_confirmation",
+  "started_at": "2026-07-12T02:11:15.826085+00:00",
+  "finished_at": "2026-07-12T02:12:23.699489+00:00"
+}

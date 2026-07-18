@@ -1,0 +1,45 @@
+{
+  "bundle_version": "music_reason_order_counterfactual_v1",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "contexts": [
+    {
+      "context_id": "emotional_vocal",
+      "dimension": "emotional_lyrics",
+      "profile": "user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.",
+      "current_need": "late-night emotional listening; wants heartfelt vocal, lyrical story, dramatic chorus, and clear emotional release.",
+      "prompts": {
+        "pair_first": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: late-night emotional listening; wants heartfelt vocal, lyrical story, dramatic chorus, and clear emotional release.\n\nRecommend 5 real, existing tracks. Each item must contain exactly one short Reason, one Title, and one Artist.\nFor every item, output the title and artist first. Only after choosing that pair, write one short reason.\n\nPlaylist:\n1. Title:\n",
+        "reason_first": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: late-night emotional listening; wants heartfelt vocal, lyrical story, dramatic chorus, and clear emotional release.\n\nRecommend 5 real, existing tracks. Each item must contain exactly one short Reason, one Title, and one Artist.\nFor every item, write one short reason first. Only after writing that reason, output the title and artist it leads you to choose.\n\nPlaylist:\n1. Reason:\n"
+      }
+    },
+    {
+      "context_id": "strict_no_vocals",
+      "dimension": "no_vocals_instrumental",
+      "profile": "user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.",
+      "current_need": "strict writing mode; wants no vocals, instrumental texture, no lyric attention, and white noise focus.",
+      "prompts": {
+        "pair_first": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: strict writing mode; wants no vocals, instrumental texture, no lyric attention, and white noise focus.\n\nRecommend 5 real, existing tracks. Each item must contain exactly one short Reason, one Title, and one Artist.\nFor every item, output the title and artist first. Only after choosing that pair, write one short reason.\n\nPlaylist:\n1. Title:\n",
+        "reason_first": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: strict writing mode; wants no vocals, instrumental texture, no lyric attention, and white noise focus.\n\nRecommend 5 real, existing tracks. Each item must contain exactly one short Reason, one Title, and one Artist.\nFor every item, write one short reason first. Only after writing that reason, output the title and artist it leads you to choose.\n\nPlaylist:\n1. Reason:\n"
+      }
+    }
+  ],
+  "orders": [
+    "pair_first",
+    "reason_first"
+  ],
+  "seeds": [
+    17,
+    29
+  ],
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 512
+  },
+  "registered_gates": {
+    "expected_generations": 8,
+    "minimum_valid_generations": 8,
+    "minimum_complete_rows": 32,
+    "minimum_order_compliance": 0.8
+  }
+}

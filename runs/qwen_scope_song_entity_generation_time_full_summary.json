@@ -1,0 +1,138 @@
+{
+  "run_id": "20260710T035224Z_full",
+  "mode": "full",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "sae_repo": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+  "sae_layer": 24,
+  "letter_token_ids": {
+    "A": 32,
+    "B": 33
+  },
+  "context_count": 4,
+  "seed_count": 3,
+  "expected_generations": 12,
+  "valid_generations": 11,
+  "generated_pair_count": 55,
+  "control_pair_count": 40,
+  "control_example_count": 160,
+  "control_balanced_accuracy": 0.725,
+  "control_context_scores": {
+    "quiet_night_drive": {
+      "balanced_accuracy": 0.75,
+      "known_exact_mean": 4.5100597739219666,
+      "non_exact_mean": -0.6700818300247192,
+      "direction_ok": true
+    },
+    "peak_time_rave": {
+      "balanced_accuracy": 0.75,
+      "known_exact_mean": 4.488244259357453,
+      "non_exact_mean": -0.7454249262809753,
+      "direction_ok": true
+    },
+    "emotional_vocal": {
+      "balanced_accuracy": 0.75,
+      "known_exact_mean": 4.609026098251343,
+      "non_exact_mean": -0.6070690035820008,
+      "direction_ok": true
+    },
+    "strict_no_vocals": {
+      "balanced_accuracy": 0.75,
+      "known_exact_mean": 4.478025102615357,
+      "non_exact_mean": -0.7290430903434754,
+      "direction_ok": true
+    }
+  },
+  "control_direction_stable": true,
+  "technical_gate": true,
+  "selected_knownness_features": [
+    {
+      "feature_id": 7884,
+      "effect": -1.3722220659255981
+    },
+    {
+      "feature_id": 15943,
+      "effect": -1.3438212871551514
+    },
+    {
+      "feature_id": 24850,
+      "effect": -1.3217658996582031
+    },
+    {
+      "feature_id": 21021,
+      "effect": -1.2905056476593018
+    },
+    {
+      "feature_id": 32022,
+      "effect": -1.2552744150161743
+    },
+    {
+      "feature_id": 32295,
+      "effect": 1.2048726081848145
+    },
+    {
+      "feature_id": 28910,
+      "effect": -1.183732032775879
+    },
+    {
+      "feature_id": 4808,
+      "effect": 1.1690016984939575
+    },
+    {
+      "feature_id": 23485,
+      "effect": -1.1146985292434692
+    },
+    {
+      "feature_id": 1569,
+      "effect": -1.107300043106079
+    },
+    {
+      "feature_id": 23970,
+      "effect": -1.1046974658966064
+    },
+    {
+      "feature_id": 12969,
+      "effect": -1.1026054620742798
+    },
+    {
+      "feature_id": 27029,
+      "effect": -1.0835412740707397
+    },
+    {
+      "feature_id": 10860,
+      "effect": -1.082963466644287
+    },
+    {
+      "feature_id": 8706,
+      "effect": 1.0815482139587402
+    },
+    {
+      "feature_id": 31269,
+      "effect": -1.0707101821899414
+    },
+    {
+      "feature_id": 14770,
+      "effect": -1.065206527709961
+    },
+    {
+      "feature_id": 29733,
+      "effect": -1.0524747371673584
+    },
+    {
+      "feature_id": 13358,
+      "effect": -1.0355745553970337
+    },
+    {
+      "feature_id": 9209,
+      "effect": -1.0288074016571045
+    }
+  ],
+  "interpretation_gate": false,
+  "started_at": "2026-07-10T03:52:24.773590+00:00",
+  "finished_at": "2026-07-10T03:54:48.657627+00:00",
+  "artifact_repo": "REDACTED/music-preference-lens-runs",
+  "artifact_prefix": "generation_time/20260710T035224Z_full",
+  "uploaded": false,
+  "upload_error": "",
+  "remote_technical_gate": false,
+  "technical_gate_correction": "The registered full-run gate is valid_generations >= 10 and generated_pair_count >= 50; this run has 11 and 55."
+}

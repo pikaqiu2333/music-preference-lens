@@ -1,0 +1,87 @@
+{
+  "bundle_version": "music_reason_component_patching_v1",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "controls": [
+    {
+      "record_id": "emotional_vocal__seed17__rank5",
+      "generation_id": "emotional_vocal__seed17",
+      "context_id": "emotional_vocal",
+      "seed": 17,
+      "rank": 5,
+      "title": "All of Me",
+      "artist": "John Legend",
+      "reason": "This track has a soft electronic beat and a melodic chorus that perfectly fits the current need. The lyrics are simple yet evocative, allowing the listener to feel the emotions without getting distracted by the lyrics.",
+      "catalog_label": "verified_exact",
+      "smoke": true,
+      "case_role": "verified_need_sensitive",
+      "original_prompt": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: late-night emotional listening; wants heartfelt vocal, lyrical story, dramatic chorus, and clear emotional release.\n\nRecommend 5 real, existing tracks. For each track, provide its title, artist,\nand one short reason that fits the current need.\n\nPlaylist:\n1. Title:\n",
+      "opposite_prompt": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: focused instrumental work; wants no vocals or lyrical story, restrained dynamics, and minimal emotional pull.\n\nRecommend 5 real, existing tracks. For each track, provide its title, artist,\nand one short reason that fits the current need.\n\nPlaylist:\n1. Title:\n",
+      "archived_original_pair_mean_logp": -1.6594978332519532,
+      "archived_opposite_pair_mean_logp": -2.2227230072021484,
+      "archived_need_effect": 0.5632251739501952
+    },
+    {
+      "record_id": "peak_time_rave__seed17__rank2",
+      "generation_id": "peak_time_rave__seed17",
+      "context_id": "peak_time_rave",
+      "seed": 17,
+      "rank": 2,
+      "title": "One More Time",
+      "artist": "Dead or Alive",
+      "reason": "A retro disco hit with a catchy beat and memorable lyrics, perfect for a 2am rave atmosphere.",
+      "catalog_label": "catalog_conflict",
+      "smoke": true,
+      "case_role": "conflict_need_sensitive",
+      "original_prompt": "Music playlist request.\n\nUser profile: user likes electronic, funk, retro disco, and niche discovery; dislikes entering very hard dance music too early.\n\nCurrent need: 2am peak-time dance floor; wants harder energy, rave-like pressure, intense drums, and maximum momentum.\n\nRecommend 5 real, existing tracks. For each track, provide its title, artist,\nand one short reason that fits the current need.\n\nPlaylist:\n1. Title:\n",
+      "opposite_prompt": "Music playlist request.\n\nUser profile: user likes electronic, funk, retro disco, and niche discovery; dislikes entering very hard dance music too early.\n\nCurrent need: quiet late-night wind-down; wants very low energy, soft ambient texture, gentle rhythm, and minimal momentum.\n\nRecommend 5 real, existing tracks. For each track, provide its title, artist,\nand one short reason that fits the current need.\n\nPlaylist:\n1. Title:\n",
+      "archived_original_pair_mean_logp": -2.8850698471069336,
+      "archived_opposite_pair_mean_logp": -3.515687624613444,
+      "archived_need_effect": 0.6306177775065103
+    },
+    {
+      "record_id": "strict_no_vocals__seed29__rank5",
+      "generation_id": "strict_no_vocals__seed29",
+      "context_id": "strict_no_vocals",
+      "seed": 29,
+      "rank": 5,
+      "title": "Space Oddity",
+      "artist": "David Bowie",
+      "reason": "This track has a haunting, atmospheric quality that doesn't require much attention. The instrumental arrangement is soothing and allows for a focused listening experience.\n\nI hope these recommendations meet your needs. Let me know if you need any further assistance.",
+      "catalog_label": "verified_exact",
+      "smoke": true,
+      "case_role": "verified_constraint_failure",
+      "original_prompt": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: strict writing mode; wants no vocals, instrumental texture, no lyric attention, and white noise focus.\n\nRecommend 5 real, existing tracks. For each track, provide its title, artist,\nand one short reason that fits the current need.\n\nPlaylist:\n1. Title:\n",
+      "opposite_prompt": "Music playlist request.\n\nUser profile: user likes Chinese female vocals, soft electronic music, and quiet melodic songs; dislikes lyrics that grab too much attention while working.\n\nCurrent need: active lyric listening; wants prominent vocals, detailed storytelling, a dramatic chorus, and strong emotional engagement.\n\nRecommend 5 real, existing tracks. For each track, provide its title, artist,\nand one short reason that fits the current need.\n\nPlaylist:\n1. Title:\n",
+      "archived_original_pair_mean_logp": -2.191591262817383,
+      "archived_opposite_pair_mean_logp": -2.1033355712890627,
+      "archived_need_effect": -0.08825569152832013
+    }
+  ],
+  "selected_layers": [
+    14,
+    16,
+    18,
+    21,
+    24,
+    27,
+    28
+  ],
+  "analysis_layers": [
+    14,
+    16,
+    18,
+    21,
+    24,
+    27
+  ],
+  "components": [
+    "attention",
+    "mlp",
+    "full_residual"
+  ],
+  "minimum_need_effect": 0.05,
+  "minimum_valid_cases": 3,
+  "baseline_tolerance": 0.02,
+  "endpoint_tolerance": 0.02,
+  "behavior_reference": "20260711T015944Z_smoke"
+}

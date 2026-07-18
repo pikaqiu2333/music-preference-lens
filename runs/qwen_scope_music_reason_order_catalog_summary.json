@@ -1,0 +1,40 @@
+{
+  "source_job_id": "6a51ae56effc02a91cbd9235",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "generation_count": 8,
+  "complete_row_count": 40,
+  "technical_gate_after_parser_revision": true,
+  "mean_exact_pair_jaccard": 0.0,
+  "by_order": {
+    "pair_first": {
+      "count": 20,
+      "verified_exact": 1,
+      "catalog_conflict": 19,
+      "unverified": 0,
+      "placeholder_artist": 0,
+      "verified_exact_rate": 0.05
+    },
+    "reason_first": {
+      "count": 20,
+      "verified_exact": 4,
+      "catalog_conflict": 14,
+      "unverified": 2,
+      "placeholder_artist": 5,
+      "verified_exact_rate": 0.2,
+      "verified_exact_rate_excluding_placeholders": 0.26666666666666666
+    }
+  },
+  "by_context": {
+    "emotional_vocal": {
+      "pair_first": {"count": 10, "verified_exact": 1},
+      "reason_first": {"count": 10, "verified_exact": 4}
+    },
+    "strict_no_vocals": {
+      "pair_first": {"count": 10, "verified_exact": 0, "placeholder_artist": 0},
+      "reason_first": {"count": 10, "verified_exact": 0, "placeholder_artist": 5}
+    }
+  },
+  "interpretation": "reason_first_is_context_dependent_not_uniformly_better",
+  "next_step": "causal_reason_swap_pilot"
+}
+

@@ -1,0 +1,106 @@
+{
+  "run_id": "20260711T070630Z_pilot",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "record_count": 20,
+  "condition_count": 80,
+  "entity_group_counts": {
+    "catalog_conflict": 10,
+    "verified_exact": 4,
+    "unverified": 1,
+    "invalid_placeholder": 5
+  },
+  "overall": {
+    "count": 20,
+    "mean_own_vs_same_context_swap_margin": 0.10527413487434387,
+    "median_own_vs_same_context_swap_margin": 0.11851704120635986,
+    "own_beats_same_context_swap_rate": 0.7,
+    "mean_own_vs_opposite_context_margin": 0.3581933915615082,
+    "median_own_vs_opposite_context_margin": 0.25638294219970703,
+    "own_beats_opposite_context_rate": 0.9,
+    "mean_own_vs_neutral_margin": 0.046219339966773985,
+    "median_own_vs_neutral_margin": -0.014683842658996582,
+    "own_beats_neutral_rate": 0.45
+  },
+  "by_entity_group": {
+    "catalog_conflict": {
+      "count": 10,
+      "mean_own_vs_same_context_swap_margin": 0.13735424280166625,
+      "median_own_vs_same_context_swap_margin": 0.13243889808654785,
+      "own_beats_same_context_swap_rate": 0.7,
+      "mean_own_vs_opposite_context_margin": 0.48102656602859495,
+      "median_own_vs_opposite_context_margin": 0.42580628395080566,
+      "own_beats_opposite_context_rate": 1,
+      "mean_own_vs_neutral_margin": 0.19122323989868165,
+      "median_own_vs_neutral_margin": 0.07074666023254395,
+      "own_beats_neutral_rate": 0.7
+    },
+    "invalid_placeholder": {
+      "count": 5,
+      "mean_own_vs_same_context_swap_margin": 0.19385719299316406,
+      "median_own_vs_same_context_swap_margin": 0.2276003360748291,
+      "own_beats_same_context_swap_rate": 1,
+      "mean_own_vs_opposite_context_margin": 0.3515298843383789,
+      "median_own_vs_opposite_context_margin": 0.30970001220703125,
+      "own_beats_opposite_context_rate": 1,
+      "mean_own_vs_neutral_margin": -0.15882267951965331,
+      "median_own_vs_neutral_margin": -0.19505906105041504,
+      "own_beats_neutral_rate": 0
+    },
+    "unverified": {
+      "count": 1,
+      "mean_own_vs_same_context_swap_margin": -0.1619969606399536,
+      "median_own_vs_same_context_swap_margin": -0.1619969606399536,
+      "own_beats_same_context_swap_rate": 0,
+      "mean_own_vs_opposite_context_margin": -0.1794947385787964,
+      "median_own_vs_opposite_context_margin": -0.1794947385787964,
+      "own_beats_opposite_context_rate": 0,
+      "mean_own_vs_neutral_margin": -0.25200188159942627,
+      "median_own_vs_neutral_margin": -0.25200188159942627,
+      "own_beats_neutral_rate": 0
+    },
+    "verified_exact": {
+      "count": 4,
+      "mean_own_vs_same_context_swap_margin": -0.018837183713912964,
+      "median_own_vs_same_context_swap_margin": -0.0312311053276062,
+      "own_beats_same_context_swap_rate": 0.5,
+      "mean_own_vs_opposite_context_margin": 0.19386187195777893,
+      "median_own_vs_opposite_context_margin": 0.0748065710067749,
+      "own_beats_opposite_context_rate": 0.75,
+      "mean_own_vs_neutral_margin": 0.01456741988658905,
+      "median_own_vs_neutral_margin": 0.0071485936641693115,
+      "own_beats_neutral_rate": 0.5
+    }
+  },
+  "by_context": {
+    "emotional_vocal": {
+      "count": 10,
+      "mean_own_vs_same_context_swap_margin": 0.0005069613456726074,
+      "median_own_vs_same_context_swap_margin": 0.018871724605560303,
+      "own_beats_same_context_swap_rate": 0.5,
+      "mean_own_vs_opposite_context_margin": 0.173672616481781,
+      "median_own_vs_opposite_context_margin": 0.08129984140396118,
+      "own_beats_opposite_context_rate": 0.8,
+      "mean_own_vs_neutral_margin": 0.005013304948806763,
+      "median_own_vs_neutral_margin": 0.02172684669494629,
+      "own_beats_neutral_rate": 0.5
+    },
+    "strict_no_vocals": {
+      "count": 10,
+      "mean_own_vs_same_context_swap_margin": 0.21004130840301513,
+      "median_own_vs_same_context_swap_margin": 0.24048006534576416,
+      "own_beats_same_context_swap_rate": 0.9,
+      "mean_own_vs_opposite_context_margin": 0.5427141666412354,
+      "median_own_vs_opposite_context_margin": 0.4786123037338257,
+      "own_beats_opposite_context_rate": 1,
+      "mean_own_vs_neutral_margin": 0.0874253749847412,
+      "median_own_vs_neutral_margin": -0.025031685829162598,
+      "own_beats_neutral_rate": 0.4
+    }
+  },
+  "max_input_tokens": 129,
+  "technical_gate": true,
+  "interpretation_scope": "exploratory_visible_reason_causality",
+  "started_at": "2026-07-11T07:06:30.849394+00:00",
+  "finished_at": "2026-07-11T07:06:48.004828+00:00"
+}
+

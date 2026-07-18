@@ -1,0 +1,43 @@
+{
+  "run_id": "20260711T073819Z_pilot",
+  "model_id": "Qwen/Qwen3-1.7B-Base",
+  "record_count": 8,
+  "pair_condition_count": 24,
+  "pair_overall": {
+    "count": 8,
+    "mean_matched_margin": 0.13209831714630127,
+    "median_matched_margin": 0.20772171020507812,
+    "matched_direction_accuracy": 0.75
+  },
+  "pair_by_vocality": {
+    "instrumental": {
+      "count": 4,
+      "mean_matched_margin": 0.12282121181488037,
+      "median_matched_margin": 0.18724822998046875,
+      "matched_direction_accuracy": 0.75
+    },
+    "vocal": {
+      "count": 4,
+      "mean_matched_margin": 0.14137542247772217,
+      "median_matched_margin": 0.20772171020507812,
+      "matched_direction_accuracy": 0.75
+    }
+  },
+  "choice_summary": {
+    "mean_vocal_minus_instrumental_by_reason": {
+      "vocal": 1.3303565979003906,
+      "instrumental": -1.2331924438476562,
+      "neutral": -0.6511497497558594
+    },
+    "vocal_reason_shift_from_neutral": 1.98150634765625,
+    "instrumental_reason_shift_from_neutral": 0.5820426940917969,
+    "vocal_shift_positive_in_all_orders": true,
+    "instrumental_shift_positive_in_all_orders": true
+  },
+  "max_input_tokens": 120,
+  "technical_gate": true,
+  "behavioral_followup_gate": true,
+  "started_at": "2026-07-11T07:38:19.770964+00:00",
+  "finished_at": "2026-07-11T07:38:37.457175+00:00"
+}
+

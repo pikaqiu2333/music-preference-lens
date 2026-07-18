@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Music Preference Lens Case",
+  "type": "object",
+  "required": [
+    "case_id",
+    "user_profile",
+    "current_context",
+    "candidates",
+    "expected_sensitive_factors",
+    "counterfactuals"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "user_profile": {
+      "type": "string"
+    },
+    "current_context": {
+      "type": "string"
+    },
+    "expected_sensitive_factors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "track_id",
+          "title",
+          "artist",
+          "tags",
+          "mood",
+          "energy",
+          "language",
+          "evidence"
+        ],
+        "properties": {
+          "track_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "artist": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "mood": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "energy": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "language": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "counterfactuals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "variant_id",
+          "variant_type",
+          "changed_fields",
+          "expected_effect"
+        ],
+        "properties": {
+          "variant_id": {
+            "type": "string"
+          },
+          "variant_type": {
+            "enum": [
+              "constraint_flip",
+              "context_flip",
+              "preference_ablation",
+              "item_evidence_flip"
+            ]
+          },
+          "changed_fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "expected_effect": {
+            "type": "string"
+          },
+          "user_profile": {
+            "type": "string"
+          },
+          "current_context": {
+            "type": "string"
+          },
+          "candidate_overrides": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

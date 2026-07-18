@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Music Preference Lens Mechanistic Probe",
+  "type": "object",
+  "required": [
+    "probe_id",
+    "source_case_id",
+    "variant_id",
+    "variant_type",
+    "original_text",
+    "counterfactual_text",
+    "target_dimensions",
+    "original_dimensions",
+    "counterfactual_dimensions",
+    "added_dimensions",
+    "removed_dimensions",
+    "expected_effect",
+    "candidate_track_ids",
+    "candidate_focus"
+  ],
+  "properties": {
+    "probe_id": {
+      "type": "string"
+    },
+    "source_case_id": {
+      "type": "string"
+    },
+    "variant_id": {
+      "type": "string"
+    },
+    "variant_type": {
+      "type": "string"
+    },
+    "original_text": {
+      "type": "string"
+    },
+    "counterfactual_text": {
+      "type": "string"
+    },
+    "target_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "original_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "counterfactual_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "added_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "removed_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_effect": {
+      "type": "string"
+    },
+    "candidate_track_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidate_focus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "track_id",
+          "expected_direction",
+          "rationale"
+        ],
+        "properties": {
+          "track_id": {
+            "type": "string"
+          },
+          "expected_direction": {
+            "enum": ["up", "down", "same_or_reason_shift", "unknown"]
+          },
+          "rationale": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "mechanistic_observation": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
