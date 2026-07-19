@@ -225,6 +225,7 @@ def build_manifest() -> dict[str, Any]:
         Path("LICENSING.md"),
         Path("NOTICE"),
         Path("README.md"),
+        Path("README.zh-CN.md"),
         Path("THIRD_PARTY_NOTICES.md"),
         Path("requirements-publication.txt"),
         Path("docs/independent_holdout_protocol.md"),

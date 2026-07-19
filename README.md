@@ -1,5 +1,7 @@
 # Music Preference Lens
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 [![Validate public snapshot](https://github.com/pikaqiu2333/music-preference-lens/actions/workflows/validate.yml/badge.svg)](https://github.com/pikaqiu2333/music-preference-lens/actions/workflows/validate.yml)
 [![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 [![Reports: CC BY 4.0](https://img.shields.io/badge/reports-CC%20BY%204.0-lightgrey.svg)](LICENSING.md)

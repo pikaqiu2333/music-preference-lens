@@ -18,6 +18,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 PUBLIC_MARKDOWN_PATHS = (
     Path("README.md"),
+    Path("README.zh-CN.md"),
     Path("reports/music_relation_hallucination_technical_report.md"),
     Path("reports/music_relation_hallucination_summary.zh.md"),
     Path("reports/publication_readiness_audit.md"),

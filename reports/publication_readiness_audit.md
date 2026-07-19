@@ -14,7 +14,7 @@
 | Replicate the behavioral boundary on a second open model | `runs/qwen3_4b_cross_model_verifier_rows.jsonl` and summary; Job `6a52f77feffc02a91cbda1bb` | Complete: Qwen3-4B still missed the same three unique conflict relations |
 | Diagnose why the rule fails | title-control rows/summary and full-sequence causal rows/summary | Complete: prior-masked correct relation and causally formed wrong binding are separable post hoc |
 | Integrate mechanism interventions, field diagnosis, and positive/negative results | Section 2 and Sections 5-6 of the English report; reason, component, head, and field assets listed in `docs/reproduce_publication.md` | Complete; exploratory evidence remains separated from holdout confirmation |
-| Produce public English and Chinese reports with figures, related work, limitations, and product implications | `reports/music_relation_hallucination_technical_report.md`; `reports/music_relation_hallucination_summary.zh.md`; `reports/related_work_positioning_2026_07.zh.md`; two reproducible SVG figures | Complete |
+| Produce public English and Chinese reports with figures, related work, limitations, and product implications | `README.zh-CN.md`; `reports/music_relation_hallucination_technical_report.md`; `reports/music_relation_hallucination_summary.zh.md`; `reports/related_work_positioning_2026_07.zh.md`; two reproducible SVG figures | Complete |
 | Preserve reproducible experiment assets | `docs/reproduce_publication.md`; public manifest; bundles, scripts, derived rows, summaries, exact Job script payloads, terminal log snapshots, model revisions, and private-evidence hashes | Complete within the documented public-data boundary |
 | Externally timestamp the Granite confirmatory protocol before generation | public Phase 2 Gist history; exact protocol and runner hashes; `runs/phase2_preregistration_receipt.json` | Complete before Granite smoke and scientific generation |
 | Exhaust the frozen primary and extension generation cap | 60 primary plus 20 extension playlists; 385 parsed relations from the fixed Granite revision | Complete; three malformed completions were retained without repair |
@@ -24,7 +24,7 @@
 ## Automated Audit
 
 - `python scripts/validate_publication.py`: `ready`;
-- 208 public publication files covered by SHA-256 in the public-v1 manifest;
+- 209 public publication files covered by SHA-256 in the public-v1 manifest;
 - 5 completed Hugging Face Jobs archived with inspect metadata, exact submitted
   script hashes, and terminal-log hashes;
 - 5 publication-stage and 6 integrated exploratory technical gates checked;
